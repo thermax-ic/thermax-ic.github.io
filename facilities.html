@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Equipment Library | TherMAX-IC</title>
+  <link rel="stylesheet" href="style.css?v=20261005-1" />
+  <link rel="icon" href="Fig/TherMAX-IC%20Lab.png" />
+</head>
+
+<body class="facilities-page">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <div class="university-bar">
+    <div class="container university-inner">
+      <a href="#">Peking University</a>
+      <button type="button" class="language-toggle" data-lang="en" aria-label="Switch language">
+        <span class="toggle-option toggle-en">EN</span>
+        <span class="toggle-option toggle-cn">CN</span>
+      </button>
+    </div>
+  </div>
+
+  <header class="lab-lockup">
+    <div class="container lockup-inner">
+      <a class="lockup-brand" href="index.html">
+        <img src="Fig/TherMAX-IC Lab.png" alt="TherMAX-IC Lab" />
+      </a>
+
+      <div class="lockup-site">
+        <div class="lockup-title">Thermal Management and Advanced Integration of Chips Laboratory</div>
+        <div class="lockup-subtitle">Advanced Packaging • Heterogeneous Integration • Thermal Characterization<br />TherMAX-IC Lab · Zhe Cheng Research Group</div>
+      </div>
+
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="research.html">Research</a>
+        <a class="active" href="facilities.html">Facilities</a>
+        <a href="people.html">People</a>
+        <a href="publications.html">Publications</a>
+        <a href="news.html">News</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <form class="lockup-search" action="search.html" method="get">
+        <label for="site-search-input">Search this site</label>
+        <div>
+          <input id="site-search-input" name="q" type="search" placeholder="Search this site" />
+          <button type="submit">Search</button>
+        </div>
+      </form>
+    </div>
+  </header>
+
+  <main id="main-content" class="equipment-library-page">
+    <section class="container page-layout people-page-v2 equipment-page-heading">
+      <div class="page-title people-page-title equipment-page-title">
+        <h2>Facilities</h2>
+        <p class="lang-only-en">The laboratory operates a comprehensive chip thermal-measurement platform with internationally advanced technical capabilities, covering nearly all major methods for chip thermophysical-property characterization and micro/nanoelectronic device thermometry. Supported by two National Key Laboratories in the School and process lines at leading domestic integrated-circuit companies, the platform targets the increasingly severe heat-dissipation bottlenecks and instrumentation-access challenges in next-generation 3D stacked devices and chips, as well as power and RF electronics.</p>
+        <p class="lang-only-zh" lang="zh-CN">实验室建有系统全面、技术世界前列的芯片热量测平台，基本上集齐了所有的芯片热物性和微纳器件测温设备。依托本学院两个全国重点实验室及国内头部集成电路企业工艺线，立志于解决下一代三维堆叠器件/堆叠芯片以及功率/射频芯片中日益严重的散热瓶颈和设备禁运问题。</p>
+      </div>
+    </section>
+
+    <section class="equipment-catalog" aria-labelledby="equipment-catalog-title">
+      <div class="container">
+        <h2 id="equipment-catalog-title" class="sr-only"><span class="lang-only-en">Equipment list</span><span class="lang-only-zh" lang="zh-CN">设备清单</span></h2>
+        <div class="equipment-filter-toolbar">
+          <div id="equipment-filters" class="equipment-filters" aria-label="Filter equipment / 筛选设备"></div>
+          <p id="equipment-result-count" class="equipment-result-count" aria-live="polite"></p>
+        </div>
+        <ul id="equipment-grid" class="equipment-card-grid" aria-label="Equipment list / 设备清单"></ul>
+      </div>
+    </section>
+
+    <section class="equipment-capability-section" aria-labelledby="capability-matrix-title">
+      <div class="container">
+        <div class="equipment-section-heading equipment-matrix-heading">
+          <div>
+            <h2 id="capability-matrix-title"><span class="lang-only-en">Platform capability matrix</span><span class="lang-only-zh" lang="zh-CN">平台能力矩阵</span></h2>
+          </div>
+          <p><span class="lang-only-en">Expert classification by measurement observable and inversion pathway. Numerical ranges and sample requirements are confirmed case by case.</span><span class="lang-only-zh" lang="zh-CN">按直接观测量与反演路径进行专业划分；具体量程与样品要求仍需结合测试方案确认。</span></p>
+        </div>
+        <div id="equipment-matrix" class="equipment-matrix" tabindex="0" aria-label="Scrollable equipment capability matrix / 可横向滚动的设备能力矩阵"></div>
+        <p id="equipment-matrix-note" class="equipment-matrix-note"></p>
+      </div>
+    </section>
+  </main>
+
+  <div id="equipment-modal" class="equipment-modal" role="dialog" aria-modal="true" aria-labelledby="equipment-modal-title" hidden>
+    <div id="equipment-modal-content" class="equipment-modal-panel"></div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Thermal Management and Advanced Integration of Chips Laboratory</h3>
+        <p>Peking University</p>
+        <p>School of Integrated Circuits</p>
+      </div>
+      <div>
+        <h4>Address</h4>
+        <p>Micro-Nano Electronics Building</p>
+        <p>5 Yiheyuan Road, Haidian District, Beijing 100871</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p><a href="mailto:zhe.cheng@pku.edu.cn">zhe.cheng@pku.edu.cn</a></p>
+        <p><a href="https://ic.pku.edu.cn/" target="_blank" rel="noopener">School of Integrated Circuits ↗</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom"><div class="container">© 2026 TherMAX-IC · Peking University</div></div>
+  </footer>
+
+  <script src="back-to-top.js"></script>
+  <script src="equipment-data-v2.js?v=20261004-1"></script>
+  <script src="equipment-principles.js?v=20261005-1"></script>
+  <script src="facilities.js?v=20261005-1"></script>
+  <script src="lang.js"></script>
+</body>
+</html>

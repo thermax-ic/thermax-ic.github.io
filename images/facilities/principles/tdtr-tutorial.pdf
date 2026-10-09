@@ -1,0 +1,78 @@
+<html><head><script type="text/javascript"><!--
+function leastFactor(n) {
+ if (isNaN(n) || !isFinite(n)) return NaN;
+ if (typeof phantom !== 'undefined') return 'phantom';
+ if (typeof module !== 'undefined' && module.exports) return 'node';
+ if (n==0) return 0;
+ if (n%1 || n*n<2) return 1;
+ if (n%2==0) return 2;
+ if (n%3==0) return 3;
+ if (n%5==0) return 5;
+ var m=Math.sqrt(n);
+ for (var i=7;i<=m;i+=30) {
+  if (n%i==0)      return i;
+  if (n%(i+4)==0)  return i+4;
+  if (n%(i+6)==0)  return i+6;
+  if (n%(i+10)==0) return i+10;
+  if (n%(i+12)==0) return i+12;
+  if (n%(i+16)==0) return i+16;
+  if (n%(i+22)==0) return i+22;
+  if (n%(i+24)==0) return i+24;
+ }
+ return n;
+}
+function go() {
+ var p=2285092830324; var s=1331396416; var n;
+if ((s >> 15) & 1)/*
+else p-=
+*/p+=	69238401* 16;else 	p-=/*
+*13;
+*/87494965*/*
+*13;
+*/16;if ((s >> 12) & 1) p+=/*
+*13;
+*/35944826*15;/* 120886108*
+*/else /*
+else p-=
+*/p-=
+150507229*/*
+else p-=
+*/13;/*
+p+= */if ((s >> 0) & 1)
+p+= 108485676*/*
+*13;
+*/3;/*
+else p-=
+*/else p-=/*
+else p-=
+*/1525040689*	1;/*
+*13;
+*/if ((s >> 5) & 1)p+= 300636768*/* 120886108*
+*/6;else /*
+*13;
+*/p-=/*
+p+= */286390512*/*
+*13;
+*/6;/*
+else p-=
+*/if ((s >> 8) & 1)/*
+*13;
+*/p+=/*
+*13;
+*/91600333*/*
+p+= */11;/*
+*13;
+*/else  p-=121261225*/*
+else p-=
+*/9;/*
+else p-=
+*/ p+=2190444665;
+ n=leastFactor(p);
+{ document.cookie="KEY="+n+"*"+p/n+":"+s+":3834679506:1;path=/;";
+  document.location.reload(true); }
+}
+//--></script></head>
+<body onload="go()">
+Loading...
+</body>
+</html>

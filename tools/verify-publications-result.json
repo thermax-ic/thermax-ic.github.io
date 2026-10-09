@@ -1,0 +1,788 @@
+[
+  {
+    "i": 1,
+    "year": 2026,
+    "doi": "10.1109/EDTM65772.2026.11497295",
+    "status": "MATCH",
+    "ratio": "0.90",
+    "crTitle": "Thermal Conductivity Mapping of Interconnects and Active Layers of Logic Chips",
+    "crYear": 2026,
+    "entryYear": 2026
+  },
+  {
+    "i": 2,
+    "year": 2026,
+    "doi": "10.48550/arXiv.2603.07115",
+    "status": "HTTP_404"
+  },
+  {
+    "i": 3,
+    "year": 2026,
+    "doi": "10.1016/j.ijheatmasstransfer.2026.129326",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Ultralow and tunable thermal conductivity of parylene C for thermal insulation in advanced packaging",
+    "crYear": 2026,
+    "entryYear": 2026
+  },
+  {
+    "i": 4,
+    "year": 2026,
+    "doi": "10.48550/arXiv.2602.13827",
+    "status": "HTTP_404"
+  },
+  {
+    "i": 5,
+    "year": 2026,
+    "doi": "10.1063/5.0338819",
+    "status": "MATCH",
+    "ratio": "0.80",
+    "crTitle": "Thermal conductance across bonded SiO\n                    <i>x</i>\n                    –SiO\n                    <i>x</i>\n                    interfaces in hybrid bonding process",
+    "crYear": 2026,
+    "entryYear": 2026
+  },
+  {
+    "i": 6,
+    "year": 2026,
+    "doi": "10.1063/5.0304005",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Experimental observation of extremely strong defect–phonon scatterings in cubic SiC single crystals",
+    "crYear": 2026,
+    "entryYear": 2026
+  },
+  {
+    "i": 7,
+    "year": 2026,
+    "doi": "",
+    "status": "NO_DOI"
+  },
+  {
+    "i": 8,
+    "year": 2026,
+    "doi": "10.48550/arXiv.2609.24191",
+    "status": "HTTP_404"
+  },
+  {
+    "i": 9,
+    "year": 2026,
+    "doi": "10.48550/arXiv.2609.20379",
+    "status": "HTTP_404"
+  },
+  {
+    "i": 10,
+    "year": 2026,
+    "doi": "10.48550/arXiv.2608.08534",
+    "status": "HTTP_404"
+  },
+  {
+    "i": 11,
+    "year": 2026,
+    "doi": "10.48550/arXiv.2608.01257",
+    "status": "HTTP_404"
+  },
+  {
+    "i": 12,
+    "year": 2026,
+    "doi": "10.1016/j.apsusc.2026.167977",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Ultra-high thermal boundary conductance in wafer-scale Si/diamond integration via surface-activated bonding",
+    "crYear": 2026,
+    "entryYear": 2026
+  },
+  {
+    "i": 13,
+    "year": 2026,
+    "doi": "10.21203/rs.3.rs-9661673/v1",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Exceptional Interfacial Thermal Transport Across Individual Polytype Boundaries",
+    "crYear": 2026,
+    "entryYear": 2026
+  },
+  {
+    "i": 14,
+    "year": 2026,
+    "doi": "10.1109/ltb-3d69101.2026.11555535",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Thermal Resistance of Interfaces in Hybrid Bonding Process",
+    "crYear": 2026,
+    "entryYear": 2026
+  },
+  {
+    "i": 15,
+    "year": 2026,
+    "doi": "10.21203/rs.3.rs-9119166/v1",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Ultrahigh thermal conductance between III-nitride semiconductor and diamond via interfacial atomic reordering",
+    "crYear": 2026,
+    "entryYear": 2026
+  },
+  {
+    "i": 16,
+    "year": 2026,
+    "doi": "10.48550/arXiv.2604.08044",
+    "status": "HTTP_404"
+  },
+  {
+    "i": 17,
+    "year": 2025,
+    "doi": "10.1109/iedm50572.2025.11353753",
+    "status": "MATCH",
+    "ratio": "0.81",
+    "crTitle": "First Demonstration of Three-Dimensional Thermal Conductivity Distribution Measurements of Interconnect Stacks Down to 3nm Process Nodes",
+    "crYear": 2025,
+    "entryYear": 2025
+  },
+  {
+    "i": 18,
+    "year": 2025,
+    "doi": "10.1063/5.0294611",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Nonmonotonic phonon thermal conductivity modulated by electron–phonon interaction in graphene/h-BN heterostructures",
+    "crYear": 2025,
+    "entryYear": 2025
+  },
+  {
+    "i": 19,
+    "year": 2025,
+    "doi": "10.1002/admt.202500437",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Direct Integration of Polycrystalline Diamond With 3C‐SiC for Enhanced Thermal Management in GaN HEMTs: Impact of Grain Structure and Interface Engineering",
+    "crYear": 2025,
+    "entryYear": 2025
+  },
+  {
+    "i": 20,
+    "year": 2025,
+    "doi": "10.1038/s41467-025-67248-9",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "High power density gallium nitride radio frequency transistors via enhanced nucleation in heteroepitaxy",
+    "crYear": 2025,
+    "entryYear": 2025
+  },
+  {
+    "i": 21,
+    "year": 2025,
+    "doi": "10.1063/5.0297824",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Thermal conductivity of cubic silicon carbide single crystals heavily doped by nitrogen",
+    "crYear": 2025,
+    "entryYear": 2025
+  },
+  {
+    "i": 22,
+    "year": 2024,
+    "doi": "10.1021/acsami.4c10789",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Ultralow Contact Thermal Resistance between Bismuth Selenide Nanoribbons Achieved by Current-Induced Annealing",
+    "crYear": 2024,
+    "entryYear": 2024
+  },
+  {
+    "i": 23,
+    "year": 2024,
+    "doi": "10.1063/5.0185305",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "(Ultra)wide bandgap semiconductor heterostructures for electronics cooling",
+    "crYear": 2024,
+    "entryYear": 2024
+  },
+  {
+    "i": 24,
+    "year": 2024,
+    "doi": "10.1002/aelm.202400387",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Interfacial Reaction Boosts Thermal Conductance of Room‐Temperature Integrated Semiconductor Interfaces Stable up to 1100 °C",
+    "crYear": 2024,
+    "entryYear": 2024
+  },
+  {
+    "i": 25,
+    "year": 2024,
+    "doi": "10.1063/5.0191771",
+    "status": "MATCH",
+    "ratio": "0.93",
+    "crTitle": "Reduced temperature in lateral (Al\n                    <i>x</i>\n                    Ga1−\n                    <i>x</i>\n                    )2O3/Ga2O3 heterojunction field effect transistor capped with nanocrystalline diamond",
+    "crYear": 2024,
+    "entryYear": 2024
+  },
+  {
+    "i": 26,
+    "year": 2024,
+    "doi": "10.1021/acsami.3c16905",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Enhanced Thermal Boundary Conductance across GaN/SiC Interfaces with AlN Transition Layers",
+    "crYear": 2024,
+    "entryYear": 2024
+  },
+  {
+    "i": 27,
+    "year": 2024,
+    "doi": "10.1039/d3cp05998g",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Ionic Peltier effect in Li-ion electrolytes",
+    "crYear": 2024,
+    "entryYear": 2024
+  },
+  {
+    "i": 28,
+    "year": 2024,
+    "doi": "10.1063/5.0179581",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Probe beam deflection technique with liquid immersion for fast mapping of thermal conductance",
+    "crYear": 2024,
+    "entryYear": 2024
+  },
+  {
+    "i": 29,
+    "year": 2024,
+    "doi": "10.1063/5.0225896",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Electrothermal enhancement of β-(AlxGa1−x)2O3/Ga2O3 heterostructure field-effect transistors via back-end-of-line sputter-deposited AlN layer",
+    "crYear": 2024,
+    "entryYear": 2024
+  },
+  {
+    "i": 30,
+    "year": 2024,
+    "doi": "10.1109/ltb-3d64053.2024.10774109",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Thermal Boundary Resistance of Bonded Semiconductor Interfaces",
+    "crYear": 2024,
+    "entryYear": 2024
+  },
+  {
+    "i": 31,
+    "year": 2023,
+    "doi": "10.1116/6.0002693",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Thermal transport and structural improvements due to annealing of wafer bonded β-Ga2O3|4H-SiC",
+    "crYear": 2023,
+    "entryYear": 2023
+  },
+  {
+    "i": 32,
+    "year": 2023,
+    "doi": "10.1002/smll.202305574",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "High Thermal Stability and Low Thermal Resistance of Large Area GaN/3C‐SiC/Diamond Junctions for Practical Device Processes",
+    "crYear": 2023,
+    "entryYear": 2023
+  },
+  {
+    "i": 33,
+    "year": 2023,
+    "doi": "10.1002/adfm.202212957",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "High‐Pressure Synthesis and Thermal Conductivity of Semimetallic θ‐Tantalum Nitride",
+    "crYear": 2023,
+    "entryYear": 2023
+  },
+  {
+    "i": 34,
+    "year": 2023,
+    "doi": "10.1021/acsami.3c02507",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "A Critical Review of Thermal Boundary Conductance across Wide and Ultrawide Bandgap Semiconductor Interfaces",
+    "crYear": 2023,
+    "entryYear": 2023
+  },
+  {
+    "i": 35,
+    "year": 2022,
+    "doi": "10.1149/ma2022-01311318mtgabs",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "(Invited, Digital Presentation) Thermal Conductance across Heterogeneously Integrated Interfaces for Thermal Management of Wide and Ultra-Wide Bandgap Electronics",
+    "crYear": 2022,
+    "entryYear": 2022
+  },
+  {
+    "i": 36,
+    "year": 2022,
+    "doi": "10.1016/b978-0-12-821084-0.00005-6",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Fundamental understanding of thermal transport across solid interfaces",
+    "crYear": 2022,
+    "entryYear": 2022
+  },
+  {
+    "i": 37,
+    "year": 2022,
+    "doi": "10.48550/arXiv.2211.14949",
+    "status": "HTTP_404"
+  },
+  {
+    "i": 38,
+    "year": 2022,
+    "doi": "10.1109/drc55272.2022.9855809",
+    "status": "MATCH",
+    "ratio": "0.89",
+    "crTitle": "AlN-capped P-(AlxGal-x)<sub>2</sub>O<sub>3</sub>/Ga<sub>2</sub>O<sub>3</sub> heterostructure field-effect transistors for near-junction thermal management of next generation power devices",
+    "crYear": 2022,
+    "entryYear": 2022
+  },
+  {
+    "i": 39,
+    "year": 2022,
+    "doi": "10.1038/s41467-022-34943-w",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "High thermal conductivity in wafer-scale cubic silicon carbide crystals",
+    "crYear": 2022,
+    "entryYear": 2022
+  },
+  {
+    "i": 40,
+    "year": 2022,
+    "doi": "10.48550/arXiv.2209.05669",
+    "status": "HTTP_404"
+  },
+  {
+    "i": 41,
+    "year": 2022,
+    "doi": "10.1016/j.jpowsour.2021.230762",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Battery absorbs heat during charging uncovered by ultra-sensitive thermometry",
+    "crYear": 2022,
+    "entryYear": 2022
+  },
+  {
+    "i": 42,
+    "year": 2022,
+    "doi": "10.1063/5.0077039",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Perspective on thermal conductance across heterogeneously integrated interfaces for wide and ultrawide bandgap electronics",
+    "crYear": 2022,
+    "entryYear": 2022
+  },
+  {
+    "i": 43,
+    "year": 2022,
+    "doi": "10.1063/5.0060327",
+    "status": "MATCH",
+    "ratio": "0.80",
+    "crTitle": "β-Gallium oxide power electronics",
+    "crYear": 2022,
+    "entryYear": 2022
+  },
+  {
+    "i": 44,
+    "year": 2022,
+    "doi": "10.1016/b978-0-12-821084-0.00008-1",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Room-temperature bonded thermally conductive semiconductor interfaces",
+    "crYear": 2022,
+    "entryYear": 2022
+  },
+  {
+    "i": 45,
+    "year": 2021,
+    "doi": "10.1002/smll.202101693",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Good Solid‐State Electrolytes Have Low, Glass‐Like Thermal Conductivity",
+    "crYear": 2021,
+    "entryYear": 2021
+  },
+  {
+    "i": 46,
+    "year": 2021,
+    "doi": "10.1016/j.mtphys.2021.100462",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Quasi-ballistic thermal conduction in 6H–SiC",
+    "crYear": 2021,
+    "entryYear": 2021
+  },
+  {
+    "i": 47,
+    "year": 2021,
+    "doi": "10.1080/15567265.2021.2002484",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Simultaneous Evaluation of Heat Capacity and In-plane Thermal Conductivity of Nanocrystalline Diamond Thin Films",
+    "crYear": 2021,
+    "entryYear": 2021
+  },
+  {
+    "i": 48,
+    "year": 2021,
+    "doi": "10.1021/acsami.1c05191",
+    "status": "MATCH",
+    "ratio": "0.83",
+    "crTitle": "Thermal Transport across Metal/β-Ga<sub>2</sub>O<sub>3</sub> Interfaces",
+    "crYear": 2021,
+    "entryYear": 2021
+  },
+  {
+    "i": 49,
+    "year": 2021,
+    "doi": "10.1021/acsami.1c06212",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Thermal Visualization of Buried Interfaces Enabled by Ratio Signal and Steady-State Heating of Time-Domain Thermoreflectance",
+    "crYear": 2021,
+    "entryYear": 2021
+  },
+  {
+    "i": 50,
+    "year": 2021,
+    "doi": "10.1038/s41467-021-27250-3",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Experimental observation of localized interfacial phonon modes",
+    "crYear": 2021,
+    "entryYear": 2021
+  },
+  {
+    "i": 51,
+    "year": 2021,
+    "doi": "10.1021/acsnano.0c09915",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "High In-Plane Thermal Conductivity of Aluminum Nitride Thin Films",
+    "crYear": 2021,
+    "entryYear": 2021
+  },
+  {
+    "i": 52,
+    "year": 2021,
+    "doi": "10.1063/5.0039966",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Steady-state methods for measuring in-plane thermal conductivity of thin films for heat spreading applications",
+    "crYear": 2021,
+    "entryYear": 2021
+  },
+  {
+    "i": 53,
+    "year": 2021,
+    "doi": "10.1111/jace.17873",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Thermal conductivity mapping of oxidized SiC/SiC composites by time‐domain thermoreflectance with heterodyne detection",
+    "crYear": 2021,
+    "entryYear": 2021
+  },
+  {
+    "i": 54,
+    "year": 2021,
+    "doi": "10.1149/ma2021-01331075mtgabs",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Thick AlN Templates By MOCVD for the Thermal Management of III-N Electronics",
+    "crYear": 2021,
+    "entryYear": 2021
+  },
+  {
+    "i": 55,
+    "year": 2021,
+    "doi": "10.1016/bs.semsem.2021.06.001",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Thermal science and engineering of β-Ga2O3 materials and devices",
+    "crYear": 2021,
+    "entryYear": 2021
+  },
+  {
+    "i": 56,
+    "year": 2020,
+    "doi": "10.48550/arXiv.2011.01070",
+    "status": "HTTP_404"
+  },
+  {
+    "i": 57,
+    "year": 2020,
+    "doi": "10.1021/acsami.0c03978",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Bulk-like Intrinsic Phonon Thermal Conductivity of Micrometer-Thick AlN Films",
+    "crYear": 2020,
+    "entryYear": 2020
+  },
+  {
+    "i": 58,
+    "year": 2020,
+    "doi": "10.1103/PhysRevMaterials.4.044602",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Experimental observation of high intrinsic thermal conductivity of AlN",
+    "crYear": 2020,
+    "entryYear": 2020
+  },
+  {
+    "i": 59,
+    "year": 2020,
+    "doi": "10.1063/1.5125637",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Integration of polycrystalline Ga2O3 on diamond for thermal management",
+    "crYear": 2020,
+    "entryYear": 2020
+  },
+  {
+    "i": 60,
+    "year": 2020,
+    "doi": "10.1021/acsami.9b16959",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Interfacial Thermal Conductance across Room-Temperature-Bonded GaN/Diamond Interfaces for GaN-on-Diamond Devices",
+    "crYear": 2020,
+    "entryYear": 2020
+  },
+  {
+    "i": 61,
+    "year": 2020,
+    "doi": "10.1038/s42005-020-0383-6",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Thermal conductance across harmonic-matched epitaxial Al-sapphire heterointerfaces",
+    "crYear": 2020,
+    "entryYear": 2020
+  },
+  {
+    "i": 62,
+    "year": 2020,
+    "doi": "10.1021/acsami.0c11672",
+    "status": "MATCH",
+    "ratio": "0.86",
+    "crTitle": "Thermal Transport across Ion-Cut Monocrystalline β-Ga<sub>2</sub>O<sub>3</sub> Thin Films and Bonded β-Ga<sub>2</sub>O<sub>3</sub>–SiC Interfaces",
+    "crYear": 2020,
+    "entryYear": 2020
+  },
+  {
+    "i": 63,
+    "year": 2019,
+    "doi": "10.1103/PhysRevMaterials.3.025002",
+    "status": "MATCH",
+    "ratio": "0.89",
+    "crTitle": "Diffuson-driven ultralow thermal conductivity in amorphous \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mrow><mml:mi mathvariant=\"normal\">N</mml:mi><mml:msub><mml:mi mathvariant=\"normal\">b</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:msub><mml:mi mathvariant=\"normal\">O</mml:mi><mml:mn>5</mml:mn></mml:msub></mml:mrow></mml:math>\n thin films",
+    "crYear": 2019,
+    "entryYear": 2019
+  },
+  {
+    "i": 64,
+    "year": 2019,
+    "doi": "10.1021/acsami.9b10106",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "High Thermal Boundary Conductance across Bonded Heterogeneous GaN–SiC Interfaces",
+    "crYear": 2019,
+    "entryYear": 2019
+  },
+  {
+    "i": 65,
+    "year": 2019,
+    "doi": "10.1063/1.5108757",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Significantly reduced thermal conductivity in\n                    <b>\n                      <i>β</i>\n                    </b>\n                    -(Al0.1Ga0.9)2O3/Ga2O3 superlattices",
+    "crYear": 2019,
+    "entryYear": 2019
+  },
+  {
+    "i": 66,
+    "year": 2019,
+    "doi": "10.1063/1.5089559",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Thermal conductance across β-Ga2O3-diamond van der Waals heterogeneous interfaces",
+    "crYear": 2019,
+    "entryYear": 2019
+  },
+  {
+    "i": 67,
+    "year": 2019,
+    "doi": "10.1021/acsami.9b02234",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Tunable Thermal Energy Transport across Diamond Membranes and Diamond–Si Interfaces by Nanoscale Graphoepitaxy",
+    "crYear": 2019,
+    "entryYear": 2019
+  },
+  {
+    "i": 68,
+    "year": 2018,
+    "doi": "10.1021/acsami.7b16812",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Probing Growth-Induced Anisotropic Thermal Transport in High-Quality CVD Diamond Membranes by Multifrequency and Multiple-Spot-Size Time-Domain Thermoreflectance",
+    "crYear": 2018,
+    "entryYear": 2018
+  },
+  {
+    "i": 69,
+    "year": 2018,
+    "doi": "10.1615/ihtc16.tpm.022782",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "PROBING LOCAL THERMAL CONDUCTIVITY VARIATIONS IN CVD DIAMOND WITH LARGE GRAINS BY TIME-DOMAIN THERMOREFLECTANCE",
+    "crYear": 2018,
+    "entryYear": 2018
+  },
+  {
+    "i": 70,
+    "year": 2018,
+    "doi": "10.1021/acs.nanolett.8b02837",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Thermal Boundary Conductance Across Heteroepitaxial ZnO/GaN Interfaces: Assessment of the Phonon Gas Model",
+    "crYear": 2018,
+    "entryYear": 2018
+  },
+  {
+    "i": 71,
+    "year": 2018,
+    "doi": "10.1063/1.5021681",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Thermal rectification in thin films driven by gradient grain microstructure",
+    "crYear": 2018,
+    "entryYear": 2018
+  },
+  {
+    "i": 72,
+    "year": 2017,
+    "doi": "10.1016/j.actamat.2017.08.007",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Simultaneous determination of the lattice thermal conductivity and grain/grain thermal resistance in polycrystalline diamond",
+    "crYear": 2017,
+    "entryYear": 2017
+  },
+  {
+    "i": 73,
+    "year": 2017,
+    "doi": "10.1109/itherm.2017.7992555",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Thermal conductivity measurements on suspended diamond membranes using picosecond and femtosecond time-domain thermoreflectance",
+    "crYear": 2017,
+    "entryYear": 2017
+  },
+  {
+    "i": 74,
+    "year": 2017,
+    "doi": "10.1115/ipack2017-74163",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Investigation of the Heterogeneous Thermal Conductivity in Bulk CVD Diamond for Use in Electronics Thermal Management",
+    "crYear": 2017,
+    "entryYear": 2017
+  },
+  {
+    "i": 75,
+    "year": 2017,
+    "doi": "10.1109/itherm.2017.7991853",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Experimental considerations of CVD diamond film measurements using time domain thermoreflectance",
+    "crYear": 2017,
+    "entryYear": 2017
+  },
+  {
+    "i": 76,
+    "year": 2016,
+    "doi": "10.1109/csics.2016.7751032",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Characterization of the Thermal Conductivity of CVD Diamond for GaN-on-Diamond Devices",
+    "crYear": 2016,
+    "entryYear": 2016
+  },
+  {
+    "i": 77,
+    "year": 2016,
+    "doi": "10.1039/c6ra20331k",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Strongly anisotropic thermal and electrical conductivities of a self-assembled silver nanowire network",
+    "crYear": 2016,
+    "entryYear": 2016
+  },
+  {
+    "i": 78,
+    "year": 2016,
+    "doi": "10.1007/s12274-015-0892-x",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Thermoelectric properties of solution-synthesized n-type Bi2Te3 nanocomposites modulated by Se: An experimental and theoretical study",
+    "crYear": 2015,
+    "entryYear": 2016
+  },
+  {
+    "i": 79,
+    "year": 2015,
+    "doi": "10.1038/srep10718",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Temperature Dependence of Electrical and Thermal Conduction in Single Silver Nanowire",
+    "crYear": 2015,
+    "entryYear": 2015
+  },
+  {
+    "i": 80,
+    "year": 2015,
+    "doi": "10.1063/1.4905607",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Temperature dependent behavior of thermal conductivity of sub-5 nm Ir film: Defect-electron scattering quantified by residual thermal resistivity",
+    "crYear": 2015,
+    "entryYear": 2015
+  },
+  {
+    "i": 81,
+    "year": 2015,
+    "doi": "10.1021/acsami.5b08578",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Thermal Conductivity of Ultrahigh Molecular Weight Polyethylene Crystal: Defect Effect Uncovered by 0 K Limit Phonon Diffusion",
+    "crYear": 2015,
+    "entryYear": 2015
+  },
+  {
+    "i": 82,
+    "year": 2015,
+    "doi": "10.1039/c5nr02012c",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "The defect level and ideal thermal conductivity of graphene uncovered by residual thermal reffusivity at the 0 K limit",
+    "crYear": 2015,
+    "entryYear": 2015
+  },
+  {
+    "i": 83,
+    "year": 2014,
+    "doi": "10.1371/journal.pone.0114821",
+    "status": "MATCH",
+    "ratio": "1.00",
+    "crTitle": "Thermophysical Properties of Lignocellulose: A Cell-Scale Study Down to 41K",
+    "crYear": 2014,
+    "entryYear": 2014
+  }
+]

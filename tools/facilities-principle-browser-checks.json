@@ -1,0 +1,426 @@
+{
+  "checks": [
+    {
+      "id": "tdtr-1-two-tint",
+      "lang": "zh",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/tdtr-1-two-tint-zh.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "tdtr-2-two-color",
+      "lang": "zh",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/tdtr-2-two-color-zh.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "tdtr-3",
+      "lang": "zh",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/tdtr-3-zh.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "sstr-1-lab",
+      "lang": "zh",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/sstr-1-lab-zh.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "sstr-2-semi-integrated",
+      "lang": "zh",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/sstr-2-semi-integrated-zh.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "sstr-3-integrated",
+      "lang": "zh",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/sstr-3-integrated-zh.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "fdtr",
+      "lang": "zh",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/fdtr-zh.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "fastr",
+      "lang": "zh",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/fastr-zh.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "micro-raman",
+      "lang": "zh",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/micro-raman-zh.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "qfi-infrared-microscopy",
+      "lang": "zh",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/qfi-infrared-microscopy-zh.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "microsanj",
+      "lang": "zh",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/microsanj-zh.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "device-thermoreflectance",
+      "lang": "zh",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/device-thermoreflectance-zh.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "fd-pbd",
+      "lang": "zh",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/fd-pbd-zh.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "instec-cryogenic-chamber",
+      "lang": "zh",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/instec-cryogenic-chamber-zh.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "tdtr-beam-offset",
+      "lang": "zh",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/tdtr-beam-offset-zh.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "olympus-optical-microscope",
+      "lang": "zh",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/olympus-optical-microscope-zh.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "high-resolution-stages",
+      "lang": "zh",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/high-resolution-stages-zh.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "probe-station",
+      "lang": "zh",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/probe-station-zh.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "four-point-probe",
+      "lang": "zh",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/four-point-probe-zh.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "ultrasonic-cleaning",
+      "lang": "zh",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/ultrasonic-cleaning-zh.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "microchannel-cooling-setup",
+      "lang": "zh",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/microchannel-cooling-setup-zh.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "shared-cvd-diamond",
+      "lang": "zh",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/shared-cvd-diamond-zh.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "shared-surface-activated-bonding",
+      "lang": "zh",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/shared-surface-activated-bonding-zh.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "shared-high-vacuum-pvd",
+      "lang": "zh",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/shared-high-vacuum-pvd-zh.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "shared-tem-phonon-eels",
+      "lang": "zh",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/shared-tem-phonon-eels-zh.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "tdtr-1-two-tint",
+      "lang": "en",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/tdtr-1-two-tint-en.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "tdtr-2-two-color",
+      "lang": "en",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/tdtr-2-two-color-en.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "tdtr-3",
+      "lang": "en",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/tdtr-3-en.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "sstr-1-lab",
+      "lang": "en",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/sstr-1-lab-en.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "sstr-2-semi-integrated",
+      "lang": "en",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/sstr-2-semi-integrated-en.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "sstr-3-integrated",
+      "lang": "en",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/sstr-3-integrated-en.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "fdtr",
+      "lang": "en",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/fdtr-en.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "fastr",
+      "lang": "en",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/fastr-en.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "micro-raman",
+      "lang": "en",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/micro-raman-en.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "qfi-infrared-microscopy",
+      "lang": "en",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/qfi-infrared-microscopy-en.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "microsanj",
+      "lang": "en",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/microsanj-en.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "device-thermoreflectance",
+      "lang": "en",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/device-thermoreflectance-en.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "fd-pbd",
+      "lang": "en",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/fd-pbd-en.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "instec-cryogenic-chamber",
+      "lang": "en",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/instec-cryogenic-chamber-en.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "tdtr-beam-offset",
+      "lang": "en",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/tdtr-beam-offset-en.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "olympus-optical-microscope",
+      "lang": "en",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/olympus-optical-microscope-en.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "high-resolution-stages",
+      "lang": "en",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/high-resolution-stages-en.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "probe-station",
+      "lang": "en",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/probe-station-en.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "four-point-probe",
+      "lang": "en",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/four-point-probe-en.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "ultrasonic-cleaning",
+      "lang": "en",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/ultrasonic-cleaning-en.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "microchannel-cooling-setup",
+      "lang": "en",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/microchannel-cooling-setup-en.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "shared-cvd-diamond",
+      "lang": "en",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/shared-cvd-diamond-en.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "shared-surface-activated-bonding",
+      "lang": "en",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/shared-surface-activated-bonding-en.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "shared-high-vacuum-pvd",
+      "lang": "en",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/shared-high-vacuum-pvd-en.svg",
+      "visibleCount": 1
+    },
+    {
+      "id": "shared-tem-phonon-eels",
+      "lang": "en",
+      "textOK": true,
+      "loaded": true,
+      "src": "images/facilities/principles/audited/shared-tem-phonon-eels-en.svg",
+      "visibleCount": 1
+    }
+  ],
+  "checked": 50,
+  "failures": [],
+  "viewportChecks": [
+    {
+      "width": 1440,
+      "language": "zh"
+    },
+    {
+      "width": 390,
+      "language": "zh",
+      "device": "microchannel-cooling-setup"
+    },
+    {
+      "width": 390,
+      "language": "en",
+      "device": "shared-high-vacuum-pvd"
+    }
+  ],
+  "svgLabels": {
+    "overflow": 0,
+    "textCollisions": 0
+  }
+}
