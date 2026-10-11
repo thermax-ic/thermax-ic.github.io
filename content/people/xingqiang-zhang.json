@@ -1,0 +1,30 @@
+{
+  "id": "xingqiang-zhang",
+  "name": "Xingqiang Zhang",
+  "nameZh": "张兴强",
+  "group": "phd-students",
+  "order": 7,
+  "role": "Ph.D. Student",
+  "roleZh": "博士生",
+  "meta": "",
+  "metaZh": "",
+  "image": "Fig/people/张兴强.jpg",
+  "imagePosition": "45% 50%",
+  "imagePositionFull": "47% 50%",
+  "email": "Xingqz@outlook.com",
+  "bio": "Xingqiang Zhang received the B.S. degree from Huazhong University of Science and Technology in 2025. Xingqiang Zhang is currently pursuing the Ph.D. degree at Peking University.",
+  "bioZh": "张兴强2025年获得华中科技大学学士学位，目前在北京大学攻读博士学位。",
+  "education": [
+    {
+      "en": "2025–Present, Peking University, Ph.D.",
+      "zh": "2025–至今，北京大学，博士"
+    },
+    {
+      "en": "2021–2025, Huazhong University of Science and Technology, B.S.",
+      "zh": "2021–2025，华中科技大学，学士"
+    }
+  ],
+  "sections": [],
+  "links": [],
+  "published": true
+}

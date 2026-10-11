@@ -1,0 +1,78 @@
+{
+  "image": "images/facilities/equipment-ai/shared-surface-activated-bonding.webp",
+  "imageSource": {
+    "label": "AI-generated equipment illustration",
+    "labelZh": "AI 生成设备示意图",
+    "url": ""
+  },
+  "imageGenerated": true,
+  "principleImage": "images/facilities/principles/audited/shared-surface-activated-bonding-en.svg",
+  "principleSource": {
+    "label": "Original schematic · Method: Mu et al. · Surface-activated bonding",
+    "labelZh": "原创示意图 · 原理参考：Mu 等 · 表面活化键合",
+    "url": "https://doi.org/10.1021/acsami.9b10106"
+  },
+  "overview": "A shared ultra-high-vacuum bonding resource for semiconductor–semiconductor and semiconductor–diamond integration. Surface activation, alignment, pressure, and post-bond annealing are selected for each material pair.",
+  "overviewZh": "用于半导体-半导体及半导体-金刚石异质集成的共享超高真空键合资源。表面活化、对准、压力和后退火条件需针对材料组合确定。",
+  "principle": "Energetic neutral or ion irradiation cleans and activates mating surfaces in vacuum. Bringing sufficiently smooth, aligned surfaces into contact enables low-temperature bonding. Bond quality depends on contamination, roughness and beam damage; the interfacial layer and any annealing treatment are material-dependent.",
+  "principleZh": "在真空中用高能中性束或离子束清洁并活化待键合表面，将足够平整、对准的表面接触，实现低温键合。键合质量受污染、粗糙度与束流损伤影响，界面层及后续退火需按材料组合确定。",
+  "parameters": [
+    {
+      "en": "Surface activation and wafer bonding",
+      "zh": "表面活化与晶圆键合"
+    },
+    {
+      "en": "Alignment and contact process",
+      "zh": "对准与接触工艺"
+    }
+  ],
+  "samples": [
+    {
+      "en": "Compatible wafers and diced substrates",
+      "zh": "兼容的晶圆与切割衬底"
+    },
+    {
+      "en": "Heterogeneous semiconductor and diamond interfaces",
+      "zh": "异质半导体与金刚石界面"
+    }
+  ],
+  "features": [
+    {
+      "en": "Low-temperature bonding",
+      "zh": "低温键合"
+    },
+    {
+      "en": "Ultra-high-vacuum surface preparation",
+      "zh": "超高真空表面处理"
+    },
+    {
+      "en": "Shared process resource",
+      "zh": "共享工艺资源"
+    }
+  ],
+  "results": [],
+  "publications": [
+    {
+      "citation": "Mu F, Cheng Z, Shi J, et al. High Thermal Boundary Conductance across Bonded Heterogeneous GaN–SiC Interfaces. ACS Applied Materials & Interfaces. 2019;11:33428–33434. doi:10.1021/acsami.9b10106.",
+      "url": "https://doi.org/10.1021/acsami.9b10106",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22High%20Thermal%20Boundary%20Conductance%20across%20Bonded%20Heterogeneous%20GaN-SiC%20Interfaces%22",
+      "verified": true
+    }
+  ],
+  "id": "shared-surface-activated-bonding",
+  "name": "Surface Activated Bonding Machine",
+  "nameZh": "表面活化键合设备",
+  "source": "shared",
+  "categories": [
+    "shared"
+  ],
+  "summary": "Shared surface-activated bonding for low-temperature heterogeneous integration.",
+  "summaryZh": "用于低温异质集成的共享表面活化键合平台。",
+  "imageAlt": "Surface Activated Bonding Machine equipment",
+  "imageAltZh": "表面活化键合设备设备",
+  "principleImageZh": "images/facilities/principles/audited/shared-surface-activated-bonding-zh.svg",
+  "principleImageAlt": "Surface-activated bonding — original operating-principle schematic",
+  "principleImageAltZh": "表面活化键合——原创工作原理示意图",
+  "order": 23,
+  "published": true
+}

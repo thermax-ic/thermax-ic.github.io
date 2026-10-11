@@ -1,0 +1,74 @@
+{
+  "image": "images/facilities/equipment-ai/shared-cvd-diamond.webp",
+  "imageSource": {
+    "label": "AI-generated equipment illustration",
+    "labelZh": "AI 生成设备示意图",
+    "url": ""
+  },
+  "imageGenerated": true,
+  "principleImage": "images/facilities/principles/audited/shared-cvd-diamond-en.svg",
+  "principleSource": {
+    "label": "Original schematic · Method: Balmer et al. · CVD diamond",
+    "labelZh": "原创示意图 · 原理参考：Balmer 等 · CVD 金刚石",
+    "url": "https://doi.org/10.1088/0953-8984/21/36/364221"
+  },
+  "overview": "A shared resource used to grow diamond films and engineer nucleation, grain structure, and thickness for thermal-management research. Reactor mode, substrate size, gas chemistry, and validated process window are confirmed with the host facility.",
+  "overviewZh": "用于生长金刚石薄膜并调控成核、晶粒结构与厚度的共享资源。具体反应器模式、衬底尺寸、气体体系和已验证工艺窗口需与共享平台确认。",
+  "principle": "Activation of a hydrogen-rich carbon-precursor gas produces reactive growth species. Carbon incorporates at a heated, prepared substrate, while atomic hydrogen helps stabilize diamond surfaces and preferentially removes non-diamond carbon. Activation method, substrate preparation and process conditions determine growth quality.",
+  "principleZh": "富氢含碳前驱气体经活化产生生长所需的活性物种，碳在经处理、加热的衬底表面沉积。原子氢有助于稳定金刚石表面，并优先去除非金刚石碳。活化方式、衬底处理与工艺条件共同决定生长质量。",
+  "parameters": [
+    {
+      "en": "Diamond film growth",
+      "zh": "金刚石薄膜生长"
+    },
+    {
+      "en": "Nucleation and grain-structure control",
+      "zh": "成核与晶粒结构调控"
+    },
+    {
+      "en": "Thickness and morphology (process dependent)",
+      "zh": "厚度与形貌（取决于工艺）"
+    }
+  ],
+  "samples": [
+    {
+      "en": "Compatible semiconductor and refractory substrates",
+      "zh": "兼容的半导体与耐高温衬底"
+    }
+  ],
+  "features": [
+    {
+      "en": "Shared process resource",
+      "zh": "共享工艺资源"
+    },
+    {
+      "en": "Process window confirmed case by case",
+      "zh": "工艺窗口逐项确认"
+    }
+  ],
+  "results": [],
+  "publications": [
+    {
+      "citation": "Balmer RS, Brandon JR, Clewes SL, et al. Chemical vapour deposition synthetic diamond: materials, technology and applications. Journal of Physics: Condensed Matter. 2009;21:364221. doi:10.1088/0953-8984/21/36/364221.",
+      "url": "https://doi.org/10.1088/0953-8984/21/36/364221",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Chemical%20vapour%20deposition%20synthetic%20diamond%3A%20materials%2C%20technology%20and%20applications%22",
+      "verified": true
+    }
+  ],
+  "id": "shared-cvd-diamond",
+  "name": "CVD Diamond Growth Equipment",
+  "nameZh": "CVD 金刚石生长设备",
+  "source": "shared",
+  "categories": [
+    "shared"
+  ],
+  "summary": "Shared plasma-CVD capability for diamond film growth and heat-spreader development.",
+  "summaryZh": "用于金刚石薄膜生长与散热材料开发的共享等离子体 CVD 能力。",
+  "imageAlt": "CVD Diamond Growth Equipment equipment",
+  "imageAltZh": "CVD 金刚石生长设备设备",
+  "principleImageZh": "images/facilities/principles/audited/shared-cvd-diamond-zh.svg",
+  "principleImageAlt": "Hydrogen-assisted CVD diamond growth — original operating-principle schematic",
+  "principleImageAltZh": "富氢 CVD 金刚石生长——原创工作原理示意图",
+  "order": 22,
+  "published": true
+}

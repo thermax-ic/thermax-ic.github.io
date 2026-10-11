@@ -1,0 +1,78 @@
+{
+  "image": "images/facilities/equipment-ai/probe-station.webp",
+  "imageSource": {
+    "label": "AI-generated equipment illustration",
+    "labelZh": "AI 生成设备示意图",
+    "url": ""
+  },
+  "imageGenerated": true,
+  "principleImage": "images/facilities/principles/audited/probe-station-en.svg",
+  "principleSource": {
+    "label": "Original schematic · Method: Tektronix · Probe-card electrical testing",
+    "labelZh": "原创示意图 · 原理参考：Tektronix · 探针接触与电学测试",
+    "url": "https://www.tek.com.cn/documents/whitepaper/probe-card-tutorial"
+  },
+  "overview": "Used to contact device pads, apply DC or pulsed bias, and monitor electrical behavior during Raman, infrared, or thermoreflectance measurements. Temperature is measured by the coupled optical system.",
+  "overviewZh": "用于接触器件电极、施加直流或脉冲偏压，并在拉曼、红外或热反射测试过程中同步监测电学行为。温度由联用光学系统测得。",
+  "principle": "Positioned probes contact device pads. Connected source and measurement instruments apply electrical bias and record current–voltage response; optical access allows simultaneous thermometry. The probe station supplies contacts and sample positioning, while thermal measurements come from the coupled optical instrument.",
+  "principleZh": "定位探针接触器件焊盘，由连接的电源与测量仪器施加电偏压并读取电流–电压响应；光学通道支持同步测温。探针台提供电接触与样品定位，热学信号由联用光学设备测得。",
+  "parameters": [
+    {
+      "en": "Voltage, current, and operating point",
+      "zh": "电压、电流与工作点"
+    },
+    {
+      "en": "Synchronized thermal response via coupled instrument",
+      "zh": "联用设备的同步热响应"
+    }
+  ],
+  "samples": [
+    {
+      "en": "Devices with accessible pads",
+      "zh": "焊盘可接触的器件"
+    }
+  ],
+  "features": [
+    {
+      "en": "DC and pulsed bias support",
+      "zh": "支持直流与脉冲加载"
+    },
+    {
+      "en": "Optical access for in-operando thermometry",
+      "zh": "工作态测温光学通道"
+    }
+  ],
+  "results": [],
+  "publications": [
+    {
+      "citation": "Martin-Horcajo S, Pomeroy JW, Lambert B, Jung H, Blanck H, Kuball M. Transient Thermoreflectance for Gate Temperature Assessment in Pulse Operated GaN-Based HEMTs. IEEE Electron Device Letters. 2016;37:1197–1200. doi:10.1109/LED.2016.2595400.",
+      "url": "https://doi.org/10.1109/LED.2016.2595400",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Transient%20Thermoreflectance%20for%20Gate%20Temperature%20Assessment%20in%20Pulse%20Operated%20GaN-Based%20HEMTs%22",
+      "verified": true
+    },
+    {
+      "citation": "Kuball M, Pomeroy JW. A Review of Raman Thermography for Electronic and Opto-Electronic Device Measurement With Submicron Spatial and Nanosecond Temporal Resolution. IEEE Transactions on Device and Materials Reliability. 2016;16:667–684. doi:10.1109/TDMR.2016.2617458.",
+      "url": "https://doi.org/10.1109/TDMR.2016.2617458",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22A%20Review%20of%20Raman%20Thermography%20for%20Electronic%20and%20Opto-Electronic%20Device%20Measurement%20With%20Submicron%20Spatial%20and%20Nanosecond%20Temporal%20Resolution%22",
+      "verified": true
+    }
+  ],
+  "id": "probe-station",
+  "name": "Probe Station",
+  "nameZh": "探针台",
+  "source": "modified-commercial",
+  "categories": [
+    "device-thermometry",
+    "support-tools",
+    "modified-commercial"
+  ],
+  "summary": "Electrical biasing and probing during in-situ optical thermometry.",
+  "summaryZh": "在原位光学测温过程中提供电学加载与探测。",
+  "imageAlt": "Probe Station equipment",
+  "imageAltZh": "探针台设备",
+  "principleImageZh": "images/facilities/principles/audited/probe-station-zh.svg",
+  "principleImageAlt": "Electrical probing with optical access — original operating-principle schematic",
+  "principleImageAltZh": "电学探测与光学联用——原创工作原理示意图",
+  "order": 18,
+  "published": true
+}

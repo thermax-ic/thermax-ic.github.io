@@ -1,0 +1,26 @@
+{
+  "id": "junliang-fan",
+  "name": "Junliang Fan",
+  "nameZh": "范俊良",
+  "group": "undergraduate-students",
+  "order": 17,
+  "role": "Undergraduate Student",
+  "roleZh": "本科生",
+  "meta": "",
+  "metaZh": "",
+  "image": "Fig/people/范俊良.jpg",
+  "imagePosition": "42% 50%",
+  "imagePositionFull": "46% 50%",
+  "email": "fanjunliang@stu.pku.edu.cn",
+  "bio": "Junliang Fan is currently pursuing the B.S. degree at Peking University.",
+  "bioZh": "范俊良目前在北京大学攻读学士学位。",
+  "education": [
+    {
+      "en": "2023–Present, Peking University, B.S.",
+      "zh": "2023–至今，北京大学，学士"
+    }
+  ],
+  "sections": [],
+  "links": [],
+  "published": true
+}

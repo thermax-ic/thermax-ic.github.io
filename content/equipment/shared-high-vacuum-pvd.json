@@ -1,0 +1,70 @@
+{
+  "image": "images/facilities/equipment-ai/shared-high-vacuum-pvd.webp",
+  "imageSource": {
+    "label": "AI-generated equipment illustration",
+    "labelZh": "AI 生成设备示意图",
+    "url": ""
+  },
+  "imageGenerated": true,
+  "principleImage": "images/facilities/principles/audited/shared-high-vacuum-pvd-en.svg",
+  "principleSource": {
+    "label": "Original schematic · Method: Kurt J. Lesker · PVD processes",
+    "labelZh": "原创示意图 · 原理参考：Kurt J. Lesker · PVD 工艺原理",
+    "url": "https://www.lesker.com/newweb/vacuum_systems/deposition_systems_notes.cfm"
+  },
+  "overview": "A shared PVD platform for thermoreflectance transducers, electrical contacts, adhesion layers, and process studies. Targets, thickness control, substrate size, and contamination restrictions are confirmed with the host facility.",
+  "overviewZh": "用于沉积热反射金属传感层、电极、粘附层及工艺研究膜层的共享平台。可用靶材、厚度控制、衬底尺寸和交叉污染限制需与共享平台确认。",
+  "principle": "PVD transfers source material to a substrate in a vacuum chamber. Evaporation generates vapour by heating; sputtering ejects target atoms by ion bombardment. The arriving species condense into a film. The applicable source type and controls depend on the installed tool; PVD is not synonymous with magnetron sputtering.",
+  "principleZh": "PVD 在真空腔体内将源材料输运至衬底：蒸发通过加热产生蒸气，溅射通过离子轰击靶材释放原子，到达衬底的物种凝聚成膜。适用的源类型与控制参数取决于实际设备，PVD 不能直接等同于磁控溅射。",
+  "parameters": [
+    {
+      "en": "Metal-film deposition",
+      "zh": "金属薄膜沉积"
+    },
+    {
+      "en": "Thickness and uniformity (tool dependent)",
+      "zh": "厚度与均匀性（取决于设备）"
+    }
+  ],
+  "samples": [
+    {
+      "en": "Wafers and coupons compatible with the chamber",
+      "zh": "与腔体兼容的晶圆与样片"
+    }
+  ],
+  "features": [
+    {
+      "en": "High-vacuum deposition",
+      "zh": "高真空沉积"
+    },
+    {
+      "en": "Thermoreflectance transducer preparation",
+      "zh": "热反射金属传感层制备"
+    }
+  ],
+  "results": [],
+  "publications": [
+    {
+      "citation": "Kelly PJ, Arnell RD. Magnetron sputtering: a review of recent developments and applications. Vacuum. 2000;56:159–172. doi:10.1016/S0042-207X(99)00189-X.",
+      "url": "https://doi.org/10.1016/S0042-207X(99)00189-X",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Magnetron%20sputtering%3A%20a%20review%20of%20recent%20developments%20and%20applications%22",
+      "verified": true
+    }
+  ],
+  "id": "shared-high-vacuum-pvd",
+  "name": "High-vacuum PVD Metal Deposition",
+  "nameZh": "高真空 PVD 金属沉积设备",
+  "source": "shared",
+  "categories": [
+    "shared"
+  ],
+  "summary": "Shared high-vacuum metal deposition for optical transducers, contacts, and process layers.",
+  "summaryZh": "用于光学传感层、电极与工艺膜层的共享高真空金属沉积。",
+  "imageAlt": "High-vacuum PVD Metal Deposition equipment",
+  "imageAltZh": "高真空 PVD 金属沉积设备设备",
+  "principleImageZh": "images/facilities/principles/audited/shared-high-vacuum-pvd-zh.svg",
+  "principleImageAlt": "Physical vapour deposition — original operating-principle schematic",
+  "principleImageAltZh": "物理气相沉积——原创工作原理示意图",
+  "order": 24,
+  "published": true
+}

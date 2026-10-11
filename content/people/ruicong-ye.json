@@ -1,0 +1,35 @@
+{
+  "id": "ruicong-ye",
+  "name": "Ruicong Ye",
+  "nameZh": "叶睿聪",
+  "group": "masters-students",
+  "order": 16,
+  "role": "Master's Student",
+  "roleZh": "硕士生",
+  "meta": "",
+  "metaZh": "",
+  "image": "Fig/people/叶睿聪.jpg",
+  "imagePosition": "50% 31%",
+  "imagePositionFull": "50% 0%",
+  "email": "yeruicong26@stu.pku.edu.cn",
+  "bio": "Ruicong Ye received the B.S. degree from Beijing Forestry University in 2026. Ruicong Ye is currently pursuing the master's degree at Peking University.",
+  "bioZh": "叶睿聪2026年获得北京林业大学学士学位，目前在北京大学攻读硕士学位。",
+  "education": [
+    {
+      "en": "2026–Present, Peking University, M.S.",
+      "zh": "2026–至今，北京大学，硕士"
+    },
+    {
+      "en": "2022–2026, Beijing Forestry University, B.S.",
+      "zh": "2022–2026，北京林业大学，学士"
+    }
+  ],
+  "sections": [],
+  "links": [
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=4GQ9s1YAAAAJ"
+    }
+  ],
+  "published": true
+}

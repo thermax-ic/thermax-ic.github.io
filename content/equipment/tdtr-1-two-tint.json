@@ -1,0 +1,96 @@
+{
+  "image": "images/facilities/equipment-ai/tdtr-1-two-tint.webp",
+  "imageSource": {
+    "label": "AI-generated equipment illustration",
+    "labelZh": "AI 生成设备示意图",
+    "url": ""
+  },
+  "imageGenerated": true,
+  "principleImage": "images/facilities/principles/audited/tdtr-1-two-tint-en.svg",
+  "principleSource": {
+    "label": "Original schematic · Method: Kang et al. · Two-tint TDTR",
+    "labelZh": "原创示意图 · 原理参考：Kang 等 · Two-tint TDTR",
+    "url": "https://doi.org/10.1063/1.3020759"
+  },
+  "overview": "A flexible femtosecond pump–probe platform. Spectral separation between pump and probe channels improves rejection of scattered pump light, while a mechanical delay line resolves the transient response from sub-nanosecond heat flow to acoustic echoes.",
+  "overviewZh": "基于飞秒泵浦-探测的柔性平台。泵浦与探测通道的光谱分离可抑制泵浦散射背景，机械延迟线同时覆盖亚纳秒热输运响应与声学回波。",
+  "principle": "Complementary edge filters select different spectral bands from one femtosecond laser for pump and probe, suppressing scattered pump light. The modulated pump heats the transducer; delayed probe reflectance tracks cooling. A multilayer thermal model fits the lock-in signal ratio to extract conductivity or interface conductance when sensitivity permits.",
+  "principleZh": "利用互补边缘滤光片，从同一飞秒激光光谱中选取不同波段作为泵浦光和探测光，抑制泵浦散射串扰。调制泵浦加热金属传感层，延迟探测光读取冷却过程中的反射率变化；在灵敏度允许时，用多层导热模型拟合锁相信号比，提取热导率或界面热导。",
+  "parameters": [
+    {
+      "en": "Cross-plane thermal conductivity",
+      "zh": "面外热导率"
+    },
+    {
+      "en": "Thermal boundary conductance",
+      "zh": "界面热导"
+    },
+    {
+      "en": "Acoustic echo / film thickness",
+      "zh": "声学回波／薄膜厚度"
+    }
+  ],
+  "samples": [
+    {
+      "en": "Metal-transducer-coated films and bulk crystals",
+      "zh": "带金属传感层的薄膜与块体晶体"
+    },
+    {
+      "en": "Multilayers and bonded interfaces",
+      "zh": "多层结构与键合界面"
+    }
+  ],
+  "features": [
+    {
+      "en": "Two-tint optical rejection",
+      "zh": "Two-tint 光谱抑制"
+    },
+    {
+      "en": "Delay-domain sensitivity analysis",
+      "zh": "延迟域灵敏度分析"
+    },
+    {
+      "en": "Picosecond ultrasonics",
+      "zh": "皮秒超声"
+    }
+  ],
+  "results": [],
+  "publications": [
+    {
+      "citation": "Mohan R, Khan S, Wilson RB, Hopkins PE. Time-domain thermoreflectance. Nature Reviews Methods Primers. 2025;5. doi:10.1038/s43586-025-00425-8.",
+      "url": "https://doi.org/10.1038/s43586-025-00425-8",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Time-domain%20thermoreflectance%22",
+      "verified": true
+    },
+    {
+      "citation": "Jiang P, Qian X, Yang R. Tutorial: Time-domain thermoreflectance (TDTR) for thermal property characterization of bulk and thin film materials. Journal of Applied Physics. 2018;124:161103. doi:10.1063/1.5046944.",
+      "url": "https://doi.org/10.1063/1.5046944",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Tutorial%3A%20Time-domain%20thermoreflectance%20(TDTR)%20for%20thermal%20property%20characterization%20of%20bulk%20and%20thin%20film%20materials%22",
+      "verified": true
+    },
+    {
+      "citation": "Thomsen C, Grahn HT, Maris HJ, Tauc J. Surface generation and detection of phonons by picosecond light pulses. Physical Review B. 1986;34:4129–4138. doi:10.1103/PhysRevB.34.4129.",
+      "url": "https://doi.org/10.1103/PhysRevB.34.4129",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Surface%20generation%20and%20detection%20of%20phonons%20by%20picosecond%20light%20pulses%22",
+      "verified": true
+    }
+  ],
+  "id": "tdtr-1-two-tint",
+  "name": "TDTR-1 · Two-tint TDTR",
+  "nameZh": "时域热反射系统-1（Two-tint TDTR）",
+  "source": "custom-built",
+  "categories": [
+    "thermal-properties",
+    "stress-acoustics",
+    "custom-built"
+  ],
+  "summary": "Two-tint TDTR for cross-plane thermal transport and picosecond ultrasonics.",
+  "summaryZh": "面向面外热输运与皮秒超声的 Two-tint TDTR。",
+  "imageAlt": "TDTR-1 · Two-tint TDTR equipment",
+  "imageAltZh": "时域热反射系统-1（Two-tint TDTR）设备",
+  "principleImageZh": "images/facilities/principles/audited/tdtr-1-two-tint-zh.svg",
+  "principleImageAlt": "Two-tint TDTR — original operating-principle schematic",
+  "principleImageAltZh": "Two-tint 时域热反射——原创工作原理示意图",
+  "order": 1,
+  "published": true
+}

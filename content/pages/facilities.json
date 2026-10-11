@@ -1,0 +1,28 @@
+{
+  "section_01": {
+    "text_001": {
+      "en": "The laboratory operates a comprehensive chip thermal-measurement platform with internationally advanced technical capabilities, covering nearly all major methods for chip thermophysical-property characterization and micro/nanoelectronic device thermometry. Supported by two National Key Laboratories in the School and process lines at leading domestic integrated-circuit companies, the platform targets the increasingly severe heat-dissipation bottlenecks and instrumentation-access challenges in next-generation 3D stacked devices and chips, as well as power and RF electronics.",
+      "zh": "实验室建有系统全面、技术世界前列的芯片热量测平台，基本上集齐了所有的芯片热物性和微纳器件测温设备。依托本学院两个全国重点实验室及国内头部集成电路企业工艺线，立志于解决下一代三维堆叠器件/堆叠芯片以及功率/射频芯片中日益严重的散热瓶颈和设备禁运问题。"
+    },
+    "text_005": {
+      "en": "Facilities",
+      "zh": "设备平台"
+    }
+  },
+  "section_02": {
+    "text_002": {
+      "en": "Equipment list",
+      "zh": "设备清单"
+    }
+  },
+  "section_03": {
+    "text_003": {
+      "en": "Platform capability matrix",
+      "zh": "平台能力矩阵"
+    },
+    "text_004": {
+      "en": "Expert classification by measurement observable and inversion pathway. Numerical ranges and sample requirements are confirmed case by case.",
+      "zh": "按直接观测量与反演路径进行专业划分；具体量程与样品要求仍需结合测试方案确认。"
+    }
+  }
+}

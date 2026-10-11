@@ -1,0 +1,30 @@
+{
+  "id": "yicheng-wei",
+  "name": "Yicheng Wei",
+  "nameZh": "魏义程",
+  "group": "phd-students",
+  "order": 5,
+  "role": "Ph.D. Student",
+  "roleZh": "博士生",
+  "meta": "",
+  "metaZh": "",
+  "image": "Fig/people/魏义程.jpg",
+  "imagePosition": "50% 50%",
+  "imagePositionFull": "50% 50%",
+  "email": "yichengwei25@stu.pku.edu.cn",
+  "bio": "Yicheng Wei received the B.S. degree from Jilin University in 2025. Yicheng Wei is currently pursuing the Ph.D. degree at Peking University.",
+  "bioZh": "魏义程2025年获得吉林大学学士学位，目前在北京大学攻读博士学位。",
+  "education": [
+    {
+      "en": "2025–Present, Peking University, Ph.D.",
+      "zh": "2025–至今，北京大学，博士"
+    },
+    {
+      "en": "2021–2025, Jilin University, B.S.",
+      "zh": "2021–2025，吉林大学，学士"
+    }
+  ],
+  "sections": [],
+  "links": [],
+  "published": true
+}

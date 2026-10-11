@@ -1,0 +1,30 @@
+{
+  "id": "zixuan-zhou",
+  "name": "Zixuan Zhou",
+  "nameZh": "周子瑄",
+  "group": "phd-students",
+  "order": 9,
+  "role": "Ph.D. Student",
+  "roleZh": "博士生",
+  "meta": "",
+  "metaZh": "",
+  "image": "Fig/people/周子瑄.jpg",
+  "imagePosition": "17% 50%",
+  "imagePositionFull": "29% 50%",
+  "email": "zixuanzhou@stu.pku.edu.cn",
+  "bio": "Zixuan Zhou received the B.S. degree from Peking University in 2026. Zixuan Zhou is currently pursuing the Ph.D. degree at Peking University.",
+  "bioZh": "周子瑄2026年获得北京大学学士学位，目前在北京大学攻读博士学位。",
+  "education": [
+    {
+      "en": "2026–Present, Peking University, Ph.D.",
+      "zh": "2026–至今，北京大学，博士"
+    },
+    {
+      "en": "2022–2026, Peking University, B.S.",
+      "zh": "2022–2026，北京大学，学士"
+    }
+  ],
+  "sections": [],
+  "links": [],
+  "published": true
+}

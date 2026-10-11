@@ -1,0 +1,30 @@
+{
+  "id": "yiyun-he",
+  "name": "Yiyun He",
+  "nameZh": "何宜芸",
+  "group": "phd-students",
+  "order": 6,
+  "role": "Ph.D. Student",
+  "roleZh": "博士生",
+  "meta": "",
+  "metaZh": "",
+  "image": "Fig/people/何宜芸.jpg",
+  "imagePosition": "50% 12%",
+  "imagePositionFull": "50% 50%",
+  "email": "yyhe25@stu.pku.edu.cn",
+  "bio": "Yiyun He received the B.S. degree from Southeast University in 2025. Yiyun He is currently pursuing the Ph.D. degree at Peking University.",
+  "bioZh": "何宜芸2025年获得东南大学学士学位，目前在北京大学攻读博士学位。",
+  "education": [
+    {
+      "en": "2025–Present, Peking University, Ph.D.",
+      "zh": "2025–至今，北京大学，博士"
+    },
+    {
+      "en": "2021–2025, Southeast University, B.S.",
+      "zh": "2021–2025，东南大学，学士"
+    }
+  ],
+  "sections": [],
+  "links": [],
+  "published": true
+}

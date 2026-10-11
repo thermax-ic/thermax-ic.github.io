@@ -1,0 +1,30 @@
+{
+  "id": "jinquan-zhang",
+  "name": "Jinquan Zhang",
+  "nameZh": "张锦佺",
+  "group": "masters-students",
+  "order": 11,
+  "role": "Master's Student",
+  "roleZh": "硕士生",
+  "meta": "",
+  "metaZh": "",
+  "image": "Fig/people/张锦佺.jpg",
+  "imagePosition": "50% 40%",
+  "imagePositionFull": "50% 50%",
+  "email": "jqzhang25@stu.pku.edu.cn",
+  "bio": "Jinquan Zhang received his B.Eng. and B.S. degrees from the University of Electronic Science and Technology of China (UESTC) in 2025. He is currently pursuing his master's degree at Peking University.",
+  "bioZh": "张锦佺2025年获得电子科技大学工学、理学学士学位（双学位），目前在北京大学攻读硕士学位。",
+  "education": [
+    {
+      "en": "2025–Present, Peking University, M.S.",
+      "zh": "2025–至今，北京大学，硕士"
+    },
+    {
+      "en": "2021–2025, University of Electronic Science and Technology of China, B.Eng. and B.S.",
+      "zh": "2021–2025，电子科技大学，工学、理学学士（双学位）"
+    }
+  ],
+  "sections": [],
+  "links": [],
+  "published": true
+}

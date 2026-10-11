@@ -1,0 +1,26 @@
+{
+  "id": "jiarui-tao",
+  "name": "Jiarui Tao",
+  "nameZh": "陶嘉瑞",
+  "group": "undergraduate-students",
+  "order": 20,
+  "role": "Undergraduate Student",
+  "roleZh": "本科生",
+  "meta": "",
+  "metaZh": "",
+  "image": "Fig/people/陶嘉瑞.jpg",
+  "imagePosition": "50% 100%",
+  "imagePositionFull": "29% 50%",
+  "email": "taojiarui2005@stu.pku.edu.cn",
+  "bio": "Jiarui Tao is currently pursuing the B.S. degree at Peking University.",
+  "bioZh": "陶嘉瑞目前在北京大学攻读学士学位。",
+  "education": [
+    {
+      "en": "2024–Present, Peking University, B.S.",
+      "zh": "2024–至今，北京大学，学士"
+    }
+  ],
+  "sections": [],
+  "links": [],
+  "published": true
+}

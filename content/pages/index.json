@@ -1,0 +1,351 @@
+{
+  "section_01": {
+    "text_001": {
+      "en": "Peking University · School of Integrated Circuits",
+      "zh": "北京大学 · 集成电路学院"
+    },
+    "text_002": {
+      "en": "Thermal Management and Advanced Integration for Future Integrated Circuits",
+      "zh": "面向未来集成电路的热管理与先进集成"
+    },
+    "text_003": {
+      "en": "We advance thermal management, heterogeneous integration, and advanced packaging technologies for next-generation integrated circuits through innovations in materials, devices, and thermal characterization.",
+      "zh": "聚焦高性能集成电路中的热管理、异质集成与先进封装，发展面向下一代芯片的关键材料、器件与表征技术。"
+    },
+    "text_004": {
+      "en": "Explore research →",
+      "zh": "探索研究方向 →"
+    },
+    "text_005": {
+      "en": "Meet the team",
+      "zh": "认识我们的团队"
+    }
+  },
+  "section_02": {
+    "text_006": {
+      "en": "About the lab",
+      "zh": "关于实验室"
+    },
+    "text_007": {
+      "en": "Engineering the thermal foundations of tomorrow's chips",
+      "zh": "为下一代芯片构建热学基础"
+    },
+    "text_008": {
+      "en": "Pump–probe optics",
+      "zh": "泵浦–探测光学实验台"
+    },
+    "text_009": {
+      "en": "We focus on thermal management, heterogeneous integration, and advanced packaging for future high-performance integrated circuits.",
+      "zh": "我们聚焦未来高性能芯片中的热管理、异质集成与先进封装问题，面向高功率密度、高集成度和高可靠性的集成电路系统，发展关键热调控理论、材料、器件与工艺技术。"
+    },
+    "text_010": {
+      "en": "We address critical thermal challenges in chips with increasing power density, integration density, and reliability requirements, connecting fundamental understanding with measurement techniques and engineering solutions.",
+      "zh": "我们围绕微纳电子器件热输运、界面热阻、三维堆叠芯片散热、半导体材料生长与先进热表征开展研究，建立面向先进集成电路的热设计、测试与优化方法。"
+    },
+    "text_011": {
+      "en": "Discover our approach →",
+      "zh": "了解研究方法 →"
+    }
+  },
+  "section_03": {
+    "text_012": {
+      "en": "Research focus",
+      "zh": "研究重点"
+    },
+    "text_013": {
+      "en": "From nanoscale interfaces to integrated systems",
+      "zh": "从纳米界面到集成系统"
+    },
+    "text_014": {
+      "en": "We investigate the thermal behavior, design, and characterization of complex chip structures across scales.",
+      "zh": "跨尺度研究复杂芯片结构的热行为、热设计与热表征。"
+    },
+    "text_015": {
+      "en": "01",
+      "zh": "01"
+    },
+    "text_016": {
+      "en": "Thermal transport & interfaces",
+      "zh": "热输运与界面"
+    },
+    "text_017": {
+      "en": "Micro- and nanoelectronic heat transport, thermal boundary resistance, and semiconductor materials and devices.",
+      "zh": "微纳电子热输运、界面热阻与半导体材料器件。"
+    },
+    "text_018": {
+      "en": "→",
+      "zh": "→"
+    },
+    "text_019": {
+      "en": "02",
+      "zh": "02"
+    },
+    "text_020": {
+      "en": "Heterogeneous integration & packaging",
+      "zh": "异质集成与先进封装"
+    },
+    "text_021": {
+      "en": "Thermal challenges in high-density integration, 3D stacked chips, and advanced electronic packaging.",
+      "zh": "面向高密度集成、三维堆叠芯片与先进电子封装的热学挑战。"
+    },
+    "text_022": {
+      "en": "→",
+      "zh": "→"
+    },
+    "text_023": {
+      "en": "03",
+      "zh": "03"
+    },
+    "text_024": {
+      "en": "Thermal characterization & design",
+      "zh": "热表征与热设计"
+    },
+    "text_025": {
+      "en": "Advanced methods for chip thermal characterization, testing, modeling, and optimization.",
+      "zh": "面向芯片热表征、测试、建模与优化的先进方法。"
+    },
+    "text_026": {
+      "en": "→",
+      "zh": "→"
+    }
+  },
+  "section_04": {
+    "text_027": {
+      "en": "Photo credits & sources",
+      "zh": "图片署名与来源"
+    },
+    "text_028": {
+      "en": "These external research images illustrate our research themes. They do not depict our facilities or results. Images are resized and cropped for display; the interface micrograph retains its scale bar.",
+      "zh": "以上外部科研影像用于展示研究主题，并非本实验室设备或研究成果的实拍。图片经过尺寸压缩与显示裁切；界面显微图保留完整比例尺。"
+    },
+    "text_029": {
+      "en": "Pump–probe spectroscopy setup",
+      "zh": "泵浦–探测光谱实验台"
+    },
+    "text_030": {
+      "en": "— Maximilian Paradiz ·",
+      "zh": "— Maximilian Paradiz ·"
+    },
+    "text_031": {
+      "en": "Laser lab",
+      "zh": "Laser lab"
+    },
+    "text_032": {
+      "en": "·",
+      "zh": "·"
+    },
+    "text_033": {
+      "en": "CC BY 2.0",
+      "zh": "CC BY 2.0"
+    },
+    "text_034": {
+      "en": "BCB-bonded wafer interface",
+      "zh": "BCB 键合晶圆界面"
+    },
+    "text_035": {
+      "en": "— Fraunhofer ENAS, D. Neumann ·",
+      "zh": "— Fraunhofer ENAS, D. Neumann ·"
+    },
+    "text_036": {
+      "en": "B-ad-crosssectionbcb",
+      "zh": "B-ad-crosssectionbcb"
+    },
+    "text_037": {
+      "en": "·",
+      "zh": "·"
+    },
+    "text_038": {
+      "en": "CC BY-SA 3.0 DE",
+      "zh": "CC BY-SA 3.0 DE"
+    },
+    "text_039": {
+      "en": "AMD EPYC 7702 chiplet package (near-infrared photograph)",
+      "zh": "AMD EPYC 7702 多芯粒封装（近红外实拍）"
+    },
+    "text_040": {
+      "en": "— Fritzchens Fritz ·",
+      "zh": "— Fritzchens Fritz ·"
+    },
+    "text_041": {
+      "en": "AMD Epyc 7702 delidded",
+      "zh": "AMD Epyc 7702 delidded"
+    },
+    "text_042": {
+      "en": "·",
+      "zh": "·"
+    },
+    "text_043": {
+      "en": "CC0 1.0",
+      "zh": "CC0 1.0"
+    },
+    "text_044": {
+      "en": "NIST TDTR measurement system",
+      "zh": "NIST TDTR 热反射测量系统"
+    },
+    "text_045": {
+      "en": "— Joshua Martin / NIST ·",
+      "zh": "— Joshua Martin / NIST ·"
+    },
+    "text_046": {
+      "en": "Instrumentation",
+      "zh": "Instrumentation"
+    },
+    "text_047": {
+      "en": "·",
+      "zh": "·"
+    },
+    "text_048": {
+      "en": "Reuse policy",
+      "zh": "图片复用政策"
+    }
+  },
+  "section_05": {
+    "text_049": {
+      "en": "From nanoscale interfaces to full-chip systems, we connect precise measurement with engineering insight to reveal, understand, and control heat in advanced integrated circuits.",
+      "zh": "从纳米界面到芯片系统，我们将精密测量与工程分析相结合，致力于揭示、理解并调控先进集成电路中的热输运过程。"
+    },
+    "text_050": {
+      "en": "A platform for advanced thermal characterization",
+      "zh": "先进热表征平台"
+    },
+    "text_051": {
+      "en": "Our work spans thermal transport in micro/nanoelectronic devices, interface heat transfer, heat dissipation in 3D stacked chips, semiconductor materials growth, and advanced thermal characterization.",
+      "zh": "研究覆盖微纳电子器件热输运、界面热传递、三维堆叠芯片散热、半导体材料生长与先进热表征。"
+    },
+    "text_052": {
+      "en": "Chip thermal characterization",
+      "zh": "芯片热表征"
+    },
+    "text_053": {
+      "en": "Thermal boundary resistance",
+      "zh": "界面热阻"
+    },
+    "text_054": {
+      "en": "3D chip heat dissipation",
+      "zh": "三维芯片散热"
+    },
+    "text_055": {
+      "en": "Thermal design & optimization",
+      "zh": "热设计与优化"
+    },
+    "text_056": {
+      "en": "View facilities →",
+      "zh": "查看设备平台 →"
+    }
+  },
+  "section_06": {
+    "text_057": {
+      "en": "Driven by curiosity and collaboration, we develop innovative solutions in IC thermal management, heterogeneous integration, and advanced packaging for the next generation of high-performance chips.",
+      "zh": "以好奇心与协作精神为驱动，我们聚焦集成电路热管理、异质集成与先进封装，为下一代高性能芯片探索创新技术与解决方案。"
+    },
+    "text_058": {
+      "en": "A collaborative lab for the next generation of IC researchers",
+      "zh": "面向下一代集成电路研究者的协作型实验室"
+    },
+    "text_059": {
+      "en": "We welcome motivated students and young researchers from integrated circuits, electronic engineering, materials science, physics, mechanical engineering, energy science, and related fields.",
+      "zh": "我们欢迎来自集成电路、电子信息、材料、物理、机械、能源等相关领域的学生与青年学者加入。"
+    },
+    "text_060": {
+      "en": "Meet our people →",
+      "zh": "认识我们的团队 →"
+    },
+    "text_061": {
+      "en": "Peking University",
+      "zh": "北京大学"
+    }
+  },
+  "section_07": {
+    "text_062": {
+      "en": "Get in touch",
+      "zh": "联系我们"
+    },
+    "text_063": {
+      "en": "Let’s address the thermal challenges of integrated electronics",
+      "zh": "共同应对集成电子系统的热学挑战"
+    },
+    "text_064": {
+      "en": "zhe.cheng@pku.edu.cn",
+      "zh": "zhe.cheng@pku.edu.cn"
+    },
+    "text_065": {
+      "en": "↗",
+      "zh": "↗"
+    },
+    "text_066": {
+      "en": "Contact & location →",
+      "zh": "联系与地址 →"
+    }
+  },
+  "images": {
+    "image_01": {
+      "src": "images/home/photographs/pump-probe-optical-bench.webp",
+      "alt_en": "Optical table in a pump–probe spectroscopy experiment",
+      "alt_zh": "泵浦–探测光谱装置的光学实验台"
+    },
+    "image_02": {
+      "src": "images/home/photographs/bonded-wafer-interface.webp",
+      "alt_en": "Electron micrograph of a BCB-bonded wafer interface, with the original 30 micrometre scale bar",
+      "alt_zh": "BCB 键合晶圆界面的电子显微照片，保留原始 30 微米比例尺"
+    },
+    "image_03": {
+      "src": "images/home/photographs/epyc-chiplet-package.webp",
+      "alt_en": "Near-infrared photograph of a delidded AMD EPYC 7702 package with eight compute chiplets and a central I/O die",
+      "alt_zh": "AMD EPYC 7702 去盖封装的近红外实拍，显示八个计算芯粒与中央 I/O 裸片"
+    },
+    "image_04": {
+      "src": "images/home/photographs/nist-tdtr-system.webp",
+      "alt_en": "NIST time-domain thermoreflectance measurement system, photographed by Joshua Martin",
+      "alt_zh": "NIST 时域热反射测量系统，摄影：Joshua Martin"
+    },
+    "image_05": {
+      "src": "Fig/TherMAX-IC Lab 中英文.png",
+      "alt_en": "TherMAX-IC Lab bilingual identity",
+      "alt_zh": "TherMAX-IC 实验室双语标识"
+    },
+    "image_06": {
+      "src": "Fig/ic-tmi-lab-team-photo.png",
+      "alt_en": "Group photo",
+      "alt_zh": "团队合影"
+    },
+    "hero_background": {
+      "src": "Fig/advanced-ic-thermal-integration-hero.png",
+      "alt_en": "Laboratory research environment",
+      "alt_zh": "实验室研究环境"
+    },
+    "platform_background": {
+      "src": "Fig/ic-tmi-advanced-thermal-characterization-platform.png",
+      "alt_en": "Advanced thermal characterization platform",
+      "alt_zh": "先进热表征平台"
+    }
+  },
+  "links": {
+    "link_01": {
+      "href": "https://commons.wikimedia.org/wiki/File:Laser_lab_(36885558663).jpg"
+    },
+    "link_02": {
+      "href": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "link_03": {
+      "href": "https://commons.wikimedia.org/wiki/File:B-ad-crosssectionbcb.png"
+    },
+    "link_04": {
+      "href": "https://creativecommons.org/licenses/by-sa/3.0/de/"
+    },
+    "link_05": {
+      "href": "https://commons.wikimedia.org/wiki/File:AMD_Epyc_7702_delidded.jpg"
+    },
+    "link_06": {
+      "href": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "link_07": {
+      "href": "https://www.nist.gov/programs-projects/transport-property-measurements-semiconductors-and-energy-materials/thermal-1"
+    },
+    "link_08": {
+      "href": "https://www.nist.gov/copyrights-disclaimers"
+    },
+    "link_09": {
+      "href": "mailto:zhe.cheng@pku.edu.cn"
+    }
+  }
+}

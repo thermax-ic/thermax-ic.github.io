@@ -1,0 +1,30 @@
+{
+  "id": "yifan-tu",
+  "name": "Yifan Tu",
+  "nameZh": "涂一凡",
+  "group": "masters-students",
+  "order": 14,
+  "role": "Master's Student",
+  "roleZh": "硕士生",
+  "meta": "",
+  "metaZh": "",
+  "image": "Fig/people/涂一凡.jpg",
+  "imagePosition": "83% 50%",
+  "imagePositionFull": "71% 50%",
+  "email": "tuyifan26@stu.pku.edu.cn",
+  "bio": "Yifan Tu received the B.S. degree from the Harbin Institute of Technology (Weihai) in 2026. Yifan Tu is currently pursuing the master's degree at Peking University.",
+  "bioZh": "涂一凡2026年获得哈尔滨工业大学（威海）学士学位，目前在北京大学攻读硕士学位。",
+  "education": [
+    {
+      "en": "2026–Present, Peking University, M.S.",
+      "zh": "2026–至今，北京大学，硕士"
+    },
+    {
+      "en": "2022–2026, Harbin Institute of Technology (Weihai), B.S.",
+      "zh": "2022–2026，哈尔滨工业大学（威海），学士"
+    }
+  ],
+  "sections": [],
+  "links": [],
+  "published": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "zifeng-huang",
+  "name": "Zifeng Huang",
+  "nameZh": "黄子丰",
+  "group": "phd-students",
+  "order": 3,
+  "role": "Ph.D. Student",
+  "roleZh": "博士生",
+  "meta": "",
+  "metaZh": "",
+  "image": "Fig/people/黄子丰.jpg",
+  "imagePosition": "50% 50%",
+  "imagePositionFull": "50% 50%",
+  "email": "",
+  "bio": "Zifeng Huang is currently pursuing the Ph.D. degree at Peking University.",
+  "bioZh": "黄子丰目前在北京大学攻读博士学位。",
+  "education": [],
+  "sections": [],
+  "links": [],
+  "published": true
+}

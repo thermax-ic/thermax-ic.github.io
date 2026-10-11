@@ -1,0 +1,125 @@
+{
+  "section_01": {
+    "text_001": {
+      "en": "Skip to main content",
+      "zh": "跳转至主要内容"
+    }
+  },
+  "section_02": {
+    "text_002": {
+      "en": "Peking University",
+      "zh": "北京大学"
+    }
+  },
+  "section_03": {
+    "text_003": {
+      "en": "Thermal Management and Advanced Integration of Chips Laboratory",
+      "zh": "芯片热管理与先进集成实验室"
+    },
+    "text_004": {
+      "en": "Advanced Packaging • Heterogeneous Integration • Thermal Characterization",
+      "zh": "先进封装 • 异质集成 • 热表征"
+    },
+    "text_005": {
+      "en": "TherMAX-IC Lab · Zhe Cheng Research Group",
+      "zh": "TherMAX-IC 实验室 · 程哲课题组"
+    },
+    "text_006": {
+      "en": "Home",
+      "zh": "首页"
+    },
+    "text_007": {
+      "en": "About",
+      "zh": "关于我们"
+    },
+    "text_008": {
+      "en": "Research",
+      "zh": "研究方向"
+    },
+    "text_009": {
+      "en": "Facilities",
+      "zh": "设备平台"
+    },
+    "text_010": {
+      "en": "People",
+      "zh": "成员"
+    },
+    "text_011": {
+      "en": "Publications",
+      "zh": "论文发表"
+    },
+    "text_012": {
+      "en": "News",
+      "zh": "新闻"
+    },
+    "text_013": {
+      "en": "Contact",
+      "zh": "联系我们"
+    },
+    "text_014": {
+      "en": "Search this site",
+      "zh": "站内搜索"
+    },
+    "text_015": {
+      "en": "Search",
+      "zh": "搜索"
+    }
+  },
+  "section_04": {
+    "text_016": {
+      "en": "Thermal Management and Advanced Integration of Chips Laboratory",
+      "zh": "芯片热管理与先进集成实验室"
+    },
+    "text_017": {
+      "en": "Peking University",
+      "zh": "北京大学"
+    },
+    "text_018": {
+      "en": "School of Integrated Circuits",
+      "zh": "集成电路学院"
+    },
+    "text_019": {
+      "en": "Address",
+      "zh": "地址"
+    },
+    "text_020": {
+      "en": "Micro-Nano Electronics Building",
+      "zh": "微纳电子大厦"
+    },
+    "text_021": {
+      "en": "5 Yiheyuan Road, Haidian District, Beijing 100871",
+      "zh": "北京市海淀区颐和园路5号，邮编100871"
+    },
+    "text_022": {
+      "en": "Contact",
+      "zh": "联系"
+    },
+    "text_023": {
+      "en": "zhe.cheng@pku.edu.cn",
+      "zh": "zhe.cheng@pku.edu.cn"
+    },
+    "text_024": {
+      "en": "School of Integrated Circuits ↗",
+      "zh": "集成电路学院 ↗"
+    },
+    "text_025": {
+      "en": "© 2026 TherMAX-IC · Peking University",
+      "zh": "© 2026 TherMAX-IC · 北京大学"
+    }
+  },
+  "images": {
+    "image_01": {
+      "src": "Fig/TherMAX-IC Lab.png",
+      "alt_en": "TherMAX-IC Lab",
+      "alt_zh": "芯片热管理与先进集成实验室（TherMAX-IC）"
+    }
+  },
+  "links": {
+    "link_01": {
+      "href": "mailto:zhe.cheng@pku.edu.cn"
+    },
+    "link_02": {
+      "href": "https://ic.pku.edu.cn/"
+    }
+  }
+}

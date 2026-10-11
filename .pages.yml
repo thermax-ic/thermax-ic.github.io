@@ -1,0 +1,2172 @@
+# Pages CMS — 编辑入口：https://app.pagescms.org/thermax-ic/thermax-ic.github.io
+components:
+  bilingual:
+    type: object
+    fields:
+      - name: zh
+        label: 中文文案
+        type: text
+      - name: en
+        label: 英文文案
+        type: text
+media:
+  - name: images
+    label: 网站图片
+    input: images
+    output: /images
+    extensions:
+      - jpg
+      - jpeg
+      - png
+      - webp
+      - gif
+      - svg
+    rename: safe
+  - name: portraits
+    label: 现有成员照片
+    input: Fig
+    output: /Fig
+    extensions:
+      - jpg
+      - jpeg
+      - png
+      - webp
+    rename: safe
+  - name: pdfs
+    label: 论文 PDF
+    input: pdfs
+    output: /pdfs
+    extensions:
+      - pdf
+    rename: safe
+content:
+  - name: site
+    label: 网站名称、导航与页脚
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: section_01
+        label: 网站公共信息
+        type: object
+        fields:
+          - name: text_001
+            label: 跳转至主要内容
+            component: bilingual
+      - name: section_02
+        label: 网站公共信息
+        type: object
+        fields:
+          - name: text_002
+            label: 北京大学
+            component: bilingual
+      - name: section_03
+        label: 网站公共信息
+        type: object
+        fields:
+          - name: text_003
+            label: 芯片热管理与先进集成实验室
+            component: bilingual
+          - name: text_004
+            label: 先进封装 • 异质集成 • 热表征
+            component: bilingual
+          - name: text_005
+            label: TherMAX-IC 实验室 · 程哲课题组
+            component: bilingual
+          - name: text_006
+            label: 首页
+            component: bilingual
+          - name: text_007
+            label: 关于我们
+            component: bilingual
+          - name: text_008
+            label: 研究方向
+            component: bilingual
+          - name: text_009
+            label: 设备平台
+            component: bilingual
+          - name: text_010
+            label: 成员
+            component: bilingual
+          - name: text_011
+            label: 论文发表
+            component: bilingual
+          - name: text_012
+            label: 新闻
+            component: bilingual
+          - name: text_013
+            label: 联系我们
+            component: bilingual
+          - name: text_014
+            label: 站内搜索
+            component: bilingual
+          - name: text_015
+            label: 搜索
+            component: bilingual
+      - name: section_04
+        label: 芯片热管理与先进集成实验室
+        type: object
+        fields:
+          - name: text_016
+            label: 芯片热管理与先进集成实验室
+            component: bilingual
+          - name: text_017
+            label: 北京大学
+            component: bilingual
+          - name: text_018
+            label: 集成电路学院
+            component: bilingual
+          - name: text_019
+            label: 地址
+            component: bilingual
+          - name: text_020
+            label: 微纳电子大厦
+            component: bilingual
+          - name: text_021
+            label: 北京市海淀区颐和园路5号，邮编100871
+            component: bilingual
+          - name: text_022
+            label: 联系
+            component: bilingual
+          - name: text_023
+            label: zhe.cheng@pku.edu.cn
+            component: bilingual
+          - name: text_024
+            label: 集成电路学院 ↗
+            component: bilingual
+          - name: text_025
+            label: © 2026 TherMAX-IC · 北京大学
+            component: bilingual
+      - name: images
+        label: 页面图片
+        type: object
+        fields:
+          - name: image_01
+            label: TherMAX-IC Lab
+            type: object
+            fields:
+              - name: src
+                label: 图片文件
+                type: image
+                options:
+                  media: images
+              - name: alt_zh
+                label: 中文图片说明
+                type: string
+              - name: alt_en
+                label: 英文图片说明
+                type: string
+      - name: links
+        label: 网页与邮箱链接
+        type: object
+        fields:
+          - name: link_01
+            label: zhe.cheng@pku.edu.cn
+            type: object
+            fields:
+              - name: href
+                label: 链接地址
+                type: string
+                description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
+          - name: link_02
+            label: School of Integrated Circuits ↗
+            type: object
+            fields:
+              - name: href
+                label: 链接地址
+                type: string
+                description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
+  - name: index
+    label: 首页
+    type: file
+    path: content/pages/index.json
+    format: json
+    fields:
+      - name: section_01
+        label: 面向未来集成电路的热管理与先进集成
+        type: object
+        fields:
+          - name: text_001
+            label: 北京大学 · 集成电路学院
+            component: bilingual
+          - name: text_002
+            label: 面向未来集成电路的热管理与先进集成
+            component: bilingual
+          - name: text_003
+            label: 聚焦高性能集成电路中的热管理、异质集成与先进封装，发展面向下一代芯片的关键材料、器件与表征技术。
+            component: bilingual
+          - name: text_004
+            label: 探索研究方向 →
+            component: bilingual
+          - name: text_005
+            label: 认识我们的团队
+            component: bilingual
+      - name: section_02
+        label: 关于实验室
+        type: object
+        fields:
+          - name: text_006
+            label: 关于实验室
+            component: bilingual
+          - name: text_007
+            label: 为下一代芯片构建热学基础
+            component: bilingual
+          - name: text_008
+            label: 泵浦–探测光学实验台
+            component: bilingual
+          - name: text_009
+            label: 我们聚焦未来高性能芯片中的热管理、异质集成与先进封装问题，面向高功率密度、高集成度和高可靠性的集成电路系统，发展关键热调控理论、材料、器件与工艺技术。
+            component: bilingual
+          - name: text_010
+            label: 我们围绕微纳电子器件热输运、界面热阻、三维堆叠芯片散热、半导体材料生长与先进热表征开展研究，建立面向先进集成电路的热设计、测试与优化方法。
+            component: bilingual
+          - name: text_011
+            label: 了解研究方法 →
+            component: bilingual
+      - name: section_03
+        label: 研究重点
+        type: object
+        fields:
+          - name: text_012
+            label: 研究重点
+            component: bilingual
+          - name: text_013
+            label: 从纳米界面到集成系统
+            component: bilingual
+          - name: text_014
+            label: 跨尺度研究复杂芯片结构的热行为、热设计与热表征。
+            component: bilingual
+          - name: text_015
+            label: "01"
+            component: bilingual
+          - name: text_016
+            label: 热输运与界面
+            component: bilingual
+          - name: text_017
+            label: 微纳电子热输运、界面热阻与半导体材料器件。
+            component: bilingual
+          - name: text_018
+            label: →
+            component: bilingual
+          - name: text_019
+            label: "02"
+            component: bilingual
+          - name: text_020
+            label: 异质集成与先进封装
+            component: bilingual
+          - name: text_021
+            label: 面向高密度集成、三维堆叠芯片与先进电子封装的热学挑战。
+            component: bilingual
+          - name: text_022
+            label: →
+            component: bilingual
+          - name: text_023
+            label: "03"
+            component: bilingual
+          - name: text_024
+            label: 热表征与热设计
+            component: bilingual
+          - name: text_025
+            label: 面向芯片热表征、测试、建模与优化的先进方法。
+            component: bilingual
+          - name: text_026
+            label: →
+            component: bilingual
+      - name: section_04
+        label: 图片署名与来源
+        type: object
+        fields:
+          - name: text_027
+            label: 图片署名与来源
+            component: bilingual
+          - name: text_028
+            label: 以上外部科研影像用于展示研究主题，并非本实验室设备或研究成果的实拍。图片经过尺寸压缩与显示裁切；界面显微图保留完整比例尺。
+            component: bilingual
+          - name: text_029
+            label: 泵浦–探测光谱实验台
+            component: bilingual
+          - name: text_030
+            label: — Maximilian Paradiz ·
+            component: bilingual
+          - name: text_031
+            label: Laser lab
+            component: bilingual
+          - name: text_032
+            label: ·
+            component: bilingual
+          - name: text_033
+            label: CC BY 2.0
+            component: bilingual
+          - name: text_034
+            label: BCB 键合晶圆界面
+            component: bilingual
+          - name: text_035
+            label: — Fraunhofer ENAS, D. Neumann ·
+            component: bilingual
+          - name: text_036
+            label: B-ad-crosssectionbcb
+            component: bilingual
+          - name: text_037
+            label: ·
+            component: bilingual
+          - name: text_038
+            label: CC BY-SA 3.0 DE
+            component: bilingual
+          - name: text_039
+            label: AMD EPYC 7702 多芯粒封装（近红外实拍）
+            component: bilingual
+          - name: text_040
+            label: — Fritzchens Fritz ·
+            component: bilingual
+          - name: text_041
+            label: AMD Epyc 7702 delidded
+            component: bilingual
+          - name: text_042
+            label: ·
+            component: bilingual
+          - name: text_043
+            label: CC0 1.0
+            component: bilingual
+          - name: text_044
+            label: NIST TDTR 热反射测量系统
+            component: bilingual
+          - name: text_045
+            label: — Joshua Martin / NIST ·
+            component: bilingual
+          - name: text_046
+            label: Instrumentation
+            component: bilingual
+          - name: text_047
+            label: ·
+            component: bilingual
+          - name: text_048
+            label: 图片复用政策
+            component: bilingual
+      - name: section_05
+        label: 从纳米界面到芯片系统，我们将精密测量与工程分析相结合，致力于揭示、理解并调控先进集成电路中的热输运过程。
+        type: object
+        fields:
+          - name: text_049
+            label: 从纳米界面到芯片系统，我们将精密测量与工程分析相结合，致力于揭示、理解并调控先进集成电路中的热输运过程。
+            component: bilingual
+          - name: text_050
+            label: 先进热表征平台
+            component: bilingual
+          - name: text_051
+            label: 研究覆盖微纳电子器件热输运、界面热传递、三维堆叠芯片散热、半导体材料生长与先进热表征。
+            component: bilingual
+          - name: text_052
+            label: 芯片热表征
+            component: bilingual
+          - name: text_053
+            label: 界面热阻
+            component: bilingual
+          - name: text_054
+            label: 三维芯片散热
+            component: bilingual
+          - name: text_055
+            label: 热设计与优化
+            component: bilingual
+          - name: text_056
+            label: 查看设备平台 →
+            component: bilingual
+      - name: section_06
+        label: 以好奇心与协作精神为驱动，我们聚焦集成电路热管理、异质集成与先进封装，为下一代高性能芯片探索创新技术与解决方案。
+        type: object
+        fields:
+          - name: text_057
+            label: 以好奇心与协作精神为驱动，我们聚焦集成电路热管理、异质集成与先进封装，为下一代高性能芯片探索创新技术与解决方案。
+            component: bilingual
+          - name: text_058
+            label: 面向下一代集成电路研究者的协作型实验室
+            component: bilingual
+          - name: text_059
+            label: 我们欢迎来自集成电路、电子信息、材料、物理、机械、能源等相关领域的学生与青年学者加入。
+            component: bilingual
+          - name: text_060
+            label: 认识我们的团队 →
+            component: bilingual
+          - name: text_061
+            label: 北京大学
+            component: bilingual
+      - name: section_07
+        label: 联系我们
+        type: object
+        fields:
+          - name: text_062
+            label: 联系我们
+            component: bilingual
+          - name: text_063
+            label: 共同应对集成电子系统的热学挑战
+            component: bilingual
+          - name: text_064
+            label: zhe.cheng@pku.edu.cn
+            component: bilingual
+          - name: text_065
+            label: ↗
+            component: bilingual
+          - name: text_066
+            label: 联系与地址 →
+            component: bilingual
+      - name: images
+        label: 页面图片
+        type: object
+        fields:
+          - name: image_01
+            label: Optical table in a pump–probe spectroscopy experiment
+            type: object
+            fields:
+              - name: src
+                label: 图片文件
+                type: image
+                options:
+                  media: images
+              - name: alt_zh
+                label: 中文图片说明
+                type: string
+              - name: alt_en
+                label: 英文图片说明
+                type: string
+          - name: image_02
+            label: Electron micrograph of a BCB-bonded wafer interface, with the ori
+            type: object
+            fields:
+              - name: src
+                label: 图片文件
+                type: image
+                options:
+                  media: images
+              - name: alt_zh
+                label: 中文图片说明
+                type: string
+              - name: alt_en
+                label: 英文图片说明
+                type: string
+          - name: image_03
+            label: Near-infrared photograph of a delidded AMD EPYC 7702 package with
+            type: object
+            fields:
+              - name: src
+                label: 图片文件
+                type: image
+                options:
+                  media: images
+              - name: alt_zh
+                label: 中文图片说明
+                type: string
+              - name: alt_en
+                label: 英文图片说明
+                type: string
+          - name: image_04
+            label: NIST time-domain thermoreflectance measurement system, photograph
+            type: object
+            fields:
+              - name: src
+                label: 图片文件
+                type: image
+                options:
+                  media: images
+              - name: alt_zh
+                label: 中文图片说明
+                type: string
+              - name: alt_en
+                label: 英文图片说明
+                type: string
+          - name: image_05
+            label: TherMAX-IC Lab bilingual identity
+            type: object
+            fields:
+              - name: src
+                label: 图片文件
+                type: image
+                options:
+                  media: images
+              - name: alt_zh
+                label: 中文图片说明
+                type: string
+              - name: alt_en
+                label: 英文图片说明
+                type: string
+          - name: image_06
+            label: Group photo
+            type: object
+            fields:
+              - name: src
+                label: 图片文件
+                type: image
+                options:
+                  media: images
+              - name: alt_zh
+                label: 中文图片说明
+                type: string
+              - name: alt_en
+                label: 英文图片说明
+                type: string
+          - name: hero_background
+            label: 首页顶部背景图
+            type: object
+            fields:
+              - name: src
+                label: 背景图片文件
+                type: image
+                options:
+                  media: images
+              - name: alt_zh
+                label: 中文图片说明
+                type: string
+              - name: alt_en
+                label: 英文图片说明
+                type: string
+          - name: platform_background
+            label: 首页设备平台背景图
+            type: object
+            fields:
+              - name: src
+                label: 背景图片文件
+                type: image
+                options:
+                  media: images
+              - name: alt_zh
+                label: 中文图片说明
+                type: string
+              - name: alt_en
+                label: 英文图片说明
+                type: string
+      - name: links
+        label: 网页与邮箱链接
+        type: object
+        fields:
+          - name: link_01
+            label: Laser lab
+            type: object
+            fields:
+              - name: href
+                label: 链接地址
+                type: string
+                description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
+          - name: link_02
+            label: CC BY 2.0
+            type: object
+            fields:
+              - name: href
+                label: 链接地址
+                type: string
+                description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
+          - name: link_03
+            label: B-ad-crosssectionbcb
+            type: object
+            fields:
+              - name: href
+                label: 链接地址
+                type: string
+                description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
+          - name: link_04
+            label: CC BY-SA 3.0 DE
+            type: object
+            fields:
+              - name: href
+                label: 链接地址
+                type: string
+                description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
+          - name: link_05
+            label: AMD Epyc 7702 delidded
+            type: object
+            fields:
+              - name: href
+                label: 链接地址
+                type: string
+                description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
+          - name: link_06
+            label: CC0 1.0
+            type: object
+            fields:
+              - name: href
+                label: 链接地址
+                type: string
+                description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
+          - name: link_07
+            label: Instrumentation
+            type: object
+            fields:
+              - name: href
+                label: 链接地址
+                type: string
+                description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
+          - name: link_08
+            label: Reuse policy
+            type: object
+            fields:
+              - name: href
+                label: 链接地址
+                type: string
+                description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
+          - name: link_09
+            label: zhe.cheng@pku.edu.cn ↗
+            type: object
+            fields:
+              - name: href
+                label: 链接地址
+                type: string
+                description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
+  - name: about
+    label: 实验室介绍
+    type: file
+    path: content/pages/about.json
+    format: json
+    fields:
+      - name: section_01
+        label: Building efficient thermal pathways for advanced integrated circu
+        type: object
+        fields:
+          - name: text_001
+            label: 面向先进集成的热通路
+            component: bilingual
+          - name: text_002
+            label: 为先进集成电路构建高效热通路
+            component: bilingual
+          - name: text_003
+            label: 我们面向高性能芯片、异质集成与先进封装，研究热量在材料、界面、器件、互连和封装结构中的产生与传递，并发展高导热材料、界面调控、先进热表征和三维集成热管
+            component: bilingual
+          - name: text_004
+            label: 集成电路热管理
+            component: bilingual
+          - name: text_005
+            label: 异质集成
+            component: bilingual
+          - name: text_006
+            label: 先进封装
+            component: bilingual
+          - name: text_007
+            label: 先进热表征
+            component: bilingual
+          - name: text_068
+            label: "01"
+            component: bilingual
+          - name: text_069
+            label: 3D-IC
+            component: bilingual
+      - name: section_02
+        label: Thermal management is becoming a core constraint on integration
+        type: object
+        fields:
+          - name: text_008
+            label: 热管理正在成为集成技术的核心约束
+            component: bilingual
+          - name: text_009
+            label: 随着芯片向更高功率密度和更高集成度发展，热问题已经从外部散热进入芯片结构内部。局部热点、层间热耦合、界面热阻和受限的垂直热通路，共同影响芯片的性能、可
+            component: bilingual
+          - name: text_010
+            label: 在2.5D与3D集成系统中，材料选择、互连结构、键合工艺和封装架构同时决定最终热阻。热管理因此成为先进集成技术的重要组成部分。
+            component: bilingual
+          - name: text_011
+            label: 更低的热阻，支持更高的可用功率与计算性能。
+            component: bilingual
+          - name: text_070
+            label: "02"
+            component: bilingual
+          - name: text_071
+            label: P
+            component: bilingual
+          - name: text_072
+            label: max
+            component: bilingual
+          - name: text_073
+            label: ≈
+            component: bilingual
+          - name: text_074
+            label: Δ
+            component: bilingual
+          - name: text_075
+            label: T
+            component: bilingual
+          - name: text_076
+            label: allow
+            component: bilingual
+          - name: text_077
+            label: R
+            component: bilingual
+          - name: text_078
+            label: th,total
+            component: bilingual
+          - name: text_079
+            label: Rth,total
+            component: bilingual
+          - name: text_080
+            label: Pmax
+            component: bilingual
+          - name: text_081
+            label: R
+            component: bilingual
+          - name: text_082
+            label: th,total
+            component: bilingual
+          - name: text_083
+            label: ↓
+            component: bilingual
+          - name: text_084
+            label: →
+            component: bilingual
+          - name: text_085
+            label: P
+            component: bilingual
+          - name: text_086
+            label: max
+            component: bilingual
+          - name: text_087
+            label: ↑
+            component: bilingual
+      - name: section_03
+        label: 研究方向 system from materials to 3D integration
+        type: object
+        fields:
+          - name: text_012
+            label: 从材料到3D集成的研究体系
+            component: bilingual
+          - name: text_013
+            label: 热管理材料
+            component: bilingual
+          - name: text_014
+            label: 界面与键合
+            component: bilingual
+          - name: text_015
+            label: 器件与互连
+            component: bilingual
+          - name: text_016
+            label: 异质集成与先进封装
+            component: bilingual
+          - name: text_017
+            label: 热管理材料
+            component: bilingual
+          - name: text_018
+            label: 研究高导热半导体与热扩散材料的生长、热输运和尺寸效应，关注金刚石、AlN、SiC及相关材料在芯片热管理中的应用。
+            component: bilingual
+          - name: text_019
+            label: 界面与键合
+            component: bilingual
+          - name: text_020
+            label: 研究异质材料界面、埋层界面和键合层中的热传递，揭示界面结构与制备工艺对热阻的影响。
+            component: bilingual
+          - name: text_021
+            label: 器件与互连
+            component: bilingual
+          - name: text_022
+            label: 研究微纳电子器件中的局部热点、BEOL与先进互连的有效热导率，以及复杂器件结构中的热扩散路径。
+            component: bilingual
+          - name: text_023
+            label: 异质集成与先进封装
+            component: bilingual
+          - name: text_024
+            label: 面向芯粒集成、三维堆叠和先进封装，探索热扩散层、高导热通路与封装结构协同设计，提升集成系统的散热能力与可靠性。
+            component: bilingual
+          - name: text_088
+            label: "03"
+            component: bilingual
+          - name: text_089
+            label: →
+            component: bilingual
+          - name: text_090
+            label: →
+            component: bilingual
+          - name: text_091
+            label: →
+            component: bilingual
+      - name: section_04
+        label: The laboratory’s technical pathway
+        type: object
+        fields:
+          - name: text_025
+            label: 实验室的技术路径
+            component: bilingual
+          - name: text_026
+            label: 表征
+            component: bilingual
+          - name: text_027
+            label: TDTR、FDTR、SSTR及热成像，获得真实工艺结构热参数
+            component: bilingual
+          - name: text_028
+            label: 理解
+            component: bilingual
+          - name: text_029
+            label: 传热模型、敏感度分析、原子级表征与不确定性评估
+            component: bilingual
+          - name: text_030
+            label: 调控
+            component: bilingual
+          - name: text_031
+            label: 高导热材料、界面工程、热扩散层与局部热通路设计
+            component: bilingual
+          - name: text_032
+            label: 集成
+            component: bilingual
+          - name: text_033
+            label: 将材料与界面研究转化到异质集成、三维堆叠与先进封装
+            component: bilingual
+          - name: text_034
+            label: 再验证
+            component: bilingual
+          - name: text_035
+            label: 通过实验验证热管理效果，进入下一轮优化
+            component: bilingual
+          - name: text_092
+            label: "04"
+            component: bilingual
+          - name: text_093
+            label: "01"
+            component: bilingual
+          - name: text_094
+            label: →
+            component: bilingual
+          - name: text_095
+            label: "02"
+            component: bilingual
+          - name: text_096
+            label: →
+            component: bilingual
+          - name: text_097
+            label: "03"
+            component: bilingual
+          - name: text_098
+            label: →
+            component: bilingual
+          - name: text_099
+            label: "04"
+            component: bilingual
+          - name: text_100
+            label: →
+            component: bilingual
+          - name: text_101
+            label: "05"
+            component: bilingual
+      - name: section_05
+        label: Key thermal-management questions in 3D-ICs
+        type: object
+        fields:
+          - name: text_036
+            label: 3D-IC热管理的关键问题
+            component: bilingual
+          - name: text_037
+            label: 3D-IC将多个芯粒、互连和键合界面集成在有限空间内。每一层材料和每一个界面都可能成为热通路中的限制因素。
+            component: bilingual
+          - name: text_038
+            label: 热扩散层
+            component: bilingual
+          - name: text_039
+            label: 芯片层
+            component: bilingual
+          - name: text_040
+            label: BEOL
+            component: bilingual
+          - name: text_041
+            label: 混合键合
+            component: bilingual
+          - name: text_042
+            label: 芯片层
+            component: bilingual
+          - name: text_043
+            label: BEOL
+            component: bilingual
+          - name: text_044
+            label: TIM与封装基板
+            component: bilingual
+          - name: text_045
+            label: 浏览右侧问题，逐层查看3D-IC中的热瓶颈。
+            component: bilingual
+          - name: text_046
+            label: 热扩散层
+            component: bilingual
+          - name: text_047
+            label: 高导热薄膜能否在实际厚度下保持材料优势？晶界、尺寸和缺陷如何影响薄膜热导率？
+            component: bilingual
+          - name: text_048
+            label: 芯片层
+            component: bilingual
+          - name: text_049
+            label: 局部热点和不同芯粒之间的热耦合如何影响性能与可靠性？
+            component: bilingual
+          - name: text_050
+            label: 先进互连和低介电常数材料如何改变垂直热通路与有效热导率？
+            component: bilingual
+          - name: text_051
+            label: 混合键合
+            component: bilingual
+          - name: text_052
+            label: 混合键合界面是否构成热通路中的主要热阻？
+            component: bilingual
+          - name: text_053
+            label: 封装层与跨层热通路
+            component: bilingual
+          - name: text_054
+            label: 热扩散层和高导热通路如何嵌入3D-IC，并提升跨层热通路与系统散热能力？
+            component: bilingual
+          - name: text_102
+            label: "05"
+            component: bilingual
+          - name: text_103
+            label: "01"
+            component: bilingual
+          - name: text_104
+            label: "02"
+            component: bilingual
+          - name: text_105
+            label: "03"
+            component: bilingual
+          - name: text_106
+            label: BEOL
+            component: bilingual
+          - name: text_107
+            label: "04"
+            component: bilingual
+          - name: text_108
+            label: "05"
+            component: bilingual
+      - name: section_06
+        label: Advanced thermal-characterization platform supporting the researc
+        type: object
+        fields:
+          - name: text_055
+            label: 支撑研究的先进热表征平台
+            component: bilingual
+          - name: text_056
+            label: 先进热表征是实验室发展热管理与集成技术的核心研究能力。平台集成多种光学热测量系统、热成像技术、定制化模型拟合与自动化数据处理，支持材料、器件、互连和封
+            component: bilingual
+          - name: text_057
+            label: 套热测量系统及相关流程
+            component: bilingual
+          - name: text_058
+            label: 薄膜、界面与器件相关尺度
+            component: bilingual
+          - name: text_059
+            label: 材料—器件—封装
+            component: bilingual
+          - name: text_060
+            label: 跨层级研究能力
+            component: bilingual
+          - name: text_061
+            label: 实验 + 模型
+            component: bilingual
+          - name: text_062
+            label: 参数提取与不确定性分析
+            component: bilingual
+          - name: text_109
+            label: "06"
+            component: bilingual
+          - name: text_110
+            label: 10+
+            component: bilingual
+          - name: text_111
+            label: nm–µm
+            component: bilingual
+      - name: section_07
+        label: Connecting thermal science with integrated-circuit technology
+        type: object
+        fields:
+          - name: text_063
+            label: 连接热科学与集成电路技术
+            component: bilingual
+          - name: text_064
+            label: 我们致力于建立从热输运机理、先进表征和材料界面调控，到异质集成与先进封装应用的完整研究链路，为高性能集成电路提供可验证的热管理技术。
+            component: bilingual
+          - name: text_065
+            label: 探索研究方向
+            component: bilingual
+          - name: text_066
+            label: 查看设备平台
+            component: bilingual
+          - name: text_067
+            label: 与我们合作
+            component: bilingual
+          - name: text_112
+            label: "07"
+            component: bilingual
+      - name: images
+        label: 页面图片
+        type: object
+        fields:
+          - name: image_01
+            label: Cutaway rendering of a multilayer 3D integrated circuit with chip
+            type: object
+            fields:
+              - name: src
+                label: 图片文件
+                type: image
+                options:
+                  media: images
+              - name: alt_zh
+                label: 中文图片说明
+                type: string
+              - name: alt_en
+                label: 英文图片说明
+                type: string
+          - name: image_02
+            label: Panoramic view of an advanced thermal-characterization laboratory
+            type: object
+            fields:
+              - name: src
+                label: 图片文件
+                type: image
+                options:
+                  media: images
+              - name: alt_zh
+                label: 中文图片说明
+                type: string
+              - name: alt_en
+                label: 英文图片说明
+                type: string
+  - name: research
+    label: 研究方向
+    type: file
+    path: content/pages/research.json
+    format: json
+    fields:
+      - name: section_01
+        label: 研究方向
+        type: object
+        fields:
+          - name: text_001
+            label: 研究方向
+            component: bilingual
+          - name: text_002
+            label: 我们面向下一代集成电路发展热测试方法与热输运调控技术，研究涵盖高导热散热材料、异质界面与键合，以及互连结构的三维热层析。
+            component: bilingual
+      - name: section_02
+        label: 研究愿景
+        type: object
+        fields:
+          - name: text_003
+            label: 研究愿景
+            component: bilingual
+          - name: text_004
+            label: 随着芯片功率密度、集成密度和可靠性要求不断提升，材料、界面、互连与封装结构中的热输运正成为制约器件性能与寿命的核心因素。
+            component: bilingual
+          - name: text_005
+            label: 我们的研究将 TDTR、FDTR 与 Raman mapping 等实验热测试手段与材料生长、界面工程和物理建模相结合，聚焦真实器件中的关键结构：金刚
+            component: bilingual
+          - name: text_006
+            label: 研究方向
+            component: bilingual
+          - name: text_007
+            label: 高导热散热材料
+            component: bilingual
+          - name: text_008
+            label: 异质界面与键合
+            component: bilingual
+          - name: text_009
+            label: 先进互连与三维热层析
+            component: bilingual
+      - name: section_03
+        label: 高导热散热材料
+        type: object
+        fields:
+          - name: text_010
+            label: 3C-SiC 单晶晶圆及 Raman / XRD 表征（Nat. Commun. 2022）
+            component: bilingual
+          - name: text_011
+            label: 研究方向 01
+            component: bilingual
+          - name: text_012
+            label: 高导热散热材料
+            component: bilingual
+          - name: text_013
+            label: 我们生长并调控金刚石、3C-SiC、AlN 等宽禁带高导热材料，针对真实器件集成需求定制其热学性能。
+            component: bilingual
+          - name: text_014
+            label: 通过将外延生长、精密热测试（TDTR / FDTR / Raman mapping）与理论相结合，我们把晶粒尺寸、掺杂和界面结构转化为可设计的散热调控
+            component: bilingual
+          - name: text_015
+            label: 晶圆级单晶 3C-SiC，面内与面外热导率均创纪录（Nat. Commun. 2022）
+            component: bilingual
+          - name: text_016
+            label: SiC 多型体边界热导突破 2000 MW/m²·K，为迄今已知最高纪录
+            component: bilingual
+          - name: text_017
+            label: 低温（<450 °C）后道兼容金刚石集成于 GaN 晶体管，24 W/mm 功耗下器件温度下降 111 °C
+            component: bilingual
+          - name: text_018
+            label: B、N 掺杂 3C-SiC 实现常见半导体中最大的热导率可调范围
+            component: bilingual
+          - name: text_019
+            label: 本征 AlN 薄膜室温最高热导率达 321 W/m·K
+            component: bilingual
+      - name: section_04
+        label: 异质界面与键合
+        type: object
+        fields:
+          - name: text_020
+            label: 原子分辨的 3C-SiC/Si 与 AlN/3C-SiC 界面（STEM）
+            component: bilingual
+          - name: text_021
+            label: 研究方向 02
+            component: bilingual
+          - name: text_022
+            label: 异质界面与键合
+            component: bilingual
+          - name: text_023
+            label: 界面热阻常常主导集成器件的总热阻。我们研究原子如何跨越界面成键，以及如何让键合界面在热学上透明。
+            component: bilingual
+          - name: text_024
+            label: 我们利用表面活化键合（SAB）、退火工艺与原子级界面层设计，最大化半导体-半导体及半导体-介质界面的热导，并通过 STEM-EELS、拉曼光谱与机器学
+            component: bilingual
+          - name: text_025
+            label: 室温 GaN-金刚石 SAB 键合，界面热导达 90 MW/m²·K（ACS Appl. Mater. Interfaces 2020）
+            component: bilingual
+          - name: text_026
+            label: 退火使 GaN-金刚石界面热导提升近 300%（Adv. Electron. Mater. 2025）
+            component: bilingual
+          - name: text_027
+            label: AlN-SiC 界面热导最高达 800 MW/m²·K（arXiv:2602.13827）
+            component: bilingual
+          - name: text_028
+            label: 以高导热 3C-SiC 为中介层的 GaN-on-diamond 结构，缓解热膨胀失配（Small 2024）
+            component: bilingual
+          - name: text_029
+            label: 从理想 Al-Al₂O₃ 界面的弹性声子透射到 Si-Ge 界面局域声子模式——指导更优键合的物理机制（Nat. Commun. 2020, 2021
+            component: bilingual
+      - name: section_05
+        label: 先进互连与三维热层析
+        type: object
+        fields:
+          - name: text_030
+            label: 量产互连堆叠结构的逐层三维热导率分布图
+            component: bilingual
+          - name: text_031
+            label: 研究方向 03
+            component: bilingual
+          - name: text_032
+            label: 先进互连与三维热层析
+            component: bilingual
+          - name: text_033
+            label: 在堆叠芯片内部，互连堆叠是一个热学“黑盒子”。我们发展了三维热层析技术，首次实验测得真实互连层的导热系数分布，覆盖 28 nm 至 3 nm 制程节点
+            component: bilingual
+          - name: text_034
+            label: 通过 P-FIB 阶梯制样、铝传感层与逐层 TDTR 扫描相结合，我们量化了晶粒尺寸、扩散阻挡层与界面热阻如何决定热瓶颈，并将同一测量方法用于评估混合
+            component: bilingual
+          - name: text_035
+            label: 首次实现 3–28 nm 逻辑节点互连层三维热导率分布的实验测量（IEEE IEDM 2025, IEEE EDTM 2026）
+            component: bilingual
+          - name: text_036
+            label: 逐层热学分布图揭示纳米互连层极低热导率与界面热阻的主导作用（ACS Nano 2026）
+            component: bilingual
+          - name: text_037
+            label: 三维 TDTR 扫描揭示量产互连堆叠中电路图形对热流的影响
+            component: bilingual
+          - name: text_038
+            label: 以高于 150 MW/m²·K 的界面热导评估混合键合介质界面质量（Appl. Phys. Lett. 2026）
+            component: bilingual
+  - name: facilities
+    label: 设备平台介绍
+    type: file
+    path: content/pages/facilities.json
+    format: json
+    fields:
+      - name: section_01
+        label: 设备平台
+        type: object
+        fields:
+          - name: text_001
+            label: 实验室建有系统全面、技术世界前列的芯片热量测平台，基本上集齐了所有的芯片热物性和微纳器件测温设备。依托本学院两个全国重点实验室及国内头部集成电路企业工
+            component: bilingual
+          - name: text_005
+            label: 设备平台
+            component: bilingual
+      - name: section_02
+        label: Equipment list设备清单
+        type: object
+        fields:
+          - name: text_002
+            label: 设备清单
+            component: bilingual
+      - name: section_03
+        label: Platform capability matrix平台能力矩阵
+        type: object
+        fields:
+          - name: text_003
+            label: 平台能力矩阵
+            component: bilingual
+          - name: text_004
+            label: 按直接观测量与反演路径进行专业划分；具体量程与样品要求仍需结合测试方案确认。
+            component: bilingual
+  - name: people-page
+    label: 成员页面介绍
+    type: file
+    path: content/pages/people.json
+    format: json
+    fields:
+      - name: section_01
+        label: 成员
+        type: object
+        fields:
+          - name: text_001
+            label: 成员
+            component: bilingual
+  - name: publications-page
+    label: 论文页面介绍
+    type: file
+    path: content/pages/publications.json
+    format: json
+    fields:
+      - name: section_01
+        label: 论文发表
+        type: object
+        fields:
+          - name: text_001
+            label: 课题组发表的期刊论文、会议论文、书籍章节与预印本。
+            component: bilingual
+          - name: text_003
+            label: 论文发表
+            component: bilingual
+      - name: section_02
+        label: Publication list论文列表
+        type: object
+        fields:
+          - name: text_002
+            label: 论文列表
+            component: bilingual
+          - name: text_004
+            label: Please enable JavaScript to view the publication list. / 请启用 JavaScript 查看论
+            component: bilingual
+  - name: news-page
+    label: 新闻页面介绍
+    type: file
+    path: content/pages/news.json
+    format: json
+    fields:
+      - name: section_01
+        label: 动态
+        type: object
+        fields:
+          - name: text_001
+            label: 动态
+            component: bilingual
+          - name: text_002
+            label: 实验室动态包括研究进展、论文成果、设备平台、学生活动和合作消息。
+            component: bilingual
+  - name: contact
+    label: 联系方式
+    type: file
+    path: content/pages/contact.json
+    format: json
+    fields:
+      - name: section_01
+        label: 联系我们
+        type: object
+        fields:
+          - name: text_001
+            label: 联系我们
+            component: bilingual
+          - name: text_002
+            label: 如需开展科研合作、交流测试需求、了解学生机会或提出一般问题，请联系实验室。
+            component: bilingual
+      - name: section_02
+        label: 实验室联系方式
+        type: object
+        fields:
+          - name: text_003
+            label: 实验室联系方式
+            component: bilingual
+          - name: text_004
+            label: 机构
+            component: bilingual
+          - name: text_005
+            label: 北京大学
+            component: bilingual
+          - name: text_006
+            label: 学院
+            component: bilingual
+          - name: text_007
+            label: 集成电路学院
+            component: bilingual
+          - name: text_008
+            label: 地址
+            component: bilingual
+          - name: text_009
+            label: 微纳电子大厦, 北京市海淀区颐和园路5号，邮编100871
+            component: bilingual
+          - name: text_010
+            label: 邮箱
+            component: bilingual
+          - name: text_011
+            label: zhe.cheng@pku.edu.cn
+            component: bilingual
+      - name: section_03
+        label: 合作交流与测试需求
+        type: object
+        fields:
+          - name: text_012
+            label: 合作交流与测试需求
+            component: bilingual
+          - name: text_013
+            label: 来信请简要说明样品、测量目标、拟测热学参数、样品结构及已有辅助信息。
+            component: bilingual
+          - name: text_014
+            label: 样品材料与层状结构
+            component: bilingual
+          - name: text_015
+            label: 薄膜大致厚度或器件几何结构
+            component: bilingual
+          - name: text_016
+            label: 目标参数：热导率、界面热导或热阻
+            component: bilingual
+          - name: text_017
+            label: 已有图像、工艺信息或历史测量数据
+            component: bilingual
+          - name: text_018
+            label: 预期时间安排与合作目的
+            component: bilingual
+      - name: section_04
+        label: 实验室联系方式
+        type: object
+        fields:
+          - name: text_019
+            label: 研究领域
+            component: bilingual
+          - name: text_020
+            label: TDTR / FDTR 热测试
+            component: bilingual
+          - name: text_021
+            label: 芯片级热测试
+            component: bilingual
+          - name: text_022
+            label: 薄膜与界面热输运
+            component: bilingual
+          - name: text_023
+            label: 先进封装热管理
+            component: bilingual
+          - name: text_024
+            label: 热建模与数据分析
+            component: bilingual
+          - name: text_025
+            label: 学生加入
+            component: bilingual
+          - name: text_026
+            label: 欢迎对热测试、半导体器件、光学、传热、数据分析和科学计算感兴趣的学生联系我们。
+            component: bilingual
+      - name: section_05
+        label: 位置
+        type: object
+        fields:
+          - name: text_027
+            label: 位置
+            component: bilingual
+          - name: text_028
+            label: 地址
+            component: bilingual
+          - name: text_029
+            label: 北京市海淀区颐和园路5号北京大学微纳电子大厦，邮编 100871
+            component: bilingual
+          - name: text_030
+            label: 地铁
+            component: bilingual
+          - name: text_031
+            label: 乘坐地铁4号线至北京大学东门站，由校园东门入校后步行约10分钟即可到达微纳电子大厦。
+            component: bilingual
+          - name: text_032
+            label: 入校方式
+            component: bilingual
+          - name: text_033
+            label: 大厦位于北京大学校园内，来访前请提前与我们联系，以便协助安排入校事宜。
+            component: bilingual
+          - name: text_034
+            label: 在高德地图中打开 ↗
+            component: bilingual
+          - name: text_035
+            label: 在 Google 地图中打开 ↗
+            component: bilingual
+      - name: links
+        label: 网页与邮箱链接
+        type: object
+        fields:
+          - name: link_01
+            label: zhe.cheng@pku.edu.cn
+            type: object
+            fields:
+              - name: href
+                label: 链接地址
+                type: string
+                description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
+          - name: link_02
+            label: Open in AMap ↗
+            type: object
+            fields:
+              - name: href
+                label: 链接地址
+                type: string
+                description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
+          - name: link_03
+            label: Open in Google Maps ↗
+            type: object
+            fields:
+              - name: href
+                label: 链接地址
+                type: string
+                description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
+  - name: search
+    label: 搜索页面
+    type: file
+    path: content/pages/search.json
+    format: json
+    fields:
+      - name: section_01
+        label: 搜索
+        type: object
+        fields:
+          - name: text_001
+            label: 搜索
+            component: bilingual
+          - name: text_002
+            label: 搜索本网站中的页面。
+            component: bilingual
+      - name: section_02
+        label: 搜索页面
+        type: object
+        fields:
+          - name: text_003
+            label: 搜索
+            component: bilingual
+      - name: section_03
+        label: 搜索页面
+        type: object
+        fields:
+          - name: text_004
+            label: 请输入关键词搜索本站内容。
+            component: bilingual
+  - name: people
+    label: 成员管理
+    type: collection
+    path: content/people
+    format: json
+    filename:
+      template: "{fields.id}.json"
+      field: false
+    fields:
+      - name: id
+        label: 个人页面地址标识
+        type: string
+        required: true
+        pattern:
+          regex: ^[a-z0-9]+(?:-[a-z0-9]+)*$
+          message: 请填写英文小写字母、数字和连字符，例如 zhe-cheng。
+        description: 用于个人页面地址。现有成员请保持不变。新增成员可填写姓名拼音。
+      - name: nameZh
+        label: 中文姓名
+        type: string
+      - name: name
+        label: 英文姓名
+        type: string
+        required: true
+      - name: group
+        label: 成员类别
+        type: select
+        options:
+          values:
+            - name: principal-investigator
+              label: 负责人
+            - name: postdoctoral-fellows-and-visiting-scholars
+              label: 博士后与访问学者
+            - name: phd-students
+              label: 博士生
+            - name: masters-students
+              label: 硕士生
+            - name: undergraduate-students
+              label: 本科生
+            - name: alumni
+              label: 校友
+          multiple: false
+      - name: roleZh
+        label: 中文身份
+        type: string
+      - name: role
+        label: 英文身份
+        type: string
+      - name: image
+        label: 成员照片
+        type: image
+        options:
+          media: images
+      - name: imagePosition
+        label: 列表照片位置
+        type: string
+        description: 例如 50% 50%；第一个数字为左右位置，第二个为上下位置。
+      - name: imagePositionFull
+        label: 个人页面照片位置
+        type: string
+      - name: metaZh
+        label: 列表简述（中文）
+        type: text
+      - name: meta
+        label: 列表简述（英文）
+        type: text
+      - name: email
+        label: 联系邮箱
+        type: string
+      - name: bioZh
+        label: 个人简介（中文）
+        type: text
+      - name: bio
+        label: 个人简介（英文）
+        type: text
+      - name: education
+        label: 教育与科研经历（从最近到最早）
+        type: object
+        fields:
+          - name: zh
+            label: 中文
+            type: text
+          - name: en
+            label: 英文
+            type: text
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{zh}"
+      - name: sections
+        label: 其他介绍栏目
+        type: object
+        fields:
+          - name: titleZh
+            label: 中文栏目名称
+            type: string
+          - name: title
+            label: 英文栏目名称
+            type: string
+          - name: bodyZh
+            label: 中文内容
+            type: rich-text
+            options:
+              format: html
+              switcher: false
+              media: false
+          - name: body
+            label: 英文内容
+            type: rich-text
+            options:
+              format: html
+              switcher: false
+              media: false
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{titleZh}"
+      - name: links
+        label: 个人相关链接
+        type: object
+        fields:
+          - name: label
+            label: 显示名称
+            type: string
+          - name: url
+            label: 网址
+            type: string
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{label}"
+      - name: order
+        label: 排列顺序
+        type: number
+        description: 数字较小的条目排在前面；论文优先按年份倒序。
+      - name: published
+        label: 在网站显示
+        type: boolean
+        description: 开启后保存将自动发布；关闭可保留内容而不在网站显示。
+    view:
+      primary: name
+      sort:
+        - order
+      default:
+        sort: order
+        order: asc
+    operations:
+      rename: false
+  - name: publications
+    label: 论文管理
+    type: collection
+    path: content/publications
+    format: json
+    filename:
+      template: publication-{year}-{month}-{day}-{hour}-{minute}-{second}.json
+      field: false
+    fields:
+      - name: year
+        label: 发表年份
+        type: number
+        required: true
+      - name: type
+        label: 论文类型
+        type: select
+        options:
+          values:
+            - name: journal
+              label: 期刊论文
+            - name: conference
+              label: 会议论文
+            - name: preprint
+              label: 预印本
+            - name: book_chapter
+              label: 书章节 / 其他
+          multiple: false
+      - name: citation
+        label: 完整引用信息
+        type: text
+        required: true
+        description: 按正式引用格式填写作者、题目、期刊、卷期和年份；网站不会自动改写引用。
+      - name: doi
+        label: DOI
+        type: string
+      - name: link
+        label: 论文网页链接
+        type: string
+      - name: pdf
+        label: PDF 文件或链接
+        type: file
+        options:
+          media: pdfs
+        description: 可上传 PDF，也可填写 https:// 开头的公开 PDF 链接。
+      - name: order
+        label: 排列顺序
+        type: number
+        description: 数字较小的条目排在前面；论文优先按年份倒序。
+      - name: published
+        label: 在网站显示
+        type: boolean
+        description: 开启后保存将自动发布；关闭可保留内容而不在网站显示。
+    view:
+      primary: citation
+      sort:
+        - order
+      default:
+        sort: order
+        order: asc
+    operations:
+      rename: false
+  - name: news
+    label: 新闻管理
+    type: collection
+    path: content/news
+    format: json
+    filename:
+      template: news-{year}-{month}-{day}-{hour}-{minute}-{second}.json
+      field: false
+    fields:
+      - name: titleZh
+        label: 中文标题
+        type: string
+      - name: title
+        label: 英文标题
+        type: string
+        required: true
+      - name: year
+        label: 年份
+        type: number
+        required: true
+      - name: month
+        label: 月份（1–12）
+        type: number
+        required: true
+      - name: bodyZh
+        label: 中文正文
+        type: rich-text
+        options:
+          format: html
+          switcher: false
+          media: false
+      - name: body
+        label: 英文正文
+        type: rich-text
+        options:
+          format: html
+          switcher: false
+          media: false
+      - name: image
+        label: 新闻配图
+        type: image
+        options:
+          media: images
+      - name: imageAltZh
+        label: 中文图片说明
+        type: string
+      - name: imageAlt
+        label: 英文图片说明
+        type: string
+      - name: captionZh
+        label: 图片下方说明（中文）
+        type: string
+      - name: caption
+        label: 图片下方说明（英文）
+        type: string
+      - name: categoryZh
+        label: 新闻分类（中文）
+        type: string
+      - name: category
+        label: 新闻分类（英文）
+        type: string
+      - name: order
+        label: 排列顺序
+        type: number
+        description: 数字较小的条目排在前面；论文优先按年份倒序。
+      - name: published
+        label: 在网站显示
+        type: boolean
+        description: 开启后保存将自动发布；关闭可保留内容而不在网站显示。
+    view:
+      primary: title
+      fields:
+        - year
+        - month
+        - titleZh
+        - published
+      sort:
+        - year
+        - month
+        - order
+      default:
+        sort: year
+        order: desc
+    operations:
+      rename: false
+  - name: equipment
+    label: 设备管理
+    type: collection
+    path: content/equipment
+    format: json
+    filename:
+      template: "{fields.id}.json"
+      field: false
+    fields:
+      - name: id
+        label: 设备地址标识
+        type: string
+        required: true
+        pattern: ^[a-z0-9]+(?:-[a-z0-9]+)*$
+        description: 现有设备请保持不变；新增设备填写英文小写字母、数字和连字符。
+      - name: nameZh
+        label: 中文设备名称
+        type: string
+      - name: name
+        label: 英文设备名称
+        type: string
+        required: true
+      - name: source
+        label: 设备来源
+        type: select
+        options:
+          values:
+            - name: custom-built
+              label: 自主搭建
+            - name: modified-commercial
+              label: 采购改装
+            - name: shared
+              label: 共享设备
+          multiple: false
+      - name: categories
+        label: 设备分类（可多选）
+        type: select
+        options:
+          values:
+            - name: thermal-properties
+              label: 热物性
+            - name: device-thermometry
+              label: 器件测温
+            - name: stress-acoustics
+              label: 应力与声学
+            - name: support-tools
+              label: 辅助设备
+            - name: under-construction
+              label: 建设中
+            - name: shared
+              label: 共享设备
+            - name: custom-built
+              label: 自主搭建
+            - name: modified-commercial
+              label: 采购改装
+          multiple: true
+      - name: summaryZh
+        label: 中文简介
+        type: text
+      - name: summary
+        label: 英文简介
+        type: text
+      - name: overviewZh
+        label: 中文详细介绍
+        type: text
+      - name: overview
+        label: 英文详细介绍
+        type: text
+      - name: image
+        label: 设备图片
+        type: image
+        options:
+          media: images
+      - name: imageAltZh
+        label: 设备图片说明（中文）
+        type: string
+      - name: imageAlt
+        label: 设备图片说明（英文）
+        type: string
+      - name: imageGenerated
+        label: 设备图片是 AI 示意图
+        type: boolean
+      - name: imageSource
+        label: 设备图片来源
+        type: object
+        fields:
+          - name: labelZh
+            label: 中文来源说明
+            type: string
+          - name: label
+            label: 英文来源说明
+            type: string
+          - name: url
+            label: 来源网页
+            type: string
+      - name: principleZh
+        label: 工作原理（中文）
+        type: text
+      - name: principle
+        label: 工作原理（英文）
+        type: text
+      - name: principleImage
+        label: 原理图（英文或通用）
+        type: image
+        options:
+          media: images
+      - name: principleImageZh
+        label: 原理图（中文，可选）
+        type: image
+        options:
+          media: images
+      - name: principleImageAlt
+        label: 英文原理图说明
+        type: string
+      - name: principleImageAltZh
+        label: 中文原理图说明
+        type: string
+      - name: principleSource
+        label: 原理图来源
+        type: object
+        fields:
+          - name: labelZh
+            label: 中文来源说明
+            type: string
+          - name: label
+            label: 英文来源说明
+            type: string
+          - name: url
+            label: 来源网页
+            type: string
+      - name: parameters
+        label: 可测参数
+        type: object
+        fields:
+          - name: zh
+            label: 中文
+            type: text
+          - name: en
+            label: 英文
+            type: text
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{zh}"
+      - name: samples
+        label: 适用样品
+        type: object
+        fields:
+          - name: zh
+            label: 中文
+            type: text
+          - name: en
+            label: 英文
+            type: text
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{zh}"
+      - name: features
+        label: 设备特点
+        type: object
+        fields:
+          - name: zh
+            label: 中文
+            type: text
+          - name: en
+            label: 英文
+            type: text
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{zh}"
+      - name: publications
+        label: 相关论文
+        type: object
+        fields:
+          - name: citation
+            label: 引用信息
+            type: text
+          - name: url
+            label: 论文链接
+            type: string
+          - name: scholarUrl
+            label: 学术搜索链接
+            type: string
+          - name: verified
+            label: 链接已核对
+            type: boolean
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{citation}"
+      - name: results
+        label: 代表性测量结果（论文引用）
+        type: object
+        fields:
+          - name: citation
+            label: 结果说明或引用信息
+            type: text
+          - name: url
+            label: 结果或论文链接
+            type: string
+          - name: scholarUrl
+            label: 学术搜索链接
+            type: string
+          - name: verified
+            label: 链接已核对
+            type: boolean
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{citation}"
+      - name: order
+        label: 排列顺序
+        type: number
+        description: 数字较小的条目排在前面；论文优先按年份倒序。
+      - name: published
+        label: 在网站显示
+        type: boolean
+        description: 开启后保存将自动发布；关闭可保留内容而不在网站显示。
+    view:
+      primary: name
+      sort:
+        - order
+      default:
+        sort: order
+        order: asc
+    operations:
+      rename: false
+  - name: equipment-settings
+    label: 设备分类与能力矩阵
+    type: file
+    path: content/equipment-settings.json
+    format: json
+    fields:
+      - name: filters
+        label: 设备分类名称
+        type: object
+        fields:
+          - name: id
+            label: 分类标识
+            type: string
+            readonly: true
+          - name: labelZh
+            label: 中文名称
+            type: string
+          - name: label
+            label: 英文名称
+            type: string
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{labelZh}"
+      - name: capabilityMatrix
+        label: 能力矩阵
+        type: object
+        fields:
+          - name: legend
+            label: 图例
+            type: object
+            fields:
+              - name: id
+                label: 能力标识
+                type: string
+                readonly: true
+              - name: labelZh
+                label: 中文名称
+                type: string
+              - name: label
+                label: 英文名称
+                type: string
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{labelZh}"
+          - name: columns
+            label: 测量项目
+            type: object
+            fields:
+              - name: id
+                label: 项目标识
+                type: string
+                readonly: true
+              - name: labelZh
+                label: 中文名称
+                type: string
+              - name: label
+                label: 英文名称
+                type: string
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{labelZh}"
+          - name: rows
+            label: 设备能力
+            type: object
+            fields:
+              - name: labelZh
+                label: 中文设备名称
+                type: string
+              - name: label
+                label: 英文设备名称
+                type: string
+              - name: values
+                label: 测量能力
+                type: object
+                fields:
+                  - name: crossPlane
+                    label: 面外热导率
+                    type: select
+                    options:
+                      values:
+                        - name: none
+                          label: 无此能力
+                        - name: direct
+                          label: 直接／主要能力
+                        - name: conditional
+                          label: 依赖模型／条件
+                        - name: support
+                          label: 需联用辅助设备
+                        - name: planned
+                          label: 规划能力；待验收
+                      multiple: false
+                  - name: inPlane
+                    label: 面内／各向异性热导率
+                    type: select
+                    options:
+                      values:
+                        - name: none
+                          label: 无此能力
+                        - name: direct
+                          label: 直接／主要能力
+                        - name: conditional
+                          label: 依赖模型／条件
+                        - name: support
+                          label: 需联用辅助设备
+                        - name: planned
+                          label: 规划能力；待验收
+                      multiple: false
+                  - name: interface
+                    label: 界面热导
+                    type: select
+                    options:
+                      values:
+                        - name: none
+                          label: 无此能力
+                        - name: direct
+                          label: 直接／主要能力
+                        - name: conditional
+                          label: 依赖模型／条件
+                        - name: support
+                          label: 需联用辅助设备
+                        - name: planned
+                          label: 规划能力；待验收
+                      multiple: false
+                  - name: steadyTemp
+                    label: 稳态器件温度
+                    type: select
+                    options:
+                      values:
+                        - name: none
+                          label: 无此能力
+                        - name: direct
+                          label: 直接／主要能力
+                        - name: conditional
+                          label: 依赖模型／条件
+                        - name: support
+                          label: 需联用辅助设备
+                        - name: planned
+                          label: 规划能力；待验收
+                      multiple: false
+                  - name: transientTemp
+                    label: 瞬态温度
+                    type: select
+                    options:
+                      values:
+                        - name: none
+                          label: 无此能力
+                        - name: direct
+                          label: 直接／主要能力
+                        - name: conditional
+                          label: 依赖模型／条件
+                        - name: support
+                          label: 需联用辅助设备
+                        - name: planned
+                          label: 规划能力；待验收
+                      multiple: false
+                  - name: mapping
+                    label: 空间成像
+                    type: select
+                    options:
+                      values:
+                        - name: none
+                          label: 无此能力
+                        - name: direct
+                          label: 直接／主要能力
+                        - name: conditional
+                          label: 依赖模型／条件
+                        - name: support
+                          label: 需联用辅助设备
+                        - name: planned
+                          label: 规划能力；待验收
+                      multiple: false
+                  - name: stressAcoustic
+                    label: 应力／声学
+                    type: select
+                    options:
+                      values:
+                        - name: none
+                          label: 无此能力
+                        - name: direct
+                          label: 直接／主要能力
+                        - name: conditional
+                          label: 依赖模型／条件
+                        - name: support
+                          label: 需联用辅助设备
+                        - name: planned
+                          label: 规划能力；待验收
+                      multiple: false
+                  - name: inOperando
+                    label: 工作态电激励
+                    type: select
+                    options:
+                      values:
+                        - name: none
+                          label: 无此能力
+                        - name: direct
+                          label: 直接／主要能力
+                        - name: conditional
+                          label: 依赖模型／条件
+                        - name: support
+                          label: 需联用辅助设备
+                        - name: planned
+                          label: 规划能力；待验收
+                      multiple: false
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{labelZh}"
+settings:
+  content:
+    merge: true
+  commit:
+    templates:
+      create: "content: add {name}"
+      update: "content: update {name}"
+      delete: "content: remove {name}"

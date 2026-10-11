@@ -1,0 +1,26 @@
+{
+  "id": "shi-su",
+  "name": "Shi Su",
+  "nameZh": "苏适",
+  "group": "undergraduate-students",
+  "order": 21,
+  "role": "Undergraduate Student",
+  "roleZh": "本科生",
+  "meta": "",
+  "metaZh": "",
+  "image": "Fig/people/苏适.jpg",
+  "imagePosition": "50% 44%",
+  "imagePositionFull": "0% 50%",
+  "email": "2400011313@stu.pku.edu.cn",
+  "bio": "Shi Su is currently pursuing the B.S. degree at Peking University.",
+  "bioZh": "苏适目前在北京大学攻读学士学位。",
+  "education": [
+    {
+      "en": "2023–Present, Peking University, B.S.",
+      "zh": "2023–至今，北京大学，学士"
+    }
+  ],
+  "sections": [],
+  "links": [],
+  "published": true
+}

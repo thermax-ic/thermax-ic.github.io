@@ -1,0 +1,85 @@
+{
+  "image": "images/facilities/equipment-ai/sstr-3-integrated.webp",
+  "imageSource": {
+    "label": "AI-generated equipment illustration",
+    "labelZh": "AI 生成设备示意图",
+    "url": ""
+  },
+  "imageGenerated": true,
+  "principleImage": "images/facilities/principles/audited/sstr-3-integrated-en.svg",
+  "principleSource": {
+    "label": "Original schematic · Method: Braun et al. · SSTR",
+    "labelZh": "原创示意图 · 原理参考：Braun 等 · SSTR 方法",
+    "url": "https://doi.org/10.1063/1.5056182"
+  },
+  "overview": "An integrated implementation that prioritizes optical stability, fast sample exchange, and repeatable acquisition for standardized measurement recipes.",
+  "overviewZh": "以光路稳定、快速换样和重复采集为目标的集成式 SSTR，适用于样品结构和反演模型已经确定后的标准化测试流程。",
+  "principle": "An integrated optical head measures the steady thermoreflectance response to absorbed pump power. A reference measurement calibrates the response, and a heat-flow model accounts for beam size and sample layers. Thermal parameters are reported only where the response is sufficiently sensitive; integration alone does not guarantee accuracy or repeatability.",
+  "principleZh": "集成光学头测量吸收泵浦功率引起的稳态热反射响应，通过参考测量标定，并用包含光斑尺寸与样品膜层的传热模型分析。仅在响应灵敏度足够时提取相应热参数；集成化本身不能代替准确度和重复性验证。",
+  "parameters": [
+    {
+      "en": "Effective / cross-plane thermal conductivity",
+      "zh": "有效／面外热导率"
+    },
+    {
+      "en": "Steady thermal resistance",
+      "zh": "稳态热阻"
+    }
+  ],
+  "samples": [
+    {
+      "en": "Routine wafer and coupon samples",
+      "zh": "常规晶圆与样片"
+    },
+    {
+      "en": "Repeatable thin-film stacks",
+      "zh": "批量薄膜堆叠"
+    }
+  ],
+  "features": [
+    {
+      "en": "Integrated optical path",
+      "zh": "集成光路"
+    },
+    {
+      "en": "High alignment repeatability",
+      "zh": "高对准重复性"
+    },
+    {
+      "en": "Recipe-oriented acquisition",
+      "zh": "流程化采集"
+    }
+  ],
+  "results": [],
+  "publications": [
+    {
+      "citation": "Braun JL, Olson DH, Gaskins JT, Hopkins PE. A steady-state thermoreflectance method to measure thermal conductivity. Review of Scientific Instruments. 2019;90:024905. doi:10.1063/1.5056182.",
+      "url": "https://doi.org/10.1063/1.5056182",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22A%20steady-state%20thermoreflectance%20method%20to%20measure%20thermal%20conductivity%22",
+      "verified": true
+    },
+    {
+      "citation": "Mohan R, Khan S, Wilson RB, Hopkins PE. Time-domain thermoreflectance. Nature Reviews Methods Primers. 2025;5. doi:10.1038/s43586-025-00425-8.",
+      "url": "https://doi.org/10.1038/s43586-025-00425-8",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Time-domain%20thermoreflectance%22",
+      "verified": true
+    }
+  ],
+  "id": "sstr-3-integrated",
+  "name": "SSTR-3 · Integrated version",
+  "nameZh": "稳态热反射系统-3（集成版本）",
+  "source": "custom-built",
+  "categories": [
+    "thermal-properties",
+    "custom-built"
+  ],
+  "summary": "Integrated SSTR intended for stable alignment and repeatable routine testing.",
+  "summaryZh": "面向稳定对准与常规重复测试的集成式 SSTR。",
+  "imageAlt": "SSTR-3 · Integrated version equipment",
+  "imageAltZh": "稳态热反射系统-3（集成版本）设备",
+  "principleImageZh": "images/facilities/principles/audited/sstr-3-integrated-zh.svg",
+  "principleImageAlt": "SSTR: calibrated steady response — original operating-principle schematic",
+  "principleImageAltZh": "SSTR：标定稳态响应——原创工作原理示意图",
+  "order": 6,
+  "published": true
+}

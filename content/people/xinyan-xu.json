@@ -1,0 +1,30 @@
+{
+  "id": "xinyan-xu",
+  "name": "Xinyan Xu",
+  "nameZh": "徐欣艳",
+  "group": "phd-students",
+  "order": 10,
+  "role": "Ph.D. Student",
+  "roleZh": "博士生",
+  "meta": "",
+  "metaZh": "",
+  "image": "Fig/people/徐欣艳.jpg",
+  "imagePosition": "50% 0%",
+  "imagePositionFull": "100% 50%",
+  "email": "2601111971@stu.pku.edu.cn",
+  "bio": "Xinyan Xu received the B.S. degree from Huazhong University of Science and Technology in 2026. Xinyan Xu is currently pursuing the Ph.D. degree at Peking University.",
+  "bioZh": "徐欣艳2026年获得华中科技大学学士学位，目前在北京大学攻读博士学位。",
+  "education": [
+    {
+      "en": "2026–Present, Peking University, Ph.D.",
+      "zh": "2026–至今，北京大学，博士"
+    },
+    {
+      "en": "2022–2026, Huazhong University of Science and Technology, B.S.",
+      "zh": "2022–2026，华中科技大学，学士"
+    }
+  ],
+  "sections": [],
+  "links": [],
+  "published": true
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Thermal conduction in doped 3C-SiC published in Applied Physics Reviews",
+  "titleZh": "掺杂 3C-SiC 热输运研究发表于 Applied Physics Reviews",
+  "year": 2026,
+  "month": 3,
+  "body": "<p>\n            The group's work on thermal conduction in doped 3C-SiC has been published in\n            Applied Physics Reviews. The study experimentally reveals the effect of\n            resonant phonon scattering on thermal transport, deepening the understanding\n            of heat conduction in wide-bandgap semiconductors. With a thermal conductivity\n            second only to diamond among large-wafer materials, together with full\n            compatibility with silicon processing, 3C-SiC is a promising candidate\n            material for through-silicon via (TSV) applications in advanced integration.\n          </p>",
+  "bodyZh": "<p>课题组关于掺杂 3C-SiC 热输运的研究成果发表于 Applied Physics Reviews。该研究实验揭示了共振声子散射对热输运的影响，深化了对宽禁带半导体热传导机制的理解。3C-SiC 热导率在大尺寸晶圆材料中仅次于金刚石，且与硅工艺完全兼容，是先进集成中硅通孔（TSV）应用的理想候选材料。</p>",
+  "image": "images/news/1774605129379.jpg",
+  "imageAlt": "Applied Physics Reviews article on defect-phonon scatterings in cubic SiC single crystals",
+  "imageAltZh": "Applied Physics Reviews 上关于立方碳化硅单晶中缺陷-声子散射的论文",
+  "caption": "",
+  "captionZh": "",
+  "category": "Publications · Applied Physics Reviews",
+  "categoryZh": "论文发表 · Applied Physics Reviews",
+  "order": 2,
+  "published": true
+}

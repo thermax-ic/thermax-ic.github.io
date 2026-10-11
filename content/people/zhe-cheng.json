@@ -1,0 +1,80 @@
+{
+  "id": "zhe-cheng",
+  "name": "Zhe Cheng",
+  "nameZh": "程哲",
+  "group": "principal-investigator",
+  "order": 1,
+  "role": "Assistant Professor",
+  "roleZh": "研究员、助理教授",
+  "meta": "Micro/nanoelectronic device thermal management, advanced thermal characterization technologies and instrumentation, and 3D stacked chips.",
+  "metaZh": "微纳电子器件热管理、先进热表征技术与设备、三维堆叠芯片。",
+  "image": "Fig/people/程哲.jpg",
+  "imagePosition": "50% 50%",
+  "imagePositionFull": "50% 50%",
+  "email": "zhecheng@pku.edu.cn",
+  "bio": "Zhe Cheng is an Assistant Professor at the School of Integrated Circuits, Peking University, and a Weiming Young Scholar, Boya Young Scholar, and recipient of a national-level young-talent award. He also holds a concurrent affiliation with the Center for Nanophotonics at Peking University.",
+  "bioZh": "程哲老师，北京大学集成电路学院研究员、助理教授、未名青年学者、博雅青年学者，国家级青年人才，兼职北大纳光电子中心。",
+  "education": [
+    {
+      "en": "2023–Present, Peking University, Assistant Professor (Boya Young Scholar and Weiming Young Scholar)",
+      "zh": "2023–至今，北京大学，研究员（博雅青年学者、未名青年学者）"
+    },
+    {
+      "en": "2020–2022, University of Illinois Urbana-Champaign, Postdoctoral Researcher; Advisor: Prof. David Cahill (Fellow of the American Academy of Arts and Sciences)",
+      "zh": "2020–2022，伊利诺伊大学厄巴纳-香槟分校，博士后；导师：David Cahill 教授（美国人文与科学院院士）"
+    },
+    {
+      "en": "2019, Nagoya University, Special Research Student; Advisor: Prof. Hiroshi Amano (Nobel Laureate in Physics)",
+      "zh": "2019，日本名古屋大学，特别研究学生；导师：Hiroshi Amano（天野浩）教授（诺贝尔物理学奖得主）"
+    },
+    {
+      "en": "2015–2019, Georgia Institute of Technology, Ph.D.; Advisor: Prof. Samuel Graham (Dean of the A. James Clark School of Engineering, University of Maryland)",
+      "zh": "2015–2019，佐治亚理工学院，博士；导师：Samuel Graham 教授（马里兰大学 A. James Clark 工程学院院长）"
+    },
+    {
+      "en": "2013–2015, Iowa State University, M.S.",
+      "zh": "2013–2015，爱荷华州立大学，硕士"
+    },
+    {
+      "en": "2009–2013, Huazhong University of Science and Technology, B.S.",
+      "zh": "2009–2013，华中科技大学，学士"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Research Focus",
+      "titleZh": "研究方向",
+      "body": "<p>Thermal management of micro- and nanoelectronic devices; thermal-measurement technologies; heterogeneous-integration processes; and thermal-testing instrumentation.</p>",
+      "bodyZh": "<p lang=\"zh-CN\">微纳电子器件的热管理、热测量技术、异质集成工艺、热测试设备等。</p>"
+    },
+    {
+      "title": "Research Funding",
+      "titleZh": "科研项目",
+      "body": "<ul><li>Principal investigator of a General Program of the National Natural Science Foundation of China, an HY project, and an Original Exploratory Program project.</li><li>Leads a National Key R&amp;D Program project, an NDRC project, and industry-sponsored research projects.</li></ul>",
+      "bodyZh": "<ul lang=\"zh-CN\"><li>主持国家自然科学基金面上项目、HY项目、原创探索计划项目。</li><li>主持国家重点研发计划课题、发改委项目课题、企业横向项目等。</li></ul>"
+    },
+    {
+      "title": "Academic Contributions and Service",
+      "titleZh": "学术成果与服务",
+      "body": "<ul><li>Published more than 70 papers in leading journals and conferences including <em>Nature Communications</em>, IEEE IEDM, and <em>Applied Physics Reviews</em>, and was invited to contribute three book chapters.</li><li>Has repeatedly served as session chair, co-chair, or organizer for major international conferences in the field and has delivered invited presentations.</li><li>Recipient of the Chinese Government Award for Outstanding Self-financed Students Abroad.</li></ul>",
+      "bodyZh": "<ul lang=\"zh-CN\"><li>在 <em>Nature Communications</em>、IEEE IEDM、<em>Applied Physics Reviews</em> 等国际知名期刊和顶级会议上发表论文70余篇，受邀撰写书章节3章。</li><li>多次受邀担任行业主要国际会议分会主席、共同主席或组织者，并作特邀报告。</li><li>获国家优秀自费留学生奖学金。</li></ul>"
+    },
+    {
+      "title": "Teaching and Honors",
+      "titleZh": "教学与荣誉",
+      "body": "<p>He received the 2025 Peking University Outstanding Head Teacher Award. The School of Electronics Engineering and Computer Science experimental class that he advised, known as the “Xin Class,” was recognized as both a Peking University Advanced Class Collective and a Peking University Model Class Collective.</p>",
+      "bodyZh": "<p lang=\"zh-CN\">获2025年北京大学优秀班主任；所带信息科学学院实验班“信班”获北京大学先进班集体和北京大学示范性班集体。</p>"
+    }
+  ],
+  "links": [
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=v93hrT8AAAAJ"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/zhe-cheng-44789880/"
+    }
+  ],
+  "published": true
+}

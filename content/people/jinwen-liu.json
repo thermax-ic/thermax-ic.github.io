@@ -1,0 +1,30 @@
+{
+  "id": "jinwen-liu",
+  "name": "Jinwen Liu",
+  "nameZh": "刘晋闻",
+  "group": "phd-students",
+  "order": 4,
+  "role": "Ph.D. Student",
+  "roleZh": "博士生",
+  "meta": "",
+  "metaZh": "",
+  "image": "Fig/people/刘晋闻.jpg",
+  "imagePosition": "50% 7%",
+  "imagePositionFull": "50% 0%",
+  "email": "jinwenliu25@stu.pku.edu.cn",
+  "bio": "Jinwen Liu received the B.S. degree from Tianjin University in 2025. Jinwen Liu is currently pursuing the Ph.D. degree at Peking University.",
+  "bioZh": "刘晋闻2025年获得天津大学学士学位，目前在北京大学攻读博士学位。",
+  "education": [
+    {
+      "en": "2025–Present, Peking University, Ph.D.",
+      "zh": "2025–至今，北京大学，博士"
+    },
+    {
+      "en": "2021–2025, Tianjin University, B.S.",
+      "zh": "2021–2025，天津大学，学士"
+    }
+  ],
+  "sections": [],
+  "links": [],
+  "published": true
+}

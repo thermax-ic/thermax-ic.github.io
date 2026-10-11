@@ -1,0 +1,163 @@
+{
+  "section_01": {
+    "text_001": {
+      "en": "Contact",
+      "zh": "联系我们"
+    },
+    "text_002": {
+      "en": "For research collaboration, thermal measurement inquiries, student opportunities, or general questions, please contact the laboratory.",
+      "zh": "如需开展科研合作、交流测试需求、了解学生机会或提出一般问题，请联系实验室。"
+    }
+  },
+  "section_02": {
+    "text_003": {
+      "en": "Laboratory Contact",
+      "zh": "实验室联系方式"
+    },
+    "text_004": {
+      "en": "Institution",
+      "zh": "机构"
+    },
+    "text_005": {
+      "en": "Peking University",
+      "zh": "北京大学"
+    },
+    "text_006": {
+      "en": "School",
+      "zh": "学院"
+    },
+    "text_007": {
+      "en": "School of Integrated Circuits",
+      "zh": "集成电路学院"
+    },
+    "text_008": {
+      "en": "Address",
+      "zh": "地址"
+    },
+    "text_009": {
+      "en": "Micro-Nano Electronics Building, 5 Yiheyuan Road, Haidian District, Beijing 100871",
+      "zh": "微纳电子大厦, 北京市海淀区颐和园路5号，邮编100871"
+    },
+    "text_010": {
+      "en": "Email",
+      "zh": "邮箱"
+    },
+    "text_011": {
+      "en": "zhe.cheng@pku.edu.cn",
+      "zh": "zhe.cheng@pku.edu.cn"
+    }
+  },
+  "section_03": {
+    "text_012": {
+      "en": "Collaboration & Measurement Requests",
+      "zh": "合作交流与测试需求"
+    },
+    "text_013": {
+      "en": "Please include a brief description of your sample, measurement objective, expected thermal property, sample structure, and available supporting information.",
+      "zh": "来信请简要说明样品、测量目标、拟测热学参数、样品结构及已有辅助信息。"
+    },
+    "text_014": {
+      "en": "Sample material and layer structure",
+      "zh": "样品材料与层状结构"
+    },
+    "text_015": {
+      "en": "Approximate film thickness or device geometry",
+      "zh": "薄膜大致厚度或器件几何结构"
+    },
+    "text_016": {
+      "en": "Target property: thermal conductivity, thermal boundary conductance, or thermal resistance",
+      "zh": "目标参数：热导率、界面热导或热阻"
+    },
+    "text_017": {
+      "en": "Available images, process information, or previous measurement data",
+      "zh": "已有图像、工艺信息或历史测量数据"
+    },
+    "text_018": {
+      "en": "Expected timeline and collaboration purpose",
+      "zh": "预期时间安排与合作目的"
+    }
+  },
+  "section_04": {
+    "text_019": {
+      "en": "Research Areas",
+      "zh": "研究领域"
+    },
+    "text_020": {
+      "en": "TDTR / FDTR thermal metrology",
+      "zh": "TDTR / FDTR 热测试"
+    },
+    "text_021": {
+      "en": "Chip-level thermal testing",
+      "zh": "芯片级热测试"
+    },
+    "text_022": {
+      "en": "Thin-film and interface heat transport",
+      "zh": "薄膜与界面热输运"
+    },
+    "text_023": {
+      "en": "Advanced packaging thermal management",
+      "zh": "先进封装热管理"
+    },
+    "text_024": {
+      "en": "Thermal modeling and data analysis",
+      "zh": "热建模与数据分析"
+    },
+    "text_025": {
+      "en": "For Students",
+      "zh": "学生加入"
+    },
+    "text_026": {
+      "en": "Students interested in thermal metrology, semiconductor devices, optics, heat transfer, data analysis, and scientific computing are welcome to contact us.",
+      "zh": "欢迎对热测试、半导体器件、光学、传热、数据分析和科学计算感兴趣的学生联系我们。"
+    }
+  },
+  "section_05": {
+    "text_027": {
+      "en": "Location",
+      "zh": "位置"
+    },
+    "text_028": {
+      "en": "Address",
+      "zh": "地址"
+    },
+    "text_029": {
+      "en": "Micro-Nano Electronics Building, Peking University, 5 Yiheyuan Road, Haidian District, Beijing 100871, China",
+      "zh": "北京市海淀区颐和园路5号北京大学微纳电子大厦，邮编 100871"
+    },
+    "text_030": {
+      "en": "Subway",
+      "zh": "地铁"
+    },
+    "text_031": {
+      "en": "Take Line 4 to Peking University East Gate Station (北京大学东门站), enter through the campus East Gate, and walk about 10 minutes to the building.",
+      "zh": "乘坐地铁4号线至北京大学东门站，由校园东门入校后步行约10分钟即可到达微纳电子大厦。"
+    },
+    "text_032": {
+      "en": "Campus Access",
+      "zh": "入校方式"
+    },
+    "text_033": {
+      "en": "The building is inside the PKU campus. Visitors are kindly asked to contact us in advance so campus entry can be arranged.",
+      "zh": "大厦位于北京大学校园内，来访前请提前与我们联系，以便协助安排入校事宜。"
+    },
+    "text_034": {
+      "en": "Open in AMap ↗",
+      "zh": "在高德地图中打开 ↗"
+    },
+    "text_035": {
+      "en": "Open in Google Maps ↗",
+      "zh": "在 Google 地图中打开 ↗"
+    }
+  },
+  "links": {
+    "link_01": {
+      "href": "mailto:zhe.cheng@pku.edu.cn"
+    },
+    "link_02": {
+      "href": "https://uri.amap.com/marker?position=116.314177,39.994546&name=北京大学微纳电子大厦"
+    },
+    "link_03": {
+      "href": "https://maps.google.com/?q=39.994546,116.314177"
+    }
+  }
+}

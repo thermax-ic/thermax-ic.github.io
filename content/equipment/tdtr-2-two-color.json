@@ -1,0 +1,104 @@
+{
+  "image": "images/facilities/equipment-ai/tdtr-2-two-color.webp",
+  "imageSource": {
+    "label": "AI-generated equipment illustration",
+    "labelZh": "AI 生成设备示意图",
+    "url": ""
+  },
+  "imageGenerated": true,
+  "principleImage": "images/facilities/principles/audited/tdtr-2-two-color-en.svg",
+  "principleSource": {
+    "label": "Original schematic · Method: Jiang et al. · TDTR tutorial",
+    "labelZh": "原创示意图 · 原理参考：Jiang 等 · TDTR 方法",
+    "url": "https://doi.org/10.1063/1.5046944"
+  },
+  "overview": "A second femtosecond TDTR line with wavelength-separated pump and probe optics. Independent optical channels support flexible filtering and detector selection for samples with different transducer reflectance and optical backgrounds.",
+  "overviewZh": "第二套飞秒 TDTR 光路采用波长分离的泵浦与探测通道，可根据不同金属传感层的反射率和光学背景灵活配置滤光与探测器。",
+  "principle": "Pump and probe use distinct wavelengths, separated by wavelength-selective optics. Pump pulses heat the transducer; the probe samples reflectance at controlled delays. Model fitting extracts thermal properties within the sample's sensitivity window. Wavelength separation reduces pump leakage but does not eliminate fluorescence or all optical backgrounds.",
+  "principleZh": "泵浦与探测光采用不同波长，并通过选波光学元件分离。泵浦脉冲加热金属传感层，探测光在受控延迟下读取反射率变化；结合热模型，在样品灵敏度窗口内反演热物性。波长分离可降低泵浦串扰，但不能保证消除荧光等全部光学背景。",
+  "parameters": [
+    {
+      "en": "Cross-plane thermal conductivity",
+      "zh": "面外热导率"
+    },
+    {
+      "en": "Thermal boundary conductance",
+      "zh": "界面热导"
+    },
+    {
+      "en": "Thermal effusivity / diffusivity (model dependent)",
+      "zh": "热惯量／热扩散率（依赖模型）"
+    },
+    {
+      "en": "Acoustic echo",
+      "zh": "声学回波"
+    }
+  ],
+  "samples": [
+    {
+      "en": "Thin films and coatings",
+      "zh": "薄膜与涂层"
+    },
+    {
+      "en": "Semiconductor interfaces",
+      "zh": "半导体界面"
+    },
+    {
+      "en": "Multilayer stacks",
+      "zh": "多层堆叠"
+    }
+  ],
+  "features": [
+    {
+      "en": "Two-color pump–probe isolation",
+      "zh": "双色泵浦-探测隔离"
+    },
+    {
+      "en": "Multilayer inverse modeling",
+      "zh": "多层结构反演"
+    },
+    {
+      "en": "Picosecond-ultrasonics compatible",
+      "zh": "兼容皮秒超声"
+    }
+  ],
+  "results": [],
+  "publications": [
+    {
+      "citation": "Mohan R, Khan S, Wilson RB, Hopkins PE. Time-domain thermoreflectance. Nature Reviews Methods Primers. 2025;5. doi:10.1038/s43586-025-00425-8.",
+      "url": "https://doi.org/10.1038/s43586-025-00425-8",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Time-domain%20thermoreflectance%22",
+      "verified": true
+    },
+    {
+      "citation": "Jiang P, Qian X, Yang R. Tutorial: Time-domain thermoreflectance (TDTR) for thermal property characterization of bulk and thin film materials. Journal of Applied Physics. 2018;124:161103. doi:10.1063/1.5046944.",
+      "url": "https://doi.org/10.1063/1.5046944",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Tutorial%3A%20Time-domain%20thermoreflectance%20(TDTR)%20for%20thermal%20property%20characterization%20of%20bulk%20and%20thin%20film%20materials%22",
+      "verified": true
+    },
+    {
+      "citation": "Thomsen C, Grahn HT, Maris HJ, Tauc J. Surface generation and detection of phonons by picosecond light pulses. Physical Review B. 1986;34:4129–4138. doi:10.1103/PhysRevB.34.4129.",
+      "url": "https://doi.org/10.1103/PhysRevB.34.4129",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Surface%20generation%20and%20detection%20of%20phonons%20by%20picosecond%20light%20pulses%22",
+      "verified": true
+    }
+  ],
+  "id": "tdtr-2-two-color",
+  "name": "TDTR-2 · Two-color TDTR",
+  "nameZh": "时域热反射系统-2（双色 TDTR）",
+  "source": "custom-built",
+  "categories": [
+    "thermal-properties",
+    "stress-acoustics",
+    "custom-built"
+  ],
+  "summary": "Two-color TDTR optimized for thin films, interfaces, and multilayer stacks.",
+  "summaryZh": "针对薄膜、界面和多层结构优化的双色 TDTR。",
+  "imageAlt": "TDTR-2 · Two-color TDTR equipment",
+  "imageAltZh": "时域热反射系统-2（双色 TDTR）设备",
+  "principleImageZh": "images/facilities/principles/audited/tdtr-2-two-color-zh.svg",
+  "principleImageAlt": "Two-color TDTR — original operating-principle schematic",
+  "principleImageAltZh": "双色时域热反射——原创工作原理示意图",
+  "order": 2,
+  "published": true
+}

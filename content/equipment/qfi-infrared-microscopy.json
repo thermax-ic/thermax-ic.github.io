@@ -1,0 +1,83 @@
+{
+  "image": "images/facilities/equipment-ai/qfi-infrared-microscopy.webp",
+  "imageSource": {
+    "label": "AI-generated equipment illustration",
+    "labelZh": "AI 生成设备示意图",
+    "url": ""
+  },
+  "imageGenerated": true,
+  "principleImage": "images/facilities/principles/audited/qfi-infrared-microscopy-en.svg",
+  "principleSource": {
+    "label": "Original schematic · Method: Liu and Yang · Device thermography",
+    "labelZh": "原创示意图 · 原理参考：Liu 与 Yang · 器件热成像",
+    "url": "https://doi.org/10.1108/02602280710821434"
+  },
+  "overview": "A high-configuration QFI infrared microscope for non-contact, wide-field thermography of biased devices and packages. It is best suited to surfaces with calibrated emissivity and optical access; reflective metal regions require careful interpretation or complementary methods.",
+  "overviewZh": "高配置 QFI 显微红外系统，用于带电器件和封装的非接触宽场热成像。适合发射率可标定且具备光学通道的表面；高反射金属区域需谨慎解释或结合其他方法。",
+  "principle": "Infrared optics image the device's thermal radiation onto a detector. Radiance calibration converts the signal into temperature, with corrections for emissivity, reflected background and optical transmission. Semitransparent layers can contribute radiation from multiple depths, so the signal is not automatically the junction temperature.",
+  "principleZh": "红外光学系统将器件热辐射成像到探测器，通过辐射标定并校正发射率、背景反射与光路透过率，换算温度。半透明膜层可能使不同深度的辐射叠加，因此测得的辐射温度不能自动等同于结温。",
+  "parameters": [
+    {
+      "en": "Surface temperature",
+      "zh": "表面温度"
+    },
+    {
+      "en": "Hotspot location and area",
+      "zh": "热点位置与面积"
+    },
+    {
+      "en": "Steady and time-dependent thermal maps (configuration dependent)",
+      "zh": "稳态及时间变化热图（取决于配置）"
+    }
+  ],
+  "samples": [
+    {
+      "en": "Powered chips, packages, and boards",
+      "zh": "通电芯片、封装与电路板"
+    },
+    {
+      "en": "Surfaces with known or calibrated emissivity",
+      "zh": "发射率已知或可标定的表面"
+    }
+  ],
+  "features": [
+    {
+      "en": "Wide-field thermal imaging",
+      "zh": "宽场热成像"
+    },
+    {
+      "en": "Probe-station-compatible in-situ bias",
+      "zh": "兼容探针台原位电激励"
+    },
+    {
+      "en": "Emissivity-corrected analysis",
+      "zh": "发射率校正分析"
+    }
+  ],
+  "results": [],
+  "publications": [
+    {
+      "citation": "Liu W, Yang B. Thermography techniques for integrated circuits and semiconductor devices. Sensor Review. 2007;27:298–309. doi:10.1108/02602280710821434.",
+      "url": "https://doi.org/10.1108/02602280710821434",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Thermography%20techniques%20for%20integrated%20circuits%20and%20semiconductor%20devices%22",
+      "verified": true
+    }
+  ],
+  "id": "qfi-infrared-microscopy",
+  "name": "QFI Infrared Microscopy",
+  "nameZh": "QFI 显微红外测温系统（最高配置）",
+  "source": "modified-commercial",
+  "categories": [
+    "device-thermometry",
+    "modified-commercial"
+  ],
+  "summary": "Wide-field infrared microscopy for calibrated device temperature and hotspot maps.",
+  "summaryZh": "用于器件温度与热点分布定量成像的显微红外平台。",
+  "imageAlt": "QFI Infrared Microscopy equipment",
+  "imageAltZh": "QFI 显微红外测温系统（最高配置）设备",
+  "principleImageZh": "images/facilities/principles/audited/qfi-infrared-microscopy-zh.svg",
+  "principleImageAlt": "Infrared radiance thermometry — original operating-principle schematic",
+  "principleImageAltZh": "红外辐射测温——原创工作原理示意图",
+  "order": 10,
+  "published": true
+}

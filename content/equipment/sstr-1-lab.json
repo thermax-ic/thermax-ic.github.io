@@ -1,0 +1,85 @@
+{
+  "image": "images/facilities/equipment-ai/sstr-1-lab.webp",
+  "imageSource": {
+    "label": "AI-generated equipment illustration",
+    "labelZh": "AI 生成设备示意图",
+    "url": ""
+  },
+  "imageGenerated": true,
+  "principleImage": "images/facilities/principles/audited/sstr-1-lab-en.svg",
+  "principleSource": {
+    "label": "Original schematic · Method: Braun et al. · SSTR",
+    "labelZh": "原创示意图 · 原理参考：Braun 等 · SSTR 方法",
+    "url": "https://doi.org/10.1063/1.5056182"
+  },
+  "overview": "An open, reconfigurable SSTR bench for adapting spot size, optical access, and sample mounting. It is suited to method development and samples that need non-standard fixtures.",
+  "overviewZh": "开放式、可重构的 SSTR 光学平台，可灵活调整光斑、光学通道与样品夹具，适合方法开发以及需要特殊装夹的样品。",
+  "principle": "A continuous-wave pump, or modulation slow enough for quasi-steady heating, raises the transducer temperature. The probe measures thermoreflectance versus absorbed pump power. Calibration and a steady heat-flow model yield thermal conductivity; interface sensitivity depends on the layer structure and beam size.",
+  "principleZh": "连续泵浦光或足够慢的调制加热，使金属传感层达到近稳态温升。探测光测量热反射响应随吸收泵浦功率的变化；通过标定与稳态传热模型提取热导率。界面参数的可辨识性取决于膜层结构与光斑尺寸。",
+  "parameters": [
+    {
+      "en": "Effective / cross-plane thermal conductivity",
+      "zh": "有效／面外热导率"
+    },
+    {
+      "en": "Steady thermal resistance",
+      "zh": "稳态热阻"
+    },
+    {
+      "en": "Interface conductance (sensitivity dependent)",
+      "zh": "界面热导（取决于灵敏度）"
+    }
+  ],
+  "samples": [
+    {
+      "en": "Films, wafers, and bulk materials",
+      "zh": "薄膜、晶圆与块体材料"
+    },
+    {
+      "en": "Layered stacks with optical transducers",
+      "zh": "带光学传感层的多层结构"
+    }
+  ],
+  "features": [
+    {
+      "en": "Open optical access",
+      "zh": "开放式光路"
+    },
+    {
+      "en": "Flexible spot-size and fixture configuration",
+      "zh": "光斑与夹具灵活配置"
+    }
+  ],
+  "results": [],
+  "publications": [
+    {
+      "citation": "Braun JL, Olson DH, Gaskins JT, Hopkins PE. A steady-state thermoreflectance method to measure thermal conductivity. Review of Scientific Instruments. 2019;90:024905. doi:10.1063/1.5056182.",
+      "url": "https://doi.org/10.1063/1.5056182",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22A%20steady-state%20thermoreflectance%20method%20to%20measure%20thermal%20conductivity%22",
+      "verified": true
+    },
+    {
+      "citation": "Mohan R, Khan S, Wilson RB, Hopkins PE. Time-domain thermoreflectance. Nature Reviews Methods Primers. 2025;5. doi:10.1038/s43586-025-00425-8.",
+      "url": "https://doi.org/10.1038/s43586-025-00425-8",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Time-domain%20thermoreflectance%22",
+      "verified": true
+    }
+  ],
+  "id": "sstr-1-lab",
+  "name": "SSTR-1 · Laboratory version",
+  "nameZh": "稳态热反射系统-1（实验室版本）",
+  "source": "custom-built",
+  "categories": [
+    "thermal-properties",
+    "custom-built"
+  ],
+  "summary": "Flexible laboratory SSTR for steady thermal resistance and conductivity measurements.",
+  "summaryZh": "用于稳态热阻与热导率测量的柔性实验室版 SSTR。",
+  "imageAlt": "SSTR-1 · Laboratory version equipment",
+  "imageAltZh": "稳态热反射系统-1（实验室版本）设备",
+  "principleImageZh": "images/facilities/principles/audited/sstr-1-lab-zh.svg",
+  "principleImageAlt": "SSTR: heating-power response — original operating-principle schematic",
+  "principleImageAltZh": "SSTR：加热功率响应——原创工作原理示意图",
+  "order": 4,
+  "published": true
+}

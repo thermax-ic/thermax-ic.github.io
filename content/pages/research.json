@@ -1,0 +1,164 @@
+{
+  "section_01": {
+    "text_001": {
+      "en": "Research",
+      "zh": "研究方向"
+    },
+    "text_002": {
+      "en": "We develop thermal metrology and heat-transport engineering for next-generation integrated circuits, spanning high-thermal-conductivity materials, heterogeneous interfaces and bonding, and three-dimensional thermal tomography of interconnects.",
+      "zh": "我们面向下一代集成电路发展热测试方法与热输运调控技术，研究涵盖高导热散热材料、异质界面与键合，以及互连结构的三维热层析。"
+    }
+  },
+  "section_02": {
+    "text_003": {
+      "en": "Research vision",
+      "zh": "研究愿景"
+    },
+    "text_004": {
+      "en": "As chip power density, integration density, and reliability requirements keep rising, heat transport across materials, interfaces, interconnects, and package structures becomes a central constraint for performance and lifetime.",
+      "zh": "随着芯片功率密度、集成密度和可靠性要求不断提升，材料、界面、互连与封装结构中的热输运正成为制约器件性能与寿命的核心因素。"
+    },
+    "text_005": {
+      "en": "Our research connects experimental thermal metrology — TDTR, FDTR, and Raman mapping — with materials growth, interface engineering, and physical modeling, targeting the structures that matter in real devices: diamond and SiC heat spreaders, bonded interfaces, and 3D-stacked interconnect layers.",
+      "zh": "我们的研究将 TDTR、FDTR 与 Raman mapping 等实验热测试手段与材料生长、界面工程和物理建模相结合，聚焦真实器件中的关键结构：金刚石与碳化硅热扩散材料、键合界面以及三维堆叠互连层。"
+    },
+    "text_006": {
+      "en": "Research thrusts",
+      "zh": "研究方向"
+    },
+    "text_007": {
+      "en": "High-thermal-conductivity heat-spreading materials",
+      "zh": "高导热散热材料"
+    },
+    "text_008": {
+      "en": "Heterogeneous interfaces and bonding",
+      "zh": "异质界面与键合"
+    },
+    "text_009": {
+      "en": "Advanced interconnects and 3D thermal tomography",
+      "zh": "先进互连与三维热层析"
+    }
+  },
+  "section_03": {
+    "text_010": {
+      "en": "3C-SiC single-crystal wafer and Raman / XRD characterization (Nat. Commun. 2022)",
+      "zh": "3C-SiC 单晶晶圆及 Raman / XRD 表征（Nat. Commun. 2022）"
+    },
+    "text_011": {
+      "en": "Research Thrust 01",
+      "zh": "研究方向 01"
+    },
+    "text_012": {
+      "en": "High-thermal-conductivity heat-spreading materials",
+      "zh": "高导热散热材料"
+    },
+    "text_013": {
+      "en": "We grow and engineer wide-bandgap heat-spreading materials — diamond, 3C-SiC, and AlN — and tailor their thermal properties for integration with real devices.",
+      "zh": "我们生长并调控金刚石、3C-SiC、AlN 等宽禁带高导热材料，针对真实器件集成需求定制其热学性能。"
+    },
+    "text_014": {
+      "en": "Combining epitaxial growth, precision thermal metrology (TDTR / FDTR / Raman mapping), and theory, we turn grain size, doping, and interface structure into designable knobs for heat dissipation.",
+      "zh": "通过将外延生长、精密热测试（TDTR / FDTR / Raman mapping）与理论相结合，我们把晶粒尺寸、掺杂和界面结构转化为可设计的散热调控参量。"
+    },
+    "text_015": {
+      "en": "Wafer-scale single-crystal 3C-SiC with record in-plane and cross-plane thermal conductivity (Nat. Commun. 2022)",
+      "zh": "晶圆级单晶 3C-SiC，面内与面外热导率均创纪录（Nat. Commun. 2022）"
+    },
+    "text_016": {
+      "en": "SiC polytype boundaries with thermal boundary conductance above 2000 MW/m²·K — the highest reported to date",
+      "zh": "SiC 多型体边界热导突破 2000 MW/m²·K，为迄今已知最高纪录"
+    },
+    "text_017": {
+      "en": "Low-temperature (<450 °C) BEOL-compatible diamond integrated on GaN transistors, cutting device temperature by 111 °C at 24 W/mm",
+      "zh": "低温（<450 °C）后道兼容金刚石集成于 GaN 晶体管，24 W/mm 功耗下器件温度下降 111 °C"
+    },
+    "text_018": {
+      "en": "B- and N-doped 3C-SiC with the largest thermal-conductivity tunability among common semiconductors",
+      "zh": "B、N 掺杂 3C-SiC 实现常见半导体中最大的热导率可调范围"
+    },
+    "text_019": {
+      "en": "AlN films with intrinsic room-temperature thermal conductivity up to 321 W/m·K",
+      "zh": "本征 AlN 薄膜室温最高热导率达 321 W/m·K"
+    }
+  },
+  "section_04": {
+    "text_020": {
+      "en": "Atomically resolved 3C-SiC/Si and AlN/3C-SiC interfaces (STEM)",
+      "zh": "原子分辨的 3C-SiC/Si 与 AlN/3C-SiC 界面（STEM）"
+    },
+    "text_021": {
+      "en": "Research Thrust 02",
+      "zh": "研究方向 02"
+    },
+    "text_022": {
+      "en": "Heterogeneous interfaces and bonding",
+      "zh": "异质界面与键合"
+    },
+    "text_023": {
+      "en": "Interfaces often dominate the thermal resistance of integrated devices. We study how atoms bond across them — and how to make bonded interfaces thermally transparent.",
+      "zh": "界面热阻常常主导集成器件的总热阻。我们研究原子如何跨越界面成键，以及如何让键合界面在热学上透明。"
+    },
+    "text_024": {
+      "en": "Using surface-activated bonding (SAB), annealing, and atomically engineered interlayers, we maximize thermal boundary conductance at semiconductor–semiconductor and semiconductor–dielectric interfaces, while revealing the underlying phonon physics with STEM-EELS, Raman spectroscopy, and machine-learned molecular dynamics.",
+      "zh": "我们利用表面活化键合（SAB）、退火工艺与原子级界面层设计，最大化半导体-半导体及半导体-介质界面的热导，并通过 STEM-EELS、拉曼光谱与机器学习分子动力学揭示其背后的声子物理。"
+    },
+    "text_025": {
+      "en": "Room-temperature GaN–diamond SAB bonding with 90 MW/m²·K interface thermal conductance (ACS Appl. Mater. Interfaces 2020)",
+      "zh": "室温 GaN-金刚石 SAB 键合，界面热导达 90 MW/m²·K（ACS Appl. Mater. Interfaces 2020）"
+    },
+    "text_026": {
+      "en": "Annealing-boosted GaN–diamond interface thermal conductance with a nearly 300% improvement (Adv. Electron. Mater. 2025)",
+      "zh": "退火使 GaN-金刚石界面热导提升近 300%（Adv. Electron. Mater. 2025）"
+    },
+    "text_027": {
+      "en": "AlN–SiC interface thermal conductance up to 800 MW/m²·K (arXiv:2602.13827)",
+      "zh": "AlN-SiC 界面热导最高达 800 MW/m²·K（arXiv:2602.13827）"
+    },
+    "text_028": {
+      "en": "GaN-on-diamond with a high-thermal-conductivity 3C-SiC interlayer relieving thermal-expansion mismatch (Small 2024)",
+      "zh": "以高导热 3C-SiC 为中介层的 GaN-on-diamond 结构，缓解热膨胀失配（Small 2024）"
+    },
+    "text_029": {
+      "en": "From elastic phonon transmission at ideal Al–Al₂O₃ interfaces to interface phonon modes in Si–Ge — the physics that guides better bonding (Nat. Commun. 2020, 2021)",
+      "zh": "从理想 Al-Al₂O₃ 界面的弹性声子透射到 Si-Ge 界面局域声子模式——指导更优键合的物理机制（Nat. Commun. 2020, 2021）"
+    }
+  },
+  "section_05": {
+    "text_030": {
+      "en": "Layer-by-layer 3D thermal-conductivity maps of production interconnect stacks",
+      "zh": "量产互连堆叠结构的逐层三维热导率分布图"
+    },
+    "text_031": {
+      "en": "Research Thrust 03",
+      "zh": "研究方向 03"
+    },
+    "text_032": {
+      "en": "Advanced interconnects and 3D thermal tomography",
+      "zh": "先进互连与三维热层析"
+    },
+    "text_033": {
+      "en": "Inside stacked chips, the interconnect stack is a thermal black box. We have developed 3D thermal tomography that experimentally maps the thermal-conductivity distribution of real interconnect layers, from 28 nm down to 3 nm process nodes.",
+      "zh": "在堆叠芯片内部，互连堆叠是一个热学“黑盒子”。我们发展了三维热层析技术，首次实验测得真实互连层的导热系数分布，覆盖 28 nm 至 3 nm 制程节点。"
+    },
+    "text_034": {
+      "en": "Combining P-FIB staircase preparation, aluminum sensor layers, and layer-by-layer TDTR scanning, we quantify how grain size, diffusion barriers, and interface resistance set the thermal bottleneck — and apply the same metrology to assess dielectric interface quality in hybrid bonding.",
+      "zh": "通过 P-FIB 阶梯制样、铝传感层与逐层 TDTR 扫描相结合，我们量化了晶粒尺寸、扩散阻挡层与界面热阻如何决定热瓶颈，并将同一测量方法用于评估混合键合中的介质界面质量。"
+    },
+    "text_035": {
+      "en": "First experimental measurement of 3D thermal-conductivity distribution in interconnect layers across 3–28 nm logic nodes (IEEE IEDM 2025, IEEE EDTM 2026)",
+      "zh": "首次实现 3–28 nm 逻辑节点互连层三维热导率分布的实验测量（IEEE IEDM 2025, IEEE EDTM 2026）"
+    },
+    "text_036": {
+      "en": "Layer-by-layer thermal maps revealing ultra-low conductivity of nanoscale interconnect layers and the dominant role of thermal boundary resistance (ACS Nano 2026)",
+      "zh": "逐层热学分布图揭示纳米互连层极低热导率与界面热阻的主导作用（ACS Nano 2026）"
+    },
+    "text_037": {
+      "en": "Three-dimensional TDTR scans exposing circuit-pattern effects on heat flow in production interconnect stacks",
+      "zh": "三维 TDTR 扫描揭示量产互连堆叠中电路图形对热流的影响"
+    },
+    "text_038": {
+      "en": "Thermal boundary conductance above 150 MW/m²·K as a metric for dielectric interface quality in hybrid bonding (Appl. Phys. Lett. 2026)",
+      "zh": "以高于 150 MW/m²·K 的界面热导评估混合键合介质界面质量（Appl. Phys. Lett. 2026）"
+    }
+  }
+}

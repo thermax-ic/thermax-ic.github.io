@@ -1,0 +1,71 @@
+{
+  "image": "images/facilities/equipment-ai/four-point-probe.webp",
+  "imageSource": {
+    "label": "AI-generated equipment illustration",
+    "labelZh": "AI 生成设备示意图",
+    "url": ""
+  },
+  "imageGenerated": true,
+  "principleImage": "images/facilities/principles/audited/four-point-probe-en.svg",
+  "principleSource": {
+    "label": "Original schematic · Method: Smits · Four-point sheet resistance",
+    "labelZh": "原创示意图 · 原理参考：Smits · 四探针方阻测量",
+    "url": "https://doi.org/10.1002/j.1538-7305.1958.tb03883.x"
+  },
+  "overview": "For electrical characterization of conductive films and wafers, including process qualification of metal transducers and electrically active layers used in thermal experiments. It does not directly measure thermal conductivity.",
+  "overviewZh": "用于导电薄膜与晶圆电学表征，可辅助评估热学实验中的金属传感层和有源层工艺质量，但不直接测量热导率。",
+  "principle": "Outer probes source current and inner probes sense voltage with negligible current draw, reducing lead and contact-resistance errors. A geometry factor converts V/I into sheet resistance; resistivity additionally requires film thickness. Finite size, unequal spacing, multilayers and self-heating require appropriate corrections.",
+  "principleZh": "外侧探针通入电流，内侧探针以近似不取电流的方式测量电压，降低引线和接触电阻误差。结合几何因子，由 V/I 得到方阻，再结合膜厚得到电阻率。有限尺寸、非等距探针、多层导电与自热影响需适当修正。",
+  "parameters": [
+    {
+      "en": "Sheet resistance",
+      "zh": "方阻"
+    },
+    {
+      "en": "Resistivity with known thickness",
+      "zh": "已知厚度下的电阻率"
+    }
+  ],
+  "samples": [
+    {
+      "en": "Conductive films and semiconductor wafers",
+      "zh": "导电薄膜与半导体晶圆"
+    }
+  ],
+  "features": [
+    {
+      "en": "Reduced contact-resistance error",
+      "zh": "降低接触电阻误差"
+    },
+    {
+      "en": "Process and transducer quality check",
+      "zh": "工艺与传感层质量检查"
+    }
+  ],
+  "results": [],
+  "publications": [
+    {
+      "citation": "Smits FM. Measurement of Sheet Resistivities with the Four-Point Probe. Bell System Technical Journal. 1958;37:711–718. doi:10.1002/j.1538-7305.1958.tb03883.x.",
+      "url": "https://doi.org/10.1002/j.1538-7305.1958.tb03883.x",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Measurement%20of%20Sheet%20Resistivities%20with%20the%20Four-Point%20Probe%22",
+      "verified": true
+    }
+  ],
+  "id": "four-point-probe",
+  "name": "Four-point Probe Method",
+  "nameZh": "四探针测试平台",
+  "source": "modified-commercial",
+  "categories": [
+    "support-tools",
+    "modified-commercial"
+  ],
+  "summary": "Four-terminal sheet-resistance measurement with reduced contact-resistance error.",
+  "summaryZh": "降低接触电阻影响的四端方阻测量。",
+  "imageAlt": "Four-point Probe Method equipment",
+  "imageAltZh": "四探针测试平台设备",
+  "principleImageZh": "images/facilities/principles/audited/four-point-probe-zh.svg",
+  "principleImageAlt": "Four-point sheet-resistance measurement — original operating-principle schematic",
+  "principleImageAltZh": "四探针方阻测量——原创工作原理示意图",
+  "order": 19,
+  "published": true
+}

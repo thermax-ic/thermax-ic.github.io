@@ -1,0 +1,81 @@
+{
+  "image": "images/facilities/equipment-ai/instec-cryogenic-chamber.webp",
+  "imageSource": {
+    "label": "AI-generated equipment illustration",
+    "labelZh": "AI 生成设备示意图",
+    "url": ""
+  },
+  "imageGenerated": true,
+  "principleImage": "images/facilities/principles/audited/instec-cryogenic-chamber-en.svg",
+  "principleSource": {
+    "label": "Original schematic · Method: Instec · Temperature-control stages",
+    "labelZh": "原创示意图 · 原理参考：Instec · 温控样品台技术资料",
+    "url": "https://instec.com/pdf/brochures/Catalog.pdf"
+  },
+  "overview": "A microscope-compatible cryogenic chamber used as an accessory rather than an independent thermometer. It provides controlled sample temperature and optical access for TDTR, FDTR, Raman, or device measurements, subject to the installed window, sensor, and fixture configuration.",
+  "overviewZh": "与显微光路兼容的低温环境腔体，本身不作为独立测温仪器。可为 TDTR、FDTR、拉曼或器件测试提供受控样品温度和光学通道，具体能力取决于窗口、传感器和夹具。",
+  "principle": "Cooling removes heat from the sample stage, while a heater and temperature sensor form a feedback loop to regulate its setpoint. Optical access allows coupled spectroscopy or thermoreflectance. The sensor measures its local stage temperature; sample temperature and uniformity also depend on contact, heat load and equilibration.",
+  "principleZh": "制冷系统带走样品台热量，加热器与温度传感器构成反馈回路，稳定设定温度。光学通道支持联用光谱或热反射测量。传感器读数对应其局部样品台温度，样品实际温度与均匀性还取决于接触、热负载和平衡时间。",
+  "parameters": [
+    {
+      "en": "Controlled sample-stage temperature",
+      "zh": "受控样品台温度"
+    },
+    {
+      "en": "Temperature-dependent thermal response",
+      "zh": "温度依赖热响应（需联用）"
+    }
+  ],
+  "samples": [
+    {
+      "en": "Small wafers, chips, and material coupons",
+      "zh": "小尺寸晶圆、芯片与材料样片"
+    }
+  ],
+  "features": [
+    {
+      "en": "Optical windows",
+      "zh": "光学窗口"
+    },
+    {
+      "en": "Cryogenic/environmental control",
+      "zh": "低温／环境控制"
+    },
+    {
+      "en": "Supports, but does not replace, a metrology system",
+      "zh": "作为联用环境，不替代测量主机"
+    }
+  ],
+  "results": [],
+  "publications": [
+    {
+      "citation": "Mohan R, Khan S, Wilson RB, Hopkins PE. Time-domain thermoreflectance. Nature Reviews Methods Primers. 2025;5. doi:10.1038/s43586-025-00425-8.",
+      "url": "https://doi.org/10.1038/s43586-025-00425-8",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Time-domain%20thermoreflectance%22",
+      "verified": true
+    },
+    {
+      "citation": "Kuball M, Pomeroy JW. A Review of Raman Thermography for Electronic and Opto-Electronic Device Measurement With Submicron Spatial and Nanosecond Temporal Resolution. IEEE Transactions on Device and Materials Reliability. 2016;16:667–684. doi:10.1109/TDMR.2016.2617458.",
+      "url": "https://doi.org/10.1109/TDMR.2016.2617458",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22A%20Review%20of%20Raman%20Thermography%20for%20Electronic%20and%20Opto-Electronic%20Device%20Measurement%20With%20Submicron%20Spatial%20and%20Nanosecond%20Temporal%20Resolution%22",
+      "verified": true
+    }
+  ],
+  "id": "instec-cryogenic-chamber",
+  "name": "Instec Cryogenic Chamber",
+  "nameZh": "Instec 低温腔体",
+  "source": "modified-commercial",
+  "categories": [
+    "support-tools",
+    "modified-commercial"
+  ],
+  "summary": "Optical-access cryogenic chamber for controlled-temperature thermoreflectance and spectroscopy.",
+  "summaryZh": "用于低温可控环境下热反射与光谱测量的光学腔体。",
+  "imageAlt": "Instec Cryogenic Chamber equipment",
+  "imageAltZh": "Instec 低温腔体设备",
+  "principleImageZh": "images/facilities/principles/audited/instec-cryogenic-chamber-zh.svg",
+  "principleImageAlt": "Closed-loop sample temperature control — original operating-principle schematic",
+  "principleImageAltZh": "闭环样品温控——原创工作原理示意图",
+  "order": 14,
+  "published": true
+}

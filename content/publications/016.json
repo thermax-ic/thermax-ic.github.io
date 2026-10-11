@@ -1,0 +1,10 @@
+{
+  "year": 2026,
+  "type": "conference",
+  "citation": "C Li, C Xue, Y Ren, X Dong, Y Cheng, Y Hu, F Bai, Y Guo, X Jiang, Q Wu, et al. A Full-Stack Performance Evaluation Infrastructure for 3D-DRAM-based LLM Accelerators. MICRO 2026 (accepted). 2026.",
+  "doi": "10.48550/arXiv.2604.08044",
+  "link": "https://arxiv.org/abs/2604.08044",
+  "pdf": "https://arxiv.org/pdf/2604.08044",
+  "order": 16,
+  "published": true
+}

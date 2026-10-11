@@ -1,0 +1,22 @@
+{
+  "section_01": {
+    "text_001": {
+      "en": "Research articles, conference contributions, book chapters, and preprints from the group.",
+      "zh": "课题组发表的期刊论文、会议论文、书籍章节与预印本。"
+    },
+    "text_003": {
+      "en": "Publications",
+      "zh": "论文发表"
+    }
+  },
+  "section_02": {
+    "text_002": {
+      "en": "Publication list",
+      "zh": "论文列表"
+    },
+    "text_004": {
+      "en": "Please enable JavaScript to view the publication list. / 请启用 JavaScript 查看论文列表。",
+      "zh": "Please enable JavaScript to view the publication list. / 请启用 JavaScript 查看论文列表。"
+    }
+  }
+}

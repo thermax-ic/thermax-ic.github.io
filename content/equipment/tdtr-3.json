@@ -1,0 +1,84 @@
+{
+  "image": "images/facilities/equipment-ai/tdtr-3.webp",
+  "imageSource": {
+    "label": "AI-generated equipment illustration",
+    "labelZh": "AI 生成设备示意图",
+    "url": ""
+  },
+  "imageGenerated": true,
+  "principleImage": "images/facilities/principles/audited/tdtr-3-en.svg",
+  "principleSource": {
+    "label": "Original schematic · Method: Jiang et al. · TDTR tutorial",
+    "labelZh": "原创示意图 · 原理参考：Jiang 等 · TDTR 方法",
+    "url": "https://doi.org/10.1063/1.5046944"
+  },
+  "overview": "A new TDTR platform under construction. Its intended role is to increase measurement throughput and provide a dedicated line for method development. Final optical configuration and validated ranges will be published after commissioning.",
+  "overviewZh": "在建的第三套 TDTR 平台，目标是提升测试通量，并为方法开发提供独立光路。最终光路配置和经验证量程将在调试完成后公布。",
+  "principle": "A modulated pump-pulse train heats the sample transducer. Scanning the probe delay measures the transient thermoreflectance response, which is fitted with a multilayer heat-flow model. This line is under construction; its validated performance will be established during commissioning.",
+  "principleZh": "调制泵浦脉冲序列加热样品表面的金属传感层，扫描探测光延迟以测量瞬态热反射响应，并用多层传热模型拟合。该系统仍在建设中，实际测量性能需经调试与标定确认。",
+  "parameters": [
+    {
+      "en": "Planned: cross-plane thermal conductivity",
+      "zh": "规划：面外热导率"
+    },
+    {
+      "en": "Planned: thermal boundary conductance",
+      "zh": "规划：界面热导"
+    }
+  ],
+  "samples": [
+    {
+      "en": "Qualification samples pending commissioning",
+      "zh": "样品能力待调试验收"
+    }
+  ],
+  "features": [
+    {
+      "en": "Under construction",
+      "zh": "建设中"
+    },
+    {
+      "en": "Dedicated method-development line",
+      "zh": "独立方法开发平台"
+    }
+  ],
+  "results": [],
+  "publications": [
+    {
+      "citation": "Mohan R, Khan S, Wilson RB, Hopkins PE. Time-domain thermoreflectance. Nature Reviews Methods Primers. 2025;5. doi:10.1038/s43586-025-00425-8.",
+      "url": "https://doi.org/10.1038/s43586-025-00425-8",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Time-domain%20thermoreflectance%22",
+      "verified": true
+    },
+    {
+      "citation": "Jiang P, Qian X, Yang R. Tutorial: Time-domain thermoreflectance (TDTR) for thermal property characterization of bulk and thin film materials. Journal of Applied Physics. 2018;124:161103. doi:10.1063/1.5046944.",
+      "url": "https://doi.org/10.1063/1.5046944",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Tutorial%3A%20Time-domain%20thermoreflectance%20(TDTR)%20for%20thermal%20property%20characterization%20of%20bulk%20and%20thin%20film%20materials%22",
+      "verified": true
+    },
+    {
+      "citation": "Thomsen C, Grahn HT, Maris HJ, Tauc J. Surface generation and detection of phonons by picosecond light pulses. Physical Review B. 1986;34:4129–4138. doi:10.1103/PhysRevB.34.4129.",
+      "url": "https://doi.org/10.1103/PhysRevB.34.4129",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Surface%20generation%20and%20detection%20of%20phonons%20by%20picosecond%20light%20pulses%22",
+      "verified": true
+    }
+  ],
+  "id": "tdtr-3",
+  "name": "TDTR-3",
+  "nameZh": "时域热反射系统-3",
+  "source": "custom-built",
+  "categories": [
+    "thermal-properties",
+    "under-construction",
+    "custom-built"
+  ],
+  "summary": "Third TDTR line under construction for expanded throughput and method development.",
+  "summaryZh": "用于扩展测试通量与方法开发的第三套 TDTR，当前建设中。",
+  "imageAlt": "TDTR-3 equipment",
+  "imageAltZh": "时域热反射系统-3设备",
+  "principleImageZh": "images/facilities/principles/audited/tdtr-3-zh.svg",
+  "principleImageAlt": "TDTR transient measurement — original operating-principle schematic",
+  "principleImageAltZh": "TDTR 瞬态热测量——原创工作原理示意图",
+  "order": 3,
+  "published": true
+}

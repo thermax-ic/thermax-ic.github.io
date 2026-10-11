@@ -1,0 +1,30 @@
+{
+  "id": "zirou-chen",
+  "name": "Zirou Chen",
+  "nameZh": "陈子柔",
+  "group": "phd-students",
+  "order": 8,
+  "role": "Ph.D. Student",
+  "roleZh": "博士生",
+  "meta": "",
+  "metaZh": "",
+  "image": "Fig/people/陈子柔.jpg",
+  "imagePosition": "50% 88%",
+  "imagePositionFull": "50% 100%",
+  "email": "chenzirou26@stu.pku.edu.cn",
+  "bio": "Zirou Chen received the B.S. degree from Fudan University in 2026. Zirou Chen is currently pursuing the Ph.D. degree at Peking University.",
+  "bioZh": "陈子柔2026年获得复旦大学学士学位，目前在北京大学攻读博士学位。",
+  "education": [
+    {
+      "en": "2026–Present, Peking University, Ph.D.",
+      "zh": "2026–至今，北京大学，博士"
+    },
+    {
+      "en": "2022–2026, Fudan University, B.S.",
+      "zh": "2022–2026，复旦大学，学士"
+    }
+  ],
+  "sections": [],
+  "links": [],
+  "published": true
+}

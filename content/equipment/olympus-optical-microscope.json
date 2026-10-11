@@ -1,0 +1,71 @@
+{
+  "image": "images/facilities/equipment-ai/olympus-optical-microscope.webp",
+  "imageSource": {
+    "label": "AI-generated equipment illustration",
+    "labelZh": "AI 生成设备示意图",
+    "url": ""
+  },
+  "imageGenerated": true,
+  "principleImage": "images/facilities/principles/audited/olympus-optical-microscope-en.svg",
+  "principleSource": {
+    "label": "Original schematic · Method: Nikon MicroscopyU · Reflected-light illumination",
+    "labelZh": "原创示意图 · 原理参考：Nikon MicroscopyU · 反射光显微照明",
+    "url": "https://www.microscopyu.com/techniques/stereomicroscopy/reflected-episcopic-light-illumination"
+  },
+  "overview": "Used for pre-test inspection, locating patterned regions, checking metal-transducer continuity, documenting surface defects, and aligning samples. It is a support tool and does not independently quantify thermal properties.",
+  "overviewZh": "用于测试前检查、图形区域定位、金属传感层连续性检查、表面缺陷记录以及样品对准。该设备属于辅助工具，不独立给出热物性参数。",
+  "principle": "An objective collects light reflected by the sample; the imaging optics form a magnified image at the eyepiece or camera. Illumination and sample optical properties produce contrast. Resolution is limited by wavelength and numerical aperture; quantitative dimensions require a calibrated image scale.",
+  "principleZh": "物镜收集样品反射光，由成像光学系统在目镜或相机上形成放大图像。照明方式与样品光学性质产生对比度，分辨率受波长与数值孔径限制；定量尺寸测量需要标定图像比例。",
+  "parameters": [
+    {
+      "en": "Surface morphology and feature location",
+      "zh": "表面形貌与特征定位"
+    },
+    {
+      "en": "Optical dimensions after calibration",
+      "zh": "标定后的光学尺寸"
+    }
+  ],
+  "samples": [
+    {
+      "en": "Wafers, chips, coupons, and patterned films",
+      "zh": "晶圆、芯片、样片与图形化薄膜"
+    }
+  ],
+  "features": [
+    {
+      "en": "Pre-test inspection",
+      "zh": "测试前检查"
+    },
+    {
+      "en": "Sample and probe alignment",
+      "zh": "样品与探针对准"
+    }
+  ],
+  "results": [],
+  "publications": [
+    {
+      "citation": "Kuball M, Pomeroy JW. A Review of Raman Thermography for Electronic and Opto-Electronic Device Measurement With Submicron Spatial and Nanosecond Temporal Resolution. IEEE Transactions on Device and Materials Reliability. 2016;16:667–684. doi:10.1109/TDMR.2016.2617458.",
+      "url": "https://doi.org/10.1109/TDMR.2016.2617458",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22A%20Review%20of%20Raman%20Thermography%20for%20Electronic%20and%20Opto-Electronic%20Device%20Measurement%20With%20Submicron%20Spatial%20and%20Nanosecond%20Temporal%20Resolution%22",
+      "verified": true
+    }
+  ],
+  "id": "olympus-optical-microscope",
+  "name": "Olympus Optical Microscope",
+  "nameZh": "Olympus 光学显微镜",
+  "source": "modified-commercial",
+  "categories": [
+    "support-tools",
+    "modified-commercial"
+  ],
+  "summary": "Optical inspection and alignment for samples, transducers, probes, and patterned devices.",
+  "summaryZh": "用于样品、金属传感层、探针和图形化器件的光学检查与对准。",
+  "imageAlt": "Olympus Optical Microscope equipment",
+  "imageAltZh": "Olympus 光学显微镜设备",
+  "principleImageZh": "images/facilities/principles/audited/olympus-optical-microscope-zh.svg",
+  "principleImageAlt": "Reflected-light optical microscopy — original operating-principle schematic",
+  "principleImageAltZh": "反射光显微成像——原创工作原理示意图",
+  "order": 16,
+  "published": true
+}

@@ -1,0 +1,24 @@
+{
+  "section_01": {
+    "text_001": {
+      "en": "Search",
+      "zh": "搜索"
+    },
+    "text_002": {
+      "en": "Search pages within this website.",
+      "zh": "搜索本网站中的页面。"
+    }
+  },
+  "section_02": {
+    "text_003": {
+      "en": "Search",
+      "zh": "搜索"
+    }
+  },
+  "section_03": {
+    "text_004": {
+      "en": "Enter a keyword above to search this website.",
+      "zh": "请输入关键词搜索本站内容。"
+    }
+  }
+}

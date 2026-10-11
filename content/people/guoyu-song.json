@@ -1,0 +1,30 @@
+{
+  "id": "guoyu-song",
+  "name": "Guoyu Song",
+  "nameZh": "宋国宇",
+  "group": "masters-students",
+  "order": 15,
+  "role": "Jointly Trained Master's Student",
+  "roleZh": "联合培养硕士生",
+  "meta": "",
+  "metaZh": "",
+  "image": "Fig/people/宋国宇.jpg",
+  "imagePosition": "50% 15%",
+  "imagePositionFull": "50% 50%",
+  "email": "songguoyu123@gmail.com",
+  "bio": "Guoyu Song received the B.S. degree from Zhejiang University of Technology in 2026. Guoyu Song is currently pursuing the master's degree at Anhui University as a jointly trained master's student at Peking University.",
+  "bioZh": "宋国宇2026年获得浙江工业大学学士学位，目前在安徽大学攻读硕士学位，为北京大学联合培养研究生。",
+  "education": [
+    {
+      "en": "2026–Present, Anhui University, M.S.",
+      "zh": "2026–至今，安徽大学，硕士"
+    },
+    {
+      "en": "2022–2026, Zhejiang University of Technology, B.S.",
+      "zh": "2022–2026，浙江工业大学，学士"
+    }
+  ],
+  "sections": [],
+  "links": [],
+  "published": true
+}

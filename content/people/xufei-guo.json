@@ -1,0 +1,39 @@
+{
+  "id": "xufei-guo",
+  "name": "Xufei Guo",
+  "nameZh": "郭旭飞",
+  "group": "alumni",
+  "order": 25,
+  "role": "Undergraduate Student (2024–2026)",
+  "roleZh": "本科生（2024–2026）",
+  "meta": "Ph.D. student at Stanford University",
+  "metaZh": "现为斯坦福大学博士生",
+  "image": "Fig/people/郭旭飞.jpg",
+  "imagePosition": "54% 50%",
+  "imagePositionFull": "52% 50%",
+  "email": "xufeiguo@stanford.edu",
+  "bio": "Xufei Guo received the B.S. degree from Peking University in 2026. Xufei Guo is currently pursuing the Ph.D. degree in electrical engineering at Stanford University.",
+  "bioZh": "郭旭飞2026年获得北京大学学士学位，目前在斯坦福大学电气工程系攻读博士学位。",
+  "education": [
+    {
+      "en": "2026–Present, Stanford University, Ph.D.",
+      "zh": "2026–至今，斯坦福大学，博士"
+    },
+    {
+      "en": "2022–2026, Peking University, B.S.",
+      "zh": "2022–2026，北京大学，学士"
+    }
+  ],
+  "sections": [],
+  "links": [
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=4FHOgDsAAAAJ"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/xufei-guo-900b8a438"
+    }
+  ],
+  "published": true
+}

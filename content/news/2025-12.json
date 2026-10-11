@@ -1,0 +1,17 @@
+{
+  "title": "Group's first IEDM paper: 3D thermal conductivity mapping of advanced interconnects",
+  "titleZh": "课题组首篇 IEDM 论文：先进工艺节点互连层三维导热系数分布的高精度测量",
+  "year": 2025,
+  "month": 12,
+  "body": "<p>\n            At the 2025 IEEE International Electron Devices Meeting (IEDM) — the group's\n            first paper at the conference — we presented high-precision, layer-by-layer\n            measurements of interconnect thermal conductivity across advanced logic process\n            nodes from 28 nm down to 3 nm. Combining advanced sample preparation with\n            high-resolution thermal characterization and thermal scanning, we mapped the\n            in-layer spatial distribution of thermal conductivity for the first time. The\n            results show effective thermal conductivities of only about 1 W/m-K — far below\n            copper (~400 W/m-K) — with Cu/dielectric interface thermal resistance\n            (60–80 m²-K/GW) dominating heat transport. Guided by these findings, finite-element\n            simulations propose high-thermal-conductivity AlN bonding layers, diamond heat\n            spreaders, and high-convection cooling to keep 3D-stacked transistors within\n            acceptable temperature rise. Zifeng Huang and Yiyun He are co-first authors, and\n            Zhe Cheng is the corresponding author.\n          </p>",
+  "bodyZh": "<p>在 2025 年 IEEE 国际电子器件会议（IEDM）上，课题组发表了首篇 IEDM 论文，首次实现对 28 nm–3 nm 先进制程节点芯片互连层导热系数的逐层高精度测量，并结合热扫描技术获得互连层内导热系数的空间分布。结果表明，各互连层有效导热系数仅约 1 W/m-K，远低于铜的本征值（约 400 W/m-K），铜/介质界面热阻（约 60–80 m²-K/GW）在互连层热输运中占据主导地位。基于这一认识，有限元热仿真提出引入高导热氮化铝键合层、金刚石均热结构并配合高对流换热散热，使超微缩三维堆叠晶体管保持可接受的温升水平。博士生黄子丰和何宜芸为共同第一作者，程哲研究员为通讯作者。</p>",
+  "image": "images/news/IEDM2025.jpg",
+  "imageAlt": "Presenting the group's IEDM 2025 paper on interconnect thermal tomography",
+  "imageAltZh": "课题组成员在 IEDM 2025 会议上报告互连层三维热层析工作",
+  "caption": "Presenting the group's IEDM 2025 paper on interconnect thermal tomography",
+  "captionZh": "课题组成员在 IEDM 2025 会议上报告互连层三维热层析工作",
+  "category": "Research · IEEE IEDM 2025",
+  "categoryZh": "研究 · IEEE IEDM 2025",
+  "order": 4,
+  "published": true
+}

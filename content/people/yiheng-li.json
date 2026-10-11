@@ -1,0 +1,26 @@
+{
+  "id": "yiheng-li",
+  "name": "Yiheng Li",
+  "nameZh": "李亦恒",
+  "group": "undergraduate-students",
+  "order": 19,
+  "role": "Undergraduate Student",
+  "roleZh": "本科生",
+  "meta": "",
+  "metaZh": "",
+  "image": "Fig/people/李亦恒.jpg",
+  "imagePosition": "50% 80%",
+  "imagePositionFull": "100% 50%",
+  "email": "2400012808@stu.pku.edu.cn",
+  "bio": "Yiheng Li is currently pursuing the B.S. degree at Peking University.",
+  "bioZh": "李亦恒目前在北京大学攻读学士学位。",
+  "education": [
+    {
+      "en": "2024–Present, Peking University, B.S.",
+      "zh": "2024–至今，北京大学，学士"
+    }
+  ],
+  "sections": [],
+  "links": [],
+  "published": true
+}

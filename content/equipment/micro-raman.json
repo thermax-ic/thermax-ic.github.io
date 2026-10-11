@@ -1,0 +1,90 @@
+{
+  "image": "images/facilities/equipment-ai/micro-raman.webp",
+  "imageSource": {
+    "label": "AI-generated equipment illustration",
+    "labelZh": "AI 生成设备示意图",
+    "url": ""
+  },
+  "imageGenerated": true,
+  "principleImage": "images/facilities/principles/audited/micro-raman-en.svg",
+  "principleSource": {
+    "label": "Original schematic · Method: Beechem et al. · Raman thermometry and stress",
+    "labelZh": "原创示意图 · 原理参考：Beechem 等 · 拉曼测温与应力",
+    "url": "https://doi.org/10.1063/1.2940131"
+  },
+  "overview": "A modified commercial confocal Raman microscope used to map phonon spectra under controlled heating or electrical bias. Temperature and stress are separated through calibration, mode selection, polarization, and multi-peak analysis.",
+  "overviewZh": "基于商用共焦拉曼显微镜改装，可在受控加热或电学加载下扫描声子光谱。温度与应力通过标定、模态选择、偏振和多峰分析进行解耦。",
+  "principle": "Inelastic light scattering probes lattice vibrations. Calibrated peak shifts, linewidths or anti-Stokes/Stokes ratios can indicate temperature; strain also shifts or splits peaks. Temperature and stress therefore require suitable mode-specific calibration or independent constraints. Probe-laser heating must be assessed before spatial mapping.",
+  "principleZh": "非弹性光散射探测晶格振动。经标定的峰位、线宽或反斯托克斯／斯托克斯强度比可用于测温，应变也会引起峰移或劈裂。温度与应力需通过适当的模态标定或独立约束区分，空间扫描前还需评估探测激光自身的加热。",
+  "parameters": [
+    {
+      "en": "Local temperature",
+      "zh": "局部温度"
+    },
+    {
+      "en": "Residual / operating stress",
+      "zh": "残余／工作应力"
+    },
+    {
+      "en": "Raman peak position, linewidth, intensity",
+      "zh": "拉曼峰位、线宽与强度"
+    }
+  ],
+  "samples": [
+    {
+      "en": "Semiconductors and wide-bandgap devices",
+      "zh": "半导体与宽禁带器件"
+    },
+    {
+      "en": "Raman-active films and crystals",
+      "zh": "具有拉曼活性的薄膜与晶体"
+    }
+  ],
+  "features": [
+    {
+      "en": "Confocal spatial mapping",
+      "zh": "共焦空间成像"
+    },
+    {
+      "en": "In-operando electrical biasing with probe station",
+      "zh": "配合探针台进行工作态测试"
+    },
+    {
+      "en": "Temperature–stress decoupling workflow",
+      "zh": "温度-应力解耦流程"
+    }
+  ],
+  "results": [],
+  "publications": [
+    {
+      "citation": "Beechem T, Christensen A, Graham S, Green D. Micro-Raman thermometry in the presence of complex stresses in GaN devices. Journal of Applied Physics. 2008;103:124501. doi:10.1063/1.2940131.",
+      "url": "https://doi.org/10.1063/1.2940131",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Micro-Raman%20thermometry%20in%20the%20presence%20of%20complex%20stresses%20in%20GaN%20devices%22",
+      "verified": true
+    },
+    {
+      "citation": "Kuball M, Pomeroy JW. A Review of Raman Thermography for Electronic and Opto-Electronic Device Measurement With Submicron Spatial and Nanosecond Temporal Resolution. IEEE Transactions on Device and Materials Reliability. 2016;16:667–684. doi:10.1109/TDMR.2016.2617458.",
+      "url": "https://doi.org/10.1109/TDMR.2016.2617458",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22A%20Review%20of%20Raman%20Thermography%20for%20Electronic%20and%20Opto-Electronic%20Device%20Measurement%20With%20Submicron%20Spatial%20and%20Nanosecond%20Temporal%20Resolution%22",
+      "verified": true
+    }
+  ],
+  "id": "micro-raman",
+  "name": "Micro-Raman",
+  "nameZh": "显微拉曼温度与应力测量系统",
+  "source": "modified-commercial",
+  "categories": [
+    "device-thermometry",
+    "stress-acoustics",
+    "modified-commercial"
+  ],
+  "summary": "Confocal Raman thermometry and stress mapping for materials and operating devices.",
+  "summaryZh": "面向材料与工作器件的共焦拉曼测温和应力成像。",
+  "imageAlt": "Micro-Raman equipment",
+  "imageAltZh": "显微拉曼温度与应力测量系统设备",
+  "principleImageZh": "images/facilities/principles/audited/micro-raman-zh.svg",
+  "principleImageAlt": "Raman temperature and stress sensing — original operating-principle schematic",
+  "principleImageAltZh": "拉曼温度与应力测量——原创工作原理示意图",
+  "order": 9,
+  "published": true
+}

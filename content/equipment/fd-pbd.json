@@ -1,0 +1,80 @@
+{
+  "image": "images/facilities/equipment-ai/fd-pbd.webp",
+  "imageSource": {
+    "label": "AI-generated equipment illustration",
+    "labelZh": "AI 生成设备示意图",
+    "url": ""
+  },
+  "imageGenerated": true,
+  "principleImage": "images/facilities/principles/audited/fd-pbd-en.svg",
+  "principleSource": {
+    "label": "Original schematic · Method: Sun et al. · Liquid-immersion FD-PBD",
+    "labelZh": "原创示意图 · 原理参考：Sun 等 · 液体浸没 FD-PBD",
+    "url": "https://doi.org/10.1063/5.0179581"
+  },
+  "overview": "A platform under construction based on the liquid-immersion method reported by Sun et al., designed for rapid mapping of thermal conductance on optically opaque, metal-coated samples.",
+  "overviewZh": "依据 Sun 等报道的液体浸没式方法建设，目标是在不透明、镀金属样品上快速获得热导分布。",
+  "principle": "A modulated pump heats the coated sample and adjacent dielectric liquid. The liquid's temperature-dependent refractive-index gradient deflects an offset probe beam; thermoelastic surface motion can also contribute. Position-sensitive detection and lock-in analysis measure amplitude and phase, which a coupled model fits to thermal conductivity or interface conductance.",
+  "principleZh": "调制泵浦加热镀膜样品与邻近介电液体。液体中随温度变化的折射率梯度使偏置探测光偏转，样品表面热弹性运动也可能贡献信号。位置敏感探测器与锁相分析获取幅值和相位，再用耦合模型反演热导率或界面热导。",
+  "parameters": [
+    {
+      "en": "Planned: thermal conductance",
+      "zh": "规划：热导"
+    },
+    {
+      "en": "Planned: spatial thermal-conductance map",
+      "zh": "规划：热导空间分布"
+    }
+  ],
+  "samples": [
+    {
+      "en": "Al-coated opaque films and substrates",
+      "zh": "镀铝不透明薄膜与衬底"
+    },
+    {
+      "en": "Samples compatible with dielectric-liquid immersion",
+      "zh": "兼容介电液体浸没的样品"
+    }
+  ],
+  "features": [
+    {
+      "en": "Liquid-immersion optical lever",
+      "zh": "液体浸没光学偏转"
+    },
+    {
+      "en": "Frequency-domain lock-in detection",
+      "zh": "频域锁相探测"
+    },
+    {
+      "en": "Under construction",
+      "zh": "建设中"
+    }
+  ],
+  "results": [],
+  "publications": [
+    {
+      "citation": "Sun J, Cheng Z, Liang J, et al. Probe beam deflection technique with liquid immersion for fast mapping of thermal conductance. Applied Physics Letters. 2024;124:042201. doi:10.1063/5.0179581.",
+      "url": "https://doi.org/10.1063/5.0179581",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Probe%20beam%20deflection%20technique%20with%20liquid%20immersion%20for%20fast%20mapping%20of%20thermal%20conductance%22",
+      "verified": true
+    }
+  ],
+  "id": "fd-pbd",
+  "name": "FD-PBD",
+  "nameZh": "频域探测光束偏转系统（FD-PBD）",
+  "source": "custom-built",
+  "categories": [
+    "thermal-properties",
+    "under-construction",
+    "custom-built"
+  ],
+  "summary": "Liquid-immersion probe-beam deflection for fast thermal-conductance mapping, under construction.",
+  "summaryZh": "用于快速热导成像的液体浸没式探测光束偏转平台，当前建设中。",
+  "imageAlt": "FD-PBD equipment",
+  "imageAltZh": "频域探测光束偏转系统（FD-PBD）设备",
+  "principleImageZh": "images/facilities/principles/audited/fd-pbd-zh.svg",
+  "principleImageAlt": "Liquid-immersion FD-PBD — original operating-principle schematic",
+  "principleImageAltZh": "液体浸没 FD-PBD——原创工作原理示意图",
+  "order": 13,
+  "published": true
+}

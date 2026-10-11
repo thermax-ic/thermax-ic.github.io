@@ -1,0 +1,30 @@
+{
+  "id": "zimu-jiang",
+  "name": "Zimu Jiang",
+  "nameZh": "姜子木",
+  "group": "masters-students",
+  "order": 12,
+  "role": "Master's Student",
+  "roleZh": "硕士生",
+  "meta": "",
+  "metaZh": "",
+  "image": "Fig/people/姜子木.jpg",
+  "imagePosition": "50% 48%",
+  "imagePositionFull": "100% 50%",
+  "email": "2501210275@stu.pku.edu.cn",
+  "bio": "Zimu Jiang received the B.S. degree from Huazhong University of Science and Technology in 2025. Zimu Jiang is currently pursuing the master's degree at Peking University.",
+  "bioZh": "姜子木2025年获得华中科技大学学士学位，目前在北京大学攻读硕士学位。",
+  "education": [
+    {
+      "en": "2025–Present, Peking University, M.S.",
+      "zh": "2025–至今，北京大学，硕士"
+    },
+    {
+      "en": "2021–2025, Huazhong University of Science and Technology, B.S.",
+      "zh": "2021–2025，华中科技大学，学士"
+    }
+  ],
+  "sections": [],
+  "links": [],
+  "published": true
+}

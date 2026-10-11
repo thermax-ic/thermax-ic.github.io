@@ -1,0 +1,89 @@
+{
+  "image": "images/facilities/equipment-ai/tdtr-beam-offset.webp",
+  "imageSource": {
+    "label": "AI-generated equipment illustration",
+    "labelZh": "AI 生成设备示意图",
+    "url": ""
+  },
+  "imageGenerated": true,
+  "principleImage": "images/facilities/principles/audited/tdtr-beam-offset-en.svg",
+  "principleSource": {
+    "label": "Original schematic · Method: Feser and Cahill · Beam-offset TDTR",
+    "labelZh": "原创示意图 · 原理参考：Feser 与 Cahill · 偏置光斑 TDTR",
+    "url": "https://doi.org/10.1063/1.4757863"
+  },
+  "overview": "A beam-steering and translation module added to TDTR for controlled pump–probe separation. Multi-azimuth offset scans probe lateral heat spreading and distinguish in-plane anisotropy that is weakly constrained in concentric measurements.",
+  "overviewZh": "在 TDTR 上增加光束转向与位移控制，实现泵浦-探测光斑的可控分离。沿多个方位角进行偏置扫描，可表征横向热扩散并区分常规同轴测量难以约束的面内各向异性。",
+  "principle": "Scanning the lateral pump–probe separation measures a spatial thermoreflectance profile. Its width and shape depend on lateral heat diffusion, beam sizes and modulation conditions. An anisotropic heat-flow model, using scans along selected directions, constrains in-plane conductivity; anisotropy does not inherently shift the profile peak.",
+  "principleZh": "扫描泵浦与探测光斑的横向间距，获得空间热反射响应；其宽度和形状取决于面内热扩散、光斑尺寸与调制条件。沿选定方向扫描，并结合各向异性传热模型，可约束面内热导率。各向异性本身并不必然使响应峰位移动。",
+  "parameters": [
+    {
+      "en": "Directional in-plane thermal conductivity",
+      "zh": "方向相关面内热导率"
+    },
+    {
+      "en": "In-plane anisotropy",
+      "zh": "面内各向异性"
+    },
+    {
+      "en": "Cross-plane conductivity / interface conductance via companion TDTR scan",
+      "zh": "结合常规 TDTR 的面外热导率／界面热导"
+    }
+  ],
+  "samples": [
+    {
+      "en": "Anisotropic crystals and textured films",
+      "zh": "各向异性晶体与织构薄膜"
+    },
+    {
+      "en": "Samples large enough for lateral offset scans",
+      "zh": "满足横向偏置扫描尺寸的样品"
+    }
+  ],
+  "features": [
+    {
+      "en": "Multi-azimuth offset scans",
+      "zh": "多方位角偏置扫描"
+    },
+    {
+      "en": "Anisotropic inverse modeling",
+      "zh": "各向异性反演模型"
+    },
+    {
+      "en": "Compatible with high-resolution stages",
+      "zh": "兼容高分辨位移台"
+    }
+  ],
+  "results": [],
+  "publications": [
+    {
+      "citation": "Feser JP, Cahill DG. Probing anisotropic heat transport using time-domain thermoreflectance with offset laser spots. Review of Scientific Instruments. 2012;83:104901. doi:10.1063/1.4757863.",
+      "url": "https://doi.org/10.1063/1.4757863",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Probing%20anisotropic%20heat%20transport%20using%20time-domain%20thermoreflectance%20with%20offset%20laser%20spots%22",
+      "verified": true
+    },
+    {
+      "citation": "Mohan R, Khan S, Wilson RB, Hopkins PE. Time-domain thermoreflectance. Nature Reviews Methods Primers. 2025;5. doi:10.1038/s43586-025-00425-8.",
+      "url": "https://doi.org/10.1038/s43586-025-00425-8",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Time-domain%20thermoreflectance%22",
+      "verified": true
+    }
+  ],
+  "id": "tdtr-beam-offset",
+  "name": "Beam-offset Setup for TDTR",
+  "nameZh": "TDTR 光斑偏置测量平台",
+  "source": "custom-built",
+  "categories": [
+    "thermal-properties",
+    "custom-built"
+  ],
+  "summary": "Offset pump–probe scanning for directional in-plane thermal conductivity.",
+  "summaryZh": "通过泵浦-探测光斑偏置扫描测量方向相关的面内热导率。",
+  "imageAlt": "Beam-offset Setup for TDTR equipment",
+  "imageAltZh": "TDTR 光斑偏置测量平台设备",
+  "principleImageZh": "images/facilities/principles/audited/tdtr-beam-offset-zh.svg",
+  "principleImageAlt": "Beam-offset TDTR — original operating-principle schematic",
+  "principleImageAltZh": "光斑偏置 TDTR——原创工作原理示意图",
+  "order": 15,
+  "published": true
+}

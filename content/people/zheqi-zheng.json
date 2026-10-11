@@ -1,0 +1,26 @@
+{
+  "id": "zheqi-zheng",
+  "name": "Zheqi Zheng",
+  "nameZh": "郑喆琪",
+  "group": "undergraduate-students",
+  "order": 23,
+  "role": "Undergraduate Student",
+  "roleZh": "本科生",
+  "meta": "",
+  "metaZh": "",
+  "image": "Fig/people/郑喆琪.jpg",
+  "imagePosition": "50% 64%",
+  "imagePositionFull": "100% 50%",
+  "email": "2500017781@stu.pku.edu.cn",
+  "bio": "Zheqi Zheng is currently pursuing the B.S. degree at Peking University.",
+  "bioZh": "郑喆琪目前在北京大学攻读学士学位。",
+  "education": [
+    {
+      "en": "2025–Present, Peking University, B.S.",
+      "zh": "2025–至今，北京大学，学士"
+    }
+  ],
+  "sections": [],
+  "links": [],
+  "published": true
+}

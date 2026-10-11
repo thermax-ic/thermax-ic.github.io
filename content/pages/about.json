@@ -1,0 +1,476 @@
+{
+  "section_01": {
+    "text_001": {
+      "en": "Thermal pathways for advanced integration",
+      "zh": "面向先进集成的热通路"
+    },
+    "text_002": {
+      "en": "Building efficient thermal pathways for advanced integrated circuits",
+      "zh": "为先进集成电路构建高效热通路"
+    },
+    "text_003": {
+      "en": "We investigate how heat is generated and transported across materials, interfaces, devices, interconnects, and package structures in high-performance chips, heterogeneous integration, and advanced packaging. We develop high-thermal-conductivity materials, interface engineering, advanced thermal characterization, and thermal-management technologies for three-dimensional integration.",
+      "zh": "我们面向高性能芯片、异质集成与先进封装，研究热量在材料、界面、器件、互连和封装结构中的产生与传递，并发展高导热材料、界面调控、先进热表征和三维集成热管理技术。"
+    },
+    "text_004": {
+      "en": "IC thermal management",
+      "zh": "集成电路热管理"
+    },
+    "text_005": {
+      "en": "Heterogeneous integration",
+      "zh": "异质集成"
+    },
+    "text_006": {
+      "en": "Advanced packaging",
+      "zh": "先进封装"
+    },
+    "text_007": {
+      "en": "Advanced thermal characterization",
+      "zh": "先进热表征"
+    },
+    "text_068": {
+      "en": "01",
+      "zh": "01"
+    },
+    "text_069": {
+      "en": "3D-IC",
+      "zh": "3D-IC"
+    }
+  },
+  "section_02": {
+    "text_008": {
+      "en": "Thermal management is becoming a core constraint on integration",
+      "zh": "热管理正在成为集成技术的核心约束"
+    },
+    "text_009": {
+      "en": "As chips move toward higher power density and greater integration, thermal challenges shift from external cooling into the chip structure. Local hotspots, inter-layer thermal coupling, interface resistance, and constrained vertical pathways jointly affect performance, reliability, and integration architecture.",
+      "zh": "随着芯片向更高功率密度和更高集成度发展，热问题已经从外部散热进入芯片结构内部。局部热点、层间热耦合、界面热阻和受限的垂直热通路，共同影响芯片的性能、可靠性与集成方式。"
+    },
+    "text_010": {
+      "en": "In 2.5D and 3D systems, materials, interconnect structures, bonding processes, and package architectures together determine total thermal resistance. Thermal management has therefore become an integral part of advanced integration technology.",
+      "zh": "在2.5D与3D集成系统中，材料选择、互连结构、键合工艺和封装架构同时决定最终热阻。热管理因此成为先进集成技术的重要组成部分。"
+    },
+    "text_011": {
+      "en": "Lower thermal resistance supports more usable power and computing performance.",
+      "zh": "更低的热阻，支持更高的可用功率与计算性能。"
+    },
+    "text_070": {
+      "en": "02",
+      "zh": "02"
+    },
+    "text_071": {
+      "en": "P",
+      "zh": "P"
+    },
+    "text_072": {
+      "en": "max",
+      "zh": "max"
+    },
+    "text_073": {
+      "en": "≈",
+      "zh": "≈"
+    },
+    "text_074": {
+      "en": "Δ",
+      "zh": "Δ"
+    },
+    "text_075": {
+      "en": "T",
+      "zh": "T"
+    },
+    "text_076": {
+      "en": "allow",
+      "zh": "allow"
+    },
+    "text_077": {
+      "en": "R",
+      "zh": "R"
+    },
+    "text_078": {
+      "en": "th,total",
+      "zh": "th,total"
+    },
+    "text_079": {
+      "en": "Rth,total",
+      "zh": "Rth,total"
+    },
+    "text_080": {
+      "en": "Pmax",
+      "zh": "Pmax"
+    },
+    "text_081": {
+      "en": "R",
+      "zh": "R"
+    },
+    "text_082": {
+      "en": "th,total",
+      "zh": "th,total"
+    },
+    "text_083": {
+      "en": "↓",
+      "zh": "↓"
+    },
+    "text_084": {
+      "en": "→",
+      "zh": "→"
+    },
+    "text_085": {
+      "en": "P",
+      "zh": "P"
+    },
+    "text_086": {
+      "en": "max",
+      "zh": "max"
+    },
+    "text_087": {
+      "en": "↑",
+      "zh": "↑"
+    }
+  },
+  "section_03": {
+    "text_012": {
+      "en": "Research system from materials to 3D integration",
+      "zh": "从材料到3D集成的研究体系"
+    },
+    "text_013": {
+      "en": "Thermal-management materials",
+      "zh": "热管理材料"
+    },
+    "text_014": {
+      "en": "Interfaces and bonding",
+      "zh": "界面与键合"
+    },
+    "text_015": {
+      "en": "Devices and interconnects",
+      "zh": "器件与互连"
+    },
+    "text_016": {
+      "en": "Heterogeneous integration and packaging",
+      "zh": "异质集成与先进封装"
+    },
+    "text_017": {
+      "en": "Thermal-management materials",
+      "zh": "热管理材料"
+    },
+    "text_018": {
+      "en": "Growth, thermal transport, and size effects in high-thermal-conductivity semiconductors and heat-spreading materials, including diamond, AlN, SiC, and related materials.",
+      "zh": "研究高导热半导体与热扩散材料的生长、热输运和尺寸效应，关注金刚石、AlN、SiC及相关材料在芯片热管理中的应用。"
+    },
+    "text_019": {
+      "en": "Interfaces and bonding",
+      "zh": "界面与键合"
+    },
+    "text_020": {
+      "en": "Heat transfer across heterogeneous interfaces, buried interfaces, and bonding layers, with emphasis on how interfacial structure and processing determine thermal resistance.",
+      "zh": "研究异质材料界面、埋层界面和键合层中的热传递，揭示界面结构与制备工艺对热阻的影响。"
+    },
+    "text_021": {
+      "en": "Devices and interconnects",
+      "zh": "器件与互连"
+    },
+    "text_022": {
+      "en": "Local hotspots in micro- and nanoelectronic devices, effective thermal conductivity of BEOL and advanced interconnects, and heat-spreading paths in complex device structures.",
+      "zh": "研究微纳电子器件中的局部热点、BEOL与先进互连的有效热导率，以及复杂器件结构中的热扩散路径。"
+    },
+    "text_023": {
+      "en": "Heterogeneous integration and advanced packaging",
+      "zh": "异质集成与先进封装"
+    },
+    "text_024": {
+      "en": "Co-design of heat-spreading layers, high-conductivity pathways, and package structures for chiplet integration, 3D stacking, and advanced packaging.",
+      "zh": "面向芯粒集成、三维堆叠和先进封装，探索热扩散层、高导热通路与封装结构协同设计，提升集成系统的散热能力与可靠性。"
+    },
+    "text_088": {
+      "en": "03",
+      "zh": "03"
+    },
+    "text_089": {
+      "en": "→",
+      "zh": "→"
+    },
+    "text_090": {
+      "en": "→",
+      "zh": "→"
+    },
+    "text_091": {
+      "en": "→",
+      "zh": "→"
+    }
+  },
+  "section_04": {
+    "text_025": {
+      "en": "The laboratory’s technical pathway",
+      "zh": "实验室的技术路径"
+    },
+    "text_026": {
+      "en": "Characterize",
+      "zh": "表征"
+    },
+    "text_027": {
+      "en": "TDTR, FDTR, SSTR, and thermal imaging in real process structures",
+      "zh": "TDTR、FDTR、SSTR及热成像，获得真实工艺结构热参数"
+    },
+    "text_028": {
+      "en": "Understand",
+      "zh": "理解"
+    },
+    "text_029": {
+      "en": "Heat-transfer models, sensitivity analysis, atomic-scale characterization, and uncertainty",
+      "zh": "传热模型、敏感度分析、原子级表征与不确定性评估"
+    },
+    "text_030": {
+      "en": "Control",
+      "zh": "调控"
+    },
+    "text_031": {
+      "en": "High-conductivity materials, interface engineering, heat spreaders, and local pathways",
+      "zh": "高导热材料、界面工程、热扩散层与局部热通路设计"
+    },
+    "text_032": {
+      "en": "Integrate",
+      "zh": "集成"
+    },
+    "text_033": {
+      "en": "Heterogeneous integration, 3D stacking, and advanced packaging",
+      "zh": "将材料与界面研究转化到异质集成、三维堆叠与先进封装"
+    },
+    "text_034": {
+      "en": "Re-validate",
+      "zh": "再验证"
+    },
+    "text_035": {
+      "en": "Experimental verification feeds the next design cycle",
+      "zh": "通过实验验证热管理效果，进入下一轮优化"
+    },
+    "text_092": {
+      "en": "04",
+      "zh": "04"
+    },
+    "text_093": {
+      "en": "01",
+      "zh": "01"
+    },
+    "text_094": {
+      "en": "→",
+      "zh": "→"
+    },
+    "text_095": {
+      "en": "02",
+      "zh": "02"
+    },
+    "text_096": {
+      "en": "→",
+      "zh": "→"
+    },
+    "text_097": {
+      "en": "03",
+      "zh": "03"
+    },
+    "text_098": {
+      "en": "→",
+      "zh": "→"
+    },
+    "text_099": {
+      "en": "04",
+      "zh": "04"
+    },
+    "text_100": {
+      "en": "→",
+      "zh": "→"
+    },
+    "text_101": {
+      "en": "05",
+      "zh": "05"
+    }
+  },
+  "section_05": {
+    "text_036": {
+      "en": "Key thermal-management questions in 3D-ICs",
+      "zh": "3D-IC热管理的关键问题"
+    },
+    "text_037": {
+      "en": "A 3D-IC places chiplets, interconnects, and bonding interfaces within a confined volume. Every layer and interface can limit the thermal pathway.",
+      "zh": "3D-IC将多个芯粒、互连和键合界面集成在有限空间内。每一层材料和每一个界面都可能成为热通路中的限制因素。"
+    },
+    "text_038": {
+      "en": "Heat spreader",
+      "zh": "热扩散层"
+    },
+    "text_039": {
+      "en": "Chip layer",
+      "zh": "芯片层"
+    },
+    "text_040": {
+      "en": "BEOL",
+      "zh": "BEOL"
+    },
+    "text_041": {
+      "en": "Hybrid bonding",
+      "zh": "混合键合"
+    },
+    "text_042": {
+      "en": "Chip layer",
+      "zh": "芯片层"
+    },
+    "text_043": {
+      "en": "BEOL",
+      "zh": "BEOL"
+    },
+    "text_044": {
+      "en": "TIM and package substrate",
+      "zh": "TIM与封装基板"
+    },
+    "text_045": {
+      "en": "Move through the questions to trace thermal bottlenecks across the stack.",
+      "zh": "浏览右侧问题，逐层查看3D-IC中的热瓶颈。"
+    },
+    "text_046": {
+      "en": "Heat-spreading layers",
+      "zh": "热扩散层"
+    },
+    "text_047": {
+      "en": "Can high-thermal-conductivity films retain their material advantage at device-relevant thicknesses, and how do grain boundaries, dimensions, and defects change thermal conductivity?",
+      "zh": "高导热薄膜能否在实际厚度下保持材料优势？晶界、尺寸和缺陷如何影响薄膜热导率？"
+    },
+    "text_048": {
+      "en": "Chip layers",
+      "zh": "芯片层"
+    },
+    "text_049": {
+      "en": "How do local hotspots and thermal coupling between chiplets affect performance and reliability?",
+      "zh": "局部热点和不同芯粒之间的热耦合如何影响性能与可靠性？"
+    },
+    "text_050": {
+      "en": "How do advanced interconnects and low-k dielectrics change the effective vertical thermal pathway?",
+      "zh": "先进互连和低介电常数材料如何改变垂直热通路与有效热导率？"
+    },
+    "text_051": {
+      "en": "Hybrid bonding",
+      "zh": "混合键合"
+    },
+    "text_052": {
+      "en": "Does the bonding interface become a dominant thermal resistance in the stack?",
+      "zh": "混合键合界面是否构成热通路中的主要热阻？"
+    },
+    "text_053": {
+      "en": "Package-level pathways",
+      "zh": "封装层与跨层热通路"
+    },
+    "text_054": {
+      "en": "How can heat-spreading layers and high-conductivity pathways be embedded in 3D-ICs to improve system-level heat dissipation?",
+      "zh": "热扩散层和高导热通路如何嵌入3D-IC，并提升跨层热通路与系统散热能力？"
+    },
+    "text_102": {
+      "en": "05",
+      "zh": "05"
+    },
+    "text_103": {
+      "en": "01",
+      "zh": "01"
+    },
+    "text_104": {
+      "en": "02",
+      "zh": "02"
+    },
+    "text_105": {
+      "en": "03",
+      "zh": "03"
+    },
+    "text_106": {
+      "en": "BEOL",
+      "zh": "BEOL"
+    },
+    "text_107": {
+      "en": "04",
+      "zh": "04"
+    },
+    "text_108": {
+      "en": "05",
+      "zh": "05"
+    }
+  },
+  "section_06": {
+    "text_055": {
+      "en": "Advanced thermal-characterization platform supporting the research",
+      "zh": "支撑研究的先进热表征平台"
+    },
+    "text_056": {
+      "en": "Advanced thermal characterization is a core research capability for developing thermal-management and integration technologies. The platform combines optical thermal metrology, thermal imaging, customized model fitting, and automated data processing to study and validate materials, devices, interconnects, and packages.",
+      "zh": "先进热表征是实验室发展热管理与集成技术的核心研究能力。平台集成多种光学热测量系统、热成像技术、定制化模型拟合与自动化数据处理，支持材料、器件、互连和封装结构的研究与验证。"
+    },
+    "text_057": {
+      "en": "thermal-measurement systems and related workflows",
+      "zh": "套热测量系统及相关流程"
+    },
+    "text_058": {
+      "en": "thin-film, interface, and device-relevant scales",
+      "zh": "薄膜、界面与器件相关尺度"
+    },
+    "text_059": {
+      "en": "Material–device–package",
+      "zh": "材料—器件—封装"
+    },
+    "text_060": {
+      "en": "cross-level research capability",
+      "zh": "跨层级研究能力"
+    },
+    "text_061": {
+      "en": "Experiment + model",
+      "zh": "实验 + 模型"
+    },
+    "text_062": {
+      "en": "parameter extraction and uncertainty analysis",
+      "zh": "参数提取与不确定性分析"
+    },
+    "text_109": {
+      "en": "06",
+      "zh": "06"
+    },
+    "text_110": {
+      "en": "10+",
+      "zh": "10+"
+    },
+    "text_111": {
+      "en": "nm–µm",
+      "zh": "nm–µm"
+    }
+  },
+  "section_07": {
+    "text_063": {
+      "en": "Connecting thermal science with integrated-circuit technology",
+      "zh": "连接热科学与集成电路技术"
+    },
+    "text_064": {
+      "en": "We develop a complete research chain spanning heat-transport mechanisms, advanced characterization, materials and interface control, heterogeneous integration, and advanced-packaging applications to deliver verifiable thermal-management technologies for high-performance integrated circuits.",
+      "zh": "我们致力于建立从热输运机理、先进表征和材料界面调控，到异质集成与先进封装应用的完整研究链路，为高性能集成电路提供可验证的热管理技术。"
+    },
+    "text_065": {
+      "en": "Explore Our Research",
+      "zh": "探索研究方向"
+    },
+    "text_066": {
+      "en": "View Facilities",
+      "zh": "查看设备平台"
+    },
+    "text_067": {
+      "en": "Collaborate With Us",
+      "zh": "与我们合作"
+    },
+    "text_112": {
+      "en": "07",
+      "zh": "07"
+    }
+  },
+  "images": {
+    "image_01": {
+      "src": "Fig/about-3d-ic-thermal-pathways-hero.webp",
+      "alt_en": "Cutaway rendering of a multilayer 3D integrated circuit with chiplets, interconnects, hybrid bonding, hotspots, and vertical heat-flow paths",
+      "alt_zh": "多层三维集成电路剖面图，展示芯粒、互连、混合键合、局部热点与垂直热流通路"
+    },
+    "image_02": {
+      "src": "Fig/about-thermal-characterization-platform.webp",
+      "alt_en": "Panoramic view of an advanced thermal-characterization laboratory with optical metrology, microscopy, thermal imaging, and automated measurement systems",
+      "alt_zh": "先进热表征实验室全景，展示光学测量、显微测试、热成像与自动化测量系统"
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "image": "images/facilities/equipment-ai/shared-tem-phonon-eels.webp",
+  "imageSource": {
+    "label": "AI-generated equipment illustration",
+    "labelZh": "AI 生成设备示意图",
+    "url": ""
+  },
+  "imageGenerated": true,
+  "principleImage": "images/facilities/principles/audited/shared-tem-phonon-eels-en.svg",
+  "principleSource": {
+    "label": "Original schematic · Method: Cheng et al. · Interfacial phonon EELS",
+    "labelZh": "原创示意图 · 原理参考：Cheng 等 · 界面声子 EELS",
+    "url": "https://doi.org/10.1038/s41467-021-27250-3"
+  },
+  "overview": "A shared TEM capability combining atomic-resolution imaging with monochromated low-loss EELS. It correlates interface structure, composition, and localized vibrational modes, but does not directly replace macroscopic thermal-conductance measurements.",
+  "overviewZh": "将原子分辨成像与单色化低损 EELS 结合，可关联界面结构、成分与局域振动模态，但不能直接替代宏观界面热导测量。",
+  "principle": "Electron transmission and scattering provide structural images of thin specimens. A monochromated beam and energy-loss spectrometer resolve small losses associated with vibrational excitations. Background subtraction and spatial scanning identify phonon signals near interfaces; these spectra do not directly measure thermal conductivity or boundary conductance.",
+  "principleZh": "电子束透射与散射用于获取薄样品结构像，单色化电子束与能量损失谱仪分辨振动激发对应的微小能量损失。结合背景处理和空间扫描，可识别界面附近的声子信号；这些能谱不直接等同于热导率或界面热导测量。",
+  "parameters": [
+    {
+      "en": "Atomic and nanoscale structure",
+      "zh": "原子与纳米尺度结构"
+    },
+    {
+      "en": "Composition / bonding by EELS",
+      "zh": "EELS 成分与键合信息"
+    },
+    {
+      "en": "Localized phonon energy and spatial distribution",
+      "zh": "局域声子能量与空间分布"
+    }
+  ],
+  "samples": [
+    {
+      "en": "Electron-transparent cross-section lamellae",
+      "zh": "电子透明截面薄片"
+    },
+    {
+      "en": "Interfaces and nanoscale heterostructures",
+      "zh": "界面与纳米异质结构"
+    }
+  ],
+  "features": [
+    {
+      "en": "Atomic-resolution TEM/STEM",
+      "zh": "原子分辨 TEM/STEM"
+    },
+    {
+      "en": "Monochromated vibrational EELS",
+      "zh": "单色化振动 EELS"
+    }
+  ],
+  "results": [],
+  "publications": [
+    {
+      "citation": "Cheng Z, Li R, Yan X, et al. Experimental observation of localized interfacial phonon modes. Nature Communications. 2021;12:6901. doi:10.1038/s41467-021-27250-3.",
+      "url": "https://doi.org/10.1038/s41467-021-27250-3",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Experimental%20observation%20of%20localized%20interfacial%20phonon%20modes%22",
+      "verified": true
+    },
+    {
+      "citation": "Hage FS, Kepaptsoglou DM, Ramasse QM, Allen LJ. Phonon Spectroscopy at Atomic Resolution. Physical Review Letters. 2019;122:016103. doi:10.1103/PhysRevLett.122.016103.",
+      "url": "https://doi.org/10.1103/PhysRevLett.122.016103",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Phonon%20Spectroscopy%20at%20Atomic%20Resolution%22",
+      "verified": true
+    }
+  ],
+  "id": "shared-tem-phonon-eels",
+  "name": "TEM and Phonon EELS",
+  "nameZh": "TEM 与声子 EELS 平台",
+  "source": "shared",
+  "categories": [
+    "shared",
+    "stress-acoustics"
+  ],
+  "summary": "Shared atomic-structure imaging and vibrational EELS for interface phonon characterization.",
+  "summaryZh": "用于界面原子结构与声子振动表征的共享 TEM/声子 EELS。",
+  "imageAlt": "TEM and Phonon EELS equipment",
+  "imageAltZh": "TEM 与声子 EELS 平台设备",
+  "principleImageZh": "images/facilities/principles/audited/shared-tem-phonon-eels-zh.svg",
+  "principleImageAlt": "TEM/STEM and vibrational EELS — original operating-principle schematic",
+  "principleImageAltZh": "TEM/STEM 与振动 EELS——原创工作原理示意图",
+  "order": 25,
+  "published": true
+}

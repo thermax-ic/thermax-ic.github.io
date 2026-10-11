@@ -1,0 +1,89 @@
+{
+  "image": "images/facilities/equipment-ai/fdtr.webp",
+  "imageSource": {
+    "label": "AI-generated equipment illustration",
+    "labelZh": "AI 生成设备示意图",
+    "url": ""
+  },
+  "imageGenerated": true,
+  "principleImage": "images/facilities/principles/audited/fdtr-en.svg",
+  "principleSource": {
+    "label": "Original schematic · Method: Schmidt et al. · FDTR",
+    "labelZh": "原创示意图 · 原理参考：Schmidt 等 · FDTR 方法",
+    "url": "https://doi.org/10.1063/1.3212673"
+  },
+  "overview": "A frequency-domain pump–probe platform that measures phase and amplitude across modulation frequency. Frequency sweeps tune thermal penetration depth without a mechanical delay scan and provide complementary sensitivity to TDTR.",
+  "overviewZh": "通过扫描泵浦调制频率测量热反射信号的相位和幅值，无需机械延迟扫描即可调节热渗透深度，并与 TDTR 形成互补灵敏度。",
+  "principle": "A sinusoidally modulated pump heats the transducer while a probe detects reflectance modulation. A lock-in amplifier measures phase and amplitude across modulation frequencies. A multilayer thermal model fits this frequency response; conductivity, heat capacity and interface conductance are distinguishable only when the data provide sufficient sensitivity.",
+  "principleZh": "正弦调制泵浦光加热金属传感层，探测光读取反射率调制；锁相放大器测量不同调制频率下的相位与幅值。通过多层热模型拟合频率响应，在数据灵敏度足够时区分热导率、热容与界面热导的贡献。",
+  "parameters": [
+    {
+      "en": "Cross-plane thermal conductivity",
+      "zh": "面外热导率"
+    },
+    {
+      "en": "Thermal boundary conductance",
+      "zh": "界面热导"
+    },
+    {
+      "en": "Thermal diffusivity / effusivity (model dependent)",
+      "zh": "热扩散率／热惯量（依赖模型）"
+    }
+  ],
+  "samples": [
+    {
+      "en": "Thin films and interfaces",
+      "zh": "薄膜与界面"
+    },
+    {
+      "en": "Bulk and anisotropic materials with suitable geometry",
+      "zh": "几何条件合适的块体及各向异性材料"
+    }
+  ],
+  "features": [
+    {
+      "en": "Frequency-dependent penetration depth",
+      "zh": "频率可调热渗透深度"
+    },
+    {
+      "en": "No mechanical delay scan",
+      "zh": "无需机械延迟扫描"
+    },
+    {
+      "en": "Complex-signal fitting",
+      "zh": "复信号拟合"
+    }
+  ],
+  "results": [],
+  "publications": [
+    {
+      "citation": "Schmidt AJ, Cheaito R, Chiesa M. A frequency-domain thermoreflectance method for the characterization of thermal properties. Review of Scientific Instruments. 2009;80:094901. doi:10.1063/1.3212673.",
+      "url": "https://doi.org/10.1063/1.3212673",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22A%20frequency-domain%20thermoreflectance%20method%20for%20the%20characterization%20of%20thermal%20properties%22",
+      "verified": true
+    },
+    {
+      "citation": "Jiang P, Qian X, Yang R. Tutorial: Time-domain thermoreflectance (TDTR) for thermal property characterization of bulk and thin film materials. Journal of Applied Physics. 2018;124:161103. doi:10.1063/1.5046944.",
+      "url": "https://doi.org/10.1063/1.5046944",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Tutorial%3A%20Time-domain%20thermoreflectance%20(TDTR)%20for%20thermal%20property%20characterization%20of%20bulk%20and%20thin%20film%20materials%22",
+      "verified": true
+    }
+  ],
+  "id": "fdtr",
+  "name": "FDTR",
+  "nameZh": "频域热反射系统",
+  "source": "custom-built",
+  "categories": [
+    "thermal-properties",
+    "custom-built"
+  ],
+  "summary": "Frequency-swept thermoreflectance for thin-film and interface thermal transport.",
+  "summaryZh": "通过频率扫描表征薄膜与界面热输运。",
+  "imageAlt": "FDTR equipment",
+  "imageAltZh": "频域热反射系统设备",
+  "principleImageZh": "images/facilities/principles/audited/fdtr-zh.svg",
+  "principleImageAlt": "FDTR: frequency response — original operating-principle schematic",
+  "principleImageAltZh": "FDTR：频率响应——原创工作原理示意图",
+  "order": 7,
+  "published": true
+}

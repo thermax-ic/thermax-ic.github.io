@@ -1,0 +1,78 @@
+{
+  "image": "images/facilities/equipment-ai/device-thermoreflectance.webp",
+  "imageSource": {
+    "label": "AI-generated equipment illustration",
+    "labelZh": "AI 生成设备示意图",
+    "url": ""
+  },
+  "imageGenerated": true,
+  "principleImage": "images/facilities/principles/audited/device-thermoreflectance-en.svg",
+  "principleSource": {
+    "label": "Original schematic · Method: Martin-Horcajo et al. · Transient thermoreflectance",
+    "labelZh": "原创示意图 · 原理参考：Martin-Horcajo 等 · 瞬态热反射测温",
+    "url": "https://doi.org/10.1109/LED.2016.2595400"
+  },
+  "overview": "A custom thermoreflectance imaging line under construction for device-level temperature mapping and electrical probing. Spatial resolution, temporal bandwidth, wavelength set, and validated uncertainty will be reported after commissioning.",
+  "overviewZh": "在建的自主器件热反射成像平台，面向器件温度分布及电学探测联用。空间分辨率、时间带宽、探测波长和不确定度将在完成标定与验收后公布。",
+  "principle": "The planned system compares device reflectance before and during electrical heating. Calibrating the material- and wavelength-dependent thermoreflectance coefficient gives temperature changes. Synchronized illumination and readout can sample repeatable transients; the installed timing performance and uncertainty must be verified during commissioning.",
+  "principleZh": "拟建系统比较器件电加热前后的反射率，利用材料与波长相关的热反射系数标定，得到温度变化。同步照明与读出可采样可重复的瞬态过程；实际时序性能与测量不确定度需在调试阶段验证。",
+  "parameters": [
+    {
+      "en": "Planned: device surface temperature",
+      "zh": "规划：器件表面温度"
+    },
+    {
+      "en": "Planned: spatial temperature mapping",
+      "zh": "规划：空间温度成像"
+    }
+  ],
+  "samples": [
+    {
+      "en": "Powered devices with optical access",
+      "zh": "具备光学通道的通电器件"
+    }
+  ],
+  "features": [
+    {
+      "en": "Under construction",
+      "zh": "建设中"
+    },
+    {
+      "en": "Custom optical and electrical synchronization",
+      "zh": "自主光电同步"
+    }
+  ],
+  "results": [],
+  "publications": [
+    {
+      "citation": "Grauby S, Dilhaire S, Jorez S, Claeys W. Temperature variation mapping of a microelectromechanical system by thermoreflectance imaging. IEEE Electron Device Letters. 2005;26:78–80. doi:10.1109/LED.2004.841468.",
+      "url": "https://doi.org/10.1109/LED.2004.841468",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Temperature%20variation%20mapping%20of%20a%20microelectromechanical%20system%20by%20thermoreflectance%20imaging%22",
+      "verified": true
+    },
+    {
+      "citation": "Martin-Horcajo S, Pomeroy JW, Lambert B, Jung H, Blanck H, Kuball M. Transient Thermoreflectance for Gate Temperature Assessment in Pulse Operated GaN-Based HEMTs. IEEE Electron Device Letters. 2016;37:1197–1200. doi:10.1109/LED.2016.2595400.",
+      "url": "https://doi.org/10.1109/LED.2016.2595400",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Transient%20Thermoreflectance%20for%20Gate%20Temperature%20Assessment%20in%20Pulse%20Operated%20GaN-Based%20HEMTs%22",
+      "verified": true
+    }
+  ],
+  "id": "device-thermoreflectance",
+  "name": "Thermoreflectance for Device Thermometry",
+  "nameZh": "器件热反射测温系统",
+  "source": "custom-built",
+  "categories": [
+    "device-thermometry",
+    "under-construction",
+    "custom-built"
+  ],
+  "summary": "Custom device thermoreflectance platform under construction.",
+  "summaryZh": "面向器件测温的自主热反射平台，当前建设中。",
+  "imageAlt": "Thermoreflectance for Device Thermometry equipment",
+  "imageAltZh": "器件热反射测温系统设备",
+  "principleImageZh": "images/facilities/principles/audited/device-thermoreflectance-zh.svg",
+  "principleImageAlt": "Synchronized device thermoreflectance — original operating-principle schematic",
+  "principleImageAltZh": "同步器件热反射测温——原创工作原理示意图",
+  "order": 12,
+  "published": true
+}

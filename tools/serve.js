@@ -3,7 +3,7 @@ const http = require("http");
 const fs = require("fs");
 const path = require("path");
 
-const ROOT = path.join(__dirname, "..");
+const ROOT = path.resolve(__dirname, "..", process.argv[3] || ".");
 const PORT = parseInt(process.argv[2] || "8000", 10);
 const MIME = {
   ".html": "text/html; charset=utf-8",
@@ -22,9 +22,9 @@ const MIME = {
 
 http.createServer((req, res) => {
   let urlPath = decodeURIComponent(req.url.split("?")[0]);
-  if (urlPath === "/") urlPath = "/index.html";
+  if (urlPath.endsWith("/")) urlPath += "index.html";
   const file = path.normalize(path.join(ROOT, urlPath));
-  if (!file.startsWith(ROOT)) { res.writeHead(403); res.end(); return; }
+  if (file !== ROOT && !file.startsWith(ROOT + path.sep)) { res.writeHead(403); res.end(); return; }
   fs.readFile(file, (err, data) => {
     if (err) { res.writeHead(404); res.end("Not found: " + urlPath); return; }
     res.writeHead(200, { "Content-Type": MIME[path.extname(file).toLowerCase()] || "application/octet-stream", "Cache-Control": "no-cache" });

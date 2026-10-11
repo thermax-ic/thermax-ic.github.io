@@ -1,0 +1,81 @@
+{
+  "image": "images/facilities/equipment-ai/high-resolution-stages.webp",
+  "imageSource": {
+    "label": "AI-generated equipment illustration",
+    "labelZh": "AI 生成设备示意图",
+    "url": ""
+  },
+  "imageGenerated": true,
+  "principleImage": "images/facilities/principles/audited/high-resolution-stages-en.svg",
+  "principleSource": {
+    "label": "Original schematic · Method: PI · Position feedback and nanopositioning",
+    "labelZh": "原创示意图 · 原理参考：PI · 位置反馈与纳米定位",
+    "url": "https://www.physikinstrumente.com/en/knowledge-center/blog/pione-sensors-high-performance-for-nanopositioning-systems/"
+  },
+  "overview": "Motorized stages integrated with optical metrology for repeatable line scans, area maps, and pump–probe offset control. The stated 6 nm step resolution describes commanded motion; map resolution is also limited by optical spot size, positioning accuracy, drift, and signal-to-noise ratio.",
+  "overviewZh": "与光学热测量联用的电动位移台，可进行重复线扫、面扫和光斑偏置控制。页面已确认的 6 nm 为指令步进分辨率，实际热图分辨率还受光斑、定位精度、漂移和信噪比限制。",
+  "principle": "The stage moves the sample relative to a fixed measurement spot. Position feedback in closed-loop operation reduces positioning error, and synchronized acquisition associates each signal with a coordinate. Commanded step size is distinct from positioning accuracy and from the optical or thermal spatial resolution.",
+  "principleZh": "位移台使样品相对固定测量光斑移动，闭环位置反馈降低定位误差，同步采集将信号与坐标关联。指令步长不等于实际定位准确度，也不等于光学或热学测量的空间分辨率。",
+  "parameters": [
+    {
+      "en": "Commanded step resolution to 6 nm",
+      "zh": "最小 6 nm 指令步进"
+    },
+    {
+      "en": "Line and area scan coordinates",
+      "zh": "线扫与面扫坐标"
+    },
+    {
+      "en": "Pump–probe lateral offset",
+      "zh": "泵浦-探测横向偏置"
+    }
+  ],
+  "samples": [
+    {
+      "en": "Samples compatible with the mounted optical platform",
+      "zh": "与所搭载光学平台兼容的样品"
+    }
+  ],
+  "features": [
+    {
+      "en": "Closed-loop positioning",
+      "zh": "闭环定位"
+    },
+    {
+      "en": "Synchronized mapping",
+      "zh": "同步成像"
+    }
+  ],
+  "results": [],
+  "publications": [
+    {
+      "citation": "Sun J, Cheng Z, Liang J, et al. Probe beam deflection technique with liquid immersion for fast mapping of thermal conductance. Applied Physics Letters. 2024;124:042201. doi:10.1063/5.0179581.",
+      "url": "https://doi.org/10.1063/5.0179581",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Probe%20beam%20deflection%20technique%20with%20liquid%20immersion%20for%20fast%20mapping%20of%20thermal%20conductance%22",
+      "verified": true
+    },
+    {
+      "citation": "Feser JP, Cahill DG. Probing anisotropic heat transport using time-domain thermoreflectance with offset laser spots. Review of Scientific Instruments. 2012;83:104901. doi:10.1063/1.4757863.",
+      "url": "https://doi.org/10.1063/1.4757863",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Probing%20anisotropic%20heat%20transport%20using%20time-domain%20thermoreflectance%20with%20offset%20laser%20spots%22",
+      "verified": true
+    }
+  ],
+  "id": "high-resolution-stages",
+  "name": "High-resolution Mapping Stages",
+  "nameZh": "高分辨率扫描位移台",
+  "source": "custom-built",
+  "categories": [
+    "support-tools",
+    "custom-built"
+  ],
+  "summary": "Closed-loop mapping stages with step resolution down to 6 nm.",
+  "summaryZh": "步进分辨率最高可达 6 nm 的闭环扫描位移平台。",
+  "imageAlt": "High-resolution Mapping Stages equipment",
+  "imageAltZh": "高分辨率扫描位移台设备",
+  "principleImageZh": "images/facilities/principles/audited/high-resolution-stages-zh.svg",
+  "principleImageAlt": "Position-controlled raster scanning — original operating-principle schematic",
+  "principleImageAltZh": "位置控制与逐点扫描——原创工作原理示意图",
+  "order": 17,
+  "published": true
+}

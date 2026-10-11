@@ -1,0 +1,30 @@
+{
+  "id": "rui-zhang",
+  "name": "Rui Zhang",
+  "nameZh": "张睿",
+  "group": "masters-students",
+  "order": 13,
+  "role": "Master's Student",
+  "roleZh": "硕士生",
+  "meta": "",
+  "metaZh": "",
+  "image": "Fig/people/张睿.jpg",
+  "imagePosition": "50% 40%",
+  "imagePositionFull": "90% 50%",
+  "email": "zhangrui26@stu.pku.edu.cn",
+  "bio": "Rui Zhang received the B.S. degree from Wuhan University in 2026. Rui Zhang is currently pursuing the master's degree at Peking University.",
+  "bioZh": "张睿2026年获得武汉大学学士学位，目前在北京大学攻读硕士学位。",
+  "education": [
+    {
+      "en": "2026–Present, Peking University, M.S.",
+      "zh": "2026–至今，北京大学，硕士"
+    },
+    {
+      "en": "2022–2026, Wuhan University, B.S.",
+      "zh": "2022–2026，武汉大学，学士"
+    }
+  ],
+  "sections": [],
+  "links": [],
+  "published": true
+}

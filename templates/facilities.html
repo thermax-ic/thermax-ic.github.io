@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Equipment Library | TherMAX-IC</title>
+  <link rel="stylesheet" href="style.css?v=20261005-1">
+  <link rel="icon" href="Fig/TherMAX-IC%20Lab.png">
+</head>
+
+<body class="facilities-page">
+  <a class="skip-link" href="#main-content"><span data-cms-text="site:section_01.text_001" data-cms-before="" data-cms-after="">Skip to main content</span></a>
+
+  <div class="university-bar">
+    <div class="container university-inner">
+      <a href="#"><span data-cms-text="site:section_02.text_002" data-cms-before="" data-cms-after="">Peking University</span></a>
+
+      <button type="button" class="language-toggle" data-lang="en" aria-label="Switch to Chinese" title="Switch to Chinese">
+        <span class="toggle-option toggle-en">EN</span>
+        <span class="toggle-option toggle-cn">CN</span>
+      </button>
+    </div>
+  </div>
+
+  <header class="lab-lockup">
+    <div class="container lockup-inner">
+      <a class="lockup-brand" href="index.html">
+        <img src="Fig/TherMAX-IC Lab.png" alt="TherMAX-IC Lab" data-cms-image="site:images.image_01">
+      </a>
+
+      <div class="lockup-site">
+        <div class="lockup-title"><span data-cms-text="site:section_03.text_003" data-cms-before="" data-cms-after="">Thermal Management and Advanced Integration of Chips Laboratory</span></div>
+        <div class="lockup-subtitle"><span data-cms-text="site:section_03.text_004" data-cms-before="" data-cms-after="">Advanced Packaging • Heterogeneous Integration • Thermal Characterization</span><br><span data-cms-text="site:section_03.text_005" data-cms-before="" data-cms-after="">TherMAX-IC Lab · Zhe Cheng Research Group</span></div>
+      </div>
+
+      <nav class="main-nav">
+      <a class="active" href="index.html"><span data-cms-text="site:section_03.text_006" data-cms-before="" data-cms-after="">Home</span></a>
+      <a href="about.html"><span data-cms-text="site:section_03.text_007" data-cms-before="" data-cms-after="">About</span></a>
+      <a href="research.html"><span data-cms-text="site:section_03.text_008" data-cms-before="" data-cms-after="">Research</span></a>
+      <a href="facilities.html"><span data-cms-text="site:section_03.text_009" data-cms-before="" data-cms-after="">Facilities</span></a>
+      <a href="people.html"><span data-cms-text="site:section_03.text_010" data-cms-before="" data-cms-after="">People</span></a>
+      <a href="publications.html"><span data-cms-text="site:section_03.text_011" data-cms-before="" data-cms-after="">Publications</span></a>
+      <a href="news.html"><span data-cms-text="site:section_03.text_012" data-cms-before="" data-cms-after="">News</span></a>
+      <a href="contact.html"><span data-cms-text="site:section_03.text_013" data-cms-before="" data-cms-after="">Contact</span></a>
+      </nav>
+
+      <form class="lockup-search" action="search.html" method="get">
+        <label for="site-search-input"><span data-cms-text="site:section_03.text_014" data-cms-before="" data-cms-after="">Search this site</span></label>
+        <div>
+          <input id="site-search-input" name="q" type="search" placeholder="Search this site">
+          <button type="submit"><span data-cms-text="site:section_03.text_015" data-cms-before="" data-cms-after="">Search</span></button>
+        </div>
+      </form>
+    </div>
+  </header>
+
+  <main id="main-content" class="equipment-library-page">
+    <section class="container page-layout people-page-v2 equipment-page-heading">
+      <div class="page-title people-page-title equipment-page-title">
+        <h2><span data-cms-text="facilities:section_01.text_005" data-cms-before="" data-cms-after="">Facilities</span></h2>
+        <p class="lang-only-en"><span data-cms-text="facilities:section_01.text_001" data-cms-before="" data-cms-after="" data-cms-language="en">The laboratory operates a comprehensive chip thermal-measurement platform with internationally advanced technical capabilities, covering nearly all major methods for chip thermophysical-property characterization and micro/nanoelectronic device thermometry. Supported by two National Key Laboratories in the School and process lines at leading domestic integrated-circuit companies, the platform targets the increasingly severe heat-dissipation bottlenecks and instrumentation-access challenges in next-generation 3D stacked devices and chips, as well as power and RF electronics.</span></p>
+        <p class="lang-only-zh" lang="zh-CN"><span data-cms-text="facilities:section_01.text_001" data-cms-before="" data-cms-after="" data-cms-language="zh">实验室建有系统全面、技术世界前列的芯片热量测平台，基本上集齐了所有的芯片热物性和微纳器件测温设备。依托本学院两个全国重点实验室及国内头部集成电路企业工艺线，立志于解决下一代三维堆叠器件/堆叠芯片以及功率/射频芯片中日益严重的散热瓶颈和设备禁运问题。</span></p>
+      </div>
+    </section>
+
+    <section class="equipment-catalog" aria-labelledby="equipment-catalog-title">
+      <div class="container">
+        <h2 id="equipment-catalog-title" class="sr-only"><span class="lang-only-en"><span data-cms-text="facilities:section_02.text_002" data-cms-before="" data-cms-after="" data-cms-language="en">Equipment list</span></span><span class="lang-only-zh" lang="zh-CN"><span data-cms-text="facilities:section_02.text_002" data-cms-before="" data-cms-after="" data-cms-language="zh">设备清单</span></span></h2>
+        <div class="equipment-filter-toolbar">
+          <div id="equipment-filters" class="equipment-filters" aria-label="Filter equipment / 筛选设备"></div>
+          <p id="equipment-result-count" class="equipment-result-count" aria-live="polite"></p>
+        </div>
+        <ul id="equipment-grid" class="equipment-card-grid" aria-label="Equipment list / 设备清单"></ul>
+      </div>
+    </section>
+
+    <section class="equipment-capability-section" aria-labelledby="capability-matrix-title">
+      <div class="container">
+        <div class="equipment-section-heading equipment-matrix-heading">
+          <div>
+            <h2 id="capability-matrix-title"><span class="lang-only-en"><span data-cms-text="facilities:section_03.text_003" data-cms-before="" data-cms-after="" data-cms-language="en">Platform capability matrix</span></span><span class="lang-only-zh" lang="zh-CN"><span data-cms-text="facilities:section_03.text_003" data-cms-before="" data-cms-after="" data-cms-language="zh">平台能力矩阵</span></span></h2>
+          </div>
+          <p><span class="lang-only-en"><span data-cms-text="facilities:section_03.text_004" data-cms-before="" data-cms-after="" data-cms-language="en">Expert classification by measurement observable and inversion pathway. Numerical ranges and sample requirements are confirmed case by case.</span></span><span class="lang-only-zh" lang="zh-CN"><span data-cms-text="facilities:section_03.text_004" data-cms-before="" data-cms-after="" data-cms-language="zh">按直接观测量与反演路径进行专业划分；具体量程与样品要求仍需结合测试方案确认。</span></span></p>
+        </div>
+        <div id="equipment-matrix" class="equipment-matrix" tabindex="0" aria-label="Scrollable equipment capability matrix / 可横向滚动的设备能力矩阵"></div>
+        <p id="equipment-matrix-note" class="equipment-matrix-note"></p>
+      </div>
+    </section>
+  </main>
+
+  <div id="equipment-modal" class="equipment-modal" role="dialog" aria-modal="true" aria-labelledby="equipment-modal-title" hidden="">
+    <div id="equipment-modal-content" class="equipment-modal-panel"></div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3><span data-cms-text="site:section_04.text_016" data-cms-before="" data-cms-after="">Thermal Management and Advanced Integration of Chips Laboratory</span></h3>
+        <p><span data-cms-text="site:section_04.text_017" data-cms-before="" data-cms-after="">Peking University</span></p>
+        <p><span data-cms-text="site:section_04.text_018" data-cms-before="" data-cms-after="">School of Integrated Circuits</span></p>
+      </div>
+
+      <div>
+        <h4><span data-cms-text="site:section_04.text_019" data-cms-before="" data-cms-after="">Address</span></h4>
+        <p><span data-cms-text="site:section_04.text_020" data-cms-before="" data-cms-after="">Micro-Nano Electronics Building</span></p>
+        <p><span data-cms-text="site:section_04.text_021" data-cms-before="" data-cms-after="">5 Yiheyuan Road, Haidian District, Beijing 100871</span></p>
+      </div>
+
+      <div>
+        <h4><span data-cms-text="site:section_04.text_022" data-cms-before="" data-cms-after="">Contact</span></h4>
+        <p><a href="mailto:zhe.cheng@pku.edu.cn" data-cms-link="site:links.link_01"><span data-cms-text="site:section_04.text_023" data-cms-before="" data-cms-after="">zhe.cheng@pku.edu.cn</span></a></p>
+        <p><a href="https://ic.pku.edu.cn/" target="_blank" rel="noopener" data-cms-link="site:links.link_02"><span data-cms-text="site:section_04.text_024" data-cms-before="" data-cms-after="">School of Integrated Circuits ↗</span></a></p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container"><span data-cms-text="site:section_04.text_025" data-cms-before="
+        " data-cms-after="
+      ">
+        © 2026 TherMAX-IC · Peking University
+      </span></div>
+    </div>
+  </footer>
+
+  <script src="back-to-top.js"></script>
+  <script src="equipment-data-v2.js?v=20261004-1"></script>
+
+  <script src="facilities.js?v=20261005-1"></script>
+  <script src="lang.js"></script>
+
+
+</body></html>

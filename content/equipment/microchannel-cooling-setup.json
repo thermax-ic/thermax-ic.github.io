@@ -1,0 +1,76 @@
+{
+  "image": "images/facilities/equipment-ai/microchannel-cooling-setup.webp",
+  "imageSource": {
+    "label": "AI-generated equipment illustration",
+    "labelZh": "AI 生成设备示意图",
+    "url": ""
+  },
+  "imageGenerated": true,
+  "principleImage": "images/facilities/principles/audited/microchannel-cooling-setup-en.svg",
+  "principleSource": {
+    "label": "Original schematic · Method: Tuckerman and Pease · Microchannel heat sinking",
+    "labelZh": "原创示意图 · 原理参考：Tuckerman 与 Pease · 微通道散热",
+    "url": "https://doi.org/10.1109/EDL.1981.25367"
+  },
+  "overview": "A liquid-flow loop under construction for microchannel cold plates and on-chip cooling structures. The intended workflow combines heater power, flow rate, pressure drop, inlet/outlet temperature, and local chip temperature.",
+  "overviewZh": "用于微通道冷板和芯片内冷却结构评估的在建液体流动回路，计划结合加热功率、流量、压降、进出口温度和芯片局部温度。",
+  "principle": "Heat conducts from the chip into channel walls and transfers to flowing coolant by convection. For steady single-phase flow, mass flow and inlet/outlet temperatures give removed heat after heat-loss corrections. Chip temperature gives thermal resistance; extracting a heat-transfer coefficient also requires wall-to-fluid temperature and area. Pressure drop determines hydraulic pumping power.",
+  "principleZh": "热量由芯片传导至通道壁，再通过对流传给冷却液。稳态单相流下，结合质量流量与进出口温差，并修正散热损失，可求移除热量。芯片温升用于计算热阻；换热系数还需要壁面–流体温差与换热面积。压降决定液压泵功。",
+  "parameters": [
+    {
+      "en": "Planned: junction-to-fluid thermal resistance",
+      "zh": "规划：结到流体热阻"
+    },
+    {
+      "en": "Planned: heat-transfer coefficient",
+      "zh": "规划：换热系数"
+    },
+    {
+      "en": "Planned: flow rate and pressure drop",
+      "zh": "规划：流量与压降"
+    }
+  ],
+  "samples": [
+    {
+      "en": "Microchannel cold plates and instrumented test chips",
+      "zh": "微通道冷板与带传感测试芯片"
+    }
+  ],
+  "features": [
+    {
+      "en": "Coupled thermal–hydraulic measurement",
+      "zh": "热-流动耦合测量"
+    },
+    {
+      "en": "Under construction",
+      "zh": "建设中"
+    }
+  ],
+  "results": [],
+  "publications": [
+    {
+      "citation": "Tuckerman DB, Pease RFW. High-performance heat sinking for VLSI. IEEE Electron Device Letters. 1981;2:126–129. doi:10.1109/EDL.1981.25367.",
+      "url": "https://doi.org/10.1109/EDL.1981.25367",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22High-performance%20heat%20sinking%20for%20VLSI%22",
+      "verified": true
+    }
+  ],
+  "id": "microchannel-cooling-setup",
+  "name": "Microchannel Cooling Test Setup",
+  "nameZh": "微通道冷却测试平台",
+  "source": "custom-built",
+  "categories": [
+    "device-thermometry",
+    "under-construction",
+    "custom-built"
+  ],
+  "summary": "Flow-loop platform under construction for chip-level microchannel cooling evaluation.",
+  "summaryZh": "用于芯片级微通道冷却评估的在建流动回路平台。",
+  "imageAlt": "Microchannel Cooling Test Setup equipment",
+  "imageAltZh": "微通道冷却测试平台设备",
+  "principleImageZh": "images/facilities/principles/audited/microchannel-cooling-setup-zh.svg",
+  "principleImageAlt": "Microchannel thermal–hydraulic testing — original operating-principle schematic",
+  "principleImageAltZh": "微通道热–流动测试——原创工作原理示意图",
+  "order": 21,
+  "published": true
+}

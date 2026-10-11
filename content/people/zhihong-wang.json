@@ -1,0 +1,26 @@
+{
+  "id": "zhihong-wang",
+  "name": "Zhihong Wang",
+  "nameZh": "王志鸿",
+  "group": "undergraduate-students",
+  "order": 22,
+  "role": "Undergraduate Student",
+  "roleZh": "本科生",
+  "meta": "",
+  "metaZh": "",
+  "image": "Fig/people/王志鸿.jpg",
+  "imagePosition": "50% 0%",
+  "imagePositionFull": "0% 50%",
+  "email": "2400012803@stu.pku.edu.cn",
+  "bio": "Zhihong Wang is currently pursuing the B.S. degree at Peking University.",
+  "bioZh": "王志鸿目前在北京大学攻读学士学位。",
+  "education": [
+    {
+      "en": "2024–Present, Peking University, B.S.",
+      "zh": "2024–至今，北京大学，学士"
+    }
+  ],
+  "sections": [],
+  "links": [],
+  "published": true
+}

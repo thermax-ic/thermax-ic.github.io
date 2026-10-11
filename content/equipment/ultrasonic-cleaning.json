@@ -1,0 +1,67 @@
+{
+  "image": "images/facilities/equipment-ai/ultrasonic-cleaning.webp",
+  "imageSource": {
+    "label": "AI-generated equipment illustration",
+    "labelZh": "AI 生成设备示意图",
+    "url": ""
+  },
+  "imageGenerated": true,
+  "principleImage": "images/facilities/principles/audited/ultrasonic-cleaning-en.svg",
+  "principleSource": {
+    "label": "Original schematic · Method: Branson · Ultrasonic cavitation cleaning",
+    "labelZh": "原创示意图 · 原理参考：Branson · 超声空化清洗",
+    "url": "https://www.emerson.com/is/content/emerson/en/corporate/branson/expertise-pages/ultrasonic-cleaning-expertise/documents/brochure-mold-cleaner.pdf"
+  },
+  "overview": "Removes particles and residues before metallization, bonding, microscopy, or optical thermometry. Cleaning chemistry, time, and power must be selected for the material because cavitation can damage fragile structures.",
+  "overviewZh": "在金属沉积、键合、显微观察或光学热测量前去除颗粒与残留物。清洗液、时间和功率需按材料选择，因为空化可能损伤脆弱结构。",
+  "principle": "A transducer drives pressure oscillations in the cleaning liquid. Cavitation bubbles grow and collapse, producing local shear, shock waves and near-surface microjets that dislodge contaminants. Cleaning also depends on solvent chemistry; excessive cavitation can damage fragile films or structures.",
+  "principleZh": "换能器在清洗液中产生超声压力振荡，空化气泡生长并塌缩，形成局部剪切、冲击波与近表面微射流，剥离污染物。清洗效果还取决于清洗液化学性质，过强空化可能损伤脆弱薄膜或结构。",
+  "parameters": [
+    {
+      "en": "Cleaning time, bath temperature, and power",
+      "zh": "清洗时间、槽液温度与功率"
+    }
+  ],
+  "samples": [
+    {
+      "en": "Solvent-compatible wafers, substrates, and coupons",
+      "zh": "与清洗液兼容的晶圆、衬底与样片"
+    }
+  ],
+  "features": [
+    {
+      "en": "Pre-metallization and pre-bond cleaning",
+      "zh": "沉积／键合前清洗"
+    },
+    {
+      "en": "Material-specific qualification required",
+      "zh": "需要按材料验证工艺"
+    }
+  ],
+  "results": [],
+  "publications": [
+    {
+      "citation": "Surface damage effects in ultrasonic cleaning of silicon wafers. In: Physics, Chemistry and Applications of Nanostructures. doi:10.1142/9789814343909_0100.",
+      "url": "https://doi.org/10.1142/9789814343909_0100",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Surface%20damage%20effects%20in%20ultrasonic%20cleaning%20of%20silicon%20wafers%22",
+      "verified": true
+    }
+  ],
+  "id": "ultrasonic-cleaning",
+  "name": "Ultrasonic Cleaning Tool",
+  "nameZh": "超声清洗设备",
+  "source": "modified-commercial",
+  "categories": [
+    "support-tools",
+    "modified-commercial"
+  ],
+  "summary": "Solvent-bath ultrasonic cleaning for sample preparation.",
+  "summaryZh": "用于样品制备的溶剂浴超声清洗。",
+  "imageAlt": "Ultrasonic Cleaning Tool equipment",
+  "imageAltZh": "超声清洗设备设备",
+  "principleImageZh": "images/facilities/principles/audited/ultrasonic-cleaning-zh.svg",
+  "principleImageAlt": "Ultrasonic cavitation cleaning — original operating-principle schematic",
+  "principleImageAltZh": "超声空化清洗——原创工作原理示意图",
+  "order": 20,
+  "published": true
+}

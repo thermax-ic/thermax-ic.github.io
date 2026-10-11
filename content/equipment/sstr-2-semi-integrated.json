@@ -1,0 +1,85 @@
+{
+  "image": "images/facilities/equipment-ai/sstr-2-semi-integrated.webp",
+  "imageSource": {
+    "label": "AI-generated equipment illustration",
+    "labelZh": "AI 生成设备示意图",
+    "url": ""
+  },
+  "imageGenerated": true,
+  "principleImage": "images/facilities/principles/audited/sstr-2-semi-integrated-en.svg",
+  "principleSource": {
+    "label": "Original schematic · Method: Braun et al. · SSTR",
+    "labelZh": "原创示意图 · 原理参考：Braun 等 · SSTR 方法",
+    "url": "https://doi.org/10.1063/1.5056182"
+  },
+  "overview": "A semi-integrated system that packages the core optical path while retaining user access to the sample and selected beam-conditioning components. It targets reproducible routine measurements with moderate customization.",
+  "overviewZh": "将核心光路集成封装，同时保留样品端和部分光束整形部件的操作空间，适合具有一定定制需求的常规重复测量。",
+  "principle": "The semi-integrated version uses the same steady-heating principle as laboratory SSTR. Pump-induced heat spreads through the film stack and substrate; the probe measures the resulting surface-reflectance change. Fitting the power-normalized response requires known beam geometry and calibration. Integration changes implementation, not the underlying measurement physics.",
+  "principleZh": "半集成版本沿用稳态泵浦加热原理，热量经膜层与衬底扩散，探测光读取由表面温升引起的反射率变化。拟合功率归一化响应时，需要光斑几何与响应标定。集成程度改变实现形式，不改变基本测量原理。",
+  "parameters": [
+    {
+      "en": "Effective / cross-plane thermal conductivity",
+      "zh": "有效／面外热导率"
+    },
+    {
+      "en": "Steady thermal resistance",
+      "zh": "稳态热阻"
+    },
+    {
+      "en": "Interface conductance (model dependent)",
+      "zh": "界面热导（依赖模型）"
+    }
+  ],
+  "samples": [
+    {
+      "en": "Wafers and diced coupons",
+      "zh": "晶圆与切割样片"
+    },
+    {
+      "en": "Thin-film stacks",
+      "zh": "薄膜堆叠"
+    }
+  ],
+  "features": [
+    {
+      "en": "Repeatable beam alignment",
+      "zh": "可重复光路对准"
+    },
+    {
+      "en": "Accessible sample fixture",
+      "zh": "可操作样品夹具"
+    }
+  ],
+  "results": [],
+  "publications": [
+    {
+      "citation": "Braun JL, Olson DH, Gaskins JT, Hopkins PE. A steady-state thermoreflectance method to measure thermal conductivity. Review of Scientific Instruments. 2019;90:024905. doi:10.1063/1.5056182.",
+      "url": "https://doi.org/10.1063/1.5056182",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22A%20steady-state%20thermoreflectance%20method%20to%20measure%20thermal%20conductivity%22",
+      "verified": true
+    },
+    {
+      "citation": "Mohan R, Khan S, Wilson RB, Hopkins PE. Time-domain thermoreflectance. Nature Reviews Methods Primers. 2025;5. doi:10.1038/s43586-025-00425-8.",
+      "url": "https://doi.org/10.1038/s43586-025-00425-8",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Time-domain%20thermoreflectance%22",
+      "verified": true
+    }
+  ],
+  "id": "sstr-2-semi-integrated",
+  "name": "SSTR-2 · Semi-integrated version",
+  "nameZh": "稳态热反射系统-2（半集成版本）",
+  "source": "custom-built",
+  "categories": [
+    "thermal-properties",
+    "custom-built"
+  ],
+  "summary": "Semi-integrated SSTR balancing fixture flexibility with repeatable alignment.",
+  "summaryZh": "兼顾装夹灵活性与重复对准的半集成 SSTR。",
+  "imageAlt": "SSTR-2 · Semi-integrated version equipment",
+  "imageAltZh": "稳态热反射系统-2（半集成版本）设备",
+  "principleImageZh": "images/facilities/principles/audited/sstr-2-semi-integrated-zh.svg",
+  "principleImageAlt": "SSTR: layered heat spreading — original operating-principle schematic",
+  "principleImageAltZh": "SSTR：多层热扩散——原创工作原理示意图",
+  "order": 5,
+  "published": true
+}

@@ -1,0 +1,5 @@
+node_modules/
+dist/
+.playwright-cli/
+output/cms-checks/
+output/playwright/

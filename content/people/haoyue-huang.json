@@ -1,0 +1,26 @@
+{
+  "id": "haoyue-huang",
+  "name": "Haoyue Huang",
+  "nameZh": "黄颢越",
+  "group": "undergraduate-students",
+  "order": 18,
+  "role": "Undergraduate Student",
+  "roleZh": "本科生",
+  "meta": "",
+  "metaZh": "",
+  "image": "Fig/people/黄颢越.jpg",
+  "imagePosition": "90% 50%",
+  "imagePositionFull": "72% 50%",
+  "email": "huanghaoyue@stu.pku.edu.cn",
+  "bio": "Haoyue Huang is currently pursuing the B.S. degree at Peking University.",
+  "bioZh": "黄颢越目前在北京大学攻读学士学位。",
+  "education": [
+    {
+      "en": "2023–Present, Peking University, B.S.",
+      "zh": "2023–至今，北京大学，学士"
+    }
+  ],
+  "sections": [],
+  "links": [],
+  "published": true
+}

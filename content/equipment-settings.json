@@ -1,0 +1,364 @@
+{
+  "publicationCatalog": {
+    "tdtrPrimer": {
+      "citation": "Mohan R, Khan S, Wilson RB, Hopkins PE. Time-domain thermoreflectance. Nature Reviews Methods Primers. 2025;5. doi:10.1038/s43586-025-00425-8.",
+      "url": "https://doi.org/10.1038/s43586-025-00425-8",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Time-domain%20thermoreflectance%22",
+      "verified": true
+    },
+    "tdtrTutorial": {
+      "citation": "Jiang P, Qian X, Yang R. Tutorial: Time-domain thermoreflectance (TDTR) for thermal property characterization of bulk and thin film materials. Journal of Applied Physics. 2018;124:161103. doi:10.1063/1.5046944.",
+      "url": "https://doi.org/10.1063/1.5046944",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Tutorial%3A%20Time-domain%20thermoreflectance%20(TDTR)%20for%20thermal%20property%20characterization%20of%20bulk%20and%20thin%20film%20materials%22",
+      "verified": true
+    },
+    "picosecond": {
+      "citation": "Thomsen C, Grahn HT, Maris HJ, Tauc J. Surface generation and detection of phonons by picosecond light pulses. Physical Review B. 1986;34:4129–4138. doi:10.1103/PhysRevB.34.4129.",
+      "url": "https://doi.org/10.1103/PhysRevB.34.4129",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Surface%20generation%20and%20detection%20of%20phonons%20by%20picosecond%20light%20pulses%22",
+      "verified": true
+    },
+    "sstr": {
+      "citation": "Braun JL, Olson DH, Gaskins JT, Hopkins PE. A steady-state thermoreflectance method to measure thermal conductivity. Review of Scientific Instruments. 2019;90:024905. doi:10.1063/1.5056182.",
+      "url": "https://doi.org/10.1063/1.5056182",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22A%20steady-state%20thermoreflectance%20method%20to%20measure%20thermal%20conductivity%22",
+      "verified": true
+    },
+    "fdtr": {
+      "citation": "Schmidt AJ, Cheaito R, Chiesa M. A frequency-domain thermoreflectance method for the characterization of thermal properties. Review of Scientific Instruments. 2009;80:094901. doi:10.1063/1.3212673.",
+      "url": "https://doi.org/10.1063/1.3212673",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22A%20frequency-domain%20thermoreflectance%20method%20for%20the%20characterization%20of%20thermal%20properties%22",
+      "verified": true
+    },
+    "raman": {
+      "citation": "Beechem T, Christensen A, Graham S, Green D. Micro-Raman thermometry in the presence of complex stresses in GaN devices. Journal of Applied Physics. 2008;103:124501. doi:10.1063/1.2940131.",
+      "url": "https://doi.org/10.1063/1.2940131",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Micro-Raman%20thermometry%20in%20the%20presence%20of%20complex%20stresses%20in%20GaN%20devices%22",
+      "verified": true
+    },
+    "ramanReview": {
+      "citation": "Kuball M, Pomeroy JW. A Review of Raman Thermography for Electronic and Opto-Electronic Device Measurement With Submicron Spatial and Nanosecond Temporal Resolution. IEEE Transactions on Device and Materials Reliability. 2016;16:667–684. doi:10.1109/TDMR.2016.2617458.",
+      "url": "https://doi.org/10.1109/TDMR.2016.2617458",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22A%20Review%20of%20Raman%20Thermography%20for%20Electronic%20and%20Opto-Electronic%20Device%20Measurement%20With%20Submicron%20Spatial%20and%20Nanosecond%20Temporal%20Resolution%22",
+      "verified": true
+    },
+    "infrared": {
+      "citation": "Liu W, Yang B. Thermography techniques for integrated circuits and semiconductor devices. Sensor Review. 2007;27:298–309. doi:10.1108/02602280710821434.",
+      "url": "https://doi.org/10.1108/02602280710821434",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Thermography%20techniques%20for%20integrated%20circuits%20and%20semiconductor%20devices%22",
+      "verified": true
+    },
+    "thermoreflectanceImaging": {
+      "citation": "Grauby S, Dilhaire S, Jorez S, Claeys W. Temperature variation mapping of a microelectromechanical system by thermoreflectance imaging. IEEE Electron Device Letters. 2005;26:78–80. doi:10.1109/LED.2004.841468.",
+      "url": "https://doi.org/10.1109/LED.2004.841468",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Temperature%20variation%20mapping%20of%20a%20microelectromechanical%20system%20by%20thermoreflectance%20imaging%22",
+      "verified": true
+    },
+    "transientThermoreflectance": {
+      "citation": "Martin-Horcajo S, Pomeroy JW, Lambert B, Jung H, Blanck H, Kuball M. Transient Thermoreflectance for Gate Temperature Assessment in Pulse Operated GaN-Based HEMTs. IEEE Electron Device Letters. 2016;37:1197–1200. doi:10.1109/LED.2016.2595400.",
+      "url": "https://doi.org/10.1109/LED.2016.2595400",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Transient%20Thermoreflectance%20for%20Gate%20Temperature%20Assessment%20in%20Pulse%20Operated%20GaN-Based%20HEMTs%22",
+      "verified": true
+    },
+    "pbd": {
+      "citation": "Sun J, Cheng Z, Liang J, et al. Probe beam deflection technique with liquid immersion for fast mapping of thermal conductance. Applied Physics Letters. 2024;124:042201. doi:10.1063/5.0179581.",
+      "url": "https://doi.org/10.1063/5.0179581",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Probe%20beam%20deflection%20technique%20with%20liquid%20immersion%20for%20fast%20mapping%20of%20thermal%20conductance%22",
+      "verified": true
+    },
+    "beamOffset": {
+      "citation": "Feser JP, Cahill DG. Probing anisotropic heat transport using time-domain thermoreflectance with offset laser spots. Review of Scientific Instruments. 2012;83:104901. doi:10.1063/1.4757863.",
+      "url": "https://doi.org/10.1063/1.4757863",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Probing%20anisotropic%20heat%20transport%20using%20time-domain%20thermoreflectance%20with%20offset%20laser%20spots%22",
+      "verified": true
+    },
+    "fourProbe": {
+      "citation": "Smits FM. Measurement of Sheet Resistivities with the Four-Point Probe. Bell System Technical Journal. 1958;37:711–718. doi:10.1002/j.1538-7305.1958.tb03883.x.",
+      "url": "https://doi.org/10.1002/j.1538-7305.1958.tb03883.x",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Measurement%20of%20Sheet%20Resistivities%20with%20the%20Four-Point%20Probe%22",
+      "verified": true
+    },
+    "ultrasonic": {
+      "citation": "Surface damage effects in ultrasonic cleaning of silicon wafers. In: Physics, Chemistry and Applications of Nanostructures. doi:10.1142/9789814343909_0100.",
+      "url": "https://doi.org/10.1142/9789814343909_0100",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Surface%20damage%20effects%20in%20ultrasonic%20cleaning%20of%20silicon%20wafers%22",
+      "verified": true
+    },
+    "microchannel": {
+      "citation": "Tuckerman DB, Pease RFW. High-performance heat sinking for VLSI. IEEE Electron Device Letters. 1981;2:126–129. doi:10.1109/EDL.1981.25367.",
+      "url": "https://doi.org/10.1109/EDL.1981.25367",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22High-performance%20heat%20sinking%20for%20VLSI%22",
+      "verified": true
+    },
+    "cvdDiamond": {
+      "citation": "Balmer RS, Brandon JR, Clewes SL, et al. Chemical vapour deposition synthetic diamond: materials, technology and applications. Journal of Physics: Condensed Matter. 2009;21:364221. doi:10.1088/0953-8984/21/36/364221.",
+      "url": "https://doi.org/10.1088/0953-8984/21/36/364221",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Chemical%20vapour%20deposition%20synthetic%20diamond%3A%20materials%2C%20technology%20and%20applications%22",
+      "verified": true
+    },
+    "sab": {
+      "citation": "Mu F, Cheng Z, Shi J, et al. High Thermal Boundary Conductance across Bonded Heterogeneous GaN–SiC Interfaces. ACS Applied Materials & Interfaces. 2019;11:33428–33434. doi:10.1021/acsami.9b10106.",
+      "url": "https://doi.org/10.1021/acsami.9b10106",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22High%20Thermal%20Boundary%20Conductance%20across%20Bonded%20Heterogeneous%20GaN-SiC%20Interfaces%22",
+      "verified": true
+    },
+    "pvd": {
+      "citation": "Kelly PJ, Arnell RD. Magnetron sputtering: a review of recent developments and applications. Vacuum. 2000;56:159–172. doi:10.1016/S0042-207X(99)00189-X.",
+      "url": "https://doi.org/10.1016/S0042-207X(99)00189-X",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Magnetron%20sputtering%3A%20a%20review%20of%20recent%20developments%20and%20applications%22",
+      "verified": true
+    },
+    "eelsInterface": {
+      "citation": "Cheng Z, Li R, Yan X, et al. Experimental observation of localized interfacial phonon modes. Nature Communications. 2021;12:6901. doi:10.1038/s41467-021-27250-3.",
+      "url": "https://doi.org/10.1038/s41467-021-27250-3",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Experimental%20observation%20of%20localized%20interfacial%20phonon%20modes%22",
+      "verified": true
+    },
+    "eelsAtomic": {
+      "citation": "Hage FS, Kepaptsoglou DM, Ramasse QM, Allen LJ. Phonon Spectroscopy at Atomic Resolution. Physical Review Letters. 2019;122:016103. doi:10.1103/PhysRevLett.122.016103.",
+      "url": "https://doi.org/10.1103/PhysRevLett.122.016103",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Phonon%20Spectroscopy%20at%20Atomic%20Resolution%22",
+      "verified": true
+    }
+  },
+  "filters": [
+    {
+      "id": "all",
+      "label": "All",
+      "labelZh": "全部"
+    },
+    {
+      "id": "thermal-properties",
+      "label": "Thermal properties",
+      "labelZh": "热物性"
+    },
+    {
+      "id": "device-thermometry",
+      "label": "Device thermometry",
+      "labelZh": "器件测温"
+    },
+    {
+      "id": "stress-acoustics",
+      "label": "Stress & acoustics",
+      "labelZh": "应力与声学"
+    },
+    {
+      "id": "support-tools",
+      "label": "Supporting tools",
+      "labelZh": "辅助设备"
+    },
+    {
+      "id": "under-construction",
+      "label": "Under construction",
+      "labelZh": "建设中"
+    },
+    {
+      "id": "shared",
+      "label": "Shared equipment",
+      "labelZh": "共享设备"
+    }
+  ],
+  "capabilityMatrix": {
+    "legend": [
+      {
+        "id": "direct",
+        "label": "Direct / primary",
+        "labelZh": "直接／主要能力"
+      },
+      {
+        "id": "conditional",
+        "label": "Model-dependent / conditional",
+        "labelZh": "依赖模型／条件"
+      },
+      {
+        "id": "support",
+        "label": "Via coupled accessory",
+        "labelZh": "需联用辅助设备"
+      },
+      {
+        "id": "planned",
+        "label": "Planned; commissioning pending",
+        "labelZh": "规划能力；待验收"
+      }
+    ],
+    "columns": [
+      {
+        "id": "crossPlane",
+        "label": "Cross-plane κ",
+        "labelZh": "面外热导率"
+      },
+      {
+        "id": "inPlane",
+        "label": "In-plane / anisotropic κ",
+        "labelZh": "面内／各向异性热导率"
+      },
+      {
+        "id": "interface",
+        "label": "Interface conductance",
+        "labelZh": "界面热导"
+      },
+      {
+        "id": "steadyTemp",
+        "label": "Steady device temperature",
+        "labelZh": "稳态器件温度"
+      },
+      {
+        "id": "transientTemp",
+        "label": "Transient temperature",
+        "labelZh": "瞬态温度"
+      },
+      {
+        "id": "mapping",
+        "label": "Spatial mapping",
+        "labelZh": "空间成像"
+      },
+      {
+        "id": "stressAcoustic",
+        "label": "Stress / acoustic",
+        "labelZh": "应力／声学"
+      },
+      {
+        "id": "inOperando",
+        "label": "In-operando bias",
+        "labelZh": "工作态电激励"
+      }
+    ],
+    "rows": [
+      {
+        "label": "TDTR-1 · Two-tint",
+        "labelZh": "TDTR-1 · Two-tint",
+        "values": {
+          "crossPlane": "direct",
+          "inPlane": "conditional",
+          "interface": "direct",
+          "mapping": "support",
+          "stressAcoustic": "direct"
+        }
+      },
+      {
+        "label": "TDTR-2 · Two-color",
+        "labelZh": "TDTR-2 · 双色",
+        "values": {
+          "crossPlane": "direct",
+          "inPlane": "conditional",
+          "interface": "direct",
+          "mapping": "support",
+          "stressAcoustic": "direct"
+        }
+      },
+      {
+        "label": "TDTR-3",
+        "labelZh": "TDTR-3",
+        "values": {
+          "crossPlane": "planned",
+          "interface": "planned"
+        }
+      },
+      {
+        "label": "SSTR-1 · Laboratory",
+        "labelZh": "SSTR-1 · 实验室版",
+        "values": {
+          "crossPlane": "direct",
+          "interface": "conditional",
+          "mapping": "conditional"
+        }
+      },
+      {
+        "label": "SSTR-2 · Semi-integrated",
+        "labelZh": "SSTR-2 · 半集成版",
+        "values": {
+          "crossPlane": "direct",
+          "interface": "conditional",
+          "mapping": "conditional"
+        }
+      },
+      {
+        "label": "SSTR-3 · Integrated",
+        "labelZh": "SSTR-3 · 集成版",
+        "values": {
+          "crossPlane": "direct",
+          "interface": "conditional"
+        }
+      },
+      {
+        "label": "FDTR",
+        "labelZh": "FDTR",
+        "values": {
+          "crossPlane": "direct",
+          "inPlane": "conditional",
+          "interface": "direct",
+          "mapping": "conditional"
+        }
+      },
+      {
+        "label": "FASTR",
+        "labelZh": "FASTR",
+        "values": {
+          "crossPlane": "direct",
+          "interface": "direct",
+          "mapping": "conditional"
+        }
+      },
+      {
+        "label": "Micro-Raman",
+        "labelZh": "显微拉曼",
+        "values": {
+          "steadyTemp": "direct",
+          "transientTemp": "conditional",
+          "mapping": "direct",
+          "stressAcoustic": "direct",
+          "inOperando": "support"
+        }
+      },
+      {
+        "label": "QFI infrared microscopy",
+        "labelZh": "QFI 显微红外",
+        "values": {
+          "steadyTemp": "direct",
+          "transientTemp": "conditional",
+          "mapping": "direct",
+          "inOperando": "support"
+        }
+      },
+      {
+        "label": "Microsanj thermoreflectance",
+        "labelZh": "Microsanj 热反射",
+        "values": {
+          "steadyTemp": "direct",
+          "transientTemp": "direct",
+          "mapping": "direct",
+          "inOperando": "support"
+        }
+      },
+      {
+        "label": "Device thermoreflectance",
+        "labelZh": "器件热反射",
+        "values": {
+          "steadyTemp": "planned",
+          "transientTemp": "planned",
+          "mapping": "planned",
+          "inOperando": "planned"
+        }
+      },
+      {
+        "label": "FD-PBD",
+        "labelZh": "FD-PBD",
+        "values": {
+          "crossPlane": "conditional",
+          "interface": "planned",
+          "mapping": "planned"
+        }
+      },
+      {
+        "label": "Beam-offset TDTR",
+        "labelZh": "TDTR 光斑偏置",
+        "values": {
+          "crossPlane": "support",
+          "inPlane": "direct",
+          "interface": "support",
+          "mapping": "direct"
+        }
+      }
+    ]
+  }
+}

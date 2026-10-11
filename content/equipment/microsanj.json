@@ -1,0 +1,89 @@
+{
+  "image": "images/facilities/equipment-ai/microsanj.webp",
+  "imageSource": {
+    "label": "AI-generated equipment illustration",
+    "labelZh": "AI 生成设备示意图",
+    "url": ""
+  },
+  "imageGenerated": true,
+  "principleImage": "images/facilities/principles/audited/microsanj-en.svg",
+  "principleSource": {
+    "label": "Original schematic · Method: Microsanj · Time-dependent thermal imaging",
+    "labelZh": "原创示意图 · 原理参考：Microsanj · 瞬态热成像技术说明",
+    "url": "https://microsanj.com/wp-content/uploads/2025/02/AN-006.pdf"
+  },
+  "overview": "A modified commercial thermoreflectance microscope for operating devices. Synchronized excitation and optical acquisition support the stated 50 ns transient capability, subject to periodicity, signal-to-noise ratio, and surface calibration.",
+  "overviewZh": "面向工作态微电子器件表面温度成像的商用改装热反射显微系统。通过同步电激励与光学采集实现页面已确认的 50 ns 瞬态能力，实际测试还取决于周期性、信噪比和表面标定。",
+  "principle": "An illuminated microscope and camera measure surface-reflectance changes; a calibrated thermoreflectance coefficient converts these into temperature changes. For repeatable electrical pulses, delayed illumination samples different times over many cycles. Temporal resolution depends on optical gating, exposure and synchronization jitter, rather than camera frame rate alone.",
+  "principleZh": "照明显微镜与相机测量表面反射率变化，利用标定的热反射系数换算温度变化。对于可重复的电脉冲，通过改变照明延迟，在多次循环中采样不同时刻。时间分辨率由光学门控、曝光与同步抖动共同决定，不能仅由相机帧率判断。",
+  "parameters": [
+    {
+      "en": "Surface temperature map",
+      "zh": "表面温度分布"
+    },
+    {
+      "en": "Transient temperature to 50 ns",
+      "zh": "最快 50 ns 瞬态温度"
+    },
+    {
+      "en": "Thermal time response",
+      "zh": "热响应时间"
+    }
+  ],
+  "samples": [
+    {
+      "en": "Powered semiconductor devices",
+      "zh": "通电半导体器件"
+    },
+    {
+      "en": "Reflective or coated device surfaces",
+      "zh": "反射性良好或带传感层的器件表面"
+    }
+  ],
+  "features": [
+    {
+      "en": "Camera-based thermoreflectance",
+      "zh": "相机式热反射成像"
+    },
+    {
+      "en": "Synchronized transient acquisition",
+      "zh": "同步瞬态采集"
+    },
+    {
+      "en": "Probe-station integration",
+      "zh": "探针台联用"
+    }
+  ],
+  "results": [],
+  "publications": [
+    {
+      "citation": "Grauby S, Dilhaire S, Jorez S, Claeys W. Temperature variation mapping of a microelectromechanical system by thermoreflectance imaging. IEEE Electron Device Letters. 2005;26:78–80. doi:10.1109/LED.2004.841468.",
+      "url": "https://doi.org/10.1109/LED.2004.841468",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Temperature%20variation%20mapping%20of%20a%20microelectromechanical%20system%20by%20thermoreflectance%20imaging%22",
+      "verified": true
+    },
+    {
+      "citation": "Martin-Horcajo S, Pomeroy JW, Lambert B, Jung H, Blanck H, Kuball M. Transient Thermoreflectance for Gate Temperature Assessment in Pulse Operated GaN-Based HEMTs. IEEE Electron Device Letters. 2016;37:1197–1200. doi:10.1109/LED.2016.2595400.",
+      "url": "https://doi.org/10.1109/LED.2016.2595400",
+      "scholarUrl": "https://scholar.google.com/scholar?q=%22Transient%20Thermoreflectance%20for%20Gate%20Temperature%20Assessment%20in%20Pulse%20Operated%20GaN-Based%20HEMTs%22",
+      "verified": true
+    }
+  ],
+  "id": "microsanj",
+  "name": "Microsanj Thermoreflectance Thermometry",
+  "nameZh": "Microsanj 热反射测温系统",
+  "source": "modified-commercial",
+  "categories": [
+    "device-thermometry",
+    "modified-commercial"
+  ],
+  "summary": "Calibrated thermoreflectance imaging with transient measurements down to 50 ns.",
+  "summaryZh": "经标定的热反射成像，瞬态测温最快可达 50 ns。",
+  "imageAlt": "Microsanj Thermoreflectance Thermometry equipment",
+  "imageAltZh": "Microsanj 热反射测温系统设备",
+  "principleImageZh": "images/facilities/principles/audited/microsanj-zh.svg",
+  "principleImageAlt": "Stroboscopic thermoreflectance imaging — original operating-principle schematic",
+  "principleImageAltZh": "频闪热反射成像——原创工作原理示意图",
+  "order": 11,
+  "published": true
+}
