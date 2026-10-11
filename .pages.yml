@@ -1,4 +1,4 @@
-# Pages CMS — 编辑入口：https://app.pagescms.org/thermax-ic/thermax-ic.github.io
+# Pages CMS — 页面介绍按页面区域维护；内容与绑定路径保持不变。
 components:
   bilingual:
     type: object
@@ -8,6 +8,24 @@ components:
         type: text
       - name: en
         label: 英文文案
+        type: text
+  bilingual-title:
+    type: object
+    fields:
+      - name: zh
+        label: 中文
+        type: string
+      - name: en
+        label: 英文
+        type: string
+  bilingual-copy:
+    type: object
+    fields:
+      - name: zh
+        label: 中文
+        type: text
+      - name: en
+        label: 英文
         type: text
 media:
   - name: images
@@ -40,1010 +58,1597 @@ media:
       - pdf
     rename: safe
 content:
-  - name: site
-    label: 网站名称、导航与页脚
-    type: file
-    path: content/site.json
-    format: json
-    fields:
-      - name: section_01
-        label: 网站公共信息
-        type: object
-        fields:
-          - name: text_001
-            label: 跳转至主要内容
-            component: bilingual
-      - name: section_02
-        label: 网站公共信息
-        type: object
-        fields:
-          - name: text_002
-            label: 北京大学
-            component: bilingual
-      - name: section_03
-        label: 网站公共信息
-        type: object
-        fields:
-          - name: text_003
-            label: 芯片热管理与先进集成实验室
-            component: bilingual
-          - name: text_004
-            label: 先进封装 • 异质集成 • 热表征
-            component: bilingual
-          - name: text_005
-            label: TherMAX-IC 实验室 · 程哲课题组
-            component: bilingual
-          - name: text_006
-            label: 首页
-            component: bilingual
-          - name: text_007
-            label: 关于我们
-            component: bilingual
-          - name: text_008
-            label: 研究方向
-            component: bilingual
-          - name: text_009
-            label: 设备平台
-            component: bilingual
-          - name: text_010
-            label: 成员
-            component: bilingual
-          - name: text_011
-            label: 论文发表
-            component: bilingual
-          - name: text_012
-            label: 新闻
-            component: bilingual
-          - name: text_013
-            label: 联系我们
-            component: bilingual
-          - name: text_014
-            label: 站内搜索
-            component: bilingual
-          - name: text_015
-            label: 搜索
-            component: bilingual
-      - name: section_04
-        label: 芯片热管理与先进集成实验室
-        type: object
-        fields:
-          - name: text_016
-            label: 芯片热管理与先进集成实验室
-            component: bilingual
-          - name: text_017
-            label: 北京大学
-            component: bilingual
-          - name: text_018
-            label: 集成电路学院
-            component: bilingual
-          - name: text_019
-            label: 地址
-            component: bilingual
-          - name: text_020
-            label: 微纳电子大厦
-            component: bilingual
-          - name: text_021
-            label: 北京市海淀区颐和园路5号，邮编100871
-            component: bilingual
-          - name: text_022
-            label: 联系
-            component: bilingual
-          - name: text_023
-            label: zhe.cheng@pku.edu.cn
-            component: bilingual
-          - name: text_024
-            label: 集成电路学院 ↗
-            component: bilingual
-          - name: text_025
-            label: © 2026 TherMAX-IC · 北京大学
-            component: bilingual
-      - name: images
-        label: 页面图片
-        type: object
-        fields:
-          - name: image_01
-            label: TherMAX-IC Lab
-            type: object
+  - name: page-introductions
+    label: 页面介绍
+    type: group
+    description: 先选页面，再按页面区域找到对应的标题、正文、配图和链接。
+    items:
+      - name: index
+        label: 首页
+        type: group
+        description: 按页面从上到下选择要修改的区域。
+        items:
+          - name: index-hero
+            label: 01 顶部首屏
+            type: file
+            path: content/pages/index.json
+            format: json
+            description: 官网打开后首先看到的大图、主标题、介绍与两个按钮。
+            operations:
+              create: false
+              delete: false
+              rename: false
+            commit:
+              templates:
+                update: "content: update 首页 / 01 顶部首屏"
             fields:
-              - name: src
-                label: 图片文件
-                type: image
-                options:
-                  media: images
-              - name: alt_zh
-                label: 中文图片说明
-                type: string
-              - name: alt_en
-                label: 英文图片说明
-                type: string
-      - name: links
-        label: 网页与邮箱链接
-        type: object
+              - name: section_01
+                label: 标题与介绍
+                type: object
+                fields:
+                  - name: text_001
+                    label: 顶部身份说明
+                    component: bilingual-copy
+                  - name: text_002
+                    label: 主标题
+                    component: bilingual-title
+                  - name: text_003
+                    label: 简短介绍
+                    component: bilingual-copy
+                  - name: text_004
+                    label: 主按钮文字
+                    component: bilingual-title
+                  - name: text_005
+                    label: 次按钮文字
+                    component: bilingual-title
+              - name: images
+                label: 本区域的配图
+                type: object
+                fields:
+                  - name: hero_background
+                    label: 首屏背景图
+                    type: object
+                    fields:
+                      - name: src
+                        label: 图片文件
+                        type: image
+                        options:
+                          media: images
+                      - name: alt_zh
+                        label: 图片内容说明（中文）
+                        type: string
+                      - name: alt_en
+                        label: 图片内容说明（英文）
+                        type: string
+                    description: 选择或上传图片。图片内容说明供阅读辅助工具使用，不是页面下方的可见图注。
+          - name: index-intro
+            label: 02 实验室简介
+            type: file
+            path: content/pages/index.json
+            format: json
+            description: 首屏下方的“关于实验室”区域。
+            operations:
+              create: false
+              delete: false
+              rename: false
+            commit:
+              templates:
+                update: "content: update 首页 / 02 实验室简介"
+            fields:
+              - name: section_02
+                label: 标题与正文
+                type: object
+                fields:
+                  - name: text_006
+                    label: 区块标签
+                    component: bilingual-title
+                  - name: text_007
+                    label: 区块标题
+                    component: bilingual-title
+                  - name: text_009
+                    label: 正文第一段
+                    component: bilingual-copy
+                  - name: text_010
+                    label: 正文第二段
+                    component: bilingual-copy
+                  - name: text_008
+                    label: 配图下方文字
+                    component: bilingual-title
+                  - name: text_011
+                    label: 了解研究按钮文字
+                    component: bilingual-title
+              - name: images
+                label: 本区域的配图
+                type: object
+                fields:
+                  - name: image_01
+                    label: 实验室简介配图
+                    type: object
+                    fields:
+                      - name: src
+                        label: 图片文件
+                        type: image
+                        options:
+                          media: images
+                      - name: alt_zh
+                        label: 图片内容说明（中文）
+                        type: string
+                      - name: alt_en
+                        label: 图片内容说明（英文）
+                        type: string
+                    description: 选择或上传图片。图片内容说明供阅读辅助工具使用，不是页面下方的可见图注。
+          - name: index-focus
+            label: 03 研究重点
+            type: file
+            path: content/pages/index.json
+            format: json
+            description: 首页的三张研究重点卡片；完整研究方向条目在“研究方向管理”中维护。
+            operations:
+              create: false
+              delete: false
+              rename: false
+            commit:
+              templates:
+                update: "content: update 首页 / 03 研究重点"
+            fields:
+              - name: section_03
+                label: 标题与方向卡片
+                type: object
+                fields:
+                  - name: text_012
+                    label: 区块标签
+                    component: bilingual-title
+                  - name: text_013
+                    label: 区块标题
+                    component: bilingual-title
+                  - name: text_014
+                    label: 简短说明
+                    component: bilingual-copy
+                  - name: text_016
+                    label: 卡片1标题
+                    component: bilingual-title
+                  - name: text_017
+                    label: 卡片1介绍
+                    component: bilingual-copy
+                  - name: text_020
+                    label: 卡片2标题
+                    component: bilingual-title
+                  - name: text_021
+                    label: 卡片2介绍
+                    component: bilingual-copy
+                  - name: text_024
+                    label: 卡片3标题
+                    component: bilingual-title
+                  - name: text_025
+                    label: 卡片3介绍
+                    component: bilingual-copy
+              - name: images
+                label: 本区域的配图
+                type: object
+                fields:
+                  - name: image_02
+                    label: 卡片1配图
+                    type: object
+                    fields:
+                      - name: src
+                        label: 图片文件
+                        type: image
+                        options:
+                          media: images
+                      - name: alt_zh
+                        label: 图片内容说明（中文）
+                        type: string
+                      - name: alt_en
+                        label: 图片内容说明（英文）
+                        type: string
+                    description: 选择或上传图片。图片内容说明供阅读辅助工具使用，不是页面下方的可见图注。
+                  - name: image_03
+                    label: 卡片2配图
+                    type: object
+                    fields:
+                      - name: src
+                        label: 图片文件
+                        type: image
+                        options:
+                          media: images
+                      - name: alt_zh
+                        label: 图片内容说明（中文）
+                        type: string
+                      - name: alt_en
+                        label: 图片内容说明（英文）
+                        type: string
+                    description: 选择或上传图片。图片内容说明供阅读辅助工具使用，不是页面下方的可见图注。
+                  - name: image_04
+                    label: 卡片3配图
+                    type: object
+                    fields:
+                      - name: src
+                        label: 图片文件
+                        type: image
+                        options:
+                          media: images
+                      - name: alt_zh
+                        label: 图片内容说明（中文）
+                        type: string
+                      - name: alt_en
+                        label: 图片内容说明（英文）
+                        type: string
+                    description: 选择或上传图片。图片内容说明供阅读辅助工具使用，不是页面下方的可见图注。
+          - name: index-platform
+            label: 04 设备平台
+            type: file
+            path: content/pages/index.json
+            format: json
+            description: 研究重点下方的设备平台介绍区域。
+            operations:
+              create: false
+              delete: false
+              rename: false
+            commit:
+              templates:
+                update: "content: update 首页 / 04 设备平台"
+            fields:
+              - name: section_05
+                label: 标题与介绍
+                type: object
+                fields:
+                  - name: text_049
+                    label: 区块引导语
+                    component: bilingual-copy
+                  - name: text_050
+                    label: 区块标题
+                    component: bilingual-title
+                  - name: text_051
+                    label: 平台介绍
+                    component: bilingual-copy
+                  - name: text_052
+                    label: 能力标签1
+                    component: bilingual-title
+                  - name: text_053
+                    label: 能力标签2
+                    component: bilingual-title
+                  - name: text_054
+                    label: 能力标签3
+                    component: bilingual-title
+                  - name: text_055
+                    label: 能力标签4
+                    component: bilingual-title
+                  - name: text_056
+                    label: 查看设备按钮文字
+                    component: bilingual-title
+              - name: images
+                label: 本区域的配图
+                type: object
+                fields:
+                  - name: platform_background
+                    label: 设备平台背景图
+                    type: object
+                    fields:
+                      - name: src
+                        label: 图片文件
+                        type: image
+                        options:
+                          media: images
+                      - name: alt_zh
+                        label: 图片内容说明（中文）
+                        type: string
+                      - name: alt_en
+                        label: 图片内容说明（英文）
+                        type: string
+                    description: 选择或上传图片。图片内容说明供阅读辅助工具使用，不是页面下方的可见图注。
+          - name: index-team
+            label: 05 团队与招生
+            type: file
+            path: content/pages/index.json
+            format: json
+            description: 首页的团队介绍、招生文案与团队合影。
+            operations:
+              create: false
+              delete: false
+              rename: false
+            commit:
+              templates:
+                update: "content: update 首页 / 05 团队与招生"
+            fields:
+              - name: section_06
+                label: 标题与介绍
+                type: object
+                fields:
+                  - name: text_057
+                    label: 区块引导语
+                    component: bilingual-copy
+                  - name: text_058
+                    label: 区块标题
+                    component: bilingual-title
+                  - name: text_059
+                    label: 团队与招生介绍
+                    component: bilingual-copy
+                  - name: text_060
+                    label: 成员按钮文字
+                    component: bilingual-title
+                  - name: text_061
+                    label: 合影下方文字
+                    component: bilingual-title
+              - name: images
+                label: 本区域的配图
+                type: object
+                fields:
+                  - name: image_05
+                    label: 实验室双语标识
+                    type: object
+                    fields:
+                      - name: src
+                        label: 图片文件
+                        type: image
+                        options:
+                          media: images
+                      - name: alt_zh
+                        label: 图片内容说明（中文）
+                        type: string
+                      - name: alt_en
+                        label: 图片内容说明（英文）
+                        type: string
+                    description: 选择或上传图片。图片内容说明供阅读辅助工具使用，不是页面下方的可见图注。
+                  - name: image_06
+                    label: 团队合影
+                    type: object
+                    fields:
+                      - name: src
+                        label: 图片文件
+                        type: image
+                        options:
+                          media: images
+                      - name: alt_zh
+                        label: 图片内容说明（中文）
+                        type: string
+                      - name: alt_en
+                        label: 图片内容说明（英文）
+                        type: string
+                    description: 选择或上传图片。图片内容说明供阅读辅助工具使用，不是页面下方的可见图注。
+          - name: index-contact
+            label: 06 联系入口
+            type: file
+            path: content/pages/index.json
+            format: json
+            description: 首页底部的合作邀请与联系入口；修改邮箱时同时核对显示文字和链接。
+            operations:
+              create: false
+              delete: false
+              rename: false
+            commit:
+              templates:
+                update: "content: update 首页 / 06 联系入口"
+            fields:
+              - name: section_07
+                label: 标题与按钮
+                type: object
+                fields:
+                  - name: text_062
+                    label: 区块标签
+                    component: bilingual-title
+                  - name: text_063
+                    label: 合作邀请标题
+                    component: bilingual-title
+                  - name: text_064
+                    label: 邮箱显示文字
+                    component: bilingual-title
+                  - name: text_066
+                    label: 联系页面按钮文字
+                    component: bilingual-title
+              - name: links
+                label: 本区域的相关链接
+                type: object
+                fields:
+                  - name: link_09
+                    label: 联系邮箱链接
+                    type: object
+                    fields:
+                      - name: href
+                        label: 链接地址
+                        type: string
+                        description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
+          - name: index-credits
+            label: 07 图片署名与来源
+            type: file
+            path: content/pages/index.json
+            format: json
+            description: 研究重点下方“图片署名与来源”折叠栏内的署名、来源及许可说明。
+            operations:
+              create: false
+              delete: false
+              rename: false
+            commit:
+              templates:
+                update: "content: update 首页 / 07 图片署名与来源"
+            fields:
+              - name: section_04
+                label: 署名与说明
+                type: object
+                fields:
+                  - name: text_027
+                    label: 折叠栏标题
+                    component: bilingual-title
+                  - name: text_028
+                    label: 图片用途说明
+                    component: bilingual-copy
+                  - name: text_029
+                    label: 图片1名称
+                    component: bilingual-title
+                  - name: text_030
+                    label: 图片1作者署名
+                    component: bilingual-title
+                  - name: text_031
+                    label: 图片1来源按钮文字
+                    component: bilingual-title
+                  - name: text_033
+                    label: 图片1许可名称
+                    component: bilingual-title
+                  - name: text_034
+                    label: 图片2名称
+                    component: bilingual-title
+                  - name: text_035
+                    label: 图片2作者署名
+                    component: bilingual-title
+                  - name: text_036
+                    label: 图片2来源按钮文字
+                    component: bilingual-title
+                  - name: text_038
+                    label: 图片2许可名称
+                    component: bilingual-title
+                  - name: text_039
+                    label: 图片3名称
+                    component: bilingual-title
+                  - name: text_040
+                    label: 图片3作者署名
+                    component: bilingual-title
+                  - name: text_041
+                    label: 图片3来源按钮文字
+                    component: bilingual-title
+                  - name: text_043
+                    label: 图片3许可名称
+                    component: bilingual-title
+                  - name: text_044
+                    label: 图片4名称
+                    component: bilingual-title
+                  - name: text_045
+                    label: 图片4作者署名
+                    component: bilingual-title
+                  - name: text_046
+                    label: 图片4来源按钮文字
+                    component: bilingual-title
+                  - name: text_048
+                    label: 图片4许可按钮文字
+                    component: bilingual-title
+              - name: links
+                label: 本区域的相关链接
+                type: object
+                fields:
+                  - name: link_01
+                    label: 图片1来源网页
+                    type: object
+                    fields:
+                      - name: href
+                        label: 链接地址
+                        type: string
+                        description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
+                  - name: link_02
+                    label: 图片1许可网页
+                    type: object
+                    fields:
+                      - name: href
+                        label: 链接地址
+                        type: string
+                        description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
+                  - name: link_03
+                    label: 图片2来源网页
+                    type: object
+                    fields:
+                      - name: href
+                        label: 链接地址
+                        type: string
+                        description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
+                  - name: link_04
+                    label: 图片2许可网页
+                    type: object
+                    fields:
+                      - name: href
+                        label: 链接地址
+                        type: string
+                        description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
+                  - name: link_05
+                    label: 图片3来源网页
+                    type: object
+                    fields:
+                      - name: href
+                        label: 链接地址
+                        type: string
+                        description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
+                  - name: link_06
+                    label: 图片3许可网页
+                    type: object
+                    fields:
+                      - name: href
+                        label: 链接地址
+                        type: string
+                        description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
+                  - name: link_07
+                    label: 图片4来源网页
+                    type: object
+                    fields:
+                      - name: href
+                        label: 链接地址
+                        type: string
+                        description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
+                  - name: link_08
+                    label: 图片4复用政策网页
+                    type: object
+                    fields:
+                      - name: href
+                        label: 链接地址
+                        type: string
+                        description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
+      - name: about
+        label: 实验室介绍
+        type: group
+        description: 按页面从上到下选择要修改的区域。
+        items:
+          - name: about-hero
+            label: 01 顶部介绍
+            type: file
+            path: content/pages/about.json
+            format: json
+            description: 实验室介绍页顶部的大标题、简介、研究关键词与芯片结构图。
+            operations:
+              create: false
+              delete: false
+              rename: false
+            commit:
+              templates:
+                update: "content: update 实验室介绍 / 01 顶部介绍"
+            fields:
+              - name: section_01
+                label: 标题与介绍
+                type: object
+                fields:
+                  - name: text_001
+                    label: 区块引导语
+                    component: bilingual-copy
+                  - name: text_002
+                    label: 主标题
+                    component: bilingual-title
+                  - name: text_003
+                    label: 实验室简介
+                    component: bilingual-title
+                  - name: text_004
+                    label: 研究关键词1
+                    component: bilingual-title
+                  - name: text_005
+                    label: 研究关键词2
+                    component: bilingual-title
+                  - name: text_006
+                    label: 研究关键词3
+                    component: bilingual-title
+                  - name: text_007
+                    label: 研究关键词4
+                    component: bilingual-title
+                  - name: text_069
+                    label: 配图角标文字
+                    component: bilingual-title
+              - name: images
+                label: 本区域的配图
+                type: object
+                fields:
+                  - name: image_01
+                    label: 顶部芯片结构配图
+                    type: object
+                    fields:
+                      - name: src
+                        label: 图片文件
+                        type: image
+                        options:
+                          media: images
+                      - name: alt_zh
+                        label: 图片内容说明（中文）
+                        type: string
+                      - name: alt_en
+                        label: 图片内容说明（英文）
+                        type: string
+                    description: 选择或上传图片。图片内容说明供阅读辅助工具使用，不是页面下方的可见图注。
+          - name: about-challenge
+            label: 02 热管理挑战
+            type: file
+            path: content/pages/about.json
+            format: json
+            description: “热管理正在成为集成技术的核心约束”区域；公式与箭头保持原有显示。
+            operations:
+              create: false
+              delete: false
+              rename: false
+            commit:
+              templates:
+                update: "content: update 实验室介绍 / 02 热管理挑战"
+            fields:
+              - name: section_02
+                label: 标题与正文
+                type: object
+                fields:
+                  - name: text_008
+                    label: 区块标题
+                    component: bilingual-title
+                  - name: text_009
+                    label: 正文第一段
+                    component: bilingual-copy
+                  - name: text_010
+                    label: 正文第二段
+                    component: bilingual-copy
+                  - name: text_011
+                    label: 图示下方说明
+                    component: bilingual-copy
+          - name: about-system
+            label: 03 研究体系
+            type: file
+            path: content/pages/about.json
+            format: json
+            description: “从材料到3D集成的研究体系”区域；上方是四个流程节点，下方是四张介绍卡片。
+            operations:
+              create: false
+              delete: false
+              rename: false
+            commit:
+              templates:
+                update: "content: update 实验室介绍 / 03 研究体系"
+            fields:
+              - name: section_03
+                label: 流程与研究卡片
+                type: object
+                fields:
+                  - name: text_012
+                    label: 区块标题
+                    component: bilingual-title
+                  - name: text_013
+                    label: 上方流程节点1名称
+                    component: bilingual-title
+                  - name: text_014
+                    label: 上方流程节点2名称
+                    component: bilingual-title
+                  - name: text_015
+                    label: 上方流程节点3名称
+                    component: bilingual-title
+                  - name: text_016
+                    label: 上方流程节点4名称
+                    component: bilingual-title
+                  - name: text_017
+                    label: 下方卡片1标题
+                    component: bilingual-title
+                  - name: text_018
+                    label: 下方卡片1介绍
+                    component: bilingual-copy
+                  - name: text_019
+                    label: 下方卡片2标题
+                    component: bilingual-title
+                  - name: text_020
+                    label: 下方卡片2介绍
+                    component: bilingual-copy
+                  - name: text_021
+                    label: 下方卡片3标题
+                    component: bilingual-title
+                  - name: text_022
+                    label: 下方卡片3介绍
+                    component: bilingual-copy
+                  - name: text_023
+                    label: 下方卡片4标题
+                    component: bilingual-title
+                  - name: text_024
+                    label: 下方卡片4介绍
+                    component: bilingual-copy
+          - name: about-pathway
+            label: 04 技术路径
+            type: file
+            path: content/pages/about.json
+            format: json
+            description: “实验室的技术路径”区域，按页面从左至右填写五个步骤。
+            operations:
+              create: false
+              delete: false
+              rename: false
+            commit:
+              templates:
+                update: "content: update 实验室介绍 / 04 技术路径"
+            fields:
+              - name: section_04
+                label: 步骤名称与说明
+                type: object
+                fields:
+                  - name: text_025
+                    label: 区块标题
+                    component: bilingual-title
+                  - name: text_026
+                    label: 步骤1名称
+                    component: bilingual-title
+                  - name: text_027
+                    label: 步骤1说明
+                    component: bilingual-copy
+                  - name: text_028
+                    label: 步骤2名称
+                    component: bilingual-title
+                  - name: text_029
+                    label: 步骤2说明
+                    component: bilingual-copy
+                  - name: text_030
+                    label: 步骤3名称
+                    component: bilingual-title
+                  - name: text_031
+                    label: 步骤3说明
+                    component: bilingual-copy
+                  - name: text_032
+                    label: 步骤4名称
+                    component: bilingual-title
+                  - name: text_033
+                    label: 步骤4说明
+                    component: bilingual-copy
+                  - name: text_034
+                    label: 步骤5名称
+                    component: bilingual-title
+                  - name: text_035
+                    label: 步骤5说明
+                    component: bilingual-copy
+          - name: about-stack
+            label: 05 三维堆叠问题
+            type: file
+            path: content/pages/about.json
+            format: json
+            description: “3D-IC热管理的关键问题”区域，区分左侧堆叠图的层名称与右侧问题说明。
+            operations:
+              create: false
+              delete: false
+              rename: false
+            commit:
+              templates:
+                update: "content: update 实验室介绍 / 05 三维堆叠问题"
+            fields:
+              - name: section_05
+                label: 图示与问题说明
+                type: object
+                fields:
+                  - name: text_036
+                    label: 区块标题
+                    component: bilingual-title
+                  - name: text_037
+                    label: 区块介绍
+                    component: bilingual-copy
+                  - name: text_038
+                    label: 左图第1层名称
+                    component: bilingual-title
+                  - name: text_039
+                    label: 左图第2层名称
+                    component: bilingual-title
+                  - name: text_040
+                    label: 左图第3层名称
+                    component: bilingual-title
+                  - name: text_041
+                    label: 左图第4层名称
+                    component: bilingual-title
+                  - name: text_042
+                    label: 左图第5层名称
+                    component: bilingual-title
+                  - name: text_043
+                    label: 左图第6层名称
+                    component: bilingual-title
+                  - name: text_044
+                    label: 左图第7层名称
+                    component: bilingual-title
+                  - name: text_045
+                    label: 左图下方说明
+                    component: bilingual-copy
+                  - name: text_046
+                    label: 右侧问题1标题
+                    component: bilingual-title
+                  - name: text_047
+                    label: 右侧问题1说明
+                    component: bilingual-copy
+                  - name: text_048
+                    label: 右侧问题2标题
+                    component: bilingual-title
+                  - name: text_049
+                    label: 右侧问题2说明
+                    component: bilingual-copy
+                  - name: text_106
+                    label: 右侧问题3标题
+                    component: bilingual-title
+                  - name: text_050
+                    label: 右侧问题3说明
+                    component: bilingual-copy
+                  - name: text_051
+                    label: 右侧问题4标题
+                    component: bilingual-title
+                  - name: text_052
+                    label: 右侧问题4说明
+                    component: bilingual-copy
+                  - name: text_053
+                    label: 右侧问题5标题
+                    component: bilingual-title
+                  - name: text_054
+                    label: 右侧问题5说明
+                    component: bilingual-copy
+          - name: about-platform
+            label: 06 表征平台与指标
+            type: file
+            path: content/pages/about.json
+            format: json
+            description: 先进热表征平台介绍、全景配图和四项能力指标。
+            operations:
+              create: false
+              delete: false
+              rename: false
+            commit:
+              templates:
+                update: "content: update 实验室介绍 / 06 表征平台与指标"
+            fields:
+              - name: section_06
+                label: 标题与能力指标
+                type: object
+                fields:
+                  - name: text_055
+                    label: 区块标题
+                    component: bilingual-title
+                  - name: text_056
+                    label: 平台介绍
+                    component: bilingual-copy
+                  - name: text_110
+                    label: 设备数量
+                    component: bilingual-title
+                  - name: text_057
+                    label: 设备数量说明
+                    component: bilingual-copy
+                  - name: text_111
+                    label: 覆盖尺度
+                    component: bilingual-title
+                  - name: text_058
+                    label: 覆盖尺度说明
+                    component: bilingual-copy
+                  - name: text_059
+                    label: 研究层级
+                    component: bilingual-title
+                  - name: text_060
+                    label: 研究层级说明
+                    component: bilingual-copy
+                  - name: text_061
+                    label: 研究方法
+                    component: bilingual-title
+                  - name: text_062
+                    label: 研究方法说明
+                    component: bilingual-copy
+              - name: images
+                label: 本区域的配图
+                type: object
+                fields:
+                  - name: image_02
+                    label: 表征平台全景配图
+                    type: object
+                    fields:
+                      - name: src
+                        label: 图片文件
+                        type: image
+                        options:
+                          media: images
+                      - name: alt_zh
+                        label: 图片内容说明（中文）
+                        type: string
+                      - name: alt_en
+                        label: 图片内容说明（英文）
+                        type: string
+                    description: 选择或上传图片。图片内容说明供阅读辅助工具使用，不是页面下方的可见图注。
+          - name: about-closing
+            label: 07 合作入口
+            type: file
+            path: content/pages/about.json
+            format: json
+            description: 实验室介绍页最下方的合作邀请与三个跳转按钮。
+            operations:
+              create: false
+              delete: false
+              rename: false
+            commit:
+              templates:
+                update: "content: update 实验室介绍 / 07 合作入口"
+            fields:
+              - name: section_07
+                label: 标题与按钮
+                type: object
+                fields:
+                  - name: text_063
+                    label: 区块标题
+                    component: bilingual-title
+                  - name: text_064
+                    label: 合作邀请介绍
+                    component: bilingual-copy
+                  - name: text_065
+                    label: 研究方向按钮文字
+                    component: bilingual-title
+                  - name: text_066
+                    label: 设备平台按钮文字
+                    component: bilingual-title
+                  - name: text_067
+                    label: 合作联系按钮文字
+                    component: bilingual-title
+      - name: research-page
+        label: 研究方向页面介绍
+        type: group
+        description: 按页面从上到下选择要修改的区域。
+        items:
+          - name: research-page-intro
+            label: 01 页面标题与引言
+            type: file
+            path: content/pages/research.json
+            format: json
+            description: 方向条目的新增、正文、配图和排序在“研究方向管理”中维护。
+            operations:
+              create: false
+              delete: false
+              rename: false
+            commit:
+              templates:
+                update: "content: update 研究方向页面介绍 / 01 页面标题与引言"
+            fields:
+              - name: section_01
+                label: 标题与引言
+                type: object
+                fields:
+                  - name: text_001
+                    label: 页面标题
+                    component: bilingual-title
+                  - name: text_002
+                    label: 页面引言
+                    component: bilingual-copy
+          - name: research-page-vision
+            label: 02 研究愿景
+            type: file
+            path: content/pages/research.json
+            format: json
+            description: 研究方向页面介绍中“研究愿景”区域的内容。
+            operations:
+              create: false
+              delete: false
+              rename: false
+            commit:
+              templates:
+                update: "content: update 研究方向页面介绍 / 02 研究愿景"
+            fields:
+              - name: section_02
+                label: 研究愿景与目录
+                type: object
+                fields:
+                  - name: text_003
+                    label: 研究愿景标题
+                    component: bilingual-title
+                  - name: text_004
+                    label: 正文第一段
+                    component: bilingual-copy
+                  - name: text_005
+                    label: 正文第二段
+                    component: bilingual-copy
+                  - name: text_006
+                    label: 方向目录标题
+                    component: bilingual-title
+      - name: facilities
+        label: 设备平台页面介绍
+        type: group
+        description: 按页面从上到下选择要修改的区域。
+        items:
+          - name: facilities-intro
+            label: 01 页面标题与简介
+            type: file
+            path: content/pages/facilities.json
+            format: json
+            description: 设备平台页顶部的标题和平台介绍；具体设备在“设备管理”中维护。
+            operations:
+              create: false
+              delete: false
+              rename: false
+            commit:
+              templates:
+                update: "content: update 设备平台页面介绍 / 01 页面标题与简介"
+            fields:
+              - name: section_01
+                label: 标题与简介
+                type: object
+                fields:
+                  - name: text_005
+                    label: 页面标题
+                    component: bilingual-title
+                  - name: text_001
+                    label: 平台简介
+                    component: bilingual-title
+          - name: facilities-catalog
+            label: 02 清单与能力矩阵
+            type: file
+            path: content/pages/facilities.json
+            format: json
+            description: 编辑清单与矩阵的标题和说明；测量能力状态在“设备分类与能力矩阵”中维护。
+            operations:
+              create: false
+              delete: false
+              rename: false
+            commit:
+              templates:
+                update: "content: update 设备平台页面介绍 / 02 清单与能力矩阵"
+            fields:
+              - name: section_02
+                label: 设备清单
+                type: object
+                fields:
+                  - name: text_002
+                    label: 设备清单标题
+                    component: bilingual-title
+              - name: section_03
+                label: 能力矩阵
+                type: object
+                fields:
+                  - name: text_003
+                    label: 能力矩阵标题
+                    component: bilingual-title
+                  - name: text_004
+                    label: 矩阵使用说明
+                    component: bilingual-copy
+      - name: people-page
+        label: 成员页面介绍
+        type: file
+        path: content/pages/people.json
+        format: json
+        description: 成员资料、照片与个人主页在“成员管理”中维护。
+        operations:
+          create: false
+          delete: false
+          rename: false
+        commit:
+          templates:
+            update: "content: update 成员页面介绍 / 页面标题"
         fields:
-          - name: link_01
-            label: zhe.cheng@pku.edu.cn
-            type: object
-            fields:
-              - name: href
-                label: 链接地址
-                type: string
-                description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
-          - name: link_02
-            label: School of Integrated Circuits ↗
-            type: object
-            fields:
-              - name: href
-                label: 链接地址
-                type: string
-                description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
-  - name: index
-    label: 首页
-    type: file
-    path: content/pages/index.json
-    format: json
-    fields:
-      - name: section_01
-        label: 面向未来集成电路的热管理与先进集成
-        type: object
-        fields:
-          - name: text_001
-            label: 北京大学 · 集成电路学院
-            component: bilingual
-          - name: text_002
-            label: 面向未来集成电路的热管理与先进集成
-            component: bilingual
-          - name: text_003
-            label: 聚焦高性能集成电路中的热管理、异质集成与先进封装，发展面向下一代芯片的关键材料、器件与表征技术。
-            component: bilingual
-          - name: text_004
-            label: 探索研究方向 →
-            component: bilingual
-          - name: text_005
-            label: 认识我们的团队
-            component: bilingual
-      - name: section_02
-        label: 关于实验室
-        type: object
-        fields:
-          - name: text_006
-            label: 关于实验室
-            component: bilingual
-          - name: text_007
-            label: 为下一代芯片构建热学基础
-            component: bilingual
-          - name: text_008
-            label: 泵浦–探测光学实验台
-            component: bilingual
-          - name: text_009
-            label: 我们聚焦未来高性能芯片中的热管理、异质集成与先进封装问题，面向高功率密度、高集成度和高可靠性的集成电路系统，发展关键热调控理论、材料、器件与工艺技术。
-            component: bilingual
-          - name: text_010
-            label: 我们围绕微纳电子器件热输运、界面热阻、三维堆叠芯片散热、半导体材料生长与先进热表征开展研究，建立面向先进集成电路的热设计、测试与优化方法。
-            component: bilingual
-          - name: text_011
-            label: 了解研究方法 →
-            component: bilingual
-      - name: section_03
-        label: 研究重点
-        type: object
-        fields:
-          - name: text_012
-            label: 研究重点
-            component: bilingual
-          - name: text_013
-            label: 从纳米界面到集成系统
-            component: bilingual
-          - name: text_014
-            label: 跨尺度研究复杂芯片结构的热行为、热设计与热表征。
-            component: bilingual
-          - name: text_015
-            label: "01"
-            component: bilingual
-          - name: text_016
-            label: 热输运与界面
-            component: bilingual
-          - name: text_017
-            label: 微纳电子热输运、界面热阻与半导体材料器件。
-            component: bilingual
-          - name: text_018
-            label: →
-            component: bilingual
-          - name: text_019
-            label: "02"
-            component: bilingual
-          - name: text_020
-            label: 异质集成与先进封装
-            component: bilingual
-          - name: text_021
-            label: 面向高密度集成、三维堆叠芯片与先进电子封装的热学挑战。
-            component: bilingual
-          - name: text_022
-            label: →
-            component: bilingual
-          - name: text_023
-            label: "03"
-            component: bilingual
-          - name: text_024
-            label: 热表征与热设计
-            component: bilingual
-          - name: text_025
-            label: 面向芯片热表征、测试、建模与优化的先进方法。
-            component: bilingual
-          - name: text_026
-            label: →
-            component: bilingual
-      - name: section_04
-        label: 图片署名与来源
-        type: object
-        fields:
-          - name: text_027
-            label: 图片署名与来源
-            component: bilingual
-          - name: text_028
-            label: 以上外部科研影像用于展示研究主题，并非本实验室设备或研究成果的实拍。图片经过尺寸压缩与显示裁切；界面显微图保留完整比例尺。
-            component: bilingual
-          - name: text_029
-            label: 泵浦–探测光谱实验台
-            component: bilingual
-          - name: text_030
-            label: — Maximilian Paradiz ·
-            component: bilingual
-          - name: text_031
-            label: Laser lab
-            component: bilingual
-          - name: text_032
-            label: ·
-            component: bilingual
-          - name: text_033
-            label: CC BY 2.0
-            component: bilingual
-          - name: text_034
-            label: BCB 键合晶圆界面
-            component: bilingual
-          - name: text_035
-            label: — Fraunhofer ENAS, D. Neumann ·
-            component: bilingual
-          - name: text_036
-            label: B-ad-crosssectionbcb
-            component: bilingual
-          - name: text_037
-            label: ·
-            component: bilingual
-          - name: text_038
-            label: CC BY-SA 3.0 DE
-            component: bilingual
-          - name: text_039
-            label: AMD EPYC 7702 多芯粒封装（近红外实拍）
-            component: bilingual
-          - name: text_040
-            label: — Fritzchens Fritz ·
-            component: bilingual
-          - name: text_041
-            label: AMD Epyc 7702 delidded
-            component: bilingual
-          - name: text_042
-            label: ·
-            component: bilingual
-          - name: text_043
-            label: CC0 1.0
-            component: bilingual
-          - name: text_044
-            label: NIST TDTR 热反射测量系统
-            component: bilingual
-          - name: text_045
-            label: — Joshua Martin / NIST ·
-            component: bilingual
-          - name: text_046
-            label: Instrumentation
-            component: bilingual
-          - name: text_047
-            label: ·
-            component: bilingual
-          - name: text_048
-            label: 图片复用政策
-            component: bilingual
-      - name: section_05
-        label: 从纳米界面到芯片系统，我们将精密测量与工程分析相结合，致力于揭示、理解并调控先进集成电路中的热输运过程。
-        type: object
-        fields:
-          - name: text_049
-            label: 从纳米界面到芯片系统，我们将精密测量与工程分析相结合，致力于揭示、理解并调控先进集成电路中的热输运过程。
-            component: bilingual
-          - name: text_050
-            label: 先进热表征平台
-            component: bilingual
-          - name: text_051
-            label: 研究覆盖微纳电子器件热输运、界面热传递、三维堆叠芯片散热、半导体材料生长与先进热表征。
-            component: bilingual
-          - name: text_052
-            label: 芯片热表征
-            component: bilingual
-          - name: text_053
-            label: 界面热阻
-            component: bilingual
-          - name: text_054
-            label: 三维芯片散热
-            component: bilingual
-          - name: text_055
-            label: 热设计与优化
-            component: bilingual
-          - name: text_056
-            label: 查看设备平台 →
-            component: bilingual
-      - name: section_06
-        label: 以好奇心与协作精神为驱动，我们聚焦集成电路热管理、异质集成与先进封装，为下一代高性能芯片探索创新技术与解决方案。
-        type: object
-        fields:
-          - name: text_057
-            label: 以好奇心与协作精神为驱动，我们聚焦集成电路热管理、异质集成与先进封装，为下一代高性能芯片探索创新技术与解决方案。
-            component: bilingual
-          - name: text_058
-            label: 面向下一代集成电路研究者的协作型实验室
-            component: bilingual
-          - name: text_059
-            label: 我们欢迎来自集成电路、电子信息、材料、物理、机械、能源等相关领域的学生与青年学者加入。
-            component: bilingual
-          - name: text_060
-            label: 认识我们的团队 →
-            component: bilingual
-          - name: text_061
-            label: 北京大学
-            component: bilingual
-      - name: section_07
-        label: 联系我们
-        type: object
-        fields:
-          - name: text_062
-            label: 联系我们
-            component: bilingual
-          - name: text_063
-            label: 共同应对集成电子系统的热学挑战
-            component: bilingual
-          - name: text_064
-            label: zhe.cheng@pku.edu.cn
-            component: bilingual
-          - name: text_065
-            label: ↗
-            component: bilingual
-          - name: text_066
-            label: 联系与地址 →
-            component: bilingual
-      - name: images
-        label: 页面图片
-        type: object
-        fields:
-          - name: image_01
-            label: Optical table in a pump–probe spectroscopy experiment
-            type: object
-            fields:
-              - name: src
-                label: 图片文件
-                type: image
-                options:
-                  media: images
-              - name: alt_zh
-                label: 中文图片说明
-                type: string
-              - name: alt_en
-                label: 英文图片说明
-                type: string
-          - name: image_02
-            label: Electron micrograph of a BCB-bonded wafer interface, with the ori
-            type: object
-            fields:
-              - name: src
-                label: 图片文件
-                type: image
-                options:
-                  media: images
-              - name: alt_zh
-                label: 中文图片说明
-                type: string
-              - name: alt_en
-                label: 英文图片说明
-                type: string
-          - name: image_03
-            label: Near-infrared photograph of a delidded AMD EPYC 7702 package with
-            type: object
-            fields:
-              - name: src
-                label: 图片文件
-                type: image
-                options:
-                  media: images
-              - name: alt_zh
-                label: 中文图片说明
-                type: string
-              - name: alt_en
-                label: 英文图片说明
-                type: string
-          - name: image_04
-            label: NIST time-domain thermoreflectance measurement system, photograph
-            type: object
-            fields:
-              - name: src
-                label: 图片文件
-                type: image
-                options:
-                  media: images
-              - name: alt_zh
-                label: 中文图片说明
-                type: string
-              - name: alt_en
-                label: 英文图片说明
-                type: string
-          - name: image_05
-            label: TherMAX-IC Lab bilingual identity
-            type: object
-            fields:
-              - name: src
-                label: 图片文件
-                type: image
-                options:
-                  media: images
-              - name: alt_zh
-                label: 中文图片说明
-                type: string
-              - name: alt_en
-                label: 英文图片说明
-                type: string
-          - name: image_06
-            label: Group photo
-            type: object
-            fields:
-              - name: src
-                label: 图片文件
-                type: image
-                options:
-                  media: images
-              - name: alt_zh
-                label: 中文图片说明
-                type: string
-              - name: alt_en
-                label: 英文图片说明
-                type: string
-          - name: hero_background
-            label: 首页顶部背景图
-            type: object
-            fields:
-              - name: src
-                label: 背景图片文件
-                type: image
-                options:
-                  media: images
-              - name: alt_zh
-                label: 中文图片说明
-                type: string
-              - name: alt_en
-                label: 英文图片说明
-                type: string
-          - name: platform_background
-            label: 首页设备平台背景图
-            type: object
-            fields:
-              - name: src
-                label: 背景图片文件
-                type: image
-                options:
-                  media: images
-              - name: alt_zh
-                label: 中文图片说明
-                type: string
-              - name: alt_en
-                label: 英文图片说明
-                type: string
-      - name: links
-        label: 网页与邮箱链接
-        type: object
-        fields:
-          - name: link_01
-            label: Laser lab
-            type: object
-            fields:
-              - name: href
-                label: 链接地址
-                type: string
-                description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
-          - name: link_02
-            label: CC BY 2.0
-            type: object
-            fields:
-              - name: href
-                label: 链接地址
-                type: string
-                description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
-          - name: link_03
-            label: B-ad-crosssectionbcb
-            type: object
-            fields:
-              - name: href
-                label: 链接地址
-                type: string
-                description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
-          - name: link_04
-            label: CC BY-SA 3.0 DE
-            type: object
-            fields:
-              - name: href
-                label: 链接地址
-                type: string
-                description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
-          - name: link_05
-            label: AMD Epyc 7702 delidded
-            type: object
-            fields:
-              - name: href
-                label: 链接地址
-                type: string
-                description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
-          - name: link_06
-            label: CC0 1.0
-            type: object
-            fields:
-              - name: href
-                label: 链接地址
-                type: string
-                description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
-          - name: link_07
-            label: Instrumentation
-            type: object
-            fields:
-              - name: href
-                label: 链接地址
-                type: string
-                description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
-          - name: link_08
-            label: Reuse policy
-            type: object
-            fields:
-              - name: href
-                label: 链接地址
-                type: string
-                description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
-          - name: link_09
-            label: zhe.cheng@pku.edu.cn ↗
-            type: object
-            fields:
-              - name: href
-                label: 链接地址
-                type: string
-                description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
-  - name: about
-    label: 实验室介绍
-    type: file
-    path: content/pages/about.json
-    format: json
-    fields:
-      - name: section_01
-        label: Building efficient thermal pathways for advanced integrated circu
-        type: object
-        fields:
-          - name: text_001
-            label: 面向先进集成的热通路
-            component: bilingual
-          - name: text_002
-            label: 为先进集成电路构建高效热通路
-            component: bilingual
-          - name: text_003
-            label: 我们面向高性能芯片、异质集成与先进封装，研究热量在材料、界面、器件、互连和封装结构中的产生与传递，并发展高导热材料、界面调控、先进热表征和三维集成热管
-            component: bilingual
-          - name: text_004
-            label: 集成电路热管理
-            component: bilingual
-          - name: text_005
-            label: 异质集成
-            component: bilingual
-          - name: text_006
-            label: 先进封装
-            component: bilingual
-          - name: text_007
-            label: 先进热表征
-            component: bilingual
-          - name: text_068
-            label: "01"
-            component: bilingual
-          - name: text_069
-            label: 3D-IC
-            component: bilingual
-      - name: section_02
-        label: Thermal management is becoming a core constraint on integration
-        type: object
-        fields:
-          - name: text_008
-            label: 热管理正在成为集成技术的核心约束
-            component: bilingual
-          - name: text_009
-            label: 随着芯片向更高功率密度和更高集成度发展，热问题已经从外部散热进入芯片结构内部。局部热点、层间热耦合、界面热阻和受限的垂直热通路，共同影响芯片的性能、可
-            component: bilingual
-          - name: text_010
-            label: 在2.5D与3D集成系统中，材料选择、互连结构、键合工艺和封装架构同时决定最终热阻。热管理因此成为先进集成技术的重要组成部分。
-            component: bilingual
-          - name: text_011
-            label: 更低的热阻，支持更高的可用功率与计算性能。
-            component: bilingual
-          - name: text_070
-            label: "02"
-            component: bilingual
-          - name: text_071
-            label: P
-            component: bilingual
-          - name: text_072
-            label: max
-            component: bilingual
-          - name: text_073
-            label: ≈
-            component: bilingual
-          - name: text_074
-            label: Δ
-            component: bilingual
-          - name: text_075
-            label: T
-            component: bilingual
-          - name: text_076
-            label: allow
-            component: bilingual
-          - name: text_077
-            label: R
-            component: bilingual
-          - name: text_078
-            label: th,total
-            component: bilingual
-          - name: text_079
-            label: Rth,total
-            component: bilingual
-          - name: text_080
-            label: Pmax
-            component: bilingual
-          - name: text_081
-            label: R
-            component: bilingual
-          - name: text_082
-            label: th,total
-            component: bilingual
-          - name: text_083
-            label: ↓
-            component: bilingual
-          - name: text_084
-            label: →
-            component: bilingual
-          - name: text_085
-            label: P
-            component: bilingual
-          - name: text_086
-            label: max
-            component: bilingual
-          - name: text_087
-            label: ↑
-            component: bilingual
-      - name: section_03
-        label: 研究方向 system from materials to 3D integration
-        type: object
-        fields:
-          - name: text_012
-            label: 从材料到3D集成的研究体系
-            component: bilingual
-          - name: text_013
-            label: 热管理材料
-            component: bilingual
-          - name: text_014
-            label: 界面与键合
-            component: bilingual
-          - name: text_015
-            label: 器件与互连
-            component: bilingual
-          - name: text_016
-            label: 异质集成与先进封装
-            component: bilingual
-          - name: text_017
-            label: 热管理材料
-            component: bilingual
-          - name: text_018
-            label: 研究高导热半导体与热扩散材料的生长、热输运和尺寸效应，关注金刚石、AlN、SiC及相关材料在芯片热管理中的应用。
-            component: bilingual
-          - name: text_019
-            label: 界面与键合
-            component: bilingual
-          - name: text_020
-            label: 研究异质材料界面、埋层界面和键合层中的热传递，揭示界面结构与制备工艺对热阻的影响。
-            component: bilingual
-          - name: text_021
-            label: 器件与互连
-            component: bilingual
-          - name: text_022
-            label: 研究微纳电子器件中的局部热点、BEOL与先进互连的有效热导率，以及复杂器件结构中的热扩散路径。
-            component: bilingual
-          - name: text_023
-            label: 异质集成与先进封装
-            component: bilingual
-          - name: text_024
-            label: 面向芯粒集成、三维堆叠和先进封装，探索热扩散层、高导热通路与封装结构协同设计，提升集成系统的散热能力与可靠性。
-            component: bilingual
-          - name: text_088
-            label: "03"
-            component: bilingual
-          - name: text_089
-            label: →
-            component: bilingual
-          - name: text_090
-            label: →
-            component: bilingual
-          - name: text_091
-            label: →
-            component: bilingual
-      - name: section_04
-        label: The laboratory’s technical pathway
-        type: object
-        fields:
-          - name: text_025
-            label: 实验室的技术路径
-            component: bilingual
-          - name: text_026
-            label: 表征
-            component: bilingual
-          - name: text_027
-            label: TDTR、FDTR、SSTR及热成像，获得真实工艺结构热参数
-            component: bilingual
-          - name: text_028
-            label: 理解
-            component: bilingual
-          - name: text_029
-            label: 传热模型、敏感度分析、原子级表征与不确定性评估
-            component: bilingual
-          - name: text_030
-            label: 调控
-            component: bilingual
-          - name: text_031
-            label: 高导热材料、界面工程、热扩散层与局部热通路设计
-            component: bilingual
-          - name: text_032
-            label: 集成
-            component: bilingual
-          - name: text_033
-            label: 将材料与界面研究转化到异质集成、三维堆叠与先进封装
-            component: bilingual
-          - name: text_034
-            label: 再验证
-            component: bilingual
-          - name: text_035
-            label: 通过实验验证热管理效果，进入下一轮优化
-            component: bilingual
-          - name: text_092
-            label: "04"
-            component: bilingual
-          - name: text_093
-            label: "01"
-            component: bilingual
-          - name: text_094
-            label: →
-            component: bilingual
-          - name: text_095
-            label: "02"
-            component: bilingual
-          - name: text_096
-            label: →
-            component: bilingual
-          - name: text_097
-            label: "03"
-            component: bilingual
-          - name: text_098
-            label: →
-            component: bilingual
-          - name: text_099
-            label: "04"
-            component: bilingual
-          - name: text_100
-            label: →
-            component: bilingual
-          - name: text_101
-            label: "05"
-            component: bilingual
-      - name: section_05
-        label: Key thermal-management questions in 3D-ICs
-        type: object
-        fields:
-          - name: text_036
-            label: 3D-IC热管理的关键问题
-            component: bilingual
-          - name: text_037
-            label: 3D-IC将多个芯粒、互连和键合界面集成在有限空间内。每一层材料和每一个界面都可能成为热通路中的限制因素。
-            component: bilingual
-          - name: text_038
-            label: 热扩散层
-            component: bilingual
-          - name: text_039
-            label: 芯片层
-            component: bilingual
-          - name: text_040
-            label: BEOL
-            component: bilingual
-          - name: text_041
-            label: 混合键合
-            component: bilingual
-          - name: text_042
-            label: 芯片层
-            component: bilingual
-          - name: text_043
-            label: BEOL
-            component: bilingual
-          - name: text_044
-            label: TIM与封装基板
-            component: bilingual
-          - name: text_045
-            label: 浏览右侧问题，逐层查看3D-IC中的热瓶颈。
-            component: bilingual
-          - name: text_046
-            label: 热扩散层
-            component: bilingual
-          - name: text_047
-            label: 高导热薄膜能否在实际厚度下保持材料优势？晶界、尺寸和缺陷如何影响薄膜热导率？
-            component: bilingual
-          - name: text_048
-            label: 芯片层
-            component: bilingual
-          - name: text_049
-            label: 局部热点和不同芯粒之间的热耦合如何影响性能与可靠性？
-            component: bilingual
-          - name: text_050
-            label: 先进互连和低介电常数材料如何改变垂直热通路与有效热导率？
-            component: bilingual
-          - name: text_051
-            label: 混合键合
-            component: bilingual
-          - name: text_052
-            label: 混合键合界面是否构成热通路中的主要热阻？
-            component: bilingual
-          - name: text_053
-            label: 封装层与跨层热通路
-            component: bilingual
-          - name: text_054
-            label: 热扩散层和高导热通路如何嵌入3D-IC，并提升跨层热通路与系统散热能力？
-            component: bilingual
-          - name: text_102
-            label: "05"
-            component: bilingual
-          - name: text_103
-            label: "01"
-            component: bilingual
-          - name: text_104
-            label: "02"
-            component: bilingual
-          - name: text_105
-            label: "03"
-            component: bilingual
-          - name: text_106
-            label: BEOL
-            component: bilingual
-          - name: text_107
-            label: "04"
-            component: bilingual
-          - name: text_108
-            label: "05"
-            component: bilingual
-      - name: section_06
-        label: Advanced thermal-characterization platform supporting the researc
-        type: object
-        fields:
-          - name: text_055
-            label: 支撑研究的先进热表征平台
-            component: bilingual
-          - name: text_056
-            label: 先进热表征是实验室发展热管理与集成技术的核心研究能力。平台集成多种光学热测量系统、热成像技术、定制化模型拟合与自动化数据处理，支持材料、器件、互连和封
-            component: bilingual
-          - name: text_057
-            label: 套热测量系统及相关流程
-            component: bilingual
-          - name: text_058
-            label: 薄膜、界面与器件相关尺度
-            component: bilingual
-          - name: text_059
-            label: 材料—器件—封装
-            component: bilingual
-          - name: text_060
-            label: 跨层级研究能力
-            component: bilingual
-          - name: text_061
-            label: 实验 + 模型
-            component: bilingual
-          - name: text_062
-            label: 参数提取与不确定性分析
-            component: bilingual
-          - name: text_109
-            label: "06"
-            component: bilingual
-          - name: text_110
-            label: 10+
-            component: bilingual
-          - name: text_111
-            label: nm–µm
-            component: bilingual
-      - name: section_07
-        label: Connecting thermal science with integrated-circuit technology
-        type: object
-        fields:
-          - name: text_063
-            label: 连接热科学与集成电路技术
-            component: bilingual
-          - name: text_064
-            label: 我们致力于建立从热输运机理、先进表征和材料界面调控，到异质集成与先进封装应用的完整研究链路，为高性能集成电路提供可验证的热管理技术。
-            component: bilingual
-          - name: text_065
-            label: 探索研究方向
-            component: bilingual
-          - name: text_066
-            label: 查看设备平台
-            component: bilingual
-          - name: text_067
-            label: 与我们合作
-            component: bilingual
-          - name: text_112
-            label: "07"
-            component: bilingual
-      - name: images
-        label: 页面图片
-        type: object
-        fields:
-          - name: image_01
-            label: Cutaway rendering of a multilayer 3D integrated circuit with chip
-            type: object
-            fields:
-              - name: src
-                label: 图片文件
-                type: image
-                options:
-                  media: images
-              - name: alt_zh
-                label: 中文图片说明
-                type: string
-              - name: alt_en
-                label: 英文图片说明
-                type: string
-          - name: image_02
-            label: Panoramic view of an advanced thermal-characterization laboratory
-            type: object
-            fields:
-              - name: src
-                label: 图片文件
-                type: image
-                options:
-                  media: images
-              - name: alt_zh
-                label: 中文图片说明
-                type: string
-              - name: alt_en
-                label: 英文图片说明
-                type: string
-  - name: research-page
-    label: 研究方向页面介绍
-    type: file
-    path: content/pages/research.json
-    format: json
-    fields:
-      - name: section_01
-        label: 页面标题与引言
-        type: object
-        fields:
-          - name: text_001
+          - name: section_01
             label: 页面标题
-            component: bilingual
-          - name: text_002
-            label: 页面引言
-            component: bilingual
-      - name: section_02
-        label: 研究愿景与目录标题
-        type: object
+            type: object
+            fields:
+              - name: text_001
+                label: 页面标题
+                component: bilingual-title
+      - name: publications-page
+        label: 论文页面介绍
+        type: file
+        path: content/pages/publications.json
+        format: json
+        description: 论文引用、年份、链接与 PDF 在“论文管理”中维护。
+        operations:
+          create: false
+          delete: false
+          rename: false
+        commit:
+          templates:
+            update: "content: update 论文页面介绍 / 标题与简介"
         fields:
-          - name: text_003
-            label: 研究愿景标题
-            component: bilingual
-          - name: text_004
-            label: 研究愿景第一段
-            component: bilingual
-          - name: text_005
-            label: 研究愿景第二段
-            component: bilingual
-          - name: text_006
-            label: 方向目录标题
-            component: bilingual
+          - name: section_01
+            label: 标题与简介
+            type: object
+            fields:
+              - name: text_003
+                label: 页面标题
+                component: bilingual-title
+              - name: text_001
+                label: 页面简介
+                component: bilingual-title
+          - name: section_02
+            label: 列表标题
+            type: object
+            fields:
+              - name: text_002
+                label: 论文列表标题
+                component: bilingual-title
+      - name: news-page
+        label: 新闻页面介绍
+        type: file
+        path: content/pages/news.json
+        format: json
+        description: 新闻条目的新增、正文和配图在“新闻管理”中维护。
+        operations:
+          create: false
+          delete: false
+          rename: false
+        commit:
+          templates:
+            update: "content: update 新闻页面介绍 / 标题与简介"
+        fields:
+          - name: section_01
+            label: 标题与简介
+            type: object
+            fields:
+              - name: text_001
+                label: 页面标题
+                component: bilingual-title
+              - name: text_002
+                label: 页面简介
+                component: bilingual-title
+      - name: contact
+        label: 联系页面
+        type: group
+        description: 按页面从上到下选择要修改的区域。
+        items:
+          - name: contact-intro
+            label: 01 页面标题与引言
+            type: file
+            path: content/pages/contact.json
+            format: json
+            description: 联系页面中“页面标题与引言”区域的内容。
+            operations:
+              create: false
+              delete: false
+              rename: false
+            commit:
+              templates:
+                update: "content: update 联系页面 / 01 页面标题与引言"
+            fields:
+              - name: section_01
+                label: 标题与引言
+                type: object
+                fields:
+                  - name: text_001
+                    label: 页面标题
+                    component: bilingual-title
+                  - name: text_002
+                    label: 页面引言
+                    component: bilingual-copy
+          - name: contact-details
+            label: 02 实验室联系方式
+            type: file
+            path: content/pages/contact.json
+            format: json
+            description: 页面主栏中的实验室联系资料；修改邮箱时同时核对显示文字和链接。
+            operations:
+              create: false
+              delete: false
+              rename: false
+            commit:
+              templates:
+                update: "content: update 联系页面 / 02 实验室联系方式"
+            fields:
+              - name: section_02
+                label: 联系资料
+                type: object
+                fields:
+                  - name: text_003
+                    label: 联系卡片标题
+                    component: bilingual-title
+                  - name: text_004
+                    label: 机构字段标签
+                    component: bilingual-title
+                  - name: text_005
+                    label: 机构名称
+                    component: bilingual-title
+                  - name: text_006
+                    label: 学院字段标签
+                    component: bilingual-title
+                  - name: text_007
+                    label: 学院名称
+                    component: bilingual-title
+                  - name: text_008
+                    label: 地址字段标签
+                    component: bilingual-title
+                  - name: text_009
+                    label: 联系地址
+                    component: bilingual-copy
+                  - name: text_010
+                    label: 邮箱字段标签
+                    component: bilingual-title
+                  - name: text_011
+                    label: 邮箱显示文字
+                    component: bilingual-title
+              - name: links
+                label: 本区域的相关链接
+                type: object
+                fields:
+                  - name: link_01
+                    label: 联系邮箱链接
+                    type: object
+                    fields:
+                      - name: href
+                        label: 链接地址
+                        type: string
+                        description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
+          - name: contact-requests
+            label: 03 合作与测试需求
+            type: file
+            path: content/pages/contact.json
+            format: json
+            description: 联系页面中“合作与测试需求”区域的内容。
+            operations:
+              create: false
+              delete: false
+              rename: false
+            commit:
+              templates:
+                update: "content: update 联系页面 / 03 合作与测试需求"
+            fields:
+              - name: section_03
+                label: 标题与需求清单
+                type: object
+                fields:
+                  - name: text_012
+                    label: 区块标题
+                    component: bilingual-title
+                  - name: text_013
+                    label: 来信要求说明
+                    component: bilingual-copy
+                  - name: text_014
+                    label: 需求清单第1项
+                    component: bilingual-copy
+                  - name: text_015
+                    label: 需求清单第2项
+                    component: bilingual-copy
+                  - name: text_016
+                    label: 需求清单第3项
+                    component: bilingual-copy
+                  - name: text_017
+                    label: 需求清单第4项
+                    component: bilingual-copy
+                  - name: text_018
+                    label: 需求清单第5项
+                    component: bilingual-copy
+          - name: contact-students
+            label: 04 研究领域与招生
+            type: file
+            path: content/pages/contact.json
+            format: json
+            description: 联系页面右侧的研究领域和学生加入说明。
+            operations:
+              create: false
+              delete: false
+              rename: false
+            commit:
+              templates:
+                update: "content: update 联系页面 / 04 研究领域与招生"
+            fields:
+              - name: section_04
+                label: 侧栏介绍
+                type: object
+                fields:
+                  - name: text_019
+                    label: 研究领域标题
+                    component: bilingual-title
+                  - name: text_020
+                    label: 研究领域第1项
+                    component: bilingual-title
+                  - name: text_021
+                    label: 研究领域第2项
+                    component: bilingual-title
+                  - name: text_022
+                    label: 研究领域第3项
+                    component: bilingual-title
+                  - name: text_023
+                    label: 研究领域第4项
+                    component: bilingual-title
+                  - name: text_024
+                    label: 研究领域第5项
+                    component: bilingual-title
+                  - name: text_025
+                    label: 招生栏目标题
+                    component: bilingual-title
+                  - name: text_026
+                    label: 招生介绍
+                    component: bilingual-copy
+          - name: contact-location
+            label: 05 位置与来访指南
+            type: file
+            path: content/pages/contact.json
+            format: json
+            description: 联系页面中“位置与来访指南”区域的内容。
+            operations:
+              create: false
+              delete: false
+              rename: false
+            commit:
+              templates:
+                update: "content: update 联系页面 / 05 位置与来访指南"
+            fields:
+              - name: section_05
+                label: 地址与来访信息
+                type: object
+                fields:
+                  - name: text_027
+                    label: 区块标题
+                    component: bilingual-title
+                  - name: text_028
+                    label: 地址字段标签
+                    component: bilingual-title
+                  - name: text_029
+                    label: 来访地址
+                    component: bilingual-copy
+                  - name: text_030
+                    label: 交通字段标签
+                    component: bilingual-title
+                  - name: text_031
+                    label: 地铁交通说明
+                    component: bilingual-copy
+                  - name: text_032
+                    label: 入校字段标签
+                    component: bilingual-title
+                  - name: text_033
+                    label: 入校方式说明
+                    component: bilingual-copy
+                  - name: text_034
+                    label: 高德地图按钮文字
+                    component: bilingual-title
+                  - name: text_035
+                    label: Google地图按钮文字
+                    component: bilingual-title
+              - name: links
+                label: 本区域的相关链接
+                type: object
+                fields:
+                  - name: link_02
+                    label: 高德地图链接
+                    type: object
+                    fields:
+                      - name: href
+                        label: 链接地址
+                        type: string
+                        description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
+                  - name: link_03
+                    label: Google地图链接
+                    type: object
+                    fields:
+                      - name: href
+                        label: 链接地址
+                        type: string
+                        description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
+      - name: search
+        label: 搜索页面介绍
+        type: file
+        path: content/pages/search.json
+        format: json
+        description: 搜索页面介绍中“标题与提示”区域的内容。
+        operations:
+          create: false
+          delete: false
+          rename: false
+        commit:
+          templates:
+            update: "content: update 搜索页面介绍 / 标题与提示"
+        fields:
+          - name: section_01
+            label: 页面标题与说明
+            type: object
+            fields:
+              - name: text_001
+                label: 页面标题
+                component: bilingual-title
+              - name: text_002
+                label: 页面使用说明
+                component: bilingual-copy
+          - name: section_02
+            label: 搜索按钮
+            type: object
+            fields:
+              - name: text_003
+                label: 搜索按钮文字
+                component: bilingual-title
+          - name: section_03
+            label: 空状态提示
+            type: object
+            fields:
+              - name: text_004
+                label: 未输入关键词时的提示
+                component: bilingual-title
+  - name: site
+    label: 公共页头与页脚
+    type: group
+    items:
+      - name: site-header
+        label: 01 页头名称与Logo
+        type: file
+        path: content/site.json
+        format: json
+        description: 所有页面顶部共用的大学名称、实验室名称、副标题和 Logo。
+        operations:
+          create: false
+          delete: false
+          rename: false
+        commit:
+          templates:
+            update: "content: update 公共页头与页脚 / 01 页头名称与Logo"
+        fields:
+          - name: section_02
+            label: 大学栏
+            type: object
+            fields:
+              - name: text_002
+                label: 大学名称
+                component: bilingual-title
+          - name: section_03
+            label: 实验室名称
+            type: object
+            fields:
+              - name: text_003
+                label: 实验室全称
+                component: bilingual-title
+              - name: text_004
+                label: 研究主题副标题
+                component: bilingual-title
+              - name: text_005
+                label: 课题组署名
+                component: bilingual-title
+          - name: images
+            label: 本区域的配图
+            type: object
+            fields:
+              - name: image_01
+                label: 页头实验室Logo
+                type: object
+                fields:
+                  - name: src
+                    label: 图片文件
+                    type: image
+                    options:
+                      media: images
+                  - name: alt_zh
+                    label: 图片内容说明（中文）
+                    type: string
+                  - name: alt_en
+                    label: 图片内容说明（英文）
+                    type: string
+                description: 选择或上传图片。图片内容说明供阅读辅助工具使用，不是页面下方的可见图注。
+      - name: site-navigation
+        label: 02 导航与搜索
+        type: file
+        path: content/site.json
+        format: json
+        description: 公共页头与页脚中“导航与搜索”区域的内容。
+        operations:
+          create: false
+          delete: false
+          rename: false
+        commit:
+          templates:
+            update: "content: update 公共页头与页脚 / 02 导航与搜索"
+        fields:
+          - name: section_03
+            label: 导航菜单与搜索
+            type: object
+            fields:
+              - name: text_006
+                label: 首页菜单文字
+                component: bilingual-title
+              - name: text_007
+                label: 介绍页菜单文字
+                component: bilingual-copy
+              - name: text_008
+                label: 研究方向菜单文字
+                component: bilingual-title
+              - name: text_009
+                label: 设备平台菜单文字
+                component: bilingual-title
+              - name: text_010
+                label: 成员菜单文字
+                component: bilingual-title
+              - name: text_011
+                label: 论文菜单文字
+                component: bilingual-title
+              - name: text_012
+                label: 新闻菜单文字
+                component: bilingual-title
+              - name: text_013
+                label: 联系菜单文字
+                component: bilingual-title
+              - name: text_014
+                label: 搜索输入框标签
+                component: bilingual-title
+              - name: text_015
+                label: 搜索按钮文字
+                component: bilingual-title
+      - name: site-footer
+        label: 03 页脚实验室信息
+        type: file
+        path: content/site.json
+        format: json
+        description: 公共页头与页脚中“页脚实验室信息”区域的内容。
+        operations:
+          create: false
+          delete: false
+          rename: false
+        commit:
+          templates:
+            update: "content: update 公共页头与页脚 / 03 页脚实验室信息"
+        fields:
+          - name: section_04
+            label: 实验室信息与版权
+            type: object
+            fields:
+              - name: text_016
+                label: 页脚实验室全称
+                component: bilingual-title
+              - name: text_017
+                label: 大学名称
+                component: bilingual-title
+              - name: text_018
+                label: 学院名称
+                component: bilingual-title
+              - name: text_025
+                label: 版权说明
+                component: bilingual-copy
+      - name: site-footer-contact
+        label: 04 页脚地址与联系
+        type: file
+        path: content/site.json
+        format: json
+        description: 公共页头与页脚中“页脚地址与联系”区域的内容。
+        operations:
+          create: false
+          delete: false
+          rename: false
+        commit:
+          templates:
+            update: "content: update 公共页头与页脚 / 04 页脚地址与联系"
+        fields:
+          - name: section_04
+            label: 地址与联系
+            type: object
+            fields:
+              - name: text_019
+                label: 地址栏目标题
+                component: bilingual-title
+              - name: text_020
+                label: 大楼名称
+                component: bilingual-title
+              - name: text_021
+                label: 详细地址
+                component: bilingual-copy
+              - name: text_022
+                label: 联系栏目标题
+                component: bilingual-title
+              - name: text_023
+                label: 邮箱显示文字
+                component: bilingual-title
+              - name: text_024
+                label: 学院网站按钮文字
+                component: bilingual-title
+          - name: links
+            label: 本区域的相关链接
+            type: object
+            fields:
+              - name: link_01
+                label: 页脚联系邮箱链接
+                type: object
+                fields:
+                  - name: href
+                    label: 链接地址
+                    type: string
+                    description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
+              - name: link_02
+                label: 学院网站链接
+                type: object
+                fields:
+                  - name: href
+                    label: 链接地址
+                    type: string
+                    description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
+      - name: site-accessibility
+        label: 05 页面辅助提示
+        type: file
+        path: content/site.json
+        format: json
+        description: 键盘或阅读辅助工具使用的“跳转主要内容”链接文字。
+        operations:
+          create: false
+          delete: false
+          rename: false
+        commit:
+          templates:
+            update: "content: update 公共页头与页脚 / 05 页面辅助提示"
+        fields:
+          - name: section_01
+            label: 阅读辅助
+            type: object
+            fields:
+              - name: text_001
+                label: 跳转主要内容的文字
+                component: bilingual-title
   - name: research
     label: 研究方向管理
     type: collection
@@ -1154,283 +1759,6 @@ content:
         type: boolean
         default: true
         description: 关闭后保存为隐藏条目，内容仍保留在后台。
-  - name: facilities
-    label: 设备平台介绍
-    type: file
-    path: content/pages/facilities.json
-    format: json
-    fields:
-      - name: section_01
-        label: 设备平台
-        type: object
-        fields:
-          - name: text_001
-            label: 实验室建有系统全面、技术世界前列的芯片热量测平台，基本上集齐了所有的芯片热物性和微纳器件测温设备。依托本学院两个全国重点实验室及国内头部集成电路企业工
-            component: bilingual
-          - name: text_005
-            label: 设备平台
-            component: bilingual
-      - name: section_02
-        label: Equipment list设备清单
-        type: object
-        fields:
-          - name: text_002
-            label: 设备清单
-            component: bilingual
-      - name: section_03
-        label: Platform capability matrix平台能力矩阵
-        type: object
-        fields:
-          - name: text_003
-            label: 平台能力矩阵
-            component: bilingual
-          - name: text_004
-            label: 按直接观测量与反演路径进行专业划分；具体量程与样品要求仍需结合测试方案确认。
-            component: bilingual
-  - name: people-page
-    label: 成员页面介绍
-    type: file
-    path: content/pages/people.json
-    format: json
-    fields:
-      - name: section_01
-        label: 成员
-        type: object
-        fields:
-          - name: text_001
-            label: 成员
-            component: bilingual
-  - name: publications-page
-    label: 论文页面介绍
-    type: file
-    path: content/pages/publications.json
-    format: json
-    fields:
-      - name: section_01
-        label: 论文发表
-        type: object
-        fields:
-          - name: text_001
-            label: 课题组发表的期刊论文、会议论文、书籍章节与预印本。
-            component: bilingual
-          - name: text_003
-            label: 论文发表
-            component: bilingual
-      - name: section_02
-        label: Publication list论文列表
-        type: object
-        fields:
-          - name: text_002
-            label: 论文列表
-            component: bilingual
-          - name: text_004
-            label: Please enable JavaScript to view the publication list. / 请启用 JavaScript 查看论
-            component: bilingual
-  - name: news-page
-    label: 新闻页面介绍
-    type: file
-    path: content/pages/news.json
-    format: json
-    fields:
-      - name: section_01
-        label: 动态
-        type: object
-        fields:
-          - name: text_001
-            label: 动态
-            component: bilingual
-          - name: text_002
-            label: 实验室动态包括研究进展、论文成果、设备平台、学生活动和合作消息。
-            component: bilingual
-  - name: contact
-    label: 联系方式
-    type: file
-    path: content/pages/contact.json
-    format: json
-    fields:
-      - name: section_01
-        label: 联系我们
-        type: object
-        fields:
-          - name: text_001
-            label: 联系我们
-            component: bilingual
-          - name: text_002
-            label: 如需开展科研合作、交流测试需求、了解学生机会或提出一般问题，请联系实验室。
-            component: bilingual
-      - name: section_02
-        label: 实验室联系方式
-        type: object
-        fields:
-          - name: text_003
-            label: 实验室联系方式
-            component: bilingual
-          - name: text_004
-            label: 机构
-            component: bilingual
-          - name: text_005
-            label: 北京大学
-            component: bilingual
-          - name: text_006
-            label: 学院
-            component: bilingual
-          - name: text_007
-            label: 集成电路学院
-            component: bilingual
-          - name: text_008
-            label: 地址
-            component: bilingual
-          - name: text_009
-            label: 微纳电子大厦, 北京市海淀区颐和园路5号，邮编100871
-            component: bilingual
-          - name: text_010
-            label: 邮箱
-            component: bilingual
-          - name: text_011
-            label: zhe.cheng@pku.edu.cn
-            component: bilingual
-      - name: section_03
-        label: 合作交流与测试需求
-        type: object
-        fields:
-          - name: text_012
-            label: 合作交流与测试需求
-            component: bilingual
-          - name: text_013
-            label: 来信请简要说明样品、测量目标、拟测热学参数、样品结构及已有辅助信息。
-            component: bilingual
-          - name: text_014
-            label: 样品材料与层状结构
-            component: bilingual
-          - name: text_015
-            label: 薄膜大致厚度或器件几何结构
-            component: bilingual
-          - name: text_016
-            label: 目标参数：热导率、界面热导或热阻
-            component: bilingual
-          - name: text_017
-            label: 已有图像、工艺信息或历史测量数据
-            component: bilingual
-          - name: text_018
-            label: 预期时间安排与合作目的
-            component: bilingual
-      - name: section_04
-        label: 实验室联系方式
-        type: object
-        fields:
-          - name: text_019
-            label: 研究领域
-            component: bilingual
-          - name: text_020
-            label: TDTR / FDTR 热测试
-            component: bilingual
-          - name: text_021
-            label: 芯片级热测试
-            component: bilingual
-          - name: text_022
-            label: 薄膜与界面热输运
-            component: bilingual
-          - name: text_023
-            label: 先进封装热管理
-            component: bilingual
-          - name: text_024
-            label: 热建模与数据分析
-            component: bilingual
-          - name: text_025
-            label: 学生加入
-            component: bilingual
-          - name: text_026
-            label: 欢迎对热测试、半导体器件、光学、传热、数据分析和科学计算感兴趣的学生联系我们。
-            component: bilingual
-      - name: section_05
-        label: 位置
-        type: object
-        fields:
-          - name: text_027
-            label: 位置
-            component: bilingual
-          - name: text_028
-            label: 地址
-            component: bilingual
-          - name: text_029
-            label: 北京市海淀区颐和园路5号北京大学微纳电子大厦，邮编 100871
-            component: bilingual
-          - name: text_030
-            label: 地铁
-            component: bilingual
-          - name: text_031
-            label: 乘坐地铁4号线至北京大学东门站，由校园东门入校后步行约10分钟即可到达微纳电子大厦。
-            component: bilingual
-          - name: text_032
-            label: 入校方式
-            component: bilingual
-          - name: text_033
-            label: 大厦位于北京大学校园内，来访前请提前与我们联系，以便协助安排入校事宜。
-            component: bilingual
-          - name: text_034
-            label: 在高德地图中打开 ↗
-            component: bilingual
-          - name: text_035
-            label: 在 Google 地图中打开 ↗
-            component: bilingual
-      - name: links
-        label: 网页与邮箱链接
-        type: object
-        fields:
-          - name: link_01
-            label: zhe.cheng@pku.edu.cn
-            type: object
-            fields:
-              - name: href
-                label: 链接地址
-                type: string
-                description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
-          - name: link_02
-            label: Open in AMap ↗
-            type: object
-            fields:
-              - name: href
-                label: 链接地址
-                type: string
-                description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
-          - name: link_03
-            label: Open in Google Maps ↗
-            type: object
-            fields:
-              - name: href
-                label: 链接地址
-                type: string
-                description: "邮箱链接以 mailto: 开头，网页链接以 https:// 开头。"
-  - name: search
-    label: 搜索页面
-    type: file
-    path: content/pages/search.json
-    format: json
-    fields:
-      - name: section_01
-        label: 搜索
-        type: object
-        fields:
-          - name: text_001
-            label: 搜索
-            component: bilingual
-          - name: text_002
-            label: 搜索本网站中的页面。
-            component: bilingual
-      - name: section_02
-        label: 搜索页面
-        type: object
-        fields:
-          - name: text_003
-            label: 搜索
-            component: bilingual
-      - name: section_03
-        label: 搜索页面
-        type: object
-        fields:
-          - name: text_004
-            label: 请输入关键词搜索本站内容。
-            component: bilingual
   - name: people
     label: 成员管理
     type: collection

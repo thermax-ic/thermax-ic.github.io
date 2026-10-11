@@ -5,6 +5,8 @@ import vm from 'node:vm';
 import YAML from 'yaml';
 import { JSDOM } from 'jsdom';
 import { ROOT, buildSite, validateContent } from './build-site.mjs';
+import { walkContent } from './organize-cms-editors.mjs';
+import { checkRegionalEditors } from './check-cms-editors.mjs';
 
 const outDir = path.join(ROOT, 'dist');
 const contentDir = path.join(ROOT, 'content');
@@ -21,12 +23,15 @@ for (const device of visible(records.equipment)) assert(equipment.some(item => i
 
 const config = YAML.parse(fs.readFileSync(path.join(ROOT, '.pages.yml'), 'utf8'));
 assert.equal(config.settings.content.merge, true, 'Preserve content outside the editor schema');
-assert(config.content.every(item => item.fields?.length), 'Every content section must use forms');
-const contentNames = new Set(config.content.map(item => item.name));
-assert.equal(contentNames.size, config.content.length, 'Unique CMS section names');
+const allContent = walkContent(config.content);
+const leafContent = allContent.filter(item=>item.type!=='group');
+assert(leafContent.every(item => item.fields?.length), 'Every content section must use forms');
+const contentNames = new Set(allContent.map(item => item.name));
+assert.equal(contentNames.size, allContent.length, 'Unique CMS section names');
 for (const name of ['site','index','about','research','research-page','contact','people','publications','news','equipment','equipment-settings']) assert(contentNames.has(name), 'CMS section: ' + name);
-assert(config.content.every(item => fs.existsSync(path.join(ROOT, item.path))), 'CMS paths exist');
-const researchEditor = config.content.find(item => item.name === 'research');
+assert(leafContent.every(item => fs.existsSync(path.join(ROOT, item.path))), 'CMS paths exist');
+const regionalEditors = checkRegionalEditors(config,ROOT);
+const researchEditor = leafContent.find(item => item.name === 'research');
 assert.equal(researchEditor.type,'collection','Research directions can be added individually');
 assert.equal(researchEditor.operations.create,true,'Research editor supports new directions');
 assert(researchEditor.fields.some(field=>field.name==='image' && field.type==='image'),'Research editor supports picture uploads');
@@ -170,4 +175,4 @@ update('news/' + hiddenNews._file, item => { item.month = hiddenNews.month; });
 update('people/' + records.people[0]._file, item => { item.links = [{ label: 'Unsafe link', url: 'javascript:alert(1)' }]; });
 assert.throws(() => validateContent(editedContent), /unsupported link protocol/, 'Reject unsafe link protocol');
 
-console.log(JSON.stringify({ result: 'passed', htmlPages: pageFiles.length, counts: { people: visible(records.people).length, publications: publications.length, equipment: equipment.length, news: visible(records.news).length,research:shownResearch.length }, scenarios: ['bilingual edits', 'new member and search', 'hidden news', 'publication and equipment edits', 'research additions, ordering and synchronized index', 'research picture replacement, inline images and Chinese captions', 'hidden research and search synchronization', 'deleted profile cleanup', 'invalid month', 'unsafe link rejection'] }, null, 2));
+console.log(JSON.stringify({ result: 'passed', htmlPages: pageFiles.length, ...regionalEditors, counts: { people: visible(records.people).length, publications: publications.length, equipment: equipment.length, news: visible(records.news).length,research:shownResearch.length }, scenarios: ['regional editor partial saves preserve other content', 'bilingual edits', 'new member and search', 'hidden news', 'publication and equipment edits', 'research additions, ordering and synchronized index', 'research picture replacement, inline images and Chinese captions', 'hidden research and search synchronization', 'deleted profile cleanup', 'invalid month', 'unsafe link rejection'] }, null, 2));
