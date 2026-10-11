@@ -1,0 +1,36 @@
+{
+  "title": "Heterogeneous interfaces and bonding",
+  "titleZh": "异质界面与键合",
+  "body": "<p>Interfaces often dominate the thermal resistance of integrated devices. We study how atoms bond across them — and how to make bonded interfaces thermally transparent.</p><p>Using surface-activated bonding (SAB), annealing, and atomically engineered interlayers, we maximize thermal boundary conductance at semiconductor–semiconductor and semiconductor–dielectric interfaces, while revealing the underlying phonon physics with STEM-EELS, Raman spectroscopy, and machine-learned molecular dynamics.</p>",
+  "bodyZh": "<p>界面热阻常常主导集成器件的总热阻。我们研究原子如何跨越界面成键，以及如何让键合界面在热学上透明。</p><p>我们利用表面活化键合（SAB）、退火工艺与原子级界面层设计，最大化半导体-半导体及半导体-介质界面的热导，并通过 STEM-EELS、拉曼光谱与机器学习分子动力学揭示其背后的声子物理。</p>",
+  "points": [
+    {
+      "en": "Room-temperature GaN–diamond SAB bonding with 90 MW/m²·K interface thermal conductance (ACS Appl. Mater. Interfaces 2020)",
+      "zh": "室温 GaN-金刚石 SAB 键合，界面热导达 90 MW/m²·K（ACS Appl. Mater. Interfaces 2020）"
+    },
+    {
+      "en": "Annealing-boosted GaN–diamond interface thermal conductance with a nearly 300% improvement (Adv. Electron. Mater. 2025)",
+      "zh": "退火使 GaN-金刚石界面热导提升近 300%（Adv. Electron. Mater. 2025）"
+    },
+    {
+      "en": "AlN–SiC interface thermal conductance up to 800 MW/m²·K (arXiv:2602.13827)",
+      "zh": "AlN-SiC 界面热导最高达 800 MW/m²·K（arXiv:2602.13827）"
+    },
+    {
+      "en": "GaN-on-diamond with a high-thermal-conductivity 3C-SiC interlayer relieving thermal-expansion mismatch (Small 2024)",
+      "zh": "以高导热 3C-SiC 为中介层的 GaN-on-diamond 结构，缓解热膨胀失配（Small 2024）"
+    },
+    {
+      "en": "From elastic phonon transmission at ideal Al–Al₂O₃ interfaces to interface phonon modes in Si–Ge — the physics that guides better bonding (Nat. Commun. 2020, 2021)",
+      "zh": "从理想 Al-Al₂O₃ 界面的弹性声子透射到 Si-Ge 界面局域声子模式——指导更优键合的物理机制（Nat. Commun. 2020, 2021）"
+    }
+  ],
+  "image": "images/research/research-interfaces.png",
+  "imageAlt": "Atomically resolved 3C-SiC/Si and AlN/3C-SiC interfaces (STEM)",
+  "imageAltZh": "原子分辨的 3C-SiC/Si 与 AlN/3C-SiC 界面（STEM）",
+  "caption": "Atomically resolved 3C-SiC/Si and AlN/3C-SiC interfaces (STEM)",
+  "captionZh": "原子分辨的 3C-SiC/Si 与 AlN/3C-SiC 界面（STEM）",
+  "imageFit": "cover",
+  "order": 2,
+  "published": true
+}

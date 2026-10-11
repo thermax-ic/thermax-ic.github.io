@@ -23,6 +23,7 @@ const write = (name, value) => {
 };
 const json = (name, value) => write(name, JSON.stringify(value, null, 2) + '\n');
 const norm = value => String(value || '').replace(/\s+/g, ' ').trim();
+if (fs.existsSync(path.join(root,'content/research'))) throw new Error('Research content uses a collection now. Edit the current content and .pages.yml; do not rerun the initial migration.');
 if (fs.existsSync(path.join(root, 'content/site.json')) && !process.argv.includes('--refresh-initial-migration') && !process.argv.includes('--schema-only')) throw new Error('Content already exists; migration is one-time only.');
 
 function snapshot(filename, language = 'en') {

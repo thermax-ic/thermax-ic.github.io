@@ -1012,146 +1012,148 @@ content:
               - name: alt_en
                 label: 英文图片说明
                 type: string
-  - name: research
-    label: 研究方向
+  - name: research-page
+    label: 研究方向页面介绍
     type: file
     path: content/pages/research.json
     format: json
     fields:
       - name: section_01
-        label: 研究方向
+        label: 页面标题与引言
         type: object
         fields:
           - name: text_001
-            label: 研究方向
+            label: 页面标题
             component: bilingual
           - name: text_002
-            label: 我们面向下一代集成电路发展热测试方法与热输运调控技术，研究涵盖高导热散热材料、异质界面与键合，以及互连结构的三维热层析。
+            label: 页面引言
             component: bilingual
       - name: section_02
-        label: 研究愿景
+        label: 研究愿景与目录标题
         type: object
         fields:
           - name: text_003
-            label: 研究愿景
+            label: 研究愿景标题
             component: bilingual
           - name: text_004
-            label: 随着芯片功率密度、集成密度和可靠性要求不断提升，材料、界面、互连与封装结构中的热输运正成为制约器件性能与寿命的核心因素。
+            label: 研究愿景第一段
             component: bilingual
           - name: text_005
-            label: 我们的研究将 TDTR、FDTR 与 Raman mapping 等实验热测试手段与材料生长、界面工程和物理建模相结合，聚焦真实器件中的关键结构：金刚
+            label: 研究愿景第二段
             component: bilingual
           - name: text_006
-            label: 研究方向
+            label: 方向目录标题
             component: bilingual
-          - name: text_007
-            label: 高导热散热材料
-            component: bilingual
-          - name: text_008
-            label: 异质界面与键合
-            component: bilingual
-          - name: text_009
-            label: 先进互连与三维热层析
-            component: bilingual
-      - name: section_03
-        label: 高导热散热材料
+  - name: research
+    label: 研究方向管理
+    type: collection
+    path: content/research
+    format: json
+    filename:
+      template: direction-{year}-{month}-{day}-{hour}-{minute}-{second}.json
+      field: false
+    operations:
+      create: true
+      delete: true
+      rename: false
+    view:
+      primary: titleZh
+      fields:
+        - titleZh
+        - title
+        - order
+        - published
+      sort:
+        - order
+        - titleZh
+      search:
+        - titleZh
+        - title
+        - bodyZh
+        - body
+      default:
+        sort: order
+        order: asc
+    fields:
+      - name: titleZh
+        label: 研究方向名称（中文）
+        type: string
+        required: true
+      - name: title
+        label: 研究方向名称（英文）
+        type: string
+      - name: bodyZh
+        label: 研究方向介绍（中文）
+        type: rich-text
+        options:
+          format: html
+          switcher: false
+          media: images
+          path: images/research
+          rename: safe
+      - name: body
+        label: 研究方向介绍（英文）
+        type: rich-text
+        options:
+          format: html
+          switcher: false
+          media: images
+          path: images/research
+          rename: safe
+      - name: points
+        label: 研究要点（可新增、删除或拖动排序）
         type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{zh}"
         fields:
-          - name: text_010
-            label: 3C-SiC 单晶晶圆及 Raman / XRD 表征（Nat. Commun. 2022）
-            component: bilingual
-          - name: text_011
-            label: 研究方向 01
-            component: bilingual
-          - name: text_012
-            label: 高导热散热材料
-            component: bilingual
-          - name: text_013
-            label: 我们生长并调控金刚石、3C-SiC、AlN 等宽禁带高导热材料，针对真实器件集成需求定制其热学性能。
-            component: bilingual
-          - name: text_014
-            label: 通过将外延生长、精密热测试（TDTR / FDTR / Raman mapping）与理论相结合，我们把晶粒尺寸、掺杂和界面结构转化为可设计的散热调控
-            component: bilingual
-          - name: text_015
-            label: 晶圆级单晶 3C-SiC，面内与面外热导率均创纪录（Nat. Commun. 2022）
-            component: bilingual
-          - name: text_016
-            label: SiC 多型体边界热导突破 2000 MW/m²·K，为迄今已知最高纪录
-            component: bilingual
-          - name: text_017
-            label: 低温（<450 °C）后道兼容金刚石集成于 GaN 晶体管，24 W/mm 功耗下器件温度下降 111 °C
-            component: bilingual
-          - name: text_018
-            label: B、N 掺杂 3C-SiC 实现常见半导体中最大的热导率可调范围
-            component: bilingual
-          - name: text_019
-            label: 本征 AlN 薄膜室温最高热导率达 321 W/m·K
-            component: bilingual
-      - name: section_04
-        label: 异质界面与键合
-        type: object
-        fields:
-          - name: text_020
-            label: 原子分辨的 3C-SiC/Si 与 AlN/3C-SiC 界面（STEM）
-            component: bilingual
-          - name: text_021
-            label: 研究方向 02
-            component: bilingual
-          - name: text_022
-            label: 异质界面与键合
-            component: bilingual
-          - name: text_023
-            label: 界面热阻常常主导集成器件的总热阻。我们研究原子如何跨越界面成键，以及如何让键合界面在热学上透明。
-            component: bilingual
-          - name: text_024
-            label: 我们利用表面活化键合（SAB）、退火工艺与原子级界面层设计，最大化半导体-半导体及半导体-介质界面的热导，并通过 STEM-EELS、拉曼光谱与机器学
-            component: bilingual
-          - name: text_025
-            label: 室温 GaN-金刚石 SAB 键合，界面热导达 90 MW/m²·K（ACS Appl. Mater. Interfaces 2020）
-            component: bilingual
-          - name: text_026
-            label: 退火使 GaN-金刚石界面热导提升近 300%（Adv. Electron. Mater. 2025）
-            component: bilingual
-          - name: text_027
-            label: AlN-SiC 界面热导最高达 800 MW/m²·K（arXiv:2602.13827）
-            component: bilingual
-          - name: text_028
-            label: 以高导热 3C-SiC 为中介层的 GaN-on-diamond 结构，缓解热膨胀失配（Small 2024）
-            component: bilingual
-          - name: text_029
-            label: 从理想 Al-Al₂O₃ 界面的弹性声子透射到 Si-Ge 界面局域声子模式——指导更优键合的物理机制（Nat. Commun. 2020, 2021
-            component: bilingual
-      - name: section_05
-        label: 先进互连与三维热层析
-        type: object
-        fields:
-          - name: text_030
-            label: 量产互连堆叠结构的逐层三维热导率分布图
-            component: bilingual
-          - name: text_031
-            label: 研究方向 03
-            component: bilingual
-          - name: text_032
-            label: 先进互连与三维热层析
-            component: bilingual
-          - name: text_033
-            label: 在堆叠芯片内部，互连堆叠是一个热学“黑盒子”。我们发展了三维热层析技术，首次实验测得真实互连层的导热系数分布，覆盖 28 nm 至 3 nm 制程节点
-            component: bilingual
-          - name: text_034
-            label: 通过 P-FIB 阶梯制样、铝传感层与逐层 TDTR 扫描相结合，我们量化了晶粒尺寸、扩散阻挡层与界面热阻如何决定热瓶颈，并将同一测量方法用于评估混合
-            component: bilingual
-          - name: text_035
-            label: 首次实现 3–28 nm 逻辑节点互连层三维热导率分布的实验测量（IEEE IEDM 2025, IEEE EDTM 2026）
-            component: bilingual
-          - name: text_036
-            label: 逐层热学分布图揭示纳米互连层极低热导率与界面热阻的主导作用（ACS Nano 2026）
-            component: bilingual
-          - name: text_037
-            label: 三维 TDTR 扫描揭示量产互连堆叠中电路图形对热流的影响
-            component: bilingual
-          - name: text_038
-            label: 以高于 150 MW/m²·K 的界面热导评估混合键合介质界面质量（Appl. Phys. Lett. 2026）
-            component: bilingual
+          - name: zh
+            label: 中文要点
+            type: text
+          - name: en
+            label: 英文要点
+            type: text
+      - name: image
+        label: 研究方向配图
+        type: image
+        options:
+          media: images
+          path: images/research
+          rename: safe
+        description: 选择现有配图或上传新图片；配图可以留空。
+      - name: imageAltZh
+        label: 图片内容说明（中文）
+        type: string
+      - name: imageAlt
+        label: 图片内容说明（英文）
+        type: string
+      - name: captionZh
+        label: 图片下方说明（中文）
+        type: text
+      - name: caption
+        label: 图片下方说明（英文）
+        type: text
+      - name: imageFit
+        label: 配图显示方式
+        type: select
+        default: contain
+        options:
+          values:
+            - name: contain
+              label: 完整显示（适合原理图）
+            - name: cover
+              label: 填满区域（可能裁切）
+      - name: order
+        label: 排列顺序
+        type: number
+        default: 100
+        description: 数字越小越靠前；页面目录与方向编号自动同步。
+      - name: published
+        label: 在网站显示
+        type: boolean
+        default: true
+        description: 关闭后保存为隐藏条目，内容仍保留在后台。
   - name: facilities
     label: 设备平台介绍
     type: file

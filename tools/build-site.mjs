@@ -31,9 +31,10 @@ const safeImage = value => {
   return url;
 };
 const position = value => /^\d{1,3}(?:\.\d+)?%\s+\d{1,3}(?:\.\d+)?%$/.test(text(value)) ? value : '50% 50%';
-const html = value => sanitizeHtml(text(value), {
-  allowedTags: ['p', 'br', 'strong', 'em', 'b', 'i', 'u', 's', 'sub', 'sup', 'ul', 'ol', 'li', 'a', 'blockquote', 'h3', 'h4'],
-  allowedAttributes: { a: ['href', 'target', 'rel'], '*': ['lang'] },
+const html = (value, { images = false } = {}) => sanitizeHtml(text(value), {
+  allowedTags: ['p', 'br', 'strong', 'em', 'b', 'i', 'u', 's', 'sub', 'sup', 'ul', 'ol', 'li', 'a', 'blockquote', 'h3', 'h4', ...(images ? ['img'] : [])],
+  allowedAttributes: { a: ['href', 'target', 'rel'], img: ['src','alt','title','width','height'], '*': ['lang'] },
+  allowedSchemesByTag: { img: ['http','https'] },
   allowedSchemes: ['http', 'https', 'mailto'], allowProtocolRelative: false,
   transformTags: { a: (tagName, attribs) => ({ tagName, attribs: { ...attribs, rel: 'noopener noreferrer' } }) }
 });
@@ -58,6 +59,7 @@ export function validateContent(contentDir) {
   const publications = readCollection(contentDir, 'publications');
   const news = readCollection(contentDir, 'news');
   const equipment = readCollection(contentDir, 'equipment');
+  const research = readCollection(contentDir, 'research');
   const settings = readJSON(path.join(contentDir, 'equipment-settings.json'));
   const unique = (items, field, name) => {
     const values = items.map(item => item[field]);
@@ -81,6 +83,14 @@ export function validateContent(contentDir) {
     assert(item.title && Number.isInteger(item.year) && Number.isInteger(item.month) && item.month >= 1 && item.month <= 12, 'News requires title, year, and month 1–12: ' + item._file);
     safeImage(item.image);
   });
+  research.forEach(direction => {
+    assert(text(direction.title).trim() || text(direction.titleZh).trim(), 'Research direction requires a title: ' + direction._file);
+    assert(/^[a-z0-9]+(?:-[a-z0-9]+)*\.json$/.test(direction._file), 'Invalid research direction filename: ' + direction._file);
+    assert(direction.order === undefined || direction.order === null || (typeof direction.order === 'number' && Number.isFinite(direction.order)), 'Invalid research direction order: ' + direction._file);
+    assert(!direction.imageFit || ['cover','contain'].includes(direction.imageFit), 'Invalid research image display mode: ' + direction._file);
+    assert(!direction.points || Array.isArray(direction.points), 'Research points must be a list: ' + direction._file);
+    safeImage(direction.image);
+  });
   const filterIds = new Set([...settings.filters.map(filter => filter.id), 'custom-built', 'modified-commercial', 'shared']);
   equipment.forEach(device => {
     assert(device.name && ['custom-built', 'modified-commercial', 'shared'].includes(device.source), 'Invalid equipment: ' + device._file);
@@ -94,7 +104,29 @@ export function validateContent(contentDir) {
   settings.capabilityMatrix.rows.forEach(row => Object.entries(row.values || {}).forEach(([key, value]) => {
     assert(columns.has(key) && states.has(value), 'Invalid capability matrix entry: ' + key);
   }));
-  return { people, publications, news, equipment, settings };
+  return { people, publications, news, equipment, research, settings };
+}
+
+function researchIndexMarkup(directions) {
+  return directions.map(direction => `<li><a href="#${path.basename(direction._file,'.json')}">${bilingual(direction.title || direction.titleZh,direction.titleZh || direction.title)}</a></li>`).join('\n');
+}
+function researchMarkup(directions) {
+  return directions.map((direction,index) => {
+    const id = path.basename(direction._file,'.json');
+    const enTitle = direction.title || direction.titleZh, zhTitle = direction.titleZh || direction.title;
+    const altEn = direction.imageAlt || enTitle, altZh = direction.imageAltZh || zhTitle;
+    const captionEn = direction.caption || direction.captionZh || '', captionZh = direction.captionZh || direction.caption || '';
+    const image = direction.image ? `<div class="image-box research-image research-cms-image" role="img" aria-label="${escapeHTML(altEn)}" data-i18n-en="${escapeHTML(altEn)}" data-i18n-zh="${escapeHTML(altZh)}" data-i18n-attribute="aria-label" style="--image: url('${escapeHTML(encodeURI(publicURL(safeImage(direction.image))).replaceAll("'",'%27').replaceAll('"','%22'))}');${direction.imageFit === 'contain' ? ' background-size: cover, contain, cover; background-repeat: no-repeat;' : ''}">${captionEn ? `<span class="research-cms-caption" data-i18n-en="${escapeHTML(captionEn)}" data-i18n-zh="${escapeHTML(captionZh)}">${escapeHTML(captionEn)}</span>` : ''}</div>` : '';
+    const points = (direction.points || []).filter(item => text(item.en).trim() || text(item.zh).trim());
+    return `<section id="${id}" class="research-block${index % 2 ? ' reverse' : ''}${image ? '' : ' research-without-image'}">
+      ${image}<div class="research-text">
+        <div class="research-label">${bilingual('Research Thrust '+String(index+1).padStart(2,'0'),'研究方向 '+String(index+1).padStart(2,'0'))}</div>
+        <h3>${bilingual(enTitle,zhTitle)}</h3>
+        <div class="lang-only-en">${html(direction.body || direction.bodyZh,{images:true})}</div>
+        <div class="lang-only-zh" lang="zh-CN">${html(direction.bodyZh || direction.body,{images:true})}</div>
+        ${points.length ? `<ul>${points.map(item=>`<li>${bilingual(item.en || item.zh,item.zh || item.en)}</li>`).join('')}</ul>` : ''}
+      </div></section>`;
+  }).join('\n');
 }
 
 function peopleMarkup(people) {
@@ -159,6 +191,7 @@ export function buildSite({ contentDir = path.join(ROOT, 'content'), outDir = pa
   const news = visible(records.news).sort((a, b) => b.year - a.year || b.month - a.month || Number(a.order || 0) - Number(b.order || 0));
   const publications = visible(records.publications).sort((a, b) => b.year - a.year || Number(a.order || 0) - Number(b.order || 0));
   const equipment = visible(records.equipment);
+  const research = visible(records.research);
   const datasets = { site: readJSON(path.join(contentDir, 'site.json')) };
   for (const name of fs.readdirSync(path.join(contentDir, 'pages'))) if (name.endsWith('.json')) datasets[path.basename(name, '.json')] = readJSON(path.join(contentDir, 'pages', name));
   const write = (filename, value) => {
@@ -212,7 +245,8 @@ export function buildSite({ contentDir = path.join(ROOT, 'content'), outDir = pa
   const rendered = new Map();
   for (const name of fs.readdirSync(path.join(ROOT, 'templates')).filter(name => name.endsWith('.html') && name !== 'profile.html')) {
     let source = fs.readFileSync(path.join(ROOT, 'templates', name), 'utf8');
-    source = source.replace('<!-- CMS:NEWS -->', newsMarkup(news)).replace('<!-- CMS:PEOPLE -->', peopleMarkup(people));
+    source = source.replace('<!-- CMS:NEWS -->', newsMarkup(news)).replace('<!-- CMS:PEOPLE -->', peopleMarkup(people))
+      .replace('<!-- CMS:RESEARCH_INDEX -->', researchIndexMarkup(research)).replace('<!-- CMS:RESEARCH_DIRECTIONS -->', researchMarkup(research));
     const dom = new JSDOM(source);
     applyBindings(dom.window.document);
     const slug = path.basename(name, '.html');
@@ -252,7 +286,7 @@ export function buildSite({ contentDir = path.join(ROOT, 'content'), outDir = pa
   }
   write('search-data.js', 'window.siteSearchData = ' + JSON.stringify({ pages: searchPages, people: people.map(person => ({name:person.name,nameZh:person.nameZh,role:person.role,roleZh:person.roleZh,url:'people/' + person.id + '.html'})) }) + ';\n');
   write('.nojekyll', '');
-  write('build-info.json', JSON.stringify({ commit: process.env.GITHUB_SHA || 'local', counts: { people: people.length, publications: publications.length, equipment: equipment.length, news: news.length } }, null, 2));
+  write('build-info.json', JSON.stringify({ commit: process.env.GITHUB_SHA || 'local', counts: { people: people.length, publications: publications.length, equipment: equipment.length, news: news.length, research: research.length } }, null, 2));
   if (copyAssets) {
     for (const name of ['images', 'Fig', 'pdfs']) fs.cpSync(path.join(ROOT, name), path.join(absoluteOut, name), { recursive: true });
     for (const name of ['style.css', 'cms-language.js', 'back-to-top.js', 'about.js', 'publications.js', 'facilities.js']) fs.copyFileSync(path.join(ROOT, name), path.join(absoluteOut, name));
@@ -260,7 +294,7 @@ export function buildSite({ contentDir = path.join(ROOT, 'content'), outDir = pa
     fs.cpSync(path.join(ROOT, 'admin'), path.join(absoluteOut, 'admin'), { recursive: true });
   }
   for (const doc of rendered.values()) doc.defaultView.close();
-  return { outDir: absoluteOut, counts: { people: people.length, publications: publications.length, equipment: equipment.length, news: news.length } };
+  return { outDir: absoluteOut, counts: { people: people.length, publications: publications.length, equipment: equipment.length, news: news.length, research: research.length } };
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {

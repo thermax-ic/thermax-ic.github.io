@@ -1,0 +1,32 @@
+{
+  "title": "Advanced interconnects and 3D thermal tomography",
+  "titleZh": "先进互连与三维热层析",
+  "body": "<p>Inside stacked chips, the interconnect stack is a thermal black box. We have developed 3D thermal tomography that experimentally maps the thermal-conductivity distribution of real interconnect layers, from 28 nm down to 3 nm process nodes.</p><p>Combining P-FIB staircase preparation, aluminum sensor layers, and layer-by-layer TDTR scanning, we quantify how grain size, diffusion barriers, and interface resistance set the thermal bottleneck — and apply the same metrology to assess dielectric interface quality in hybrid bonding.</p>",
+  "bodyZh": "<p>在堆叠芯片内部，互连堆叠是一个热学“黑盒子”。我们发展了三维热层析技术，首次实验测得真实互连层的导热系数分布，覆盖 28 nm 至 3 nm 制程节点。</p><p>通过 P-FIB 阶梯制样、铝传感层与逐层 TDTR 扫描相结合，我们量化了晶粒尺寸、扩散阻挡层与界面热阻如何决定热瓶颈，并将同一测量方法用于评估混合键合中的介质界面质量。</p>",
+  "points": [
+    {
+      "en": "First experimental measurement of 3D thermal-conductivity distribution in interconnect layers across 3–28 nm logic nodes (IEEE IEDM 2025, IEEE EDTM 2026)",
+      "zh": "首次实现 3–28 nm 逻辑节点互连层三维热导率分布的实验测量（IEEE IEDM 2025, IEEE EDTM 2026）"
+    },
+    {
+      "en": "Layer-by-layer thermal maps revealing ultra-low conductivity of nanoscale interconnect layers and the dominant role of thermal boundary resistance (ACS Nano 2026)",
+      "zh": "逐层热学分布图揭示纳米互连层极低热导率与界面热阻的主导作用（ACS Nano 2026）"
+    },
+    {
+      "en": "Three-dimensional TDTR scans exposing circuit-pattern effects on heat flow in production interconnect stacks",
+      "zh": "三维 TDTR 扫描揭示量产互连堆叠中电路图形对热流的影响"
+    },
+    {
+      "en": "Thermal boundary conductance above 150 MW/m²·K as a metric for dielectric interface quality in hybrid bonding (Appl. Phys. Lett. 2026)",
+      "zh": "以高于 150 MW/m²·K 的界面热导评估混合键合介质界面质量（Appl. Phys. Lett. 2026）"
+    }
+  ],
+  "image": "images/research/research-tomography.jpg",
+  "imageAlt": "Layer-by-layer 3D thermal-conductivity maps of production interconnect stacks",
+  "imageAltZh": "量产互连堆叠结构的逐层三维热导率分布图",
+  "caption": "Layer-by-layer 3D thermal-conductivity maps of production interconnect stacks",
+  "captionZh": "量产互连堆叠结构的逐层三维热导率分布图",
+  "imageFit": "cover",
+  "order": 3,
+  "published": true
+}

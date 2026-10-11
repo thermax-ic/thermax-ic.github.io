@@ -1898,6 +1898,19 @@ main {
   min-height: 320px;
 }
 
+.research-block.research-without-image {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.research-text {
+  min-width: 0;
+}
+
+.research-text img {
+  max-width: 100%;
+  height: auto;
+}
+
 .research-label {
   color: var(--pku-red);
   font-size: 12px;

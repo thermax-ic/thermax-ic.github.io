@@ -1,0 +1,36 @@
+{
+  "title": "High-thermal-conductivity heat-spreading materials",
+  "titleZh": "高导热散热材料",
+  "body": "<p>We grow and engineer wide-bandgap heat-spreading materials — diamond, 3C-SiC, and AlN — and tailor their thermal properties for integration with real devices.</p><p>Combining epitaxial growth, precision thermal metrology (TDTR / FDTR / Raman mapping), and theory, we turn grain size, doping, and interface structure into designable knobs for heat dissipation.</p>",
+  "bodyZh": "<p>我们生长并调控金刚石、3C-SiC、AlN 等宽禁带高导热材料，针对真实器件集成需求定制其热学性能。</p><p>通过将外延生长、精密热测试（TDTR / FDTR / Raman mapping）与理论相结合，我们把晶粒尺寸、掺杂和界面结构转化为可设计的散热调控参量。</p>",
+  "points": [
+    {
+      "en": "Wafer-scale single-crystal 3C-SiC with record in-plane and cross-plane thermal conductivity (Nat. Commun. 2022)",
+      "zh": "晶圆级单晶 3C-SiC，面内与面外热导率均创纪录（Nat. Commun. 2022）"
+    },
+    {
+      "en": "SiC polytype boundaries with thermal boundary conductance above 2000 MW/m²·K — the highest reported to date",
+      "zh": "SiC 多型体边界热导突破 2000 MW/m²·K，为迄今已知最高纪录"
+    },
+    {
+      "en": "Low-temperature (<450 °C) BEOL-compatible diamond integrated on GaN transistors, cutting device temperature by 111 °C at 24 W/mm",
+      "zh": "低温（<450 °C）后道兼容金刚石集成于 GaN 晶体管，24 W/mm 功耗下器件温度下降 111 °C"
+    },
+    {
+      "en": "B- and N-doped 3C-SiC with the largest thermal-conductivity tunability among common semiconductors",
+      "zh": "B、N 掺杂 3C-SiC 实现常见半导体中最大的热导率可调范围"
+    },
+    {
+      "en": "AlN films with intrinsic room-temperature thermal conductivity up to 321 W/m·K",
+      "zh": "本征 AlN 薄膜室温最高热导率达 321 W/m·K"
+    }
+  ],
+  "image": "images/research/research-materials.png",
+  "imageAlt": "3C-SiC single-crystal wafer and Raman / XRD characterization (Nat. Commun. 2022)",
+  "imageAltZh": "3C-SiC 单晶晶圆及 Raman / XRD 表征（Nat. Commun. 2022）",
+  "caption": "3C-SiC single-crystal wafer and Raman / XRD characterization (Nat. Commun. 2022)",
+  "captionZh": "3C-SiC 单晶晶圆及 Raman / XRD 表征（Nat. Commun. 2022）",
+  "imageFit": "cover",
+  "order": 1,
+  "published": true
+}
