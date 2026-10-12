@@ -39,13 +39,32 @@ assert(researchEditor.fields.some(field=>field.name==='image' && field.type==='i
 const pageFiles = fs.readdirSync(outDir).filter(name => name.endsWith('.html'));
 pageFiles.push(...fs.readdirSync(path.join(outDir, 'people')).filter(name => name.endsWith('.html') && name !== 'pending-profile.html').map(name => 'people/' + name));
 const brokenLinks = [];
+const navigationTargets = {
+  'index.html': 'index.html', 'about.html': 'about.html', 'research.html': 'research.html',
+  'facilities.html': 'facilities.html', 'people.html': 'people.html',
+  'publications.html': 'publications.html', 'news.html': 'news.html', 'contact.html': 'contact.html',
+  'search.html': null
+};
+function checkNavigation(doc, filename) {
+  const target = filename.startsWith('people/') ? 'people.html' : navigationTargets[filename];
+  assert.notEqual(target, undefined, filename + ': navigation expectation defined');
+  const active = [...doc.querySelectorAll('.main-nav a.active')];
+  const current = [...doc.querySelectorAll('.main-nav a[aria-current="page"]')];
+  assert.equal(active.length, target ? 1 : 0, filename + ': correct number of highlighted links');
+  assert.equal(current.length, active.length, filename + ': accessible current page matches highlight');
+  if (target) {
+    assert.equal(new URL(active[0].getAttribute('href'), 'https://thermax-ic.github.io/' + filename).pathname, '/' + target, filename + ': correct highlighted destination');
+    assert.equal(current[0], active[0], filename + ': current page is the highlighted link');
+  }
+}
 for (const filename of pageFiles) {
-  const dom = new JSDOM(read(filename));
+  const dom = new JSDOM(read(filename), { url: 'https://thermax-ic.github.io/' + filename, runScripts: 'outside-only' });
   const doc = dom.window.document;
   assert.equal(doc.querySelectorAll('main').length, 1, filename + ': one main');
   assert.equal(doc.querySelectorAll('.site-footer').length, 1, filename + ': one footer');
   assert.equal(doc.querySelectorAll('.language-toggle').length, 1, filename + ': one language button');
   assert(!read(filename).includes('data-cms-') && !read(filename).includes('<!-- CMS:'), filename + ': all content bindings resolved');
+  checkNavigation(doc, filename);
   for (const element of doc.querySelectorAll('[src],[href],[action]')) for (const attribute of ['src','href','action']) {
     const value = element.getAttribute(attribute);
     if (!value || value.startsWith('#') || /^[a-z]+:/i.test(value)) continue;
@@ -53,6 +72,11 @@ for (const filename of pageFiles) {
     const target = plain.startsWith('/') ? path.join(outDir, plain) : path.resolve(outDir, path.dirname(filename), plain);
     if (!fs.existsSync(target)) brokenLinks.push(filename + ': ' + value);
   }
+  dom.window.eval(fs.readFileSync(path.join(ROOT, 'cms-language.js'), 'utf8'));
+  doc.dispatchEvent(new dom.window.Event('DOMContentLoaded'));
+  checkNavigation(doc, filename);
+  doc.querySelector('.language-toggle').click();
+  checkNavigation(doc, filename);
   dom.window.close();
 }
 for (const item of publications) if (item.pdf && !/^https?:/.test(item.pdf)) {
@@ -175,4 +199,4 @@ update('news/' + hiddenNews._file, item => { item.month = hiddenNews.month; });
 update('people/' + records.people[0]._file, item => { item.links = [{ label: 'Unsafe link', url: 'javascript:alert(1)' }]; });
 assert.throws(() => validateContent(editedContent), /unsupported link protocol/, 'Reject unsafe link protocol');
 
-console.log(JSON.stringify({ result: 'passed', htmlPages: pageFiles.length, ...regionalEditors, counts: { people: visible(records.people).length, publications: publications.length, equipment: equipment.length, news: visible(records.news).length,research:shownResearch.length }, scenarios: ['regional editor partial saves preserve other content', 'bilingual edits', 'new member and search', 'hidden news', 'publication and equipment edits', 'research additions, ordering and synchronized index', 'research picture replacement, inline images and Chinese captions', 'hidden research and search synchronization', 'deleted profile cleanup', 'invalid month', 'unsafe link rejection'] }, null, 2));
+console.log(JSON.stringify({ result: 'passed', htmlPages: pageFiles.length, ...regionalEditors, counts: { people: visible(records.people).length, publications: publications.length, equipment: equipment.length, news: visible(records.news).length,research:shownResearch.length }, scenarios: ['navigation highlights match all pages and survive language switching', 'regional editor partial saves preserve other content', 'bilingual edits', 'new member and search', 'hidden news', 'publication and equipment edits', 'research additions, ordering and synchronized index', 'research picture replacement, inline images and Chinese captions', 'hidden research and search synchronization', 'deleted profile cleanup', 'invalid month', 'unsafe link rejection'] }, null, 2));

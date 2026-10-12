@@ -54,6 +54,17 @@ const publicURL = value => {
 };
 function assert(condition, message) { if (!condition) throw new Error(message); }
 
+function setActiveNavigation(doc, page) {
+  const baseURL = 'https://thermax-ic.github.io/';
+  const currentPath = new URL(page, baseURL).pathname;
+  doc.querySelectorAll('.main-nav a').forEach(anchor => {
+    const isCurrent = new URL(anchor.getAttribute('href'), baseURL).pathname === currentPath;
+    anchor.classList.toggle('active', isCurrent);
+    if (isCurrent) anchor.setAttribute('aria-current', 'page');
+    else anchor.removeAttribute('aria-current');
+  });
+}
+
 export function validateContent(contentDir) {
   const people = readCollection(contentDir, 'people');
   const publications = readCollection(contentDir, 'publications');
@@ -249,6 +260,7 @@ export function buildSite({ contentDir = path.join(ROOT, 'content'), outDir = pa
       .replace('<!-- CMS:RESEARCH_INDEX -->', researchIndexMarkup(research)).replace('<!-- CMS:RESEARCH_DIRECTIONS -->', researchMarkup(research));
     const dom = new JSDOM(source);
     applyBindings(dom.window.document);
+    setActiveNavigation(dom.window.document, name);
     const slug = path.basename(name, '.html');
     const title = dom.window.document.querySelector('title');
     title.setAttribute('data-i18n-en', title.textContent);
@@ -265,7 +277,7 @@ export function buildSite({ contentDir = path.join(ROOT, 'content'), outDir = pa
     doc.querySelectorAll('[src],[href],[action]').forEach(element => {
       for (const attr of ['src', 'href', 'action']) if (element.hasAttribute(attr)) element.setAttribute(attr, publicURL(element.getAttribute(attr)));
     });
-    doc.querySelectorAll('.main-nav a').forEach(anchor => anchor.classList.toggle('active', anchor.getAttribute('href') === '/people.html'));
+    setActiveNavigation(doc, 'people.html');
     write('people/' + person.id + '.html', dom.serialize()); dom.window.close();
   }
   // Old query-based member bookmarks continue to resolve to the current profile.

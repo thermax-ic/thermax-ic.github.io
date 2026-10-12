@@ -11,11 +11,14 @@ export function checkRegionalEditors(config, root) {
   assert(config.content.some(entry=>entry.name==='page-introductions'&&entry.type==='group'),'Page introduction navigation exists');
   const editors = entries.filter(entry=>entry.type==='file'&&(entry.path==='content/site.json'||entry.path.startsWith('content/pages/')));
   assert(editors.length>=30,'Page introductions are split into regional forms');
-  const project = (fields, data) => Object.fromEntries(fields.map(field=>{
+  const project = (fields, data) => Object.fromEntries(fields.flatMap(field=>{
     const schema = field.component ? config.components[field.component] : field;
-    const value = data[field.name];
-    assert(value!==undefined,'Editor field exists in content: '+field.name);
-    return [field.name,schema.fields ? project(schema.fields,value) : structuredClone(value)];
+    const value = data?.[field.name];
+    if (value === undefined) {
+      assert(!field.required && !schema.required,'Required editor field exists in content: '+field.name);
+      return [];
+    }
+    return [[field.name,value!==null && schema.fields ? project(schema.fields,value) : structuredClone(value)]];
   }));
   const merge = (original,submitted) => mergeWith({},original,submitted,(_original,value)=>Array.isArray(value)?value:undefined);
   function checkLabels(fields) {
