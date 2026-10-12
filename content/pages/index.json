@@ -9,7 +9,7 @@
       "zh": "面向未来集成电路的热管理与先进集成"
     },
     "text_003": {
-      "en": "We advance thermal management, heterogeneous integration, and advanced packaging technologies for next-generation integrated circuits through innovations in materials, devices, and thermal characterization.",
+      "en": "We focus on thermal management, heterogeneous integration, and advanced packaging technologies for next-generation integrated circuits through innovations in materials, devices, and thermal characterizations.",
       "zh": "聚焦高性能集成电路中的热管理、异质集成与先进封装，发展面向下一代芯片的关键材料、器件与表征技术。"
     },
     "text_004": {
@@ -310,8 +310,8 @@
     },
     "hero_background": {
       "src": "Fig/advanced-ic-thermal-integration-hero.png",
-      "alt_en": "Laboratory research environment",
-      "alt_zh": "实验室研究环境"
+      "alt_en": "Laboratory",
+      "alt_zh": "实验室"
     },
     "platform_background": {
       "src": "Fig/ic-tmi-advanced-thermal-characterization-platform.png",
