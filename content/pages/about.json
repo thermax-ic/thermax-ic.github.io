@@ -39,8 +39,8 @@
   },
   "section_02": {
     "text_008": {
-      "en": "Thermal management is becoming a core constraint on integration",
-      "zh": "热管理正在成为集成技术的核心约束"
+      "en": "Thermal management is becoming a core constraint on IC integration",
+      "zh": "热管理正在成为大规模芯片集成技术的核心约束"
     },
     "text_009": {
       "en": "As chips move toward higher power density and greater integration, thermal challenges shift from external cooling into the chip structure. Local hotspots, inter-layer thermal coupling, interface resistance, and constrained vertical pathways jointly affect performance, reliability, and integration architecture.",
