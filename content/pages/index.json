@@ -279,7 +279,6 @@
   },
   "images": {
     "image_01": {
-      "src": "/images/home/photographs/pump-probe-optical-bench.webp",
       "alt_en": "Optical table in a pump–probe spectroscopy experiment",
       "alt_zh": "泵浦–探测光谱装置的光学实验台"
     },
