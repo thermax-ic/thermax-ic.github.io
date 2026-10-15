@@ -6,8 +6,6 @@
   "order": 21,
   "role": "Undergraduate Student",
   "roleZh": "本科生",
-  "meta": "",
-  "metaZh": "",
   "image": "Fig/people/苏适.jpg",
   "imagePosition": "50% 44%",
   "imagePositionFull": "0% 50%",
@@ -16,11 +14,9 @@
   "bioZh": "苏适目前在北京大学攻读学士学位。",
   "education": [
     {
-      "en": "2023–Present, Peking University, B.S.",
-      "zh": "2023–至今，北京大学，学士"
+      "zh": "2024–至今，北京大学，学士",
+      "en": "2024–Present, Peking University, B.S."
     }
   ],
-  "sections": [],
-  "links": [],
   "published": true
 }
