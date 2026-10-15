@@ -279,24 +279,20 @@
   },
   "images": {
     "image_01": {
-      "alt_en": "Illustration of a pump–probe thermal measurement bench",
-      "alt_zh": "泵浦–探测热测量实验台示意",
-      "src": "/images/lab-optical-bench.png"
+      "alt_en": "Optical table in a pump–probe spectroscopy experiment",
+      "alt_zh": "泵浦–探测光谱装置的光学实验台"
     },
     "image_02": {
-      "alt_en": "Illustration of material interfaces and heat transport across an interface",
-      "alt_zh": "材料界面与跨界面热输运示意",
-      "src": "/images/thermal-materials-interfaces.png"
+      "alt_en": "Electron micrograph of a BCB-bonded wafer interface, with the original 30 micrometre scale bar",
+      "alt_zh": "BCB 键合晶圆界面的电子显微照片，保留原始 30 微米比例尺"
     },
     "image_03": {
-      "alt_en": "Illustration of chiplet heterogeneous integration and 3D stacked packaging",
-      "alt_zh": "芯粒异质集成与三维堆叠封装示意",
-      "src": "/images/stacked-chip-packaging.png"
+      "alt_en": "Near-infrared photograph of a delidded AMD EPYC 7702 package with eight compute chiplets and a central I/O die",
+      "alt_zh": "AMD EPYC 7702 去盖封装的近红外实拍，显示八个计算芯粒与中央 I/O 裸片"
     },
     "image_04": {
-      "alt_en": "Illustration of an optical thermal-testing setup for a semiconductor sample",
-      "alt_zh": "半导体样品光学热测试装置示意",
-      "src": "/images/thermal-characterization.png"
+      "alt_en": "NIST time-domain thermoreflectance measurement system, photographed by Joshua Martin",
+      "alt_zh": "NIST 时域热反射测量系统，摄影：Joshua Martin"
     },
     "image_05": {
       "alt_en": "TherMAX-IC Lab bilingual identity",
