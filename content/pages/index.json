@@ -279,8 +279,9 @@
   },
   "images": {
     "image_01": {
-      "alt_en": "Optical table in a pump–probe spectroscopy experiment",
-      "alt_zh": "泵浦–探测光谱装置的光学实验台"
+      "alt_en": "Illustration of a pump–probe thermal measurement bench",
+      "alt_zh": "泵浦–探测热测量实验台示意",
+      "src": "/images/lab-optical-bench.png"
     },
     "image_02": {
       "alt_en": "Electron micrograph of a BCB-bonded wafer interface, with the original 30 micrometre scale bar",
