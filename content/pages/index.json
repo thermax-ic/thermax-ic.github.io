@@ -300,7 +300,8 @@
     },
     "image_05": {
       "alt_en": "TherMAX-IC Lab bilingual identity",
-      "alt_zh": "TherMAX-IC 实验室双语标识"
+      "alt_zh": "TherMAX-IC 实验室双语标识",
+      "src": "/images/thermax-ic-lab.png"
     },
     "image_06": {
       "src": "Fig/ic-tmi-lab-team-photo.png",
