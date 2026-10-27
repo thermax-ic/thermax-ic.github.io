@@ -1080,6 +1080,12 @@ content:
                   - name: text_002
                     label: 设备清单标题
                     component: bilingual-title
+                  - name: text_006
+                    label: 实验室自有设备标题
+                    component: bilingual-title
+                  - name: text_007
+                    label: 学校公共平台设备标题
+                    component: bilingual-title
               - name: section_03
                 label: 能力矩阵
                 type: object
@@ -2085,7 +2091,7 @@ content:
             - name: modified-commercial
               label: 采购改装
             - name: shared
-              label: 共享设备
+              label: 学校公共平台
           multiple: false
       - name: categories
         label: 设备分类（可多选）
@@ -2103,7 +2109,7 @@ content:
             - name: under-construction
               label: 建设中
             - name: shared
-              label: 共享设备
+              label: 学校公共平台
             - name: custom-built
               label: 自主搭建
             - name: modified-commercial

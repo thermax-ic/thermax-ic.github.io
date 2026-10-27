@@ -13,6 +13,14 @@
     "text_002": {
       "en": "Equipment list",
       "zh": "设备清单"
+    },
+    "text_006": {
+      "en": "Laboratory Equipment",
+      "zh": "实验室自有设备"
+    },
+    "text_007": {
+      "en": "University Shared Facilities",
+      "zh": "学校公共平台设备"
     }
   },
   "section_03": {

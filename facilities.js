@@ -7,7 +7,7 @@
   const sourceLabels = {
     "custom-built": { en: "Custom-built", zh: "自主搭建" },
     "modified-commercial": { en: "Modified commercial", zh: "采购改装" },
-    "shared": { en: "Shared equipment", zh: "共享设备" }
+    "shared": { en: "University shared facilities", zh: "学校公共平台" }
   };
 
   const copy = {
@@ -104,12 +104,12 @@
     const grid = document.getElementById("equipment-grid");
     if (!grid) return;
 
-    grid.innerHTML = library.equipment.map(device => {
+    const cardMarkup = device => {
       const source = sourceFor(device);
       const tags = visibleTags(device).map(tag => `<span>${bilingual(tag.en, tag.zh)}</span>`).join("");
 
       return `
-        <li class="equipment-card-item no-translate" lang="en" data-equipment-id="${escapeHTML(device.id)}" data-categories="${escapeHTML(device.categories.join(" "))}">
+        <li class="equipment-card-item no-translate" lang="en" data-equipment-id="${escapeHTML(device.id)}" data-categories="${escapeHTML([...new Set([...device.categories, device.source])].join(" "))}">
           <button type="button" class="equipment-card" aria-haspopup="dialog" aria-controls="equipment-modal" aria-label="View details: ${escapeHTML(device.name)} / 查看详情：${escapeHTML(device.nameZh)}">
             ${mediaMarkup(device)}
             <span class="equipment-card-body">
@@ -124,7 +124,15 @@
             </span>
           </button>
         </li>`;
-    }).join("");
+    };
+
+    grid.querySelectorAll("[data-equipment-group]").forEach(group => {
+      const shared = group.dataset.equipmentGroup === "shared";
+      group.querySelector(".equipment-card-grid").innerHTML = library.equipment
+        .filter(device => (device.source === "shared") === shared)
+        .map(cardMarkup).join("");
+    });
+    updateGroupVisibility();
 
     grid.querySelectorAll("img[data-equipment-image]").forEach(image => {
       image.addEventListener("error", () => {
@@ -332,6 +340,12 @@
     result.innerHTML = `<span class="lang-only-en"><strong>${count}</strong> ${copy.systemsShown.en}</span><span class="lang-only-zh" lang="zh-CN"><strong>${count}</strong> ${copy.systemsShown.zh}</span>`;
   }
 
+  function updateGroupVisibility() {
+    document.querySelectorAll("[data-equipment-group]").forEach(group => {
+      group.hidden = !group.querySelector('.equipment-card-item:not([aria-hidden="true"])');
+    });
+  }
+
   function applyFilter(filterId) {
     document.querySelectorAll(".equipment-filter").forEach(button => {
       const active = button.dataset.filter === filterId;
@@ -363,6 +377,7 @@
         item.dataset.hideTimer = String(timer);
       }
     });
+    updateGroupVisibility();
     updateCount(count);
   }
 

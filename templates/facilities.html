@@ -3,7 +3,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Equipment Library | TherMAX-IC</title>
-  <link rel="stylesheet" href="style.css?v=20261005-1">
+  <link rel="stylesheet" href="style.css?v=20261027-1">
   <link rel="icon" href="Fig/TherMAX-IC%20Lab.png">
 </head>
 
@@ -69,7 +69,16 @@
           <div id="equipment-filters" class="equipment-filters" aria-label="Filter equipment / 筛选设备"></div>
           <p id="equipment-result-count" class="equipment-result-count" aria-live="polite"></p>
         </div>
-        <ul id="equipment-grid" class="equipment-card-grid" aria-label="Equipment list / 设备清单"></ul>
+        <div id="equipment-grid" class="equipment-groups">
+          <section class="equipment-group" data-equipment-group="laboratory" aria-labelledby="laboratory-equipment-title">
+            <h3 id="laboratory-equipment-title" class="equipment-group-title"><span data-cms-text="facilities:section_02.text_006">Laboratory Equipment</span></h3>
+            <ul class="equipment-card-grid" aria-labelledby="laboratory-equipment-title"></ul>
+          </section>
+          <section class="equipment-group" data-equipment-group="shared" aria-labelledby="shared-equipment-title">
+            <h3 id="shared-equipment-title" class="equipment-group-title"><span data-cms-text="facilities:section_02.text_007">University Shared Facilities</span></h3>
+            <ul class="equipment-card-grid" aria-labelledby="shared-equipment-title"></ul>
+          </section>
+        </div>
       </div>
     </section>
 
@@ -122,9 +131,9 @@
   </footer>
 
   <script src="back-to-top.js"></script>
-  <script src="equipment-data-v2.js?v=20261004-1"></script>
+  <script src="equipment-data-v2.js?v=20261027-1"></script>
 
-  <script src="facilities.js?v=20261005-1"></script>
+  <script src="facilities.js?v=20261027-1"></script>
   <script src="lang.js"></script>
 
 

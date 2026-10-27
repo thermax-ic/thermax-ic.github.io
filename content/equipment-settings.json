@@ -154,8 +154,8 @@
     },
     {
       "id": "shared",
-      "label": "Shared equipment",
-      "labelZh": "共享设备"
+      "label": "University shared facilities",
+      "labelZh": "学校公共平台"
     }
   ],
   "capabilityMatrix": {
