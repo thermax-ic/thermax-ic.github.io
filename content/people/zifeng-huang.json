@@ -6,16 +6,34 @@
   "order": 3,
   "role": "Ph.D. Student",
   "roleZh": "博士生",
-  "meta": "",
-  "metaZh": "",
-  "image": "Fig/people/黄子丰.jpg",
+  "meta": "Joined in 2024",
+  "metaZh": "2024年入组",
+  "image": "images/people/zifeng-huang-20261112.jpg",
   "imagePosition": "50% 50%",
   "imagePositionFull": "50% 50%",
-  "email": "",
-  "bio": "Zifeng Huang is currently pursuing the Ph.D. degree at Peking University.",
-  "bioZh": "黄子丰目前在北京大学攻读博士学位。",
-  "education": [],
+  "email": "zifeng_huang@stu.pku.edu.cn",
+  "bio": "Zifeng Huang received his bachelor's degree in engineering from the School of Energy and Power Engineering at Huazhong University of Science and Technology. He joined the TherMAX-IC Lab in 2024 and is currently pursuing the Ph.D. degree at Peking University.",
+  "bioZh": "黄子丰本科毕业于华中科技大学能源与动力工程学院，获工学学士学位。2024年加入 TherMAX-IC 实验室，目前在北京大学攻读博士学位。",
+  "education": [
+    {
+      "en": "Peking University, Ph.D. studies (ongoing).",
+      "zh": "北京大学，博士在读。"
+    },
+    {
+      "en": "Huazhong University of Science and Technology, School of Energy and Power Engineering, bachelor's degree in engineering.",
+      "zh": "华中科技大学，能源与动力工程学院，工学学士。"
+    }
+  ],
   "sections": [],
-  "links": [],
+  "links": [
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/zifeng-huang-27676033b"
+    },
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?hl=en&user=FvZpv54AAAAJ"
+    }
+  ],
   "published": true
 }
